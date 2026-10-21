@@ -1,0 +1,45 @@
+name: 0Day Agent Evals Cron
+
+on:
+  schedule:
+    # Runs once daily at 04:00 UTC (captures all of yesterday's merges)
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-wire:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Check out repository
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git clone --depth 1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" .
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --break-system-packages --upgrade pip
+          python3 -m pip install --break-system-packages -r requirements.txt
+
+      - name: Ingest Zero-Day Evals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 ingest_evals.py
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "0day-evals-bot[bot]"
+          git config user.email "0day-evals-bot@users.noreply.github.com"
+          git add -A data/ llms.txt
+          
+          if git diff --staged --quiet; then
+            echo "No new evaluations. Skipping commit."
+          else
+            git commit -m "chore(evals): publish daily zero-day benchmarks [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
