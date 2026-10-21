@@ -1,0 +1,58 @@
+# Zero-Day Typescript Evals
+> Uncontaminated bugs merged after 2026-10-20.
+
+### [leviFrosty/witness-work] fix: validate categories and mileage in restored backups
+- **Base Commit:** `d42aa9bd411d69fe7df728f18b8e8cda5d4b4d71`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/958
+
+### [leviFrosty/witness-work] fix: keep custom field values in older backups
+- **Base Commit:** `3ff34100a4f8ffc716f965a81fa0113cc149a7ee`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/956
+
+### [leviFrosty/witness-work] fix: show this week on home for older installs
+- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/961
+
+### [leviFrosty/witness-work] fix: delete time entries without changing the previous state
+- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/959
+
+### [leviFrosty/witness-work] fix: stamp erased householder records with the sync clock
+- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/957
+
+### [leviFrosty/witness-work] fix(sync): keep mileage when a replace has no mileage data
+- **Base Commit:** `3ff34100a4f8ffc716f965a81fa0113cc149a7ee`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/955
+
+### [leviFrosty/witness-work] fix: keep earlier dates when editing all dates of a plan
+- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/960
+
+### [Cogniform/imagora] fix(canvas): 删掉帮助里不存在的「双击空白新建卡片」
+- **Base Commit:** `84455d2364341cc4032a633a1cab47bc8493b998`
+- **Solution PR:** https://github.com/Cogniform/imagora/pull/51
+
+### [jhlee0409/claude-code-history-viewer] fix(navigator): keep the focused list row rendered so Tab reaches the list
+- **Base Commit:** `e2175dc2cca067a683bbfbc92c315e9f3abb46e6`
+- **Solution PR:** https://github.com/jhlee0409/claude-code-history-viewer/pull/653
+
+### [jhlee0409/claude-code-history-viewer] fix(zcode): read camelCase modelId so token usage renders on Z Code messages
+- **Base Commit:** `733c3260d3fa261018d35a5ff39c7f2e7ca53a6f`
+- **Solution PR:** https://github.com/jhlee0409/claude-code-history-viewer/pull/711
+
+### [woowacourse-teams/2026-poudy] [FIX] 관리자 복구 위시리스트 개수에서 뺀 제품 제외
+- **Base Commit:** `ed79a236f6f8595f51d66b40f9f358aaded0c32c`
+- **Solution PR:** https://github.com/woowacourse-teams/2026-poudy/pull/896
+
+### [open-mercato/cezar] fix(opencode): name OpenCode 2.x instead of failing with a bare 405 (telemetry dc1a91a6)
+- **Base Commit:** `c78ef04887301651ec234e772350cb76b4745f96`
+- **Solution PR:** https://github.com/open-mercato/cezar/pull/1577
+
+### [stella/stella] fix(scripts): open invitation features on the seeded local stack
+- **Base Commit:** `ac534a1c23f4af72b0d202978c9fcc549fb74b90`
+- **Solution PR:** https://github.com/stella/stella/pull/6394
+
+### [stella/stella] fix(api): keep the local client minimum within the workspace client versions
+- **Base Commit:** `cfd9499dc2427230ea2a816bc3073dbc04f66c07`
+- **Solution PR:** https://github.com/stella/stella/pull/6393

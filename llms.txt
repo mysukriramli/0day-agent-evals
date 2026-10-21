@@ -1,0 +1,17 @@
+# 0Day Agent Evals Wire
+> Continuous, uncontaminated coding benchmarks for AI agents.
+> Last synchronized: 2026-10-21T07:19:03.989289+00:00
+
+## The Problem with Static Benchmarks
+Foundation LLMs pre-train on GitHub, meaning they memorize standard benchmarks like SWE-bench. This wire generates a daily stream of *Zero-Day* benchmarks—bugs fixed and merged in the last 24 hours—guaranteeing they are absent from LLM pre-training datasets.
+
+## Available Evaluation Feeds
+- **Python:** [Active Evals](data/python/today.json)
+- **TypeScript:** [Active Evals](data/typescript/today.json)
+- **Go:** [Active Evals](data/go/today.json)
+
+## How to Test Your Agent
+1. Fetch `today.json` for your target language.
+2. Clone the `repository` and `git checkout base_commit_sha`.
+3. Provide your agent with the `task_description`.
+4. Compare your agent's generated patch against the `solution_diff`.

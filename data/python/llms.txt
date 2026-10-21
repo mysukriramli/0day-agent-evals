@@ -1,0 +1,34 @@
+# Zero-Day Python Evals
+> Uncontaminated bugs merged after 2026-10-20.
+
+### [Netcracker/DRNavigator] fix: [CPCAP-16183] SM_CACERT boolean param schema
+- **Base Commit:** `e624dcfb9bba0fa7fe7d8d3d67703ce8b184d9f8`
+- **Solution PR:** https://github.com/Netcracker/DRNavigator/pull/232
+
+### [tinkerologie/unifi-official-api] fix(protect)!: get_snapshot sends the spec's channel and drops width/height (#45)
+- **Base Commit:** `340b51299be208afa660279d643362b117caca06`
+- **Solution PR:** https://github.com/tinkerologie/unifi-official-api/pull/56
+
+### [HKUDS/nanobot] test(webui): respect history top-edge tolerance
+- **Base Commit:** `743c51e81f930fae13ca7850265b9557180aec41`
+- **Solution PR:** https://github.com/HKUDS/nanobot/pull/6362
+
+### [NegoPilot/NegoPilot] fix: 분해 결과에서 intent가 허용하지 않는 inputs를 검증 전에 제거 (#31)
+- **Base Commit:** `8d48d7b2b200c88f0ccfe33c3177057811e38cae`
+- **Solution PR:** https://github.com/NegoPilot/NegoPilot/pull/33
+
+### [NegoPilot/NegoPilot] fix: 분해 결과에서 intent가 받지 않는 대상·기준일 엔티티를 검증 전에 제거 (#58)
+- **Base Commit:** `118954e7ccf8f5589e6e37ce7c2fb0aa354fcd98`
+- **Solution PR:** https://github.com/NegoPilot/NegoPilot/pull/60
+
+### [project-artel/artel-agent-server] fix(agent): 화면이 바뀐 클릭을 실패로 멈추는 문제 수정
+- **Base Commit:** `56fb2eec14f4914ce525c2813f760fc3385c985f`
+- **Solution PR:** https://github.com/project-artel/artel-agent-server/pull/254
+
+### [converge-ai-labs/agent-foundation] fix(harness-ui): require the Harness 0.17 compatibility line
+- **Base Commit:** `d00ff2c80ddfe0e5b919fd9783bbee7daa3acecb`
+- **Solution PR:** https://github.com/converge-ai-labs/agent-foundation/pull/1148
+
+### [pytorch/tensordict] [BugFix] Keyword tensor operands give the dense result on a lazy stack below a dense root or in a TypedTensorDict
+- **Base Commit:** `ac254115d80694fe6978915a0f82af3a63794421`
+- **Solution PR:** https://github.com/pytorch/tensordict/pull/3174
