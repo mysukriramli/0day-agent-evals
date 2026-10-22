@@ -1,58 +1,38 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-20.
+> Uncontaminated bugs merged after 2026-10-21.
 
-### [leviFrosty/witness-work] fix: validate categories and mileage in restored backups
-- **Base Commit:** `d42aa9bd411d69fe7df728f18b8e8cda5d4b4d71`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/958
+### [leviFrosty/witness-work] fix: keep role history month stamps when adopting a peer's history
+- **Base Commit:** `95f45007b57955c3570ff2e3a87c03667a9d0efb`
+- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/1073
 
-### [leviFrosty/witness-work] fix: keep custom field values in older backups
-- **Base Commit:** `3ff34100a4f8ffc716f965a81fa0113cc149a7ee`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/956
+### [gjzkcal/field-medic-manual] Rust の通信の部品を脆弱性を直した版に更新し、更新の展開に使っていない zip を外す
+- **Base Commit:** `09c70910331bda505fbb89fdee4ab0955a468eaf`
+- **Solution PR:** https://github.com/gjzkcal/field-medic-manual/pull/23
 
-### [leviFrosty/witness-work] fix: show this week on home for older installs
-- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/961
+### [oscartbeaumont/spotistats] fix: mint the OAuth state on the host Spotify returns to
+- **Base Commit:** `9e7cf905b36dba1864ba42244060ca2fa5ecd8d3`
+- **Solution PR:** https://github.com/oscartbeaumont/spotistats/pull/42
 
-### [leviFrosty/witness-work] fix: delete time entries without changing the previous state
-- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/959
+### [K0mork/knittingEditor] fix: draw guide lines as thick as stitch strokes with a larger arrow
+- **Base Commit:** `c0a6539519bc810ebe9a8de4b9674f05ef455aeb`
+- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/322
 
-### [leviFrosty/witness-work] fix: stamp erased householder records with the sync clock
-- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/957
+### [nitrojs/nitro] fix: respect compress settings in dev server
+- **Base Commit:** `bd60aa681b90528c565a26348fc21a22879b9482`
+- **Solution PR:** https://github.com/nitrojs/nitro/pull/4159
 
-### [leviFrosty/witness-work] fix(sync): keep mileage when a replace has no mileage data
-- **Base Commit:** `3ff34100a4f8ffc716f965a81fa0113cc149a7ee`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/955
+### [pinecone-studio/pinequest-s5-episode-2-team-3] fix: hotsorj uusan us omnoh algassan tsaguudiig nohdog baisniig zasav
+- **Base Commit:** `86ac106cb5fb0b8d8cbc924be678908055822816`
+- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-3/pull/209
 
-### [leviFrosty/witness-work] fix: keep earlier dates when editing all dates of a plan
-- **Base Commit:** `2b5565673275f3ced0f87690f8ab274dd99ed123`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/960
+### [urzeye/ophel] fix(adapter): keep Doubao scroll-to-top from bouncing back to bottom [skip ci]
+- **Base Commit:** `de16ece8af84ff542c67e7e0ebca2956fb6b2a30`
+- **Solution PR:** https://github.com/urzeye/ophel/pull/983
 
-### [Cogniform/imagora] fix(canvas): 删掉帮助里不存在的「双击空白新建卡片」
-- **Base Commit:** `84455d2364341cc4032a633a1cab47bc8493b998`
-- **Solution PR:** https://github.com/Cogniform/imagora/pull/51
+### [terrylica/cc-skills] fix(quant-research): compute_metrics CLI writes strict JSON for numpy and non-finite values
+- **Base Commit:** `26b1961bf85e4cf1ea3881685741381a635bded4`
+- **Solution PR:** https://github.com/terrylica/cc-skills/pull/54
 
-### [jhlee0409/claude-code-history-viewer] fix(navigator): keep the focused list row rendered so Tab reaches the list
-- **Base Commit:** `e2175dc2cca067a683bbfbc92c315e9f3abb46e6`
-- **Solution PR:** https://github.com/jhlee0409/claude-code-history-viewer/pull/653
-
-### [jhlee0409/claude-code-history-viewer] fix(zcode): read camelCase modelId so token usage renders on Z Code messages
-- **Base Commit:** `733c3260d3fa261018d35a5ff39c7f2e7ca53a6f`
-- **Solution PR:** https://github.com/jhlee0409/claude-code-history-viewer/pull/711
-
-### [woowacourse-teams/2026-poudy] [FIX] 관리자 복구 위시리스트 개수에서 뺀 제품 제외
-- **Base Commit:** `ed79a236f6f8595f51d66b40f9f358aaded0c32c`
-- **Solution PR:** https://github.com/woowacourse-teams/2026-poudy/pull/896
-
-### [open-mercato/cezar] fix(opencode): name OpenCode 2.x instead of failing with a bare 405 (telemetry dc1a91a6)
-- **Base Commit:** `c78ef04887301651ec234e772350cb76b4745f96`
-- **Solution PR:** https://github.com/open-mercato/cezar/pull/1577
-
-### [stella/stella] fix(scripts): open invitation features on the seeded local stack
-- **Base Commit:** `ac534a1c23f4af72b0d202978c9fcc549fb74b90`
-- **Solution PR:** https://github.com/stella/stella/pull/6394
-
-### [stella/stella] fix(api): keep the local client minimum within the workspace client versions
-- **Base Commit:** `cfd9499dc2427230ea2a816bc3073dbc04f66c07`
-- **Solution PR:** https://github.com/stella/stella/pull/6393
+### [nitrojs/nitro] fix(vite): only skip vite-* WebSocket upgrades destined for Vite's HMR base
+- **Base Commit:** `a383c8f82ee8b75989ca7c9a470a3c8c79495d12`
+- **Solution PR:** https://github.com/nitrojs/nitro/pull/4291

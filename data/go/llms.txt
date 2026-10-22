@@ -1,26 +1,26 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-20.
+> Uncontaminated bugs merged after 2026-10-21.
 
-### [coipond/coi] fix(profile): never delete the default or hardened profile
-- **Base Commit:** `b89569be3e8b8f10095a21e5fa798804803151bc`
-- **Solution PR:** https://github.com/coipond/coi/pull/925
+### [kunghim/CoBot] Address the code scanning alerts raised on the promotion
+- **Base Commit:** `355c87bd0c873a6e51ef1a7c83cccc3d93e418f6`
+- **Solution PR:** https://github.com/kunghim/CoBot/pull/62
 
-### [Netcracker/pgskipper-operator] fix: [PSUPCLCAP-5876] Add an ability to select shell for commands
-- **Base Commit:** `6816722fe71ac607640133de1e804b1f3e8b2e6e`
-- **Solution PR:** https://github.com/Netcracker/pgskipper-operator/pull/753
+### [aquaproj/aqua] fix: restore checksum updates in autofix and fix aqua upa for v2.65.0 or later
+- **Base Commit:** `2f020d97f0821de7db75b39bf314b67847c759fa`
+- **Solution PR:** https://github.com/aquaproj/aqua/pull/5486
 
-### [wake/purdex] fix(execstat): count the snapshot forks and drop the stale CLI-only exemption (#3912)
-- **Base Commit:** `ce3b35ba23e1281db0b650d4ee69f3efc113a9f9`
-- **Solution PR:** https://github.com/wake/purdex/pull/3917
+### [faustbrian/go-authentication] chore(release): prepare latest-source module versions
+- **Base Commit:** `1f0ed134c21e9a97c38cdd0bc89e6dea5e81fc90`
+- **Solution PR:** https://github.com/faustbrian/go-authentication/pull/66
 
-### [SyafaHadyan/kibooz-backend] fix(auth): shorten the default access token lifetime to 15 minutes
-- **Base Commit:** `94f21e55ce2e95721fc734fad2af1445a38068de`
-- **Solution PR:** https://github.com/SyafaHadyan/kibooz-backend/pull/281
+### [signal18/replication-manager] A deleted cluster gives back the global backup slots its backups hold (#2135)
+- **Base Commit:** `34259f49f656110a2d50a76df92f91d083b28043`
+- **Solution PR:** https://github.com/signal18/replication-manager/pull/2136
 
-### [duplocloud/terraform-provider-duploai] Bump Go to 1.26.10 to fix crypto/x509 vulnerability
-- **Base Commit:** `a1a894e93b973891d35046da58ce687affa2e400`
-- **Solution PR:** https://github.com/duplocloud/terraform-provider-duploai/pull/253
+### [replworks/repl-cli] fix(release): remove Windows artifacts
+- **Base Commit:** `91062a3ae8410fded2b875f8ae5d33daddd1bff6`
+- **Solution PR:** https://github.com/replworks/repl-cli/pull/39
 
-### [SyafaHadyan/kibooz-backend] fix(docs): pin undici to 7.30.1 in the docs tooling
-- **Base Commit:** `fd6bc4181e825c952e2a2073a8e73031efd3e99a`
-- **Solution PR:** https://github.com/SyafaHadyan/kibooz-backend/pull/280
+### [sfc-gh-eraigosa/dotfiles] mono: README j row matches app.Keys again (fixes TestKeyTablesAgree)
+- **Base Commit:** `1307fa56eac1db90bbe991455de3242993458963`
+- **Solution PR:** https://github.com/sfc-gh-eraigosa/dotfiles/pull/423
