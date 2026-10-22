@@ -1,26 +1,30 @@
 # Zero-Day Go Evals
 > Uncontaminated bugs merged after 2026-10-21.
 
-### [kunghim/CoBot] Address the code scanning alerts raised on the promotion
-- **Base Commit:** `355c87bd0c873a6e51ef1a7c83cccc3d93e418f6`
-- **Solution PR:** https://github.com/kunghim/CoBot/pull/62
+### [vshulcz/deja-vu] test(redact): the parity sweep runs 8,000 texts under -race, so the package takes 2 min instead of 10-14
+- **Base Commit:** `eae66dca0195d804a924b6b2cef5dfcf2ff2c644`
+- **Solution PR:** https://github.com/vshulcz/deja-vu/pull/5562
 
-### [aquaproj/aqua] fix: restore checksum updates in autofix and fix aqua upa for v2.65.0 or later
-- **Base Commit:** `2f020d97f0821de7db75b39bf314b67847c759fa`
-- **Solution PR:** https://github.com/aquaproj/aqua/pull/5486
+### [vshulcz/deja-vu] fix(index): a re-read transcript drops a tool result that was only a recall block, as a rebuild does
+- **Base Commit:** `da20f3bc5b6e1f99e729083a4f5259997128c23e`
+- **Solution PR:** https://github.com/vshulcz/deja-vu/pull/5559
 
-### [faustbrian/go-authentication] chore(release): prepare latest-source module versions
-- **Base Commit:** `1f0ed134c21e9a97c38cdd0bc89e6dea5e81fc90`
-- **Solution PR:** https://github.com/faustbrian/go-authentication/pull/66
+### [stokaro/ptah] Repair the integration contour after the native provider changes
+- **Base Commit:** `b78e2bd087c306296b829f3699b4e0423fb31b15`
+- **Solution PR:** https://github.com/stokaro/ptah/pull/4828
 
-### [signal18/replication-manager] A deleted cluster gives back the global backup slots its backups hold (#2135)
-- **Base Commit:** `34259f49f656110a2d50a76df92f91d083b28043`
-- **Solution PR:** https://github.com/signal18/replication-manager/pull/2136
+### [faustbrian/go-migrations] fix(postgres): retain concurrent migration failures
+- **Base Commit:** `9c2e465888cd2dce1481a02ed024f00e2ecbc973`
+- **Solution PR:** https://github.com/faustbrian/go-migrations/pull/50
 
-### [replworks/repl-cli] fix(release): remove Windows artifacts
-- **Base Commit:** `91062a3ae8410fded2b875f8ae5d33daddd1bff6`
-- **Solution PR:** https://github.com/replworks/repl-cli/pull/39
+### [alrayyes/forge-dashboard] fix(github): log why the alerts read was refused and retry it sooner
+- **Base Commit:** `9725c625f643fde43ae161c1d88835878e992df2`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2457
 
-### [sfc-gh-eraigosa/dotfiles] mono: README j row matches app.Keys again (fixes TestKeyTablesAgree)
-- **Base Commit:** `1307fa56eac1db90bbe991455de3242993458963`
-- **Solution PR:** https://github.com/sfc-gh-eraigosa/dotfiles/pull/423
+### [llm-d/llm-d-batch-gateway] fix(api): reject uploads without a file part as bad requests
+- **Base Commit:** `df95a4103b5d79e73ef0878b693d8022910ed201`
+- **Solution PR:** https://github.com/llm-d/llm-d-batch-gateway/pull/752
+
+### [Chemaclass/agnostic-ai] fix(lint): stop warning that SessionEnd takes no matcher
+- **Base Commit:** `701baa0e95a242fe67a5c7541bbfd7ebb69c024b`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2396

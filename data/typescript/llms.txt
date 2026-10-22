@@ -1,38 +1,26 @@
 # Zero-Day Typescript Evals
 > Uncontaminated bugs merged after 2026-10-21.
 
-### [leviFrosty/witness-work] fix: keep role history month stamps when adopting a peer's history
-- **Base Commit:** `95f45007b57955c3570ff2e3a87c03667a9d0efb`
-- **Solution PR:** https://github.com/leviFrosty/witness-work/pull/1073
+### [pinecone-studio/pinequest-s5-episode-2-team-1] fix(api): сурах бичгийн хэсгийг бүтэн дараалсан хуудсаар сонгох (books e2e санамсаргүй унахгүй)
+- **Base Commit:** `ae451f7fa5089e21f5c3929eb8ca3760a0d9e779`
+- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-1/pull/51
 
-### [gjzkcal/field-medic-manual] Rust の通信の部品を脆弱性を直した版に更新し、更新の展開に使っていない zip を外す
-- **Base Commit:** `09c70910331bda505fbb89fdee4ab0955a468eaf`
-- **Solution PR:** https://github.com/gjzkcal/field-medic-manual/pull/23
+### [guardian/dotcom-rendering] Remove sub nav from standard layout immersive format
+- **Base Commit:** `758d343fc11556c064db6246debdcdb86a1e1ba3`
+- **Solution PR:** https://github.com/guardian/dotcom-rendering/pull/16990
 
-### [oscartbeaumont/spotistats] fix: mint the OAuth state on the host Spotify returns to
-- **Base Commit:** `9e7cf905b36dba1864ba42244060ca2fa5ecd8d3`
-- **Solution PR:** https://github.com/oscartbeaumont/spotistats/pull/42
+### [cloud-pi-native/console] fix(server-nestjs): consume projectMember events in gitlab module
+- **Base Commit:** `7645984658f418ce65b869884c3908423dabdb21`
+- **Solution PR:** https://github.com/cloud-pi-native/console/pull/2721
 
-### [K0mork/knittingEditor] fix: draw guide lines as thick as stitch strokes with a larger arrow
-- **Base Commit:** `c0a6539519bc810ebe9a8de4b9674f05ef455aeb`
-- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/322
+### [pollen-robotics/reachy_mini_mobile_app] fix(ble): show the device-specific tail of the BLE address
+- **Base Commit:** `661b5ae7a1027bcb9616d204bacc978fca1c6156`
+- **Solution PR:** https://github.com/pollen-robotics/reachy_mini_mobile_app/pull/130
 
-### [nitrojs/nitro] fix: respect compress settings in dev server
-- **Base Commit:** `bd60aa681b90528c565a26348fc21a22879b9482`
-- **Solution PR:** https://github.com/nitrojs/nitro/pull/4159
+### [swissgeo/web-portal] GPS-1142: Improve layout and styling of map attribution
+- **Base Commit:** `3a91b0c972f4dca49d4bc13cc07c0567a77f4414`
+- **Solution PR:** https://github.com/swissgeo/web-portal/pull/444
 
-### [pinecone-studio/pinequest-s5-episode-2-team-3] fix: hotsorj uusan us omnoh algassan tsaguudiig nohdog baisniig zasav
-- **Base Commit:** `86ac106cb5fb0b8d8cbc924be678908055822816`
-- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-3/pull/209
-
-### [urzeye/ophel] fix(adapter): keep Doubao scroll-to-top from bouncing back to bottom [skip ci]
-- **Base Commit:** `de16ece8af84ff542c67e7e0ebca2956fb6b2a30`
-- **Solution PR:** https://github.com/urzeye/ophel/pull/983
-
-### [terrylica/cc-skills] fix(quant-research): compute_metrics CLI writes strict JSON for numpy and non-finite values
-- **Base Commit:** `26b1961bf85e4cf1ea3881685741381a635bded4`
-- **Solution PR:** https://github.com/terrylica/cc-skills/pull/54
-
-### [nitrojs/nitro] fix(vite): only skip vite-* WebSocket upgrades destined for Vite's HMR base
-- **Base Commit:** `a383c8f82ee8b75989ca7c9a470a3c8c79495d12`
-- **Solution PR:** https://github.com/nitrojs/nitro/pull/4291
+### [libreglow/glowsnap] Fix/studio text color not updating
+- **Base Commit:** `37ebe541d671c799d9d6297b76dcad7c06cdb364`
+- **Solution PR:** https://github.com/libreglow/glowsnap/pull/170

@@ -1,42 +1,22 @@
 # Zero-Day Python Evals
 > Uncontaminated bugs merged after 2026-10-21.
 
-### [marimo-team/marimo] perf(table): collect only the requested Polars page
-- **Base Commit:** `cd38bc3b4f079be6cdb9cc9a7be0d360379ccab2`
-- **Solution PR:** https://github.com/marimo-team/marimo/pull/11406
+### [Kozea/WeasyPrint] Simplify blockify and handle transferred attributes
+- **Base Commit:** `1eb24a374d37fcb24a502c9bc317f749868db01a`
+- **Solution PR:** https://github.com/Kozea/WeasyPrint/pull/2990
 
-### [NegoPilot/NegoPilot] fix: 분해가 질문에 없는 협력사 ID와 RFQ 번호를 채우지 않게 (#143)
-- **Base Commit:** `928abce818fea7e8040b9113767e0e764fffb94a`
-- **Solution PR:** https://github.com/NegoPilot/NegoPilot/pull/146
+### [vllm-project/vllm] [Bugfix][Model] Load Granite Speech checkpoints saved by Transformers v5
+- **Base Commit:** `124501da07150e79d10090fd353478a6b2186682`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/63050
 
-### [vllm-project/vllm] [Bugfix][Frontend] Render GPT-OSS chats with Harmony in /tokenize
-- **Base Commit:** `876d5da8316a81180b8c7f10dea5ffab5b5a849f`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/62786
+### [ecmwf/anemoi-datasets] fix(copy): list folders when copying a dataset over HTTP
+- **Base Commit:** `b9fced5661ccd03ddd9d08f1b12b05387c9d4734`
+- **Solution PR:** https://github.com/ecmwf/anemoi-datasets/pull/796
 
-### [hw-native-sys/pypto-lib] Fix: DSpark entry compilation and numerical validation
-- **Base Commit:** `af4260fe09108eb20ba415ba270b85f22ae6ba06`
-- **Solution PR:** https://github.com/hw-native-sys/pypto-lib/pull/1548
+### [vllm-project/vllm] [Bugfix] Apply default multimodal LoRA per batch conversation
+- **Base Commit:** `49dbf7c44f8157285db653fbe789daa30df6cfc4`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/62906
 
-### [aws-solutions-library-samples/guidance-for-game-backend-and-infrastructure-agentic-workflows] fix(cost): Scan long number runs in linear time in the financial guard
-- **Base Commit:** `4101a1690c5db5532fc2b15fef157efba79233f8`
-- **Solution PR:** https://github.com/aws-solutions-library-samples/guidance-for-game-backend-and-infrastructure-agentic-workflows/pull/628
-
-### [roman-corgi/ctc-dip] Log warning for non-aggregate visits
-- **Base Commit:** `1d7c2b2ae41548bb2eb32c1a96b104148d1a4bdf`
-- **Solution PR:** https://github.com/roman-corgi/ctc-dip/pull/156
-
-### [vllm-project/vllm] [Bugfix][Model] Fix Gemma 4 image/audio placeholder strings
-- **Base Commit:** `9d61ade7f657833df27e43c4561455523c78c8fb`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/61196
-
-### [WebbPulse/.github] PLAT-74: Retry AWS calls adaptively in the Lambda deploy workflows
-- **Base Commit:** `9f96000fec3d505a76626d57ef2921d6cb5824bf`
-- **Solution PR:** https://github.com/WebbPulse/.github/pull/67
-
-### [xorbitsai/inference] fix(deps): require patched pyarrow and bump follow-redirects for security advisories
-- **Base Commit:** `0fe04c0e08ced3a9811e0287e62e737bf86fa45a`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/5803
-
-### [MDGChamomile/pi-agent-kit] fix(session-search): mask quoted tool argument evidence
-- **Base Commit:** `18b78016de6437f5c575f4b3378f3d4be9db7b2f`
-- **Solution PR:** https://github.com/MDGChamomile/pi-agent-kit/pull/48
+### [ansys/pymapdl] fix: avoid excessive backtracking in boundary listing parser
+- **Base Commit:** `e5debb4dead0c994d1a54af1c1d720176edbf8a6`
+- **Solution PR:** https://github.com/ansys/pymapdl/pull/4841
