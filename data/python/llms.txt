@@ -1,22 +1,38 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-21.
+> Uncontaminated bugs merged after 2026-10-22.
 
-### [Kozea/WeasyPrint] Simplify blockify and handle transferred attributes
-- **Base Commit:** `1eb24a374d37fcb24a502c9bc317f749868db01a`
-- **Solution PR:** https://github.com/Kozea/WeasyPrint/pull/2990
+### [adehad/py-scantailor] Fix flaky Processing Apply test that set the polarity without the manual flag
+- **Base Commit:** `a7e9c4a23a60c4343238dcd8f85c86c6db2cc501`
+- **Solution PR:** https://github.com/adehad/py-scantailor/pull/354
 
-### [vllm-project/vllm] [Bugfix][Model] Load Granite Speech checkpoints saved by Transformers v5
-- **Base Commit:** `124501da07150e79d10090fd353478a6b2186682`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/63050
+### [kakaotechcampus-4/ktc4-pusan-2] [BE] fix: develop 배포 전에 쓰지 않는 이미지를 지워 EC2 디스크가 차지 않게 하기
+- **Base Commit:** `9cb2d4f5b8a85b64e9399ec6739c4510d5f61f08`
+- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-pusan-2/pull/323
 
-### [ecmwf/anemoi-datasets] fix(copy): list folders when copying a dataset over HTTP
-- **Base Commit:** `b9fced5661ccd03ddd9d08f1b12b05387c9d4734`
-- **Solution PR:** https://github.com/ecmwf/anemoi-datasets/pull/796
+### [Snowflake-Labs/pg_lake] Do not use column min/max stats to prove that all rows in a file match
+- **Base Commit:** `53e78296d3d44adda71849a23f60671c7fb18db9`
+- **Solution PR:** https://github.com/Snowflake-Labs/pg_lake/pull/776
 
-### [vllm-project/vllm] [Bugfix] Apply default multimodal LoRA per batch conversation
-- **Base Commit:** `49dbf7c44f8157285db653fbe789daa30df6cfc4`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/62906
+### [geertmeersman/print-color-test] fix: read stored digest from Dockerfile instead of Actions variable
+- **Base Commit:** `885fb478aa162aeafef74f52a320be0617fe01f9`
+- **Solution PR:** https://github.com/geertmeersman/print-color-test/pull/134
 
-### [ansys/pymapdl] fix: avoid excessive backtracking in boundary listing parser
-- **Base Commit:** `e5debb4dead0c994d1a54af1c1d720176edbf8a6`
-- **Solution PR:** https://github.com/ansys/pymapdl/pull/4841
+### [geertmeersman/github-scripts] fix: read stored digest from Dockerfile instead of Actions variable
+- **Base Commit:** `1f865719c73d05e944fb989b81b2efb8ab6347de`
+- **Solution PR:** https://github.com/geertmeersman/github-scripts/pull/151
+
+### [Birfy/agentdescent] fix(demo): next-step footer shows init --out spec.json so plan spec.json exists
+- **Base Commit:** `270e7fe3c601a73be1e7b4f9c5c1b220666a5fb2`
+- **Solution PR:** https://github.com/Birfy/agentdescent/pull/490
+
+### [vllm-project/vllm] [Bugfix][DSv4.1] Seed the -1 sentinel in the prefill sparse index workspace
+- **Base Commit:** `0510bd66795683d41f0dcdbcb374bfbd6e91595f`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/60613
+
+### [SSCoderz2123/AI-Collusion-Research-Sprint] Fix Windows UTF-8 script output; log runs 6-8 and pooled result
+- **Base Commit:** `15da17398dd92dff84db836fe406d79667b5f644`
+- **Solution PR:** https://github.com/SSCoderz2123/AI-Collusion-Research-Sprint/pull/7
+
+### [tile-ai/tilelang] [Ascend] Promote region bounds before overlap analysis
+- **Base Commit:** `baceed6676dfe6c37878b845993d4ee03f409b58`
+- **Solution PR:** https://github.com/tile-ai/tilelang/pull/3625

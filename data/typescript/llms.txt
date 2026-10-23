@@ -1,26 +1,18 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-21.
+> Uncontaminated bugs merged after 2026-10-22.
 
-### [pinecone-studio/pinequest-s5-episode-2-team-1] fix(api): сурах бичгийн хэсгийг бүтэн дараалсан хуудсаар сонгох (books e2e санамсаргүй унахгүй)
-- **Base Commit:** `ae451f7fa5089e21f5c3929eb8ca3760a0d9e779`
-- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-1/pull/51
+### [hashgraph/hedera-transaction-tool] fix: ensure uniqueness of publicKey among non-deleted rows (TT-105)
+- **Base Commit:** `b0e9bc4a540ca06b7e1855b91383067efbfc5624`
+- **Solution PR:** https://github.com/hashgraph/hedera-transaction-tool/pull/3643
 
-### [guardian/dotcom-rendering] Remove sub nav from standard layout immersive format
-- **Base Commit:** `758d343fc11556c064db6246debdcdb86a1e1ba3`
-- **Solution PR:** https://github.com/guardian/dotcom-rendering/pull/16990
+### [opentiny/webmcp-sdk] fix: 修改呼吸灯的效果的颜色值
+- **Base Commit:** `15bf99d30b318bbb8d2346539350a9e76391ccd6`
+- **Solution PR:** https://github.com/opentiny/webmcp-sdk/pull/557
 
-### [cloud-pi-native/console] fix(server-nestjs): consume projectMember events in gitlab module
-- **Base Commit:** `7645984658f418ce65b869884c3908423dabdb21`
-- **Solution PR:** https://github.com/cloud-pi-native/console/pull/2721
+### [liang-zhenxiang/cc-analyzer] fix(tauri): 升级 sha2 至 0.11 并适配流式哈希 API
+- **Base Commit:** `bae29f84856231279b487e2f6389fc5fee702f8f`
+- **Solution PR:** https://github.com/liang-zhenxiang/cc-analyzer/pull/257
 
-### [pollen-robotics/reachy_mini_mobile_app] fix(ble): show the device-specific tail of the BLE address
-- **Base Commit:** `661b5ae7a1027bcb9616d204bacc978fca1c6156`
-- **Solution PR:** https://github.com/pollen-robotics/reachy_mini_mobile_app/pull/130
-
-### [swissgeo/web-portal] GPS-1142: Improve layout and styling of map attribution
-- **Base Commit:** `3a91b0c972f4dca49d4bc13cc07c0567a77f4414`
-- **Solution PR:** https://github.com/swissgeo/web-portal/pull/444
-
-### [libreglow/glowsnap] Fix/studio text color not updating
-- **Base Commit:** `37ebe541d671c799d9d6297b76dcad7c06cdb364`
-- **Solution PR:** https://github.com/libreglow/glowsnap/pull/170
+### [zeroc-ice/ice-docs] State which files the IceGrid admin session file operations read
+- **Base Commit:** `6f596f1d207265d83e54efd7e0076cc7fcc3ff13`
+- **Solution PR:** https://github.com/zeroc-ice/ice-docs/pull/667
