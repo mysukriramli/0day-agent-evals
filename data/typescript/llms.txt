@@ -1,18 +1,34 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-22.
+> Uncontaminated bugs merged after 2026-10-23.
 
-### [hashgraph/hedera-transaction-tool] fix: ensure uniqueness of publicKey among non-deleted rows (TT-105)
-- **Base Commit:** `b0e9bc4a540ca06b7e1855b91383067efbfc5624`
-- **Solution PR:** https://github.com/hashgraph/hedera-transaction-tool/pull/3643
+### [webarkit/webarkit] fix(cv-backend-spec): restore the em dash in the package description
+- **Base Commit:** `eff652aa7d5d34ca337ffdd7063d29147c2f7de7`
+- **Solution PR:** https://github.com/webarkit/webarkit/pull/171
 
-### [opentiny/webmcp-sdk] fix: 修改呼吸灯的效果的颜色值
-- **Base Commit:** `15bf99d30b318bbb8d2346539350a9e76391ccd6`
-- **Solution PR:** https://github.com/opentiny/webmcp-sdk/pull/557
+### [afaneca/myfin] [#644] Update Docker build runtime and refresh base images. Addresses…
+- **Base Commit:** `78f9f10947749b16db9dc6f2e3c7ebfd694a1cad`
+- **Solution PR:** https://github.com/afaneca/myfin/pull/645
 
-### [liang-zhenxiang/cc-analyzer] fix(tauri): 升级 sha2 至 0.11 并适配流式哈希 API
-- **Base Commit:** `bae29f84856231279b487e2f6389fc5fee702f8f`
-- **Solution PR:** https://github.com/liang-zhenxiang/cc-analyzer/pull/257
+### [open-mercato/cezar] fix(opencode): fail a turn stuck in a long session.status retry
+- **Base Commit:** `8caad895c4354f56402aa78df460124254531147`
+- **Solution PR:** https://github.com/open-mercato/cezar/pull/1654
 
-### [zeroc-ice/ice-docs] State which files the IceGrid admin session file operations read
-- **Base Commit:** `6f596f1d207265d83e54efd7e0076cc7fcc3ff13`
-- **Solution PR:** https://github.com/zeroc-ice/ice-docs/pull/667
+### [afaneca/myfin-api] Fix: Node.js Brotli vulnerability in Docker images (CVE-2026-111497)  #268
+- **Base Commit:** `c88c84c491193a05458a9e549079b622a42048aa`
+- **Solution PR:** https://github.com/afaneca/myfin-api/pull/269
+
+### [onix-labs/onixlabs-studio] fix(git): an open diff follows the repository, and closes once its file is committed
+- **Base Commit:** `f803e6b54391c2fa68e6729360a35d65a496de98`
+- **Solution PR:** https://github.com/onix-labs/onixlabs-studio/pull/1092
+
+### [ChatbotXIO/ChatbotX] fix(windows): make lint, typecheck, build, three test suites and the git hooks run on Windows
+- **Base Commit:** `e4913ef2ac6db15694c7c0a764d0935d41fc3c75`
+- **Solution PR:** https://github.com/ChatbotXIO/ChatbotX/pull/1398
+
+### [MacWeTT/Cadence] fix: the desktop app's Google sign-in (PKCE), plus a demo account and a testing checklist
+- **Base Commit:** `307ff4349bcf7200d349bfb3b7d6c86f1b1de8f7`
+- **Solution PR:** https://github.com/MacWeTT/Cadence/pull/131
+
+### [anshika-guleria/bibble] Fix minimap and zoom controls dark theme
+- **Base Commit:** `2694f9d78354192facc50ed0df39f3ab4d6422a4`
+- **Solution PR:** https://github.com/anshika-guleria/bibble/pull/53

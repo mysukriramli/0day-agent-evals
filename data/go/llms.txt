@@ -1,22 +1,10 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-22.
+> Uncontaminated bugs merged after 2026-10-23.
 
-### [photoview/photoview] fix: keep valid GPS longitudes in the EXIF GPS migration
-- **Base Commit:** `0f2e3741e7b18ff3517d18b15d16494b93bb312b`
-- **Solution PR:** https://github.com/photoview/photoview/pull/1528
+### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 44cc69e
+- **Base Commit:** `44cc69e6acc0d9d5276c5a49ae30be60afc35836`
+- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/546
 
-### [ostendorf-cloud/release-me] fix(forge): a merged release pull request is recognised again
-- **Base Commit:** `d6da3783237c293cd636284c5a8c8c043e8a1927`
-- **Solution PR:** https://github.com/ostendorf-cloud/release-me/pull/40
-
-### [SyafaHadyan/kibooz-backend] fix(env): refuse a REQUEST_TIMEOUT_SECONDS that is longer than the time a stop waits for requests
-- **Base Commit:** `f2d1eb5983b595e54ab0406e3df0e7077e167a89`
-- **Solution PR:** https://github.com/SyafaHadyan/kibooz-backend/pull/396
-
-### [devantler-tech/ksail] fix(cask): keep generated casks loadable on Intel
-- **Base Commit:** `b2e3ce9f8d7960acf5216c13ece2c188b5625471`
-- **Solution PR:** https://github.com/devantler-tech/ksail/pull/7944
-
-### [Icinga/icinga-notifications] Use incident summary if event summary is empty
-- **Base Commit:** `b5485d40f059b35a44964e2887955dfc2e472d99`
-- **Solution PR:** https://github.com/Icinga/icinga-notifications/pull/586
+### [apache/incubator-seata-go] fix: read the XA RECOVER xid as the bytes the MySQL driver returns
+- **Base Commit:** `569e5e1c0efbc3127432d8391a9be2248ec08834`
+- **Solution PR:** https://github.com/apache/incubator-seata-go/pull/1144

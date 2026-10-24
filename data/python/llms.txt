@@ -1,38 +1,26 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-22.
+> Uncontaminated bugs merged after 2026-10-23.
 
-### [adehad/py-scantailor] Fix flaky Processing Apply test that set the polarity without the manual flag
-- **Base Commit:** `a7e9c4a23a60c4343238dcd8f85c86c6db2cc501`
-- **Solution PR:** https://github.com/adehad/py-scantailor/pull/354
+### [leikoilja/ha-google-home] Refresh devices once when an action targets several sensors
+- **Base Commit:** `2b5c7500b470b3b934bd97102a85273e826b0891`
+- **Solution PR:** https://github.com/leikoilja/ha-google-home/pull/1114
 
-### [kakaotechcampus-4/ktc4-pusan-2] [BE] fix: develop 배포 전에 쓰지 않는 이미지를 지워 EC2 디스크가 차지 않게 하기
-- **Base Commit:** `9cb2d4f5b8a85b64e9399ec6739c4510d5f61f08`
-- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-pusan-2/pull/323
+### [ptstdm/frappe_whatsapp] fix(webhook): SRO-2026-10-00135 handle reaction removal payload without emoji
+- **Base Commit:** `2df2d723c1bdaaaefa590b2ddd95f47df47873cf`
+- **Solution PR:** https://github.com/ptstdm/frappe_whatsapp/pull/35
 
-### [Snowflake-Labs/pg_lake] Do not use column min/max stats to prove that all rows in a file match
-- **Base Commit:** `53e78296d3d44adda71849a23f60671c7fb18db9`
-- **Solution PR:** https://github.com/Snowflake-Labs/pg_lake/pull/776
+### [qiboteam/qibolab] Qblox: `time_of_flights` is double counted
+- **Base Commit:** `611d97748f309c39bd76a1d56534322fbe5d6807`
+- **Solution PR:** https://github.com/qiboteam/qibolab/pull/1618
 
-### [geertmeersman/print-color-test] fix: read stored digest from Dockerfile instead of Actions variable
-- **Base Commit:** `885fb478aa162aeafef74f52a320be0617fe01f9`
-- **Solution PR:** https://github.com/geertmeersman/print-color-test/pull/134
+### [identique/idnumbers] Fix #637 - return None from FRA and NOR parse() for a wrong check digit
+- **Base Commit:** `9b78f99ca778f747c19314916ea93741569ab61b`
+- **Solution PR:** https://github.com/identique/idnumbers/pull/647
 
-### [geertmeersman/github-scripts] fix: read stored digest from Dockerfile instead of Actions variable
-- **Base Commit:** `1f865719c73d05e944fb989b81b2efb8ab6347de`
-- **Solution PR:** https://github.com/geertmeersman/github-scripts/pull/151
+### [NVIDIA-NeMo/Gym] fix(instruction_following): split counting_composition on `* * *` and stop counting punctuation as words
+- **Base Commit:** `4057659cf39d8fe65f09df60f3cf28547b14869b`
+- **Solution PR:** https://github.com/NVIDIA-NeMo/Gym/pull/4624
 
-### [Birfy/agentdescent] fix(demo): next-step footer shows init --out spec.json so plan spec.json exists
-- **Base Commit:** `270e7fe3c601a73be1e7b4f9c5c1b220666a5fb2`
-- **Solution PR:** https://github.com/Birfy/agentdescent/pull/490
-
-### [vllm-project/vllm] [Bugfix][DSv4.1] Seed the -1 sentinel in the prefill sparse index workspace
-- **Base Commit:** `0510bd66795683d41f0dcdbcb374bfbd6e91595f`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/60613
-
-### [SSCoderz2123/AI-Collusion-Research-Sprint] Fix Windows UTF-8 script output; log runs 6-8 and pooled result
-- **Base Commit:** `15da17398dd92dff84db836fe406d79667b5f644`
-- **Solution PR:** https://github.com/SSCoderz2123/AI-Collusion-Research-Sprint/pull/7
-
-### [tile-ai/tilelang] [Ascend] Promote region bounds before overlap analysis
-- **Base Commit:** `baceed6676dfe6c37878b845993d4ee03f409b58`
-- **Solution PR:** https://github.com/tile-ai/tilelang/pull/3625
+### [kingsleyadam/local-abbfreeathome] Fix radiator heating-active callbacks on demand changes
+- **Base Commit:** `247b391b45dad0a8c98694f710f807b3196e531d`
+- **Solution PR:** https://github.com/kingsleyadam/local-abbfreeathome/pull/273
