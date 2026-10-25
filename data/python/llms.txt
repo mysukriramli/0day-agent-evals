@@ -1,26 +1,34 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-23.
+> Uncontaminated bugs merged after 2026-10-24.
 
-### [leikoilja/ha-google-home] Refresh devices once when an action targets several sensors
-- **Base Commit:** `2b5c7500b470b3b934bd97102a85273e826b0891`
-- **Solution PR:** https://github.com/leikoilja/ha-google-home/pull/1114
+### [solid-ai-dev/solid-ai-templates] fix(backend): allow a declared public write made before sign-in (#2258)
+- **Base Commit:** `9e29f14ae8642ad98ad04688dc954017bd585a97`
+- **Solution PR:** https://github.com/solid-ai-dev/solid-ai-templates/pull/2281
 
-### [ptstdm/frappe_whatsapp] fix(webhook): SRO-2026-10-00135 handle reaction removal payload without emoji
-- **Base Commit:** `2df2d723c1bdaaaefa590b2ddd95f47df47873cf`
-- **Solution PR:** https://github.com/ptstdm/frappe_whatsapp/pull/35
+### [docling-project/docling] fix(ods): do not join tables across a blank merged separator row
+- **Base Commit:** `36be1d247d6cc35bed2b815b64e1fd924e6f50ed`
+- **Solution PR:** https://github.com/docling-project/docling/pull/4992
 
-### [qiboteam/qibolab] Qblox: `time_of_flights` is double counted
-- **Base Commit:** `611d97748f309c39bd76a1d56534322fbe5d6807`
-- **Solution PR:** https://github.com/qiboteam/qibolab/pull/1618
+### [Kazu-K0032/claude-plugins] `project:init-repo` のラベル同期が、`labels.yml` に無い既存のラベルを消す
+- **Base Commit:** `514e6618ad79327efedd66bd72229f4c2c3f9687`
+- **Solution PR:** https://github.com/Kazu-K0032/claude-plugins/pull/164
 
-### [identique/idnumbers] Fix #637 - return None from FRA and NOR parse() for a wrong check digit
-- **Base Commit:** `9b78f99ca778f747c19314916ea93741569ab61b`
-- **Solution PR:** https://github.com/identique/idnumbers/pull/647
+### [docling-project/docling] fix(utils): split a tuple or range into chunks only once in chunkify
+- **Base Commit:** `53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4`
+- **Solution PR:** https://github.com/docling-project/docling/pull/5001
 
-### [NVIDIA-NeMo/Gym] fix(instruction_following): split counting_composition on `* * *` and stop counting punctuation as words
-- **Base Commit:** `4057659cf39d8fe65f09df60f3cf28547b14869b`
-- **Solution PR:** https://github.com/NVIDIA-NeMo/Gym/pull/4624
+### [docling-project/docling] fix: accept file URI bases for image resources
+- **Base Commit:** `a63ec343ade9c994fabc0927083d39daae065421`
+- **Solution PR:** https://github.com/docling-project/docling/pull/4912
 
-### [kingsleyadam/local-abbfreeathome] Fix radiator heating-active callbacks on demand changes
-- **Base Commit:** `247b391b45dad0a8c98694f710f807b3196e531d`
-- **Solution PR:** https://github.com/kingsleyadam/local-abbfreeathome/pull/273
+### [docling-project/docling] fix(asciidoc): keep /// as text and support longer comment delimiters
+- **Base Commit:** `53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4`
+- **Solution PR:** https://github.com/docling-project/docling/pull/4394
+
+### [Kazu-K0032/claude-plugins] `project:gas`・`project:terraform` のガードが、引用符で囲んだサブコマンド（`clasp "push"` など）を止めない
+- **Base Commit:** `50b9bf1527bb014f22759b626ffd161ddcb21859`
+- **Solution PR:** https://github.com/Kazu-K0032/claude-plugins/pull/162
+
+### [mmiura-2351/mc-server-dashboard-v2] Fence a first upload racing the delete of a never-published server
+- **Base Commit:** `c23e3a4ee0292b4b4c84f955b1bfeaea718da433`
+- **Solution PR:** https://github.com/mmiura-2351/mc-server-dashboard-v2/pull/3476

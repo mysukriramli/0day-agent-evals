@@ -1,34 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-23.
+> Uncontaminated bugs merged after 2026-10-24.
 
-### [webarkit/webarkit] fix(cv-backend-spec): restore the em dash in the package description
-- **Base Commit:** `eff652aa7d5d34ca337ffdd7063d29147c2f7de7`
-- **Solution PR:** https://github.com/webarkit/webarkit/pull/171
+### [K0mork/knittingEditor] fix: Apple Pencilのダブルタップ設定を読むクロージャをMainActorに限定する
+- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
+- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/332
 
-### [afaneca/myfin] [#644] Update Docker build runtime and refresh base images. Addresses…
-- **Base Commit:** `78f9f10947749b16db9dc6f2e3c7ebfd694a1cad`
-- **Solution PR:** https://github.com/afaneca/myfin/pull/645
+### [K0mork/knittingEditor] fix: 入力欄のフォーカス監視を止めたときに読み直しの予約を取り消す（iOS）
+- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
+- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/329
 
-### [open-mercato/cezar] fix(opencode): fail a turn stuck in a long session.status retry
-- **Base Commit:** `8caad895c4354f56402aa78df460124254531147`
-- **Solution PR:** https://github.com/open-mercato/cezar/pull/1654
+### [VeriWorkly/veriworkly] [Fix] [Site]: pass every site environment variable through compose
+- **Base Commit:** `fe51aba2da1cbd3a1aaea7873399de40ccee5972`
+- **Solution PR:** https://github.com/VeriWorkly/veriworkly/pull/238
 
-### [afaneca/myfin-api] Fix: Node.js Brotli vulnerability in Docker images (CVE-2026-111497)  #268
-- **Base Commit:** `c88c84c491193a05458a9e549079b622a42048aa`
-- **Solution PR:** https://github.com/afaneca/myfin-api/pull/269
+### [K0mork/knittingEditor] fix: 共有ダイアログの結果を、開いた出力だけに返す
+- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
+- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/326
 
-### [onix-labs/onixlabs-studio] fix(git): an open diff follows the repository, and closes once its file is committed
-- **Base Commit:** `f803e6b54391c2fa68e6729360a35d65a496de98`
-- **Solution PR:** https://github.com/onix-labs/onixlabs-studio/pull/1092
+### [yokoten-labs/yokoten] fix(hook): a worker can no longer break its worktree with find
+- **Base Commit:** `2a38428a701d561570f5e82efb912b9ae4112978`
+- **Solution PR:** https://github.com/yokoten-labs/yokoten/pull/996
 
-### [ChatbotXIO/ChatbotX] fix(windows): make lint, typecheck, build, three test suites and the git hooks run on Windows
-- **Base Commit:** `e4913ef2ac6db15694c7c0a764d0935d41fc3c75`
-- **Solution PR:** https://github.com/ChatbotXIO/ChatbotX/pull/1398
+### [OBLIQ-in/obliq-in-app] docs: Add Auth0 environment variables to .env.example
+- **Base Commit:** `504c4f3afad81a240640445a32006e13758e35ad`
+- **Solution PR:** https://github.com/OBLIQ-in/obliq-in-app/pull/94
 
-### [MacWeTT/Cadence] fix: the desktop app's Google sign-in (PKCE), plus a demo account and a testing checklist
-- **Base Commit:** `307ff4349bcf7200d349bfb3b7d6c86f1b1de8f7`
-- **Solution PR:** https://github.com/MacWeTT/Cadence/pull/131
-
-### [anshika-guleria/bibble] Fix minimap and zoom controls dark theme
-- **Base Commit:** `2694f9d78354192facc50ed0df39f3ab4d6422a4`
-- **Solution PR:** https://github.com/anshika-guleria/bibble/pull/53
+### [Lampung-Dev/lampung-dev-web] Fix/docker build node runtime
+- **Base Commit:** `fc98fbe51504cc2f3e99eef4427a041d74dacd70`
+- **Solution PR:** https://github.com/Lampung-Dev/lampung-dev-web/pull/87

@@ -1,10 +1,42 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-23.
+> Uncontaminated bugs merged after 2026-10-24.
 
-### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 44cc69e
-- **Base Commit:** `44cc69e6acc0d9d5276c5a49ae30be60afc35836`
-- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/546
+### [42wim/matterircd] Fix splitting / wrapping of lines & add HardLineSplit to prevent IRC message/line truncation
+- **Base Commit:** `98f0328dd31088aa2408067025253e41922cea1e`
+- **Solution PR:** https://github.com/42wim/matterircd/pull/941
 
-### [apache/incubator-seata-go] fix: read the XA RECOVER xid as the bytes the MySQL driver returns
-- **Base Commit:** `569e5e1c0efbc3127432d8391a9be2248ec08834`
-- **Solution PR:** https://github.com/apache/incubator-seata-go/pull/1144
+### [natemsz/axon] Set the clipboard grab from axon.json only
+- **Base Commit:** `380c2f2a1c7f2084d53ba72e433578d91aaf6a48`
+- **Solution PR:** https://github.com/natemsz/axon/pull/12
+
+### [OrchestratorInc/agent-orchestrator] fix(chat): settle Claude checkpoints with input queued mid-turn
+- **Base Commit:** `a95139bb0d6efd826d5d9df9a667f6503c9d333c`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/6924
+
+### [pklnx/mail-archive] Open only goose's own connection in the migration pool (#277)
+- **Base Commit:** `a788cc67eff277973fbdbdd486f1bd1f6a25d1c8`
+- **Solution PR:** https://github.com/pklnx/mail-archive/pull/279
+
+### [stokaro/ptah] Keep one record replacement in the provider store
+- **Base Commit:** `90414635d194e3965cef6aefaebc8572f4430bec`
+- **Solution PR:** https://github.com/stokaro/ptah/pull/4951
+
+### [nattokin/go-backlog] fix: accept grandchild-related values (5-10) in WithParentChild
+- **Base Commit:** `046494a66559019e081d327a61599cdba7c7f054`
+- **Solution PR:** https://github.com/nattokin/go-backlog/pull/508
+
+### [evcc-io/evcc] UI: revert intra-word underscore handling in markdown renderer
+- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35272
+
+### [heathcliff26/minecraft-exporter] fix(rcon): Strip Minecraft format codes from messages
+- **Base Commit:** `5bee7dc717ede7dc660c8df7db5c743456906b60`
+- **Solution PR:** https://github.com/heathcliff26/minecraft-exporter/pull/174
+
+### [evcc-io/evcc] Revert "Templates: use evcc MQTT broker if mqtt host is empty"
+- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35280
+
+### [evcc-io/evcc] Revert "Cardata: use shared mqtt preset and stream source"
+- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35279
