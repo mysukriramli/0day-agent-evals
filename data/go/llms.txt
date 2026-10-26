@@ -1,42 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-24.
+> Uncontaminated bugs merged after 2026-10-25.
 
-### [42wim/matterircd] Fix splitting / wrapping of lines & add HardLineSplit to prevent IRC message/line truncation
-- **Base Commit:** `98f0328dd31088aa2408067025253e41922cea1e`
-- **Solution PR:** https://github.com/42wim/matterircd/pull/941
+### [unkn0wn-root/resterm] RST-421(intellisense): suggest only proto files for gRPC proto paths
+- **Base Commit:** `c99f35ad98c276d1564f146614fbac932e971f84`
+- **Solution PR:** https://github.com/unkn0wn-root/resterm/pull/494
 
-### [natemsz/axon] Set the clipboard grab from axon.json only
-- **Base Commit:** `380c2f2a1c7f2084d53ba72e433578d91aaf6a48`
-- **Solution PR:** https://github.com/natemsz/axon/pull/12
+### [evcc-io/evcc] Tariff (Home Assistant): support sub-hourly solar forecast slots
+- **Base Commit:** `f9849cd6b3d1235d01ff0257eb0598cc208010f7`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35342
 
-### [OrchestratorInc/agent-orchestrator] fix(chat): settle Claude checkpoints with input queued mid-turn
-- **Base Commit:** `a95139bb0d6efd826d5d9df9a667f6503c9d333c`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/6924
+### [evcc-io/evcc] Shelly Top AC: handle charger_insert work state
+- **Base Commit:** `f9849cd6b3d1235d01ff0257eb0598cc208010f7`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35345
 
-### [pklnx/mail-archive] Open only goose's own connection in the migration pool (#277)
-- **Base Commit:** `a788cc67eff277973fbdbdd486f1bd1f6a25d1c8`
-- **Solution PR:** https://github.com/pklnx/mail-archive/pull/279
+### [openbao/openbao] fix(ui): update favicon mime type to image/svg+xml
+- **Base Commit:** `1d58653b0c00e53484de5af18f20679d78b9fb28`
+- **Solution PR:** https://github.com/openbao/openbao/pull/4303
 
-### [stokaro/ptah] Keep one record replacement in the provider store
-- **Base Commit:** `90414635d194e3965cef6aefaebc8572f4430bec`
-- **Solution PR:** https://github.com/stokaro/ptah/pull/4951
+### [felinics/Memoh] fix(agent): 压缩因额度耗尽失败时报告额度，而不是上下文超限
+- **Base Commit:** `110635bcc9626f6a98b8e44610e4127b634e1d3f`
+- **Solution PR:** https://github.com/felinics/Memoh/pull/1691
 
-### [nattokin/go-backlog] fix: accept grandchild-related values (5-10) in WithParentChild
-- **Base Commit:** `046494a66559019e081d327a61599cdba7c7f054`
-- **Solution PR:** https://github.com/nattokin/go-backlog/pull/508
+### [evcc-io/evcc] Tariff (Octopus DE): fix time-of-use slots shifting after DST change
+- **Base Commit:** `ddc18d0cc0516f7dd531d62e8e99d1c3123c354e`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35353
 
-### [evcc-io/evcc] UI: revert intra-word underscore handling in markdown renderer
-- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35272
-
-### [heathcliff26/minecraft-exporter] fix(rcon): Strip Minecraft format codes from messages
-- **Base Commit:** `5bee7dc717ede7dc660c8df7db5c743456906b60`
-- **Solution PR:** https://github.com/heathcliff26/minecraft-exporter/pull/174
-
-### [evcc-io/evcc] Revert "Templates: use evcc MQTT broker if mqtt host is empty"
-- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35280
-
-### [evcc-io/evcc] Revert "Cardata: use shared mqtt preset and stream source"
-- **Base Commit:** `ab59b6c16e06ed03ec5c60e369da7644c30d049a`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35279
+### [inno-rnd-project/eBPF] fix(gpuobs): cluster network health를 실제 cluster scope로 축약하고 rule scope 정합
+- **Base Commit:** `45e6d783d309ff5afa589ac89ae1883faea1f818`
+- **Solution PR:** https://github.com/inno-rnd-project/eBPF/pull/469

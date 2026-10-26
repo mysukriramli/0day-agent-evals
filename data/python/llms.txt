@@ -1,34 +1,38 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-24.
+> Uncontaminated bugs merged after 2026-10-25.
 
-### [solid-ai-dev/solid-ai-templates] fix(backend): allow a declared public write made before sign-in (#2258)
-- **Base Commit:** `9e29f14ae8642ad98ad04688dc954017bd585a97`
-- **Solution PR:** https://github.com/solid-ai-dev/solid-ai-templates/pull/2281
+### [mesa/mesa] Make FixedAgent handle being unplaced as agreed in #3748
+- **Base Commit:** `b1db02ad7fb219ba628fb265aac17f6eef721fdf`
+- **Solution PR:** https://github.com/mesa/mesa/pull/3986
 
-### [docling-project/docling] fix(ods): do not join tables across a blank merged separator row
-- **Base Commit:** `36be1d247d6cc35bed2b815b64e1fd924e6f50ed`
-- **Solution PR:** https://github.com/docling-project/docling/pull/4992
+### [gdsfactory/gsim] fix(fdtd): resolve virtual port layers through physical stack mapping
+- **Base Commit:** `30b1659f49e4e2ec3eac259aa9fc94abcb4c99be`
+- **Solution PR:** https://github.com/gdsfactory/gsim/pull/430
 
-### [Kazu-K0032/claude-plugins] `project:init-repo` のラベル同期が、`labels.yml` に無い既存のラベルを消す
-- **Base Commit:** `514e6618ad79327efedd66bd72229f4c2c3f9687`
-- **Solution PR:** https://github.com/Kazu-K0032/claude-plugins/pull/164
+### [mesa/mesa] fix(agentset): downgrade _HardKeyAgentSet.select_random() to AgentSet (#3992)
+- **Base Commit:** `b1db02ad7fb219ba628fb265aac17f6eef721fdf`
+- **Solution PR:** https://github.com/mesa/mesa/pull/3994
 
-### [docling-project/docling] fix(utils): split a tuple or range into chunks only once in chunkify
-- **Base Commit:** `53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4`
-- **Solution PR:** https://github.com/docling-project/docling/pull/5001
+### [radis/radis] fix: restore ExoMol m0 broadening defaults
+- **Base Commit:** `fffb6bf9381e1f9c8c2cf6f5eab41162dee326cc`
+- **Solution PR:** https://github.com/radis/radis/pull/1043
 
-### [docling-project/docling] fix: accept file URI bases for image resources
-- **Base Commit:** `a63ec343ade9c994fabc0927083d39daae065421`
-- **Solution PR:** https://github.com/docling-project/docling/pull/4912
+### [Kozea/WeasyPrint] Fix gradients
+- **Base Commit:** `8b37e5a8cd0780fe5feabaa0a0edbb311c4eb928`
+- **Solution PR:** https://github.com/Kozea/WeasyPrint/pull/2926
 
-### [docling-project/docling] fix(asciidoc): keep /// as text and support longer comment delimiters
-- **Base Commit:** `53c11a20a5dd6ac0d85fe88cc257ca3b4b3a72d4`
-- **Solution PR:** https://github.com/docling-project/docling/pull/4394
+### [pvlib/solposx] Change Bennett refraction algorithm to use apparent elevation
+- **Base Commit:** `498c7cc10b3b7275d3f7683ef27b40d7665b84f6`
+- **Solution PR:** https://github.com/pvlib/solposx/pull/166
 
-### [Kazu-K0032/claude-plugins] `project:gas`・`project:terraform` のガードが、引用符で囲んだサブコマンド（`clasp "push"` など）を止めない
-- **Base Commit:** `50b9bf1527bb014f22759b626ffd161ddcb21859`
-- **Solution PR:** https://github.com/Kazu-K0032/claude-plugins/pull/162
+### [rudnerbjoern/ride-forces-analyzer] :bug: fix(rendering): align HUD history reference labels
+- **Base Commit:** `986e17cc2a7960d9eaeb4a22f806afe6d1ebb2b9`
+- **Solution PR:** https://github.com/rudnerbjoern/ride-forces-analyzer/pull/71
 
-### [mmiura-2351/mc-server-dashboard-v2] Fence a first upload racing the delete of a never-published server
-- **Base Commit:** `c23e3a4ee0292b4b4c84f955b1bfeaea718da433`
-- **Solution PR:** https://github.com/mmiura-2351/mc-server-dashboard-v2/pull/3476
+### [Project-OSmOSE/OSEkit] Detections csv weak comment rejection
+- **Base Commit:** `9a7ab8f32f1b9cf565efe859751852039968266f`
+- **Solution PR:** https://github.com/Project-OSmOSE/OSEkit/pull/507
+
+### [MikDeviOps/svoi_bot] Betta v
+- **Base Commit:** `b9dad26893f90845146ecf53f0d2d5c4cfe3f44b`
+- **Solution PR:** https://github.com/MikDeviOps/svoi_bot/pull/21

@@ -1,30 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-24.
+> Uncontaminated bugs merged after 2026-10-25.
 
-### [K0mork/knittingEditor] fix: Apple Pencilのダブルタップ設定を読むクロージャをMainActorに限定する
-- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
-- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/332
+### [ernesg93/CYNDY-app] fix(pwa): prevent redirected navigation failures
+- **Base Commit:** `11985de19dbddb6738cc6b0f39a0d36d8ff24942`
+- **Solution PR:** https://github.com/ernesg93/CYNDY-app/pull/47
 
-### [K0mork/knittingEditor] fix: 入力欄のフォーカス監視を止めたときに読み直しの予約を取り消す（iOS）
-- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
-- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/329
+### [storybookjs/storybook] Addons: Reduce a11y report size and retention in Vitest
+- **Base Commit:** `7cbbd9ff5e13c70200c155a15076799bbf838105`
+- **Solution PR:** https://github.com/storybookjs/storybook/pull/36202
 
-### [VeriWorkly/veriworkly] [Fix] [Site]: pass every site environment variable through compose
-- **Base Commit:** `fe51aba2da1cbd3a1aaea7873399de40ccee5972`
-- **Solution PR:** https://github.com/VeriWorkly/veriworkly/pull/238
+### [ItsKarmaOff/Signet] fix(import): stop reading other browsers' data before an import
+- **Base Commit:** `51e7137a3cf5b2abceb2f9e1f98d4711b43b4a29`
+- **Solution PR:** https://github.com/ItsKarmaOff/Signet/pull/2
 
-### [K0mork/knittingEditor] fix: 共有ダイアログの結果を、開いた出力だけに返す
-- **Base Commit:** `752bc37343a5a5ef58dfce87f267e5a05215ac59`
-- **Solution PR:** https://github.com/K0mork/knittingEditor/pull/326
+### [ItsKarmaOff/Signet] fix(updates): check for updates in the installed app
+- **Base Commit:** `51e7137a3cf5b2abceb2f9e1f98d4711b43b4a29`
+- **Solution PR:** https://github.com/ItsKarmaOff/Signet/pull/1
 
-### [yokoten-labs/yokoten] fix(hook): a worker can no longer break its worktree with find
-- **Base Commit:** `2a38428a701d561570f5e82efb912b9ae4112978`
-- **Solution PR:** https://github.com/yokoten-labs/yokoten/pull/996
+### [betagouv/anssi-portail] [CORRECTION] Adapte le slug du kit relais
+- **Base Commit:** `2e78e3235425ff922c17d4141ee9a4cde85ac816`
+- **Solution PR:** https://github.com/betagouv/anssi-portail/pull/1943
 
-### [OBLIQ-in/obliq-in-app] docs: Add Auth0 environment variables to .env.example
-- **Base Commit:** `504c4f3afad81a240640445a32006e13758e35ad`
-- **Solution PR:** https://github.com/OBLIQ-in/obliq-in-app/pull/94
+### [jupyterlab/jupyterlab] Backport PR #20176 on branch 4.6.x (Stop Enter and Space on a toolbar button from typing into the newly focused cell)
+- **Base Commit:** `14dfd3db9598f955ed40e4fd055d0e94012f824b`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20272
 
-### [Lampung-Dev/lampung-dev-web] Fix/docker build node runtime
-- **Base Commit:** `fc98fbe51504cc2f3e99eef4427a041d74dacd70`
-- **Solution PR:** https://github.com/Lampung-Dev/lampung-dev-web/pull/87
+### [pinecone-studio/pinequest-s5-episode-2-team-1] fix(api): өнөөдрийн хичээл өдөрт нэг удаа, асуултын query бүх хүснэгтийг уншихгүй
+- **Base Commit:** `358df5e5a774a6893f52a44523c134c34c6b274e`
+- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-1/pull/133
