@@ -1,30 +1,26 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-25.
+> Uncontaminated bugs merged after 2026-10-26.
 
-### [unkn0wn-root/resterm] RST-421(intellisense): suggest only proto files for gRPC proto paths
-- **Base Commit:** `c99f35ad98c276d1564f146614fbac932e971f84`
-- **Solution PR:** https://github.com/unkn0wn-root/resterm/pull/494
+### [alrayyes/forge-dashboard] fix: hide rebase all before first paint
+- **Base Commit:** `0a4a2c5e066a5f8596681da87bcc48cc674e998a`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2949
 
-### [evcc-io/evcc] Tariff (Home Assistant): support sub-hourly solar forecast slots
-- **Base Commit:** `f9849cd6b3d1235d01ff0257eb0598cc208010f7`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35342
+### [Netcracker/qubership-rate-limiter] fix(loadtest): name a malformed tokens line or steps entry, and clear Sonar's Groovy findings
+- **Base Commit:** `ade4ca8fda0df30b9058917e66ac147d31f9f703`
+- **Solution PR:** https://github.com/Netcracker/qubership-rate-limiter/pull/150
 
-### [evcc-io/evcc] Shelly Top AC: handle charger_insert work state
-- **Base Commit:** `f9849cd6b3d1235d01ff0257eb0598cc208010f7`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35345
+### [Project-HAMi/k8s-dra-driver] fix(ci): updates some test cases 
+- **Base Commit:** `0d5aef386cf1a77ba98779dfce6ab1ae09fd6acd`
+- **Solution PR:** https://github.com/Project-HAMi/k8s-dra-driver/pull/56
 
-### [openbao/openbao] fix(ui): update favicon mime type to image/svg+xml
-- **Base Commit:** `1d58653b0c00e53484de5af18f20679d78b9fb28`
-- **Solution PR:** https://github.com/openbao/openbao/pull/4303
+### [Dynatrace/dynatrace-operator] Make sqlExtensionExecutor.imageRef optional (release-1.11)
+- **Base Commit:** `1d3e102185620e5262014cb8eeec7d102667ccea`
+- **Solution PR:** https://github.com/Dynatrace/dynatrace-operator/pull/7660
 
-### [felinics/Memoh] fix(agent): 压缩因额度耗尽失败时报告额度，而不是上下文超限
-- **Base Commit:** `110635bcc9626f6a98b8e44610e4127b634e1d3f`
-- **Solution PR:** https://github.com/felinics/Memoh/pull/1691
+### [alrayyes/forge-dashboard] fix: hide Rebase all when nothing is out of date
+- **Base Commit:** `1cf1e3a51be1906261a14f3d14f561783b43e5b6`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2940
 
-### [evcc-io/evcc] Tariff (Octopus DE): fix time-of-use slots shifting after DST change
-- **Base Commit:** `ddc18d0cc0516f7dd531d62e8e99d1c3123c354e`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35353
-
-### [inno-rnd-project/eBPF] fix(gpuobs): cluster network health를 실제 cluster scope로 축약하고 rule scope 정합
-- **Base Commit:** `45e6d783d309ff5afa589ac89ae1883faea1f818`
-- **Solution PR:** https://github.com/inno-rnd-project/eBPF/pull/469
+### [woblerr/pgbackrest_exporter] Fix database count for latest incremental backup metrics.
+- **Base Commit:** `487cbc3b0b2ea335e7cd3a3d3b5047f2ccc17afc`
+- **Solution PR:** https://github.com/woblerr/pgbackrest_exporter/pull/133

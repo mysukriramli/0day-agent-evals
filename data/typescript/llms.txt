@@ -1,30 +1,22 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-25.
+> Uncontaminated bugs merged after 2026-10-26.
 
-### [ernesg93/CYNDY-app] fix(pwa): prevent redirected navigation failures
-- **Base Commit:** `11985de19dbddb6738cc6b0f39a0d36d8ff24942`
-- **Solution PR:** https://github.com/ernesg93/CYNDY-app/pull/47
+### [getpaseo/paseo] fix(app): update xterm to prevent shared-atlas glyph corruption
+- **Base Commit:** `6b7d49f0d8d21d01565f9517a8c2a30e2a587e2a`
+- **Solution PR:** https://github.com/getpaseo/paseo/pull/8013
 
-### [storybookjs/storybook] Addons: Reduce a11y report size and retention in Vitest
-- **Base Commit:** `7cbbd9ff5e13c70200c155a15076799bbf838105`
-- **Solution PR:** https://github.com/storybookjs/storybook/pull/36202
+### [40oleg/nona] [nona] Intl.Segmenter throws "compiled without the RegExp engine"
+- **Base Commit:** `29b75fdb46b64c25b9a450a23c3ea5d1c4e54011`
+- **Solution PR:** https://github.com/40oleg/nona/pull/579
 
-### [ItsKarmaOff/Signet] fix(import): stop reading other browsers' data before an import
-- **Base Commit:** `51e7137a3cf5b2abceb2f9e1f98d4711b43b4a29`
-- **Solution PR:** https://github.com/ItsKarmaOff/Signet/pull/2
+### [lamberto15/nestjs-monorepo-template] ci(web): recover a stalled apt download when installing the browser
+- **Base Commit:** `2bc00bda07bfa658f4605c3b45b025c081b8e1af`
+- **Solution PR:** https://github.com/lamberto15/nestjs-monorepo-template/pull/766
 
-### [ItsKarmaOff/Signet] fix(updates): check for updates in the installed app
-- **Base Commit:** `51e7137a3cf5b2abceb2f9e1f98d4711b43b4a29`
-- **Solution PR:** https://github.com/ItsKarmaOff/Signet/pull/1
+### [Tailormap/tailormap-viewer] HTM-2267: Prevent focus jumping when typing in drawing style form
+- **Base Commit:** `f4fd78434d8642b8b70e6a223897e5e3b7abd93e`
+- **Solution PR:** https://github.com/Tailormap/tailormap-viewer/pull/1527
 
-### [betagouv/anssi-portail] [CORRECTION] Adapte le slug du kit relais
-- **Base Commit:** `2e78e3235425ff922c17d4141ee9a4cde85ac816`
-- **Solution PR:** https://github.com/betagouv/anssi-portail/pull/1943
-
-### [jupyterlab/jupyterlab] Backport PR #20176 on branch 4.6.x (Stop Enter and Space on a toolbar button from typing into the newly focused cell)
-- **Base Commit:** `14dfd3db9598f955ed40e4fd055d0e94012f824b`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20272
-
-### [pinecone-studio/pinequest-s5-episode-2-team-1] fix(api): өнөөдрийн хичээл өдөрт нэг удаа, асуултын query бүх хүснэгтийг уншихгүй
-- **Base Commit:** `358df5e5a774a6893f52a44523c134c34c6b274e`
-- **Solution PR:** https://github.com/pinecone-studio/pinequest-s5-episode-2-team-1/pull/133
+### [open-mercato/cezar] fix(opencode): name the server's error and the early-exit cause instead of a bare status (telemetry 919887a0, d75fcecc)
+- **Base Commit:** `93215207fa69e9a8eb6791f155536f08c2df7ff9`
+- **Solution PR:** https://github.com/open-mercato/cezar/pull/1576

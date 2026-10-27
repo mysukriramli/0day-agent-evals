@@ -1,6 +1,6 @@
 # 0Day Agent Evals Wire
 > Continuous, uncontaminated coding benchmarks for AI agents.
-> Last synchronized: 2026-10-26T09:47:18.194896+00:00
+> Last synchronized: 2026-10-27T09:39:12.549531+00:00
 
 ## The Problem with Static Benchmarks
 Foundation LLMs pre-train on GitHub, meaning they memorize standard benchmarks like SWE-bench. This wire generates a daily stream of *Zero-Day* benchmarks—bugs fixed and merged in the last 24 hours—guaranteeing they are absent from LLM pre-training datasets.

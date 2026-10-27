@@ -1,38 +1,46 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-25.
+> Uncontaminated bugs merged after 2026-10-26.
 
-### [mesa/mesa] Make FixedAgent handle being unplaced as agreed in #3748
-- **Base Commit:** `b1db02ad7fb219ba628fb265aac17f6eef721fdf`
-- **Solution PR:** https://github.com/mesa/mesa/pull/3986
+### [vllm-project/vllm] [Bugfix][Qwen4Exp] Reserve QSA indexer prefill workspace during memory profiling
+- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/60490
 
-### [gdsfactory/gsim] fix(fdtd): resolve virtual port layers through physical stack mapping
-- **Base Commit:** `30b1659f49e4e2ec3eac259aa9fc94abcb4c99be`
-- **Solution PR:** https://github.com/gdsfactory/gsim/pull/430
+### [vllm-project/vllm] [Bugfix] Fuse GLM-5.3 KDA q|k|v convs into one conv1d parameter
+- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/60991
 
-### [mesa/mesa] fix(agentset): downgrade _HardKeyAgentSet.select_random() to AgentSet (#3992)
-- **Base Commit:** `b1db02ad7fb219ba628fb265aac17f6eef721fdf`
-- **Solution PR:** https://github.com/mesa/mesa/pull/3994
+### [elastic/docs-actions] Serialize changelog-file runs per PR branch
+- **Base Commit:** `52bd814162c8a7578b38a93a91d35ef3a52ea1bf`
+- **Solution PR:** https://github.com/elastic/docs-actions/pull/440
 
-### [radis/radis] fix: restore ExoMol m0 broadening defaults
-- **Base Commit:** `fffb6bf9381e1f9c8c2cf6f5eab41162dee326cc`
-- **Solution PR:** https://github.com/radis/radis/pull/1043
+### [ansys/saf] ci(fix): fix the PR title related to bump package version
+- **Base Commit:** `8dec948111437d735e0c47d9cd016a6bedcb5567`
+- **Solution PR:** https://github.com/ansys/saf/pull/375
 
-### [Kozea/WeasyPrint] Fix gradients
-- **Base Commit:** `8b37e5a8cd0780fe5feabaa0a0edbb311c4eb928`
-- **Solution PR:** https://github.com/Kozea/WeasyPrint/pull/2926
+### [pykale/pykale] fix: download SVHN test data from verified UCSD mirror
+- **Base Commit:** `0f5682d8d561f8df5bcf7d674056e5886ba90801`
+- **Solution PR:** https://github.com/pykale/pykale/pull/612
 
-### [pvlib/solposx] Change Bennett refraction algorithm to use apparent elevation
-- **Base Commit:** `498c7cc10b3b7275d3f7683ef27b40d7665b84f6`
-- **Solution PR:** https://github.com/pvlib/solposx/pull/166
+### [OpenMachineLabs/openmachine] fix(service): verify system-submitted native jobs
+- **Base Commit:** `cd7bfe533a1cb40f1670f1e40206c4fcfcb84921`
+- **Solution PR:** https://github.com/OpenMachineLabs/openmachine/pull/210
 
-### [rudnerbjoern/ride-forces-analyzer] :bug: fix(rendering): align HUD history reference labels
-- **Base Commit:** `986e17cc2a7960d9eaeb4a22f806afe6d1ebb2b9`
-- **Solution PR:** https://github.com/rudnerbjoern/ride-forces-analyzer/pull/71
+### [vllm-project/vllm] [Bugfix][CPU] Run encoder-only attention bidirectionally in CPU_ATTN
+- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/63738
 
-### [Project-OSmOSE/OSEkit] Detections csv weak comment rejection
-- **Base Commit:** `9a7ab8f32f1b9cf565efe859751852039968266f`
-- **Solution PR:** https://github.com/Project-OSmOSE/OSEkit/pull/507
+### [alarbah-jpg/studysync] Update group_dashboard.html
+- **Base Commit:** `eebf13090127a84cd3530d958d4dff9416bb60e5`
+- **Solution PR:** https://github.com/alarbah-jpg/studysync/pull/22
 
-### [MikDeviOps/svoi_bot] Betta v
-- **Base Commit:** `b9dad26893f90845146ecf53f0d2d5c4cfe3f44b`
-- **Solution PR:** https://github.com/MikDeviOps/svoi_bot/pull/21
+### [supreplabs/langchain-finic] ci: retry PyPI installation verification during index propagation
+- **Base Commit:** `81ad6df282a59a68e4715d619a83ed9848336b25`
+- **Solution PR:** https://github.com/supreplabs/langchain-finic/pull/14
+
+### [xorbitsai/inference] fix(llm): restore the official GLM-4.5 chat template
+- **Base Commit:** `d3ac093eed6123abd7409fa0f619c96b11facd12`
+- **Solution PR:** https://github.com/xorbitsai/inference/pull/5880
+
+### [tile-ai/tilelang] Fix constant row indices for TMA gather and scatter
+- **Base Commit:** `424792eba01d887805fda8f71c847aa7749e6643`
+- **Solution PR:** https://github.com/tile-ai/tilelang/pull/3365
