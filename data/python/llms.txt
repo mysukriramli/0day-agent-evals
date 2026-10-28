@@ -1,46 +1,26 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-26.
+> Uncontaminated bugs merged after 2026-10-27.
 
-### [vllm-project/vllm] [Bugfix][Qwen4Exp] Reserve QSA indexer prefill workspace during memory profiling
-- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/60490
+### [imi-frankfurt/server-management] #19 - Already disabled users do not get unassigned if they are accidentally still assigned
+- **Base Commit:** `59cc95238794963e7a2a307cdfb0af3efb702b19`
+- **Solution PR:** https://github.com/imi-frankfurt/server-management/pull/21
 
-### [vllm-project/vllm] [Bugfix] Fuse GLM-5.3 KDA q|k|v convs into one conv1d parameter
-- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/60991
+### [EvoScientist/EvoScientist] fix(shell): keep execute output when a byte does not decode
+- **Base Commit:** `0974248338c0d4f20174e7013c1b792838e302f9`
+- **Solution PR:** https://github.com/EvoScientist/EvoScientist/pull/705
 
-### [elastic/docs-actions] Serialize changelog-file runs per PR branch
-- **Base Commit:** `52bd814162c8a7578b38a93a91d35ef3a52ea1bf`
-- **Solution PR:** https://github.com/elastic/docs-actions/pull/440
+### [overhangio/tutor-mfe] fix: hide host node_modules of mounted MFEs behind a volume
+- **Base Commit:** `ab5f059bcb39c3c8917e53a38ccf81b6ac73767e`
+- **Solution PR:** https://github.com/overhangio/tutor-mfe/pull/232
 
-### [ansys/saf] ci(fix): fix the PR title related to bump package version
-- **Base Commit:** `8dec948111437d735e0c47d9cd016a6bedcb5567`
-- **Solution PR:** https://github.com/ansys/saf/pull/375
+### [camptocamp/c2cgeoportal] Add the description required by the applications-download schema
+- **Base Commit:** `bede56daa58fbf3690847ffbaed2328f0673e767`
+- **Solution PR:** https://github.com/camptocamp/c2cgeoportal/pull/13476
 
-### [pykale/pykale] fix: download SVHN test data from verified UCSD mirror
-- **Base Commit:** `0f5682d8d561f8df5bcf7d674056e5886ba90801`
-- **Solution PR:** https://github.com/pykale/pykale/pull/612
+### [google-deepmind/dm_pix] Keep achromatic HSL gradients finite
+- **Base Commit:** `99ad28a5f726b086ceb813019dc30c5cb9729753`
+- **Solution PR:** https://github.com/google-deepmind/dm_pix/pull/132
 
-### [OpenMachineLabs/openmachine] fix(service): verify system-submitted native jobs
-- **Base Commit:** `cd7bfe533a1cb40f1670f1e40206c4fcfcb84921`
-- **Solution PR:** https://github.com/OpenMachineLabs/openmachine/pull/210
-
-### [vllm-project/vllm] [Bugfix][CPU] Run encoder-only attention bidirectionally in CPU_ATTN
-- **Base Commit:** `5d35ce3934a7804b298559d2d99eec33792e1eb9`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/63738
-
-### [alarbah-jpg/studysync] Update group_dashboard.html
-- **Base Commit:** `eebf13090127a84cd3530d958d4dff9416bb60e5`
-- **Solution PR:** https://github.com/alarbah-jpg/studysync/pull/22
-
-### [supreplabs/langchain-finic] ci: retry PyPI installation verification during index propagation
-- **Base Commit:** `81ad6df282a59a68e4715d619a83ed9848336b25`
-- **Solution PR:** https://github.com/supreplabs/langchain-finic/pull/14
-
-### [xorbitsai/inference] fix(llm): restore the official GLM-4.5 chat template
-- **Base Commit:** `d3ac093eed6123abd7409fa0f619c96b11facd12`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/5880
-
-### [tile-ai/tilelang] Fix constant row indices for TMA gather and scatter
-- **Base Commit:** `424792eba01d887805fda8f71c847aa7749e6643`
-- **Solution PR:** https://github.com/tile-ai/tilelang/pull/3365
+### [OhmKittiphot/Order-System] style(ui): fix dialog modal bug
+- **Base Commit:** `8b50718256a8a1822540a578759f46f806d6969a`
+- **Solution PR:** https://github.com/OhmKittiphot/Order-System/pull/2

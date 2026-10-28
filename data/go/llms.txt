@@ -1,26 +1,46 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-26.
+> Uncontaminated bugs merged after 2026-10-27.
 
-### [alrayyes/forge-dashboard] fix: hide rebase all before first paint
-- **Base Commit:** `0a4a2c5e066a5f8596681da87bcc48cc674e998a`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2949
+### [vcaesar/riot] fix: hNSW overflow check breaking 32-bit builds in hnsw/
+- **Base Commit:** `1e288d4ac6dde27edf9617bc350b61ce366b920d`
+- **Solution PR:** https://github.com/vcaesar/riot/pull/157
 
-### [Netcracker/qubership-rate-limiter] fix(loadtest): name a malformed tokens line or steps entry, and clear Sonar's Groovy findings
-- **Base Commit:** `ade4ca8fda0df30b9058917e66ac147d31f9f703`
-- **Solution PR:** https://github.com/Netcracker/qubership-rate-limiter/pull/150
+### [signal18/replication-manager] App monitor: leave the scheme's default port out of the check URL (#2209)
+- **Base Commit:** `8032036b16e6781451deb4ccde1397d51f8149b8`
+- **Solution PR:** https://github.com/signal18/replication-manager/pull/2216
 
-### [Project-HAMi/k8s-dra-driver] fix(ci): updates some test cases 
-- **Base Commit:** `0d5aef386cf1a77ba98779dfce6ab1ae09fd6acd`
-- **Solution PR:** https://github.com/Project-HAMi/k8s-dra-driver/pull/56
+### [Netcracker/qubership-consul] fix: added retry for add, get, delete test data
+- **Base Commit:** `3e19686ceedf7e7ba19aee6ab7d17ebdd26e3665`
+- **Solution PR:** https://github.com/Netcracker/qubership-consul/pull/317
 
-### [Dynatrace/dynatrace-operator] Make sqlExtensionExecutor.imageRef optional (release-1.11)
-- **Base Commit:** `1d3e102185620e5262014cb8eeec7d102667ccea`
-- **Solution PR:** https://github.com/Dynatrace/dynatrace-operator/pull/7660
+### [Chemaclass/agnostic-ai] fix: keep a later Claude model name as an override on the global page
+- **Base Commit:** `81d8ee6daef9f7d636a339ded06281fa219a3e45`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2629
 
-### [alrayyes/forge-dashboard] fix: hide Rebase all when nothing is out of date
-- **Base Commit:** `1cf1e3a51be1906261a14f3d14f561783b43e5b6`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2940
+### [nutanix-cloud-native/cluster-api-runtime-extensions-nutanix] fix: Cap generated vHA category value at 63-char label limit
+- **Base Commit:** `f5a99fa8111b07c2c622dd565dea88d652501dca`
+- **Solution PR:** https://github.com/nutanix-cloud-native/cluster-api-runtime-extensions-nutanix/pull/1749
 
-### [woblerr/pgbackrest_exporter] Fix database count for latest incremental backup metrics.
-- **Base Commit:** `487cbc3b0b2ea335e7cd3a3d3b5047f2ccc17afc`
-- **Solution PR:** https://github.com/woblerr/pgbackrest_exporter/pull/133
+### [alrayyes/forge-dashboard] test: define __name in the fake stream script
+- **Base Commit:** `fff997ce78df9e1ca727e928f74792fb1543e4c9`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2991
+
+### [Chemaclass/agnostic-ai] fix: stop serve at once with a connection that sent no request
+- **Base Commit:** `193b44670961bacd5a5c055dbe52e66bed44f475`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2635
+
+### [elastic/beats] libbeat: Only log metrics namespaces listed in logging.metrics.namespaces
+- **Base Commit:** `e06660bd824f33d8ccc06cce730920a2de29ff8b`
+- **Solution PR:** https://github.com/elastic/beats/pull/53919
+
+### [signal18/replication-manager] Regtest: declare the Galera tests' targets (#2198)
+- **Base Commit:** `729507c124d2a26fe2642214e1fc57572d00e758`
+- **Solution PR:** https://github.com/signal18/replication-manager/pull/2215
+
+### [signal18/replication-manager] Staging server chosen only on a staging cluster
+- **Base Commit:** `5dea727678b2f417518782dbbde3b3f6e870a035`
+- **Solution PR:** https://github.com/signal18/replication-manager/pull/2207
+
+### [signal18/replication-manager] Cloud18 quote: pool fields read one by one, older-infrastructure and APU-only tests, GUI help (#2212 review)
+- **Base Commit:** `992ba356b6837e3eb9b7f158d57cc727ef033c5f`
+- **Solution PR:** https://github.com/signal18/replication-manager/pull/2214
