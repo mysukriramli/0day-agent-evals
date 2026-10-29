@@ -1,26 +1,22 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-27.
+> Uncontaminated bugs merged after 2026-10-28.
 
-### [imi-frankfurt/server-management] #19 - Already disabled users do not get unassigned if they are accidentally still assigned
-- **Base Commit:** `59cc95238794963e7a2a307cdfb0af3efb702b19`
-- **Solution PR:** https://github.com/imi-frankfurt/server-management/pull/21
+### [ComputationalPsychiatry/pyhgf] stop remove_node, add_edges and add_parent from changing the attributes they receive
+- **Base Commit:** `0c3a2f8b84d538e60a6388d628d67789b109c13c`
+- **Solution PR:** https://github.com/ComputationalPsychiatry/pyhgf/pull/453
 
-### [EvoScientist/EvoScientist] fix(shell): keep execute output when a byte does not decode
-- **Base Commit:** `0974248338c0d4f20174e7013c1b792838e302f9`
-- **Solution PR:** https://github.com/EvoScientist/EvoScientist/pull/705
+### [peternaame-boop/ytm-player] fix(stream): wait for available_at before handing the URL to mpv
+- **Base Commit:** `d93c4be60b978c5f3ef8e8612bd5057dccc98bd5`
+- **Solution PR:** https://github.com/peternaame-boop/ytm-player/pull/190
 
-### [overhangio/tutor-mfe] fix: hide host node_modules of mounted MFEs behind a volume
-- **Base Commit:** `ab5f059bcb39c3c8917e53a38ccf81b6ac73767e`
-- **Solution PR:** https://github.com/overhangio/tutor-mfe/pull/232
+### [The-PR-Agent/pr-agent] fix: move describe and improve diff fetch off event loop
+- **Base Commit:** `98c90f992e08baffd6d39e77822df5f163471289`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4462
 
-### [camptocamp/c2cgeoportal] Add the description required by the applications-download schema
-- **Base Commit:** `bede56daa58fbf3690847ffbaed2328f0673e767`
-- **Solution PR:** https://github.com/camptocamp/c2cgeoportal/pull/13476
+### [The-PR-Agent/pr-agent] fix: cap config.num_retries and keep host only
+- **Base Commit:** `9620f912ef21df06a68845f8c0753b92bc4f267d`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4475
 
-### [google-deepmind/dm_pix] Keep achromatic HSL gradients finite
-- **Base Commit:** `99ad28a5f726b086ceb813019dc30c5cb9729753`
-- **Solution PR:** https://github.com/google-deepmind/dm_pix/pull/132
-
-### [OhmKittiphot/Order-System] style(ui): fix dialog modal bug
-- **Base Commit:** `8b50718256a8a1822540a578759f46f806d6969a`
-- **Solution PR:** https://github.com/OhmKittiphot/Order-System/pull/2
+### [kakaotechcampus-4/ktc4-pusan-2] [BE] fix: 장치 점검 저장과 Take 시작이 겹쳐도 기준 음량이 하나로 남게 한다
+- **Base Commit:** `46bb1c9031e089dd137333ee2eca94426790ed23`
+- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-pusan-2/pull/759

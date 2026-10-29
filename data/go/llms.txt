@@ -1,46 +1,42 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-27.
+> Uncontaminated bugs merged after 2026-10-28.
 
-### [vcaesar/riot] fix: hNSW overflow check breaking 32-bit builds in hnsw/
-- **Base Commit:** `1e288d4ac6dde27edf9617bc350b61ce366b920d`
-- **Solution PR:** https://github.com/vcaesar/riot/pull/157
+### [tphakala/birdnet-go] fix(datastore): treat a missing dynamic threshold as a successful delete on v2
+- **Base Commit:** `71b3bdff4d0c2f10f924c8d3d1df91980fde9e79`
+- **Solution PR:** https://github.com/tphakala/birdnet-go/pull/4940
 
-### [signal18/replication-manager] App monitor: leave the scheme's default port out of the check URL (#2209)
-- **Base Commit:** `8032036b16e6781451deb4ccde1397d51f8149b8`
-- **Solution PR:** https://github.com/signal18/replication-manager/pull/2216
+### [Chemaclass/agnostic-ai] fix(claude): ask Git about local settings from their own folder
+- **Base Commit:** `c597ad0ed1303fdc789e7568d72f215daeb4b60b`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2770
 
-### [Netcracker/qubership-consul] fix: added retry for add, get, delete test data
-- **Base Commit:** `3e19686ceedf7e7ba19aee6ab7d17ebdd26e3665`
-- **Solution PR:** https://github.com/Netcracker/qubership-consul/pull/317
+### [winebarrel/pistachio] Ignore what pg_get_viewdef adds to a function in FROM
+- **Base Commit:** `16e148bfbaf4cc387e53175fed8fbbd793422184`
+- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1125
 
-### [Chemaclass/agnostic-ai] fix: keep a later Claude model name as an override on the global page
-- **Base Commit:** `81d8ee6daef9f7d636a339ded06281fa219a3e45`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2629
+### [natemsz/evesynapse] Drop the stale fresh-assertion flag from the API key creation form
+- **Base Commit:** `e2236e20f172c8cfe50a2b8e16f8982a309b2f99`
+- **Solution PR:** https://github.com/natemsz/evesynapse/pull/821
 
-### [nutanix-cloud-native/cluster-api-runtime-extensions-nutanix] fix: Cap generated vHA category value at 63-char label limit
-- **Base Commit:** `f5a99fa8111b07c2c622dd565dea88d652501dca`
-- **Solution PR:** https://github.com/nutanix-cloud-native/cluster-api-runtime-extensions-nutanix/pull/1749
+### [petauron/vastora] fix(ui): hide retired background apps from desktop
+- **Base Commit:** `d0cb350e15a1ecc4e596ab1234b628e612a3ef55`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1101
 
-### [alrayyes/forge-dashboard] test: define __name in the fake stream script
-- **Base Commit:** `fff997ce78df9e1ca727e928f74792fb1543e4c9`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/2991
+### [Icinga/icingadb] ha: Only check write access on the Notifications socket
+- **Base Commit:** `24382c0776d60b9f873bfb06f6509afe7364f092`
+- **Solution PR:** https://github.com/Icinga/icingadb/pull/1226
 
-### [Chemaclass/agnostic-ai] fix: stop serve at once with a connection that sent no request
-- **Base Commit:** `193b44670961bacd5a5c055dbe52e66bed44f475`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2635
+### [Chemaclass/agnostic-ai] test(gemini): drive only the command writers in the namespaced agent test
+- **Base Commit:** `ee53f9b13f43b4ffef7b8cfeb0df0483dde4e7a9`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2768
 
-### [elastic/beats] libbeat: Only log metrics namespaces listed in logging.metrics.namespaces
-- **Base Commit:** `e06660bd824f33d8ccc06cce730920a2de29ff8b`
-- **Solution PR:** https://github.com/elastic/beats/pull/53919
+### [floatpane/matcha] fix(ci): use install_steps hook
+- **Base Commit:** `87b6274dd931e1f739d2c1f6c2752e3eb0953134`
+- **Solution PR:** https://github.com/floatpane/matcha/pull/1756
 
-### [signal18/replication-manager] Regtest: declare the Galera tests' targets (#2198)
-- **Base Commit:** `729507c124d2a26fe2642214e1fc57572d00e758`
-- **Solution PR:** https://github.com/signal18/replication-manager/pull/2215
+### [Netcracker/qubership-authz-agent] fix(deps): update netcracker go modules
+- **Base Commit:** `fc574c3fc5c5bfb4e5b47e1ac2c5866a61b61026`
+- **Solution PR:** https://github.com/Netcracker/qubership-authz-agent/pull/172
 
-### [signal18/replication-manager] Staging server chosen only on a staging cluster
-- **Base Commit:** `5dea727678b2f417518782dbbde3b3f6e870a035`
-- **Solution PR:** https://github.com/signal18/replication-manager/pull/2207
-
-### [signal18/replication-manager] Cloud18 quote: pool fields read one by one, older-infrastructure and APU-only tests, GUI help (#2212 review)
-- **Base Commit:** `992ba356b6837e3eb9b7f158d57cc727ef033c5f`
-- **Solution PR:** https://github.com/signal18/replication-manager/pull/2214
+### [rancher/k3k] Look up the shared mode Service CIDR from the default ServiceCIDR
+- **Base Commit:** `5178b5011c6bfc390562db41ddef9a573860f7b5`
+- **Solution PR:** https://github.com/rancher/k3k/pull/1357

@@ -1,26 +1,22 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-27.
+> Uncontaminated bugs merged after 2026-10-28.
 
-### [CellarBoss/cellarboss] fix: Trust the mobile app's origin in Better Auth
-- **Base Commit:** `75edfc43337ab6d61b276a1388b626fa896762f8`
-- **Solution PR:** https://github.com/CellarBoss/cellarboss/pull/1224
+### [stella/stella] fix(lint): import the review column grants relatively for the plugin loader
+- **Base Commit:** `227e6f38b886fc19661f0391f63f06352ff36e5d`
+- **Solution PR:** https://github.com/stella/stella/pull/7386
 
-### [Eyhenij/rt-tools] [RT-2955] Строка кнопок формы на узком экране встаёт столбиком
-- **Base Commit:** `82238632229266e157ee891467129d49d659b78c`
-- **Solution PR:** https://github.com/Eyhenij/rt-tools/pull/2956
+### [schulydev/SchulyServer] Showed all-day and multi-day entries correctly in Coming up
+- **Base Commit:** `73a4d6577afb58e948dde816b4d464b1d815449d`
+- **Solution PR:** https://github.com/schulydev/SchulyServer/pull/399
 
-### [solid-memo/website] fix(domain): read author literals and stated counts in one pass
-- **Base Commit:** `e9b09dc2460f0f8d4464530213aa234f6f515a89`
-- **Solution PR:** https://github.com/solid-memo/website/pull/341
+### [memrynote/memry] fix(desktop): put the macOS traffic lights at Electron's (12, 12) (#3527)
+- **Base Commit:** `65a47e50c1a303c2d0b25ab17fa201943d30b242`
+- **Solution PR:** https://github.com/memrynote/memry/pull/3726
 
-### [alrayyes/washy-washy-web] fix(lint): run the ltex image as its own user
-- **Base Commit:** `4cba27d22e61cf40d2d349895a81e86336391c6e`
-- **Solution PR:** https://github.com/alrayyes/washy-washy-web/pull/414
+### [elastic/kibana] [Discover] Fix fetching data views with allowNoIndex: true
+- **Base Commit:** `6d804880e073358ce5bab8d9aa00d1f57aca2110`
+- **Solution PR:** https://github.com/elastic/kibana/pull/299790
 
-### [storybookjs/storybook] Svelte CSF: Normalize the runtime stories path resolved by the Vite plugin
-- **Base Commit:** `37ded54a4336a7b99f834e0366c1e295176876ed`
-- **Solution PR:** https://github.com/storybookjs/storybook/pull/37048
-
-### [stella/stella] fix: keep all items for empty search keys
-- **Base Commit:** `58b429b124f1a5ff110e20b31a0f8fc6143c8e65`
-- **Solution PR:** https://github.com/stella/stella/pull/7103
+### [hearsay-tools/cezarion] fix(tests): hold OpenCode busy input acknowledgements
+- **Base Commit:** `2b40b1eb697e282248468d9211336ece4f8e52f6`
+- **Solution PR:** https://github.com/hearsay-tools/cezarion/pull/2130
