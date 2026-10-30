@@ -1,22 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-28.
+> Uncontaminated bugs merged after 2026-10-29.
 
-### [ComputationalPsychiatry/pyhgf] stop remove_node, add_edges and add_parent from changing the attributes they receive
-- **Base Commit:** `0c3a2f8b84d538e60a6388d628d67789b109c13c`
-- **Solution PR:** https://github.com/ComputationalPsychiatry/pyhgf/pull/453
+### [OpenTLV/opentlv-workspace] Pin the Source Control list setting in the workspace contract
+- **Base Commit:** `7a2099c1ddb5a22f4663a490e07be53a976b99b7`
+- **Solution PR:** https://github.com/OpenTLV/opentlv-workspace/pull/55
 
-### [peternaame-boop/ytm-player] fix(stream): wait for available_at before handing the URL to mpv
-- **Base Commit:** `d93c4be60b978c5f3ef8e8612bd5057dccc98bd5`
-- **Solution PR:** https://github.com/peternaame-boop/ytm-player/pull/190
+### [ITISFoundation/osparc-simcore] 🐛 let priviledged users also use 2FA
+- **Base Commit:** `93c07b06441fe18d53fdb072dc014c0eb7031c21`
+- **Solution PR:** https://github.com/ITISFoundation/osparc-simcore/pull/9861
 
-### [The-PR-Agent/pr-agent] fix: move describe and improve diff fetch off event loop
-- **Base Commit:** `98c90f992e08baffd6d39e77822df5f163471289`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4462
+### [NK2552003/Mac-Cleaner] build(swift): add Package.swift to enable CodeQL autobuild and Swift
+- **Base Commit:** `2a3b67a75ed07eac68d459306eb80fb77ebf0a5a`
+- **Solution PR:** https://github.com/NK2552003/Mac-Cleaner/pull/21
 
-### [The-PR-Agent/pr-agent] fix: cap config.num_retries and keep host only
-- **Base Commit:** `9620f912ef21df06a68845f8c0753b92bc4f267d`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4475
+### [LNPANDY/NX2Apple] CLAUDE.md: commit with your own identity, seedds' is his own
+- **Base Commit:** `806cde9fefe333e276559866227ae7738b64bfda`
+- **Solution PR:** https://github.com/LNPANDY/NX2Apple/pull/245
 
-### [kakaotechcampus-4/ktc4-pusan-2] [BE] fix: 장치 점검 저장과 Take 시작이 겹쳐도 기준 음량이 하나로 남게 한다
-- **Base Commit:** `46bb1c9031e089dd137333ee2eca94426790ed23`
-- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-pusan-2/pull/759
+### [jbacalso24/mimry] Treat a generation folder mid-delete as missing
+- **Base Commit:** `c994f4502084065f05a54cb071af201e5eb7a6e2`
+- **Solution PR:** https://github.com/jbacalso24/mimry/pull/638
+
+### [home-assistant-libs/tuya-device-handlers] Map initial status in set_dpid_strategy_to_enum
+- **Base Commit:** `94feafe8e23352808086221567c70070172c0c30`
+- **Solution PR:** https://github.com/home-assistant-libs/tuya-device-handlers/pull/696
+
+### [LNPANDY/NX2Apple] Let the Choose dialog pick NSZ and XCZ files
+- **Base Commit:** `fa39f1d9d674bdbc85904937eaf2b2291bb27962`
+- **Solution PR:** https://github.com/LNPANDY/NX2Apple/pull/243

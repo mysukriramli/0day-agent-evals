@@ -1,22 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-28.
+> Uncontaminated bugs merged after 2026-10-29.
 
-### [stella/stella] fix(lint): import the review column grants relatively for the plugin loader
-- **Base Commit:** `227e6f38b886fc19661f0391f63f06352ff36e5d`
-- **Solution PR:** https://github.com/stella/stella/pull/7386
+### [exelearning/gdrive-exelearning] fix(viewer): allow externally hosted images in shared packages (exelearning#2684)
+- **Base Commit:** `ee102c1a00789e2b842488fe7e196b399ce6eb4b`
+- **Solution PR:** https://github.com/exelearning/gdrive-exelearning/pull/67
 
-### [schulydev/SchulyServer] Showed all-day and multi-day entries correctly in Coming up
-- **Base Commit:** `73a4d6577afb58e948dde816b4d464b1d815449d`
-- **Solution PR:** https://github.com/schulydev/SchulyServer/pull/399
+### [RevoTale/vikunja-better-ui] fix(test): stabilize month-boundary dates and session request checks
+- **Base Commit:** `48009cb68275543d0c4d720270cc6c065ee51946`
+- **Solution PR:** https://github.com/RevoTale/vikunja-better-ui/pull/141
 
-### [memrynote/memry] fix(desktop): put the macOS traffic lights at Electron's (12, 12) (#3527)
-- **Base Commit:** `65a47e50c1a303c2d0b25ab17fa201943d30b242`
-- **Solution PR:** https://github.com/memrynote/memry/pull/3726
+### [aipoch/open-science] fix(acp): resolve OpenCode part ids before classification
+- **Base Commit:** `4d707bdaf3334638412300c5adca8ab8cae92679`
+- **Solution PR:** https://github.com/aipoch/open-science/pull/3998
 
-### [elastic/kibana] [Discover] Fix fetching data views with allowNoIndex: true
-- **Base Commit:** `6d804880e073358ce5bab8d9aa00d1f57aca2110`
-- **Solution PR:** https://github.com/elastic/kibana/pull/299790
+### [abhay-yemekar/hirelens] fix(build): only migrate from preview builds when previews are opted in
+- **Base Commit:** `db5220b1e888cfa503ccab425395bdd4f656309a`
+- **Solution PR:** https://github.com/abhay-yemekar/hirelens/pull/139
 
-### [hearsay-tools/cezarion] fix(tests): hold OpenCode busy input acknowledgements
-- **Base Commit:** `2b40b1eb697e282248468d9211336ece4f8e52f6`
-- **Solution PR:** https://github.com/hearsay-tools/cezarion/pull/2130
+### [homarr-labs/homarr] fix: target llama.cpp stats to displayed model
+- **Base Commit:** `bab37f76c607e70d871fb7bdde259fa527051b58`
+- **Solution PR:** https://github.com/homarr-labs/homarr/pull/7150
+
+### [neos/neos-ui] BUGFIX: Move dialogs in front of secondary inspectors
+- **Base Commit:** `01bef2259afb100561f364558189cbb0cd2ee726`
+- **Solution PR:** https://github.com/neos/neos-ui/pull/4199

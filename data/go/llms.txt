@@ -1,42 +1,34 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-28.
+> Uncontaminated bugs merged after 2026-10-29.
 
-### [tphakala/birdnet-go] fix(datastore): treat a missing dynamic threshold as a successful delete on v2
-- **Base Commit:** `71b3bdff4d0c2f10f924c8d3d1df91980fde9e79`
-- **Solution PR:** https://github.com/tphakala/birdnet-go/pull/4940
+### [vlstyle/i-pro-camera-backup] Goを1.27.3に上げてGO-2026-6809を解消する
+- **Base Commit:** `a0b3b6af1c3dec73497dde42c6c4091cd342ff4c`
+- **Solution PR:** https://github.com/vlstyle/i-pro-camera-backup/pull/13
 
-### [Chemaclass/agnostic-ai] fix(claude): ask Git about local settings from their own folder
-- **Base Commit:** `c597ad0ed1303fdc789e7568d72f215daeb4b60b`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2770
+### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 9e39c6b
+- **Base Commit:** `facd68b77a68ea3995031522539592680781e304`
+- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/582
 
-### [winebarrel/pistachio] Ignore what pg_get_viewdef adds to a function in FROM
-- **Base Commit:** `16e148bfbaf4cc387e53175fed8fbbd793422184`
-- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1125
+### [lf-edge/eve] [13.4-stable] Makefile: stop doubling the platform variant in published image tags
+- **Base Commit:** `73d51f87a98b2addb1277bf938886a72dfd0dd38`
+- **Solution PR:** https://github.com/lf-edge/eve/pull/6980
 
-### [natemsz/evesynapse] Drop the stale fresh-assertion flag from the API key creation form
-- **Base Commit:** `e2236e20f172c8cfe50a2b8e16f8982a309b2f99`
-- **Solution PR:** https://github.com/natemsz/evesynapse/pull/821
+### [glsec/glsec] fix: scan a default: or workflow: with job keywords as the job GitLab makes of it (#937)
+- **Base Commit:** `d8341d120c7a56ab19cfb5c1baea13f22ec7434e`
+- **Solution PR:** https://github.com/glsec/glsec/pull/939
 
-### [petauron/vastora] fix(ui): hide retired background apps from desktop
-- **Base Commit:** `d0cb350e15a1ecc4e596ab1234b628e612a3ef55`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1101
+### [istio-ecosystem/sail-operator] Pin CRC smoke job to Ubuntu 24.04
+- **Base Commit:** `d92cdddc1f8c7523281a5f3ce91db72777c18bfb`
+- **Solution PR:** https://github.com/istio-ecosystem/sail-operator/pull/2526
 
-### [Icinga/icingadb] ha: Only check write access on the Notifications socket
-- **Base Commit:** `24382c0776d60b9f873bfb06f6509afe7364f092`
-- **Solution PR:** https://github.com/Icinga/icingadb/pull/1226
+### [Azure/azure-storage-fuse] Fix directory emptiness checks across listing pages
+- **Base Commit:** `aded0091685fda149fa8a7c280af6195810380fe`
+- **Solution PR:** https://github.com/Azure/azure-storage-fuse/pull/2440
 
-### [Chemaclass/agnostic-ai] test(gemini): drive only the command writers in the namespaced agent test
-- **Base Commit:** `ee53f9b13f43b4ffef7b8cfeb0df0483dde4e7a9`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/2768
+### [lf-edge/eve] [14.5-stable] Makefile: stop doubling the platform variant in published image tags
+- **Base Commit:** `eb1390eb339b0de7c70dd86c69509c34a43e810d`
+- **Solution PR:** https://github.com/lf-edge/eve/pull/6979
 
-### [floatpane/matcha] fix(ci): use install_steps hook
-- **Base Commit:** `87b6274dd931e1f739d2c1f6c2752e3eb0953134`
-- **Solution PR:** https://github.com/floatpane/matcha/pull/1756
-
-### [Netcracker/qubership-authz-agent] fix(deps): update netcracker go modules
-- **Base Commit:** `fc574c3fc5c5bfb4e5b47e1ac2c5866a61b61026`
-- **Solution PR:** https://github.com/Netcracker/qubership-authz-agent/pull/172
-
-### [rancher/k3k] Look up the shared mode Service CIDR from the default ServiceCIDR
-- **Base Commit:** `5178b5011c6bfc390562db41ddef9a573860f7b5`
-- **Solution PR:** https://github.com/rancher/k3k/pull/1357
+### [amrshadid/go-dicom] fix(network): a request whose data set does not decode is refused
+- **Base Commit:** `de30fb6a172efd17cacffa11b7f49a013d26d5f0`
+- **Solution PR:** https://github.com/amrshadid/go-dicom/pull/217
