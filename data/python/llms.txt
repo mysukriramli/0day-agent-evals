@@ -1,30 +1,42 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-29.
+> Uncontaminated bugs merged after 2026-10-30.
 
-### [OpenTLV/opentlv-workspace] Pin the Source Control list setting in the workspace contract
-- **Base Commit:** `7a2099c1ddb5a22f4663a490e07be53a976b99b7`
-- **Solution PR:** https://github.com/OpenTLV/opentlv-workspace/pull/55
+### [MemPalace/mempalace] fix(hooks): collapse <project>/.worktrees/<wt> into the project wing
+- **Base Commit:** `f884dd4c08244278fc11bf9ccc154d6b6f63ad66`
+- **Solution PR:** https://github.com/MemPalace/mempalace/pull/2586
 
-### [ITISFoundation/osparc-simcore] 🐛 let priviledged users also use 2FA
-- **Base Commit:** `93c07b06441fe18d53fdb072dc014c0eb7031c21`
-- **Solution PR:** https://github.com/ITISFoundation/osparc-simcore/pull/9861
+### [planemarlin/minimdm] fix: users page summary separators and dark-mode blue pill contrast
+- **Base Commit:** `a1ec1b301c0c01752063c2b7403948df6e186376`
+- **Solution PR:** https://github.com/planemarlin/minimdm/pull/76
 
-### [NK2552003/Mac-Cleaner] build(swift): add Package.swift to enable CodeQL autobuild and Swift
-- **Base Commit:** `2a3b67a75ed07eac68d459306eb80fb77ebf0a5a`
-- **Solution PR:** https://github.com/NK2552003/Mac-Cleaner/pull/21
+### [ansible-collections/community.general] [PR #13169/43f7f712 backport][stable-12] timezone: accept equivalent zone names on Debian without systemd
+- **Base Commit:** `0296707a6a16ac0c9f4b3a706f2941b505e3b6cf`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13175
 
-### [LNPANDY/NX2Apple] CLAUDE.md: commit with your own identity, seedds' is his own
-- **Base Commit:** `806cde9fefe333e276559866227ae7738b64bfda`
-- **Solution PR:** https://github.com/LNPANDY/NX2Apple/pull/245
+### [ansible-collections/community.general] [PR #13169/43f7f712 backport][stable-13] timezone: accept equivalent zone names on Debian without systemd
+- **Base Commit:** `e3514c9a988ae4373c354d8ca92333e427125ee3`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13174
 
-### [jbacalso24/mimry] Treat a generation folder mid-delete as missing
-- **Base Commit:** `c994f4502084065f05a54cb071af201e5eb7a6e2`
-- **Solution PR:** https://github.com/jbacalso24/mimry/pull/638
+### [ansible-collections/community.general] timezone: accept equivalent zone names on Debian without systemd
+- **Base Commit:** `d30b736a2916d79e876299bae180afdd1a5b54e6`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13169
 
-### [home-assistant-libs/tuya-device-handlers] Map initial status in set_dpid_strategy_to_enum
-- **Base Commit:** `94feafe8e23352808086221567c70070172c0c30`
-- **Solution PR:** https://github.com/home-assistant-libs/tuya-device-handlers/pull/696
+### [yogi02042002/python-project] allow changes
+- **Base Commit:** `59858813fc1b03650d11fcf5b15ecadf0bfe16ac`
+- **Solution PR:** https://github.com/yogi02042002/python-project/pull/2
 
-### [LNPANDY/NX2Apple] Let the Choose dialog pick NSZ and XCZ files
-- **Base Commit:** `fa39f1d9d674bdbc85904937eaf2b2291bb27962`
-- **Solution PR:** https://github.com/LNPANDY/NX2Apple/pull/243
+### [david2069/franklinwh-gateway-emulator] Direct Connect 1303: the same keys on every date
+- **Base Commit:** `032a819a787822a93cdb74ad4cb8ecf598a13557`
+- **Solution PR:** https://github.com/david2069/franklinwh-gateway-emulator/pull/149
+
+### [david2069/franklinwh-gateway-emulator] Direct Connect replies echo the request opt
+- **Base Commit:** `64169d4aec90d138fb84161e3be4dc2e40e72fa8`
+- **Solution PR:** https://github.com/david2069/franklinwh-gateway-emulator/pull/148
+
+### [The-PR-Agent/pr-agent] fix(review): retry truncated model completions before publishing
+- **Base Commit:** `b32a02128dbf629610e9f4009d13cc1e1bebef9b`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4533
+
+### [david2069/franklinwh-gateway-emulator] Direct Connect 1407 serves the TOU schedule
+- **Base Commit:** `db3f55ba97dd4332f27dfbed85b7ca7b2d291209`
+- **Solution PR:** https://github.com/david2069/franklinwh-gateway-emulator/pull/147

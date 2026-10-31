@@ -1,34 +1,50 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-29.
+> Uncontaminated bugs merged after 2026-10-30.
 
-### [vlstyle/i-pro-camera-backup] Goを1.27.3に上げてGO-2026-6809を解消する
-- **Base Commit:** `a0b3b6af1c3dec73497dde42c6c4091cd342ff4c`
-- **Solution PR:** https://github.com/vlstyle/i-pro-camera-backup/pull/13
+### [muriiloandrade/finsplitter] fix(deps): update module github.com/jackc/pgx/v5 to v5.12.0
+- **Base Commit:** `bfdd97eecc604fb2ad5b1f2c3ad9ffb9a0a80b38`
+- **Solution PR:** https://github.com/muriiloandrade/finsplitter/pull/290
 
-### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 9e39c6b
-- **Base Commit:** `facd68b77a68ea3995031522539592680781e304`
-- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/582
+### [Jamespramkaew/TheZins_Beauty_and_Spa] test: fix integration tests broken after API convention changes
+- **Base Commit:** `0117eae423470fb6db20d32084541e325839c53d`
+- **Solution PR:** https://github.com/Jamespramkaew/TheZins_Beauty_and_Spa/pull/31
 
-### [lf-edge/eve] [13.4-stable] Makefile: stop doubling the platform variant in published image tags
-- **Base Commit:** `73d51f87a98b2addb1277bf938886a72dfd0dd38`
-- **Solution PR:** https://github.com/lf-edge/eve/pull/6980
+### [winebarrel/pistachio] Align the casts in a trigger WHEN expression before comparing
+- **Base Commit:** `15970c3996494b77ce853a0eea9fef825c441bef`
+- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1140
 
-### [glsec/glsec] fix: scan a default: or workflow: with job keywords as the job GitLab makes of it (#937)
-- **Base Commit:** `d8341d120c7a56ab19cfb5c1baea13f22ec7434e`
-- **Solution PR:** https://github.com/glsec/glsec/pull/939
+### [Feur-Inc/1loop] Keep panel resizing responsive in long conversations
+- **Base Commit:** `1dc8b0132edf3f7be8c63a37c1c55c0270feb02d`
+- **Solution PR:** https://github.com/Feur-Inc/1loop/pull/116
 
-### [istio-ecosystem/sail-operator] Pin CRC smoke job to Ubuntu 24.04
-- **Base Commit:** `d92cdddc1f8c7523281a5f3ce91db72777c18bfb`
-- **Solution PR:** https://github.com/istio-ecosystem/sail-operator/pull/2526
+### [winebarrel/pistachio] Fill in the schema of a constraint trigger's FROM table
+- **Base Commit:** `7d8f34cfb9c6f019ea2cd54b81e6b1d30ffae559`
+- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1141
 
-### [Azure/azure-storage-fuse] Fix directory emptiness checks across listing pages
-- **Base Commit:** `aded0091685fda149fa8a7c280af6195810380fe`
-- **Solution PR:** https://github.com/Azure/azure-storage-fuse/pull/2440
+### [petauron/vastora] fix: wire shared Caddy for native-only Agent lifecycle
+- **Base Commit:** `0196ed9cb1156a303de4e17207fe4959194b6f7b`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1139
 
-### [lf-edge/eve] [14.5-stable] Makefile: stop doubling the platform variant in published image tags
-- **Base Commit:** `eb1390eb339b0de7c70dd86c69509c34a43e810d`
-- **Solution PR:** https://github.com/lf-edge/eve/pull/6979
+### [alrayyes/forge-dashboard] test(e2e): wait for the popup to navigate before reading its url
+- **Base Commit:** `83b7d101d6566b55ee33cdef5e6456a8caf48cda`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3124
 
-### [amrshadid/go-dicom] fix(network): a request whose data set does not decode is refused
-- **Base Commit:** `de30fb6a172efd17cacffa11b7f49a013d26d5f0`
-- **Solution PR:** https://github.com/amrshadid/go-dicom/pull/217
+### [winebarrel/pistachio] Report a bare enum type name in the no-enum-type lint rule
+- **Base Commit:** `c9e2e5bf304ee460eb9692b3c7f93a60477fbfbd`
+- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1143
+
+### [Alpha-gone/agent-context-sharing] fix: 차원 전환 시험의 제공자 차단 가정 수정
+- **Base Commit:** `a3e17c58b7d62242cf8e799d101716e9d87950dd`
+- **Solution PR:** https://github.com/Alpha-gone/agent-context-sharing/pull/232
+
+### [petauron/vastora] fix: allow shared Caddy on native-only nodes
+- **Base Commit:** `4f224e4ba71dbd52ecc00bed0d987c6b0e674fdb`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1137
+
+### [JRpersonal/streborn] fix(agent): the speaker's log no longer fills up with certificate refusals from other devices on the network, such as Amazon Echo speakers
+- **Base Commit:** `d55f872c2eb920a144a6adf444b6641fa1eba5fa`
+- **Solution PR:** https://github.com/JRpersonal/streborn/pull/1643
+
+### [winebarrel/pistachio] Name the default database in the Connected to comment
+- **Base Commit:** `527e456d505cebcd9ad3800b945524026bcddf4f`
+- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1145

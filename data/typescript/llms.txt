@@ -1,26 +1,22 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-29.
+> Uncontaminated bugs merged after 2026-10-30.
 
-### [exelearning/gdrive-exelearning] fix(viewer): allow externally hosted images in shared packages (exelearning#2684)
-- **Base Commit:** `ee102c1a00789e2b842488fe7e196b399ce6eb4b`
-- **Solution PR:** https://github.com/exelearning/gdrive-exelearning/pull/67
+### [alrayyes/washy-washy-core] ci: re-pin lcov to 2.4-3 for Ubuntu 26.04 runners
+- **Base Commit:** `36297d92749df2058c4e0aed9887050a0a934fed`
+- **Solution PR:** https://github.com/alrayyes/washy-washy-core/pull/132
 
-### [RevoTale/vikunja-better-ui] fix(test): stabilize month-boundary dates and session request checks
-- **Base Commit:** `48009cb68275543d0c4d720270cc6c065ee51946`
-- **Solution PR:** https://github.com/RevoTale/vikunja-better-ui/pull/141
+### [DigiS-IT/Freebiz-Backend] Update service.controller.ts
+- **Base Commit:** `58f93d03af10f0453196df9e7235c70b0744447a`
+- **Solution PR:** https://github.com/DigiS-IT/Freebiz-Backend/pull/35
 
-### [aipoch/open-science] fix(acp): resolve OpenCode part ids before classification
-- **Base Commit:** `4d707bdaf3334638412300c5adca8ab8cae92679`
-- **Solution PR:** https://github.com/aipoch/open-science/pull/3998
+### [gnoviawan/termul] fix(automations): drop in-flight loads after unmount in useAutomationQuery
+- **Base Commit:** `26637fa7c58c71a7bf3d862b5829071feed505c4`
+- **Solution PR:** https://github.com/gnoviawan/termul/pull/1608
 
-### [abhay-yemekar/hirelens] fix(build): only migrate from preview builds when previews are opted in
-- **Base Commit:** `db5220b1e888cfa503ccab425395bdd4f656309a`
-- **Solution PR:** https://github.com/abhay-yemekar/hirelens/pull/139
+### [jupyterlab/jupyterlab] Fix the warning when closing a tab after a failed upload
+- **Base Commit:** `6d80ca409afe54fd383b457701f33240b090b818`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20019
 
-### [homarr-labs/homarr] fix: target llama.cpp stats to displayed model
-- **Base Commit:** `bab37f76c607e70d871fb7bdde259fa527051b58`
-- **Solution PR:** https://github.com/homarr-labs/homarr/pull/7150
-
-### [neos/neos-ui] BUGFIX: Move dialogs in front of secondary inspectors
-- **Base Commit:** `01bef2259afb100561f364558189cbb0cd2ee726`
-- **Solution PR:** https://github.com/neos/neos-ui/pull/4199
+### [m1nsook/paglora] fix(build): support tabs and code groups in headless Markdown exports
+- **Base Commit:** `7ddb47655845715999f607addf18ec6ef55192c7`
+- **Solution PR:** https://github.com/m1nsook/paglora/pull/143
