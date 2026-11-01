@@ -1,22 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-30.
+> Uncontaminated bugs merged after 2026-10-31.
 
-### [alrayyes/washy-washy-core] ci: re-pin lcov to 2.4-3 for Ubuntu 26.04 runners
-- **Base Commit:** `36297d92749df2058c4e0aed9887050a0a934fed`
-- **Solution PR:** https://github.com/alrayyes/washy-washy-core/pull/132
+### [observerly/astrometry] fix: correct the powers of T in getSolarEquationOfCenter in sun module in @observerly/astrometry
+- **Base Commit:** `5d857e2828bb511b9436c7302752c11a5e89225d`
+- **Solution PR:** https://github.com/observerly/astrometry/pull/613
 
-### [DigiS-IT/Freebiz-Backend] Update service.controller.ts
-- **Base Commit:** `58f93d03af10f0453196df9e7235c70b0744447a`
-- **Solution PR:** https://github.com/DigiS-IT/Freebiz-Backend/pull/35
+### [refined-github/refined-github] `delete-branch` - Restore when command palette is disabled
+- **Base Commit:** `6069cf250c868c5f00365e11664d0f5be54282d3`
+- **Solution PR:** https://github.com/refined-github/refined-github/pull/10346
 
-### [gnoviawan/termul] fix(automations): drop in-flight loads after unmount in useAutomationQuery
-- **Base Commit:** `26637fa7c58c71a7bf3d862b5829071feed505c4`
-- **Solution PR:** https://github.com/gnoviawan/termul/pull/1608
+### [ranxianglei/billion-context] [PR] Manually remove the fucking AI restrictions | 手动取消傻逼ai限制
+- **Base Commit:** `ebfb422fb3728f5f957dfe6c0646938abb26c28d`
+- **Solution PR:** https://github.com/ranxianglei/billion-context/pull/5444
 
-### [jupyterlab/jupyterlab] Fix the warning when closing a tab after a failed upload
-- **Base Commit:** `6d80ca409afe54fd383b457701f33240b090b818`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20019
+### [Klimatbyran/garbo] [fix] Install the Prisma CLI with production dependencies
+- **Base Commit:** `680a980e99899f6ccb1afc0888380a58197b9edb`
+- **Solution PR:** https://github.com/Klimatbyran/garbo/pull/1477
 
-### [m1nsook/paglora] fix(build): support tabs and code groups in headless Markdown exports
-- **Base Commit:** `7ddb47655845715999f607addf18ec6ef55192c7`
-- **Solution PR:** https://github.com/m1nsook/paglora/pull/143
+### [refined-github/refined-github] `list-prs-for-branch` - Restore feature
+- **Base Commit:** `81ea552d07c859a35ccae219f3f4013862659bf8`
+- **Solution PR:** https://github.com/refined-github/refined-github/pull/10332
+
+### [markup-carve/carve-js] Read the layout with comments erased: blank runs and unmarked span closers
+- **Base Commit:** `ee5d2e6d8a331492775986f4d5efc439cd04704c`
+- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4146
+
+### [meshi-z/turf-talk] fix: 殿堂入り画面のX（Twitter）ポスト文面を120文字以内に収まるよう短縮 (#96)
+- **Base Commit:** `6a650a216148b3e8bce571180a571bd292f7a358`
+- **Solution PR:** https://github.com/meshi-z/turf-talk/pull/97

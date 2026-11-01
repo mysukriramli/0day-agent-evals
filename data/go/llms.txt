@@ -1,50 +1,34 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-30.
+> Uncontaminated bugs merged after 2026-10-31.
 
-### [muriiloandrade/finsplitter] fix(deps): update module github.com/jackc/pgx/v5 to v5.12.0
-- **Base Commit:** `bfdd97eecc604fb2ad5b1f2c3ad9ffb9a0a80b38`
-- **Solution PR:** https://github.com/muriiloandrade/finsplitter/pull/290
+### [swarm-deploy/swarm-deploy] fix(ui): place StackPage active alerts below metrics
+- **Base Commit:** `af1e481eafc1407e9e8d8d0da5faacb21b2a332f`
+- **Solution PR:** https://github.com/swarm-deploy/swarm-deploy/pull/224
 
-### [Jamespramkaew/TheZins_Beauty_and_Spa] test: fix integration tests broken after API convention changes
-- **Base Commit:** `0117eae423470fb6db20d32084541e325839c53d`
-- **Solution PR:** https://github.com/Jamespramkaew/TheZins_Beauty_and_Spa/pull/31
+### [OrchestratorInc/agent-orchestrator] fix(desktop): extend the macOS sidebar over the center panel inset
+- **Base Commit:** `7690e4e7ea0535757aa80441159d860309677860`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7552
 
-### [winebarrel/pistachio] Align the casts in a trigger WHEN expression before comparing
-- **Base Commit:** `15970c3996494b77ce853a0eea9fef825c441bef`
-- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1140
+### [autobrr/qui] fix(crossseed): add matches whose download name has no group
+- **Base Commit:** `32b22386450a81d92c52deaa385334518db2f834`
+- **Solution PR:** https://github.com/autobrr/qui/pull/3698
 
-### [Feur-Inc/1loop] Keep panel resizing responsive in long conversations
-- **Base Commit:** `1dc8b0132edf3f7be8c63a37c1c55c0270feb02d`
-- **Solution PR:** https://github.com/Feur-Inc/1loop/pull/116
+### [m-mdy-m/idios] fix(ai): harden Ollama stream completion and cancellation
+- **Base Commit:** `135f5e2f4def8d23c51bf0363eb37888d7170085`
+- **Solution PR:** https://github.com/m-mdy-m/idios/pull/62
 
-### [winebarrel/pistachio] Fill in the schema of a constraint trigger's FROM table
-- **Base Commit:** `7d8f34cfb9c6f019ea2cd54b81e6b1d30ffae559`
-- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1141
+### [felinics/Memoh] fix: 深色主题首帧不再闪浅色
+- **Base Commit:** `d4babe34cc84680fbc0329e1aca2e8cbe8276d72`
+- **Solution PR:** https://github.com/felinics/Memoh/pull/1649
 
-### [petauron/vastora] fix: wire shared Caddy for native-only Agent lifecycle
-- **Base Commit:** `0196ed9cb1156a303de4e17207fe4959194b6f7b`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1139
+### [felinics/Memoh] fix: 去掉 Google Fonts 外链，首屏不再被它阻塞
+- **Base Commit:** `93ce6ee3acee1594ffee9efb1f24d5ecdb606ffd`
+- **Solution PR:** https://github.com/felinics/Memoh/pull/1653
 
-### [alrayyes/forge-dashboard] test(e2e): wait for the popup to navigate before reading its url
-- **Base Commit:** `83b7d101d6566b55ee33cdef5e6456a8caf48cda`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3124
+### [s0up4200/winnow] fix(digests): stop a long Period from crashing winnow
+- **Base Commit:** `9aaf147d8ad4e20aa5bd9c66aba14bacbd75dd81`
+- **Solution PR:** https://github.com/s0up4200/winnow/pull/43
 
-### [winebarrel/pistachio] Report a bare enum type name in the no-enum-type lint rule
-- **Base Commit:** `c9e2e5bf304ee460eb9692b3c7f93a60477fbfbd`
-- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1143
-
-### [Alpha-gone/agent-context-sharing] fix: 차원 전환 시험의 제공자 차단 가정 수정
-- **Base Commit:** `a3e17c58b7d62242cf8e799d101716e9d87950dd`
-- **Solution PR:** https://github.com/Alpha-gone/agent-context-sharing/pull/232
-
-### [petauron/vastora] fix: allow shared Caddy on native-only nodes
-- **Base Commit:** `4f224e4ba71dbd52ecc00bed0d987c6b0e674fdb`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1137
-
-### [JRpersonal/streborn] fix(agent): the speaker's log no longer fills up with certificate refusals from other devices on the network, such as Amazon Echo speakers
-- **Base Commit:** `d55f872c2eb920a144a6adf444b6641fa1eba5fa`
-- **Solution PR:** https://github.com/JRpersonal/streborn/pull/1643
-
-### [winebarrel/pistachio] Name the default database in the Connected to comment
-- **Base Commit:** `527e456d505cebcd9ad3800b945524026bcddf4f`
-- **Solution PR:** https://github.com/winebarrel/pistachio/pull/1145
+### [evcc-io/evcc] Genesis EU: sign OneApp/CCI auth calls with X-Fingerprint
+- **Base Commit:** `dfb4849c2489eb8a9731d2aedbf5058151a21112`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35652
