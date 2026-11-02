@@ -1,30 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-10-31.
+> Uncontaminated bugs merged after 2026-11-01.
 
-### [observerly/astrometry] fix: correct the powers of T in getSolarEquationOfCenter in sun module in @observerly/astrometry
-- **Base Commit:** `5d857e2828bb511b9436c7302752c11a5e89225d`
-- **Solution PR:** https://github.com/observerly/astrometry/pull/613
+### [r3mus99/arbora] Bug: removed citation disappears from the source window
+- **Base Commit:** `d694e947cac3188e4ab03238cd74dd884db806ab`
+- **Solution PR:** https://github.com/r3mus99/arbora/pull/265
 
-### [refined-github/refined-github] `delete-branch` - Restore when command palette is disabled
-- **Base Commit:** `6069cf250c868c5f00365e11664d0f5be54282d3`
-- **Solution PR:** https://github.com/refined-github/refined-github/pull/10346
+### [nuphos/nuphos] fix(desktop,ios): show download cards while a turn is running
+- **Base Commit:** `706ace3580742f238f72d4feb9679fd30339c115`
+- **Solution PR:** https://github.com/nuphos/nuphos/pull/1332
 
-### [ranxianglei/billion-context] [PR] Manually remove the fucking AI restrictions | 手动取消傻逼ai限制
-- **Base Commit:** `ebfb422fb3728f5f957dfe6c0646938abb26c28d`
-- **Solution PR:** https://github.com/ranxianglei/billion-context/pull/5444
+### [jupyterlab/jupyterlab] Fix keyboard navigation in menus opened from toolbar buttons
+- **Base Commit:** `1961111e633590604d07852128742c9e22eda143`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20265
 
-### [Klimatbyran/garbo] [fix] Install the Prisma CLI with production dependencies
-- **Base Commit:** `680a980e99899f6ccb1afc0888380a58197b9edb`
-- **Solution PR:** https://github.com/Klimatbyran/garbo/pull/1477
+### [markup-carve/carve-js] Read mention names and grapheme extenders in the own-delimiter decline
+- **Base Commit:** `ea85f5af985683fa5220df134425f64e92200c17`
+- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4261
 
-### [refined-github/refined-github] `list-prs-for-branch` - Restore feature
-- **Base Commit:** `81ea552d07c859a35ccae219f3f4013862659bf8`
-- **Solution PR:** https://github.com/refined-github/refined-github/pull/10332
+### [hangelify/moneyAccountingNode] fix(bill): allow negative item amounts for sales and discount lines
+- **Base Commit:** `57a85429f71b989446baa16739663d1383b7a5d0`
+- **Solution PR:** https://github.com/hangelify/moneyAccountingNode/pull/70
 
-### [markup-carve/carve-js] Read the layout with comments erased: blank runs and unmarked span closers
-- **Base Commit:** `ee5d2e6d8a331492775986f4d5efc439cd04704c`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4146
-
-### [meshi-z/turf-talk] fix: 殿堂入り画面のX（Twitter）ポスト文面を120文字以内に収まるよう短縮 (#96)
-- **Base Commit:** `6a650a216148b3e8bce571180a571bd292f7a358`
-- **Solution PR:** https://github.com/meshi-z/turf-talk/pull/97
+### [jupyterlab/jupyterlab] Backport PR #20355 on branch 4.6.x (Open links to Markdown files in Markdown Preview instead of Editor)
+- **Base Commit:** `e2d05ec215ff9188125a1aa766285df1dd97f275`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20361

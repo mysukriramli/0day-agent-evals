@@ -1,34 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-10-31.
+> Uncontaminated bugs merged after 2026-11-01.
 
-### [swarm-deploy/swarm-deploy] fix(ui): place StackPage active alerts below metrics
-- **Base Commit:** `af1e481eafc1407e9e8d8d0da5faacb21b2a332f`
-- **Solution PR:** https://github.com/swarm-deploy/swarm-deploy/pull/224
+### [Netcracker/qubership-monitoring-operator] fix(prometheus): preserve persistent storage
+- **Base Commit:** `6e2a01991cf5ce043be0aa7dc3b7eb1cee38bd57`
+- **Solution PR:** https://github.com/Netcracker/qubership-monitoring-operator/pull/509
 
-### [OrchestratorInc/agent-orchestrator] fix(desktop): extend the macOS sidebar over the center panel inset
-- **Base Commit:** `7690e4e7ea0535757aa80441159d860309677860`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7552
+### [OrchestratorInc/agent-orchestrator] fix(cli): add --pre-remove to project set-config
+- **Base Commit:** `0e325dc7f7e484387651d96a29b9e0f854ab7903`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7531
 
-### [autobrr/qui] fix(crossseed): add matches whose download name has no group
-- **Base Commit:** `32b22386450a81d92c52deaa385334518db2f834`
-- **Solution PR:** https://github.com/autobrr/qui/pull/3698
+### [TencentBlueKing/bkmonitor-datalink] fix(bk-monitor-worker): 修复空间指标表查询失败时错误被忽略的问题
+- **Base Commit:** `4727d82cb23c6240a87a4ecc1654592c3c12819f`
+- **Solution PR:** https://github.com/TencentBlueKing/bkmonitor-datalink/pull/1564
 
-### [m-mdy-m/idios] fix(ai): harden Ollama stream completion and cancellation
-- **Base Commit:** `135f5e2f4def8d23c51bf0363eb37888d7170085`
-- **Solution PR:** https://github.com/m-mdy-m/idios/pull/62
+### [pjerra/turtle-agent] teardown: leave_group 'not in a group' is clean, so the lease is released
+- **Base Commit:** `f334795b79456c4c4b79003ce12deac556e0543a`
+- **Solution PR:** https://github.com/pjerra/turtle-agent/pull/366
 
-### [felinics/Memoh] fix: 深色主题首帧不再闪浅色
-- **Base Commit:** `d4babe34cc84680fbc0329e1aca2e8cbe8276d72`
-- **Solution PR:** https://github.com/felinics/Memoh/pull/1649
+### [OrchestratorInc/agent-orchestrator] fix(review): show the saved reason when a manual review fails
+- **Base Commit:** `9041e10a6c1dd0acb3e254063265d03ee95268d1`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7540
 
-### [felinics/Memoh] fix: 去掉 Google Fonts 外链，首屏不再被它阻塞
-- **Base Commit:** `93ce6ee3acee1594ffee9efb1f24d5ecdb606ffd`
-- **Solution PR:** https://github.com/felinics/Memoh/pull/1653
+### [Netcracker/qubership-monitoring-operator] fix: make the CRD manifest test independent of checkout name
+- **Base Commit:** `20f4d9373ebf8b8b58ee60fd95d43c511069c03a`
+- **Solution PR:** https://github.com/Netcracker/qubership-monitoring-operator/pull/624
 
-### [s0up4200/winnow] fix(digests): stop a long Period from crashing winnow
-- **Base Commit:** `9aaf147d8ad4e20aa5bd9c66aba14bacbd75dd81`
-- **Solution PR:** https://github.com/s0up4200/winnow/pull/43
-
-### [evcc-io/evcc] Genesis EU: sign OneApp/CCI auth calls with X-Fingerprint
-- **Base Commit:** `dfb4849c2489eb8a9731d2aedbf5058151a21112`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35652
+### [golangci/golangci-lint] fix(teamcity): don't cut on escaped characters
+- **Base Commit:** `15ed3a452f3b28645e90ac8d088fd8dd7038f082`
+- **Solution PR:** https://github.com/golangci/golangci-lint/pull/6900

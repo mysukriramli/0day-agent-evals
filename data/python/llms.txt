@@ -1,34 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-10-31.
+> Uncontaminated bugs merged after 2026-11-01.
 
-### [codezorz/home-assistant-mijnted] Prepare advanced CodeQL scanning for fork pull requests
-- **Base Commit:** `79c13db9cbce948a91d6c8b69e24f7ff2c136029`
-- **Solution PR:** https://github.com/codezorz/home-assistant-mijnted/pull/75
+### [kakaotechcampus-4/ktc4-kangwon-3] [AI] fix: AI 배포 job에 concurrency를 걸어 연달아 머지할 때 배포가 겹치지 않게 함
+- **Base Commit:** `d2957519393b599e2205031773c8766c69a8db27`
+- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-kangwon-3/pull/491
 
-### [motioneye-project/motioneye] fix(wsswitch): keep a manual motion detection change until the schedule changes
-- **Base Commit:** `f75a18aa711b8a274ad63f5fc6cef0c3a83dc3c0`
-- **Solution PR:** https://github.com/motioneye-project/motioneye/pull/3506
+### [OCA/pms] [FIX] pms_sale: set partner_id on reservations from the Sale Order Configurator
+- **Base Commit:** `6037209bb2e5958debb1a4521ac6a1fa31cca357`
+- **Solution PR:** https://github.com/OCA/pms/pull/451
 
-### [larchanka-training/dmc-268-api-t6] fix(ci): resolve the pushed repository's image digest (#406)
-- **Base Commit:** `e81b969c8e2810c3d6f54a0f0cb451dbdd1eeb6e`
-- **Solution PR:** https://github.com/larchanka-training/dmc-268-api-t6/pull/407
+### [Vinedine/para-os] evals: six graders accept the right answers they failed, and two graders and a case that pass without the skill go
+- **Base Commit:** `6cd120adc5430c383a9ed21c7281d4726a678d3c`
+- **Solution PR:** https://github.com/Vinedine/para-os/pull/862
 
-### [Birfy/agentdescent] fix(cli): run-store and archive errors answer as JSON under --json
-- **Base Commit:** `f576350373bc9bc0170dc6c05e556d611c704fd6`
-- **Solution PR:** https://github.com/Birfy/agentdescent/pull/659
+### [alaiy-tech/alaiy_os_connector_cloudstore] fix: take valuation rate from existing item record in Cloudstore stock reconciliation
+- **Base Commit:** `1b2d8a14d3751090a5e46e776c961dbc19b22a9e`
+- **Solution PR:** https://github.com/alaiy-tech/alaiy_os_connector_cloudstore/pull/9
 
-### [WannaKnowHD/wanna_know] [Fix] PDF 추가하기 — 뒷부분이 잘린 PDF 차단 (WBS 4.2.3)
-- **Base Commit:** `00842fdd0f8661a49ae2bcbbe2506e1a640fb898`
-- **Solution PR:** https://github.com/WannaKnowHD/wanna_know/pull/188
+### [kakaotechcampus-4/ktc4-chonnam-3] fix: .dockerignore에서 features/report 제외 규칙 제거
+- **Base Commit:** `424c589f2219b92477701af3e71d24219fd95890`
+- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-chonnam-3/pull/176
 
-### [magpylib/magpylib-material-response] Stop solving a turned face-charge part near another as touching it
-- **Base Commit:** `82089c7479e900dac5bac25579b9bf0ecd5857b6`
-- **Solution PR:** https://github.com/magpylib/magpylib-material-response/pull/137
+### [jan-tdy/TapoVac-ADV] Fix NameError: import missing CONF_SECURITY in config_flow.py
+- **Base Commit:** `73cd6e30e40c09549bd9d7ae320c1c194952e976`
+- **Solution PR:** https://github.com/jan-tdy/TapoVac-ADV/pull/131
 
-### [docling-project/docling] fix(docx): apply the w:lvlOverride of a list numbering instance
-- **Base Commit:** `764b5d4dc22b03ea87afd4c2207f510300b27a5b`
-- **Solution PR:** https://github.com/docling-project/docling/pull/5123
-
-### [docling-project/docling] fix(utils): drop leading UTF-8 BOM for explicit encoding="utf-8"
-- **Base Commit:** `6fadbae317b09c4dd4051c0f1fc1746c6baf04bc`
-- **Solution PR:** https://github.com/docling-project/docling/pull/4849
+### [dodona-edu/universal-judge] Require the language option of tested.descriptions
+- **Base Commit:** `5699d703ef1d38e67854a4852b56cedf2c7938c4`
+- **Solution PR:** https://github.com/dodona-edu/universal-judge/pull/893
