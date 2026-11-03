@@ -1,30 +1,34 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-01.
+> Uncontaminated bugs merged after 2026-11-02.
 
-### [kakaotechcampus-4/ktc4-kangwon-3] [AI] fix: AI 배포 job에 concurrency를 걸어 연달아 머지할 때 배포가 겹치지 않게 함
-- **Base Commit:** `d2957519393b599e2205031773c8766c69a8db27`
-- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-kangwon-3/pull/491
+### [xorbitsai/inference] fix(llm): list only the DeepSeek GGUF quantizations that exist
+- **Base Commit:** `2f52b0e7ab0217b9cbad133a9ca429161c32fc7f`
+- **Solution PR:** https://github.com/xorbitsai/inference/pull/5982
 
-### [OCA/pms] [FIX] pms_sale: set partner_id on reservations from the Sale Order Configurator
-- **Base Commit:** `6037209bb2e5958debb1a4521ac6a1fa31cca357`
-- **Solution PR:** https://github.com/OCA/pms/pull/451
+### [linuxarena/control-tower] fix(hawk): refuse on the runner any model the run did not declare to Hawk
+- **Base Commit:** `0faf35e034ff3c89802d0b456c11ab215149fa0a`
+- **Solution PR:** https://github.com/linuxarena/control-tower/pull/2721
 
-### [Vinedine/para-os] evals: six graders accept the right answers they failed, and two graders and a case that pass without the skill go
-- **Base Commit:** `6cd120adc5430c383a9ed21c7281d4726a678d3c`
-- **Solution PR:** https://github.com/Vinedine/para-os/pull/862
+### [meta-pytorch/torchcodec] Fix EXIF jpeg detection: read more than just the first APP1 segment
+- **Base Commit:** `9ae4fc6e79076ed95d99d5136f23d747db5f3ea3`
+- **Solution PR:** https://github.com/meta-pytorch/torchcodec/pull/1797
 
-### [alaiy-tech/alaiy_os_connector_cloudstore] fix: take valuation rate from existing item record in Cloudstore stock reconciliation
-- **Base Commit:** `1b2d8a14d3751090a5e46e776c961dbc19b22a9e`
-- **Solution PR:** https://github.com/alaiy-tech/alaiy_os_connector_cloudstore/pull/9
+### [thingsboard/thingsboard-gateway] Fixed ODBC default config RPC examples for PostgreSQL procedures
+- **Base Commit:** `e4da564f07589dcbb9e31ee7dc10d22dc54d31b3`
+- **Solution PR:** https://github.com/thingsboard/thingsboard-gateway/pull/2233
 
-### [kakaotechcampus-4/ktc4-chonnam-3] fix: .dockerignore에서 features/report 제외 규칙 제거
-- **Base Commit:** `424c589f2219b92477701af3e71d24219fd95890`
-- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-chonnam-3/pull/176
+### [pyinfra-dev/pyinfra] fix(operations.iptables): quote user input in iptables commands
+- **Base Commit:** `7277fbec95f71de1eecacf464f0a6e7152c3d07b`
+- **Solution PR:** https://github.com/pyinfra-dev/pyinfra/pull/1810
 
-### [jan-tdy/TapoVac-ADV] Fix NameError: import missing CONF_SECURITY in config_flow.py
-- **Base Commit:** `73cd6e30e40c09549bd9d7ae320c1c194952e976`
-- **Solution PR:** https://github.com/jan-tdy/TapoVac-ADV/pull/131
+### [dodona-edu/universal-judge] Reject an empty languages set on a custom check oracle
+- **Base Commit:** `76e5ce270eaeeddb182749eb52df3940ead6b74c`
+- **Solution PR:** https://github.com/dodona-edu/universal-judge/pull/899
 
-### [dodona-edu/universal-judge] Require the language option of tested.descriptions
-- **Base Commit:** `5699d703ef1d38e67854a4852b56cedf2c7938c4`
-- **Solution PR:** https://github.com/dodona-edu/universal-judge/pull/893
+### [APapafragkakis/Compact-LLMs-RAG-Eval] Fix script paths and add missing evaluation script
+- **Base Commit:** `52ac952c7393825d2aa158da480093e79e4a3344`
+- **Solution PR:** https://github.com/APapafragkakis/Compact-LLMs-RAG-Eval/pull/7
+
+### [haddocking/haddock3] CI: test every push that changes the code of a PR - issue #1752
+- **Base Commit:** `d67d8a597568bb6ab498747c86416c7257ab9736`
+- **Solution PR:** https://github.com/haddocking/haddock3/pull/1753

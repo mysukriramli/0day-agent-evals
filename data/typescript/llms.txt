@@ -1,26 +1,34 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-01.
+> Uncontaminated bugs merged after 2026-11-02.
 
-### [r3mus99/arbora] Bug: removed citation disappears from the source window
-- **Base Commit:** `d694e947cac3188e4ab03238cd74dd884db806ab`
-- **Solution PR:** https://github.com/r3mus99/arbora/pull/265
+### [laurent22/joplin] Desktop: Resolves #16870: Whiteboard: Give a default title to newly created whiteboards
+- **Base Commit:** `b613d0064d018c2f68d983c907ab88e2712da116`
+- **Solution PR:** https://github.com/laurent22/joplin/pull/16967
 
-### [nuphos/nuphos] fix(desktop,ios): show download cards while a turn is running
-- **Base Commit:** `706ace3580742f238f72d4feb9679fd30339c115`
-- **Solution PR:** https://github.com/nuphos/nuphos/pull/1332
+### [design4pro/planned.travel] fix(transports): wait for deleted transport dialog focus in test (#1644)
+- **Base Commit:** `aba5951beb4246bac12b57597f8a6ffc9f077357`
+- **Solution PR:** https://github.com/design4pro/planned.travel/pull/1779
 
-### [jupyterlab/jupyterlab] Fix keyboard navigation in menus opened from toolbar buttons
-- **Base Commit:** `1961111e633590604d07852128742c9e22eda143`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20265
+### [Sorry4Nothing/fireresponse-api] OpenAPI, Endpunktliste und Postman: Route /admin/personen/{id}/bild
+- **Base Commit:** `b587e3d131254c1f56951f3704c9520b10c9bd85`
+- **Solution PR:** https://github.com/Sorry4Nothing/fireresponse-api/pull/154
 
-### [markup-carve/carve-js] Read mention names and grapheme extenders in the own-delimiter decline
-- **Base Commit:** `ea85f5af985683fa5220df134425f64e92200c17`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4261
+### [maxGraph/maxGraph] fix: store booleans in the edge styles set by GraphLayout
+- **Base Commit:** `e90e1f0d95f68bc93dfd9f20a023b384959cdb2a`
+- **Solution PR:** https://github.com/maxGraph/maxGraph/pull/1311
 
-### [hangelify/moneyAccountingNode] fix(bill): allow negative item amounts for sales and discount lines
-- **Base Commit:** `57a85429f71b989446baa16739663d1383b7a5d0`
-- **Solution PR:** https://github.com/hangelify/moneyAccountingNode/pull/70
+### [trybun/trybun] fix(web): open the phone tour sheet away from the target it scrolls to (#209)
+- **Base Commit:** `fed603695f2e106b024f198c3aca403b321c6a83`
+- **Solution PR:** https://github.com/trybun/trybun/pull/213
 
-### [jupyterlab/jupyterlab] Backport PR #20355 on branch 4.6.x (Open links to Markdown files in Markdown Preview instead of Editor)
-- **Base Commit:** `e2d05ec215ff9188125a1aa766285df1dd97f275`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20361
+### [yeomyeonggeori/internkim] fix(messenger): let a click join or leave a custom emoji reaction
+- **Base Commit:** `e31d37813ab03460a8f2001e99f0724c8457ad42`
+- **Solution PR:** https://github.com/yeomyeonggeori/internkim/pull/2916
+
+### [loakraken/loakraken-web] [FIX] 시세 화면 첫 로드에 늦게 온 품목 상세가 그려진 표를 화면 밖으로 밈
+- **Base Commit:** `d6a5f4c025e1ddd1565000e9088ff7a4572bf131`
+- **Solution PR:** https://github.com/loakraken/loakraken-web/pull/1356
+
+### [open-mercato/open-mercato] fix(telemetry): close failed pg probe clients before querying (#8526)
+- **Base Commit:** `a9b16fd6e88b9a21216482de4bec27d060a32234`
+- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/8598

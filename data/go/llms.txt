@@ -1,30 +1,34 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-01.
+> Uncontaminated bugs merged after 2026-11-02.
 
-### [Netcracker/qubership-monitoring-operator] fix(prometheus): preserve persistent storage
-- **Base Commit:** `6e2a01991cf5ce043be0aa7dc3b7eb1cee38bd57`
-- **Solution PR:** https://github.com/Netcracker/qubership-monitoring-operator/pull/509
+### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 23ba1dc
+- **Base Commit:** `23ba1dc444431e25186ce5d06d070d34d77f1b0f`
+- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/628
 
-### [OrchestratorInc/agent-orchestrator] fix(cli): add --pre-remove to project set-config
-- **Base Commit:** `0e325dc7f7e484387651d96a29b9e0f854ab7903`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7531
+### [cthtrifork/harper-pad] fix(drafts): save sooner and on Ctrl+S so a quick reload keeps the text
+- **Base Commit:** `5cd51a480e23ba1576bf202a4d35d85323ffadcb`
+- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/29
 
-### [TencentBlueKing/bkmonitor-datalink] fix(bk-monitor-worker): 修复空间指标表查询失败时错误被忽略的问题
-- **Base Commit:** `4727d82cb23c6240a87a4ecc1654592c3c12819f`
-- **Solution PR:** https://github.com/TencentBlueKing/bkmonitor-datalink/pull/1564
+### [cthtrifork/harper-pad] fix(drawer): align draft cards and delete button with the drawer edges
+- **Base Commit:** `00d2d6979b5da156e4031e8ee8ae665dfcf8f1a1`
+- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/28
 
-### [pjerra/turtle-agent] teardown: leave_group 'not in a group' is clean, so the lease is released
-- **Base Commit:** `f334795b79456c4c4b79003ce12deac556e0543a`
-- **Solution PR:** https://github.com/pjerra/turtle-agent/pull/366
+### [pgvillage-tools/stolon] fix(deps): bump golangci/golangci-lint-action from 9.2.0 to 9.3.0
+- **Base Commit:** `e0c6faf5baea3d22af15b4aaf5a975c52fed1bc0`
+- **Solution PR:** https://github.com/pgvillage-tools/stolon/pull/71
 
-### [OrchestratorInc/agent-orchestrator] fix(review): show the saved reason when a manual review fails
-- **Base Commit:** `9041e10a6c1dd0acb3e254063265d03ee95268d1`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7540
+### [cloudnative-pg/plugin-barman-cloud] fix(rbac): bind role to the cluster's custom serviceAccountName
+- **Base Commit:** `243fe113687a98dbb5cf7638693e780c7a1b4767`
+- **Solution PR:** https://github.com/cloudnative-pg/plugin-barman-cloud/pull/869
 
-### [Netcracker/qubership-monitoring-operator] fix: make the CRD manifest test independent of checkout name
-- **Base Commit:** `20f4d9373ebf8b8b58ee60fd95d43c511069c03a`
-- **Solution PR:** https://github.com/Netcracker/qubership-monitoring-operator/pull/624
+### [stjosephsplacements/AetherCode] fix(user): batch affiliations readable under a students context; flag list needs no college
+- **Base Commit:** `1b50e9d1ac290d7eca446789567d2682d03bf92c`
+- **Solution PR:** https://github.com/stjosephsplacements/AetherCode/pull/130
 
-### [golangci/golangci-lint] fix(teamcity): don't cut on escaped characters
-- **Base Commit:** `15ed3a452f3b28645e90ac8d088fd8dd7038f082`
-- **Solution PR:** https://github.com/golangci/golangci-lint/pull/6900
+### [cthtrifork/harper-pad] fix(web): build with the site's real base path so a custom domain works
+- **Base Commit:** `af4763d29f58fa4e90c41dc592f354f0ca95d94c`
+- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/26
+
+### [DataDog/datadog-operator] [Backport v1.32] fix(kubectl): embed release version metadata and expose --version
+- **Base Commit:** `0c12881ffbb836efe2239d0a058f89218591de51`
+- **Solution PR:** https://github.com/DataDog/datadog-operator/pull/3718
