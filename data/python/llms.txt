@@ -1,34 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-02.
+> Uncontaminated bugs merged after 2026-11-03.
 
-### [xorbitsai/inference] fix(llm): list only the DeepSeek GGUF quantizations that exist
-- **Base Commit:** `2f52b0e7ab0217b9cbad133a9ca429161c32fc7f`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/5982
+### [govtech-responsibleai/metis] fix(core): type .md fixtures as text/markdown
+- **Base Commit:** `26b1b1edfa3c305cc8c09e62460afdc295dc6754`
+- **Solution PR:** https://github.com/govtech-responsibleai/metis/pull/48
 
-### [linuxarena/control-tower] fix(hawk): refuse on the runner any model the run did not declare to Hawk
-- **Base Commit:** `0faf35e034ff3c89802d0b456c11ab215149fa0a`
-- **Solution PR:** https://github.com/linuxarena/control-tower/pull/2721
+### [DexForce/EmbodiChain] Keep PPO singleton advantage normalization finite
+- **Base Commit:** `45d986e5f597c8c68bad092b0d0ed2be3511ab2c`
+- **Solution PR:** https://github.com/DexForce/EmbodiChain/pull/964
 
-### [meta-pytorch/torchcodec] Fix EXIF jpeg detection: read more than just the first APP1 segment
-- **Base Commit:** `9ae4fc6e79076ed95d99d5136f23d747db5f3ea3`
-- **Solution PR:** https://github.com/meta-pytorch/torchcodec/pull/1797
+### [vllm-project/vllm] [Bugfix][KV Offload] Return lazily offloaded GPU blocks to the eviction end
+- **Base Commit:** `790be385c8a69f45ec9a7a85ef00836d1684060f`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/59383
 
-### [thingsboard/thingsboard-gateway] Fixed ODBC default config RPC examples for PostgreSQL procedures
-- **Base Commit:** `e4da564f07589dcbb9e31ee7dc10d22dc54d31b3`
-- **Solution PR:** https://github.com/thingsboard/thingsboard-gateway/pull/2233
+### [synthesizer-project/synthesizer] Fix MPI deadlock reducing analysis function timings
+- **Base Commit:** `7d704400451c320d506d39680fe68470031c74f5`
+- **Solution PR:** https://github.com/synthesizer-project/synthesizer/pull/1265
 
-### [pyinfra-dev/pyinfra] fix(operations.iptables): quote user input in iptables commands
-- **Base Commit:** `7277fbec95f71de1eecacf464f0a6e7152c3d07b`
-- **Solution PR:** https://github.com/pyinfra-dev/pyinfra/pull/1810
+### [pandudpn/ompwire] fix(gateway): auto-create missing cwd, and show model display names
+- **Base Commit:** `5d54aa0b9b157326f36d3f5a38f61a123904ec19`
+- **Solution PR:** https://github.com/pandudpn/ompwire/pull/31
 
-### [dodona-edu/universal-judge] Reject an empty languages set on a custom check oracle
-- **Base Commit:** `76e5ce270eaeeddb182749eb52df3940ead6b74c`
-- **Solution PR:** https://github.com/dodona-edu/universal-judge/pull/899
+### [Urban-Futures-Collective/urban-model-platform] fix(compose): pass provider, registry and mail settings to the API container
+- **Base Commit:** `c4a1528ef2c6f063a30bfb4cce3557eb79682122`
+- **Solution PR:** https://github.com/Urban-Futures-Collective/urban-model-platform/pull/29
 
-### [APapafragkakis/Compact-LLMs-RAG-Eval] Fix script paths and add missing evaluation script
-- **Base Commit:** `52ac952c7393825d2aa158da480093e79e4a3344`
-- **Solution PR:** https://github.com/APapafragkakis/Compact-LLMs-RAG-Eval/pull/7
-
-### [haddocking/haddock3] CI: test every push that changes the code of a PR - issue #1752
-- **Base Commit:** `d67d8a597568bb6ab498747c86416c7257ab9736`
-- **Solution PR:** https://github.com/haddocking/haddock3/pull/1753
+### [rimonhanna/linkedin-mcp-server] fix(messaging): find the search box by structure, not English text
+- **Base Commit:** `d191b322df743da398dbabe641880b7061c865bf`
+- **Solution PR:** https://github.com/rimonhanna/linkedin-mcp-server/pull/106

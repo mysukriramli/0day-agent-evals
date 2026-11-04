@@ -1,34 +1,38 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-02.
+> Uncontaminated bugs merged after 2026-11-03.
 
-### [laurent22/joplin] Desktop: Resolves #16870: Whiteboard: Give a default title to newly created whiteboards
-- **Base Commit:** `b613d0064d018c2f68d983c907ab88e2712da116`
-- **Solution PR:** https://github.com/laurent22/joplin/pull/16967
+### [jasonhnd/paseo-clear-chat] fix(ui): use the conversation font in the quote panel
+- **Base Commit:** `36e5b61b8de97a117ef7bca095afd57f055448f5`
+- **Solution PR:** https://github.com/jasonhnd/paseo-clear-chat/pull/175
 
-### [design4pro/planned.travel] fix(transports): wait for deleted transport dialog focus in test (#1644)
-- **Base Commit:** `aba5951beb4246bac12b57597f8a6ffc9f077357`
-- **Solution PR:** https://github.com/design4pro/planned.travel/pull/1779
+### [gitify-app/gitify] fix(notifications): align chevron disclosure and expose expanded state
+- **Base Commit:** `58ff1f96d5dd9dbe7adc888f77c140e90af0ffae`
+- **Solution PR:** https://github.com/gitify-app/gitify/pull/3620
 
-### [Sorry4Nothing/fireresponse-api] OpenAPI, Endpunktliste und Postman: Route /admin/personen/{id}/bild
-- **Base Commit:** `b587e3d131254c1f56951f3704c9520b10c9bd85`
-- **Solution PR:** https://github.com/Sorry4Nothing/fireresponse-api/pull/154
+### [Bhairavi-ancy/rn-grid-date-time-picker] fix: pick the earliest instant for a repeated wall-clock time
+- **Base Commit:** `1f61092c54fb9ccd5ae2d9c60062c443bd5c5616`
+- **Solution PR:** https://github.com/Bhairavi-ancy/rn-grid-date-time-picker/pull/13
 
-### [maxGraph/maxGraph] fix: store booleans in the edge styles set by GraphLayout
-- **Base Commit:** `e90e1f0d95f68bc93dfd9f20a023b384959cdb2a`
-- **Solution PR:** https://github.com/maxGraph/maxGraph/pull/1311
+### [chrischall/iaqualink-mcp] fix(schema): say the serial argument's enum offers the system names only
+- **Base Commit:** `5ecce8fac3d457897650ff66bb39ff955c4f685f`
+- **Solution PR:** https://github.com/chrischall/iaqualink-mcp/pull/25
 
-### [trybun/trybun] fix(web): open the phone tour sheet away from the target it scrolls to (#209)
-- **Base Commit:** `fed603695f2e106b024f198c3aca403b321c6a83`
-- **Solution PR:** https://github.com/trybun/trybun/pull/213
+### [ackneal/pi-agy-bridge] fix(cli): make standalone selectable as a main agent
+- **Base Commit:** `ae5a96f60ede849170d44669e51ee15b529212e9`
+- **Solution PR:** https://github.com/ackneal/pi-agy-bridge/pull/37
 
-### [yeomyeonggeori/internkim] fix(messenger): let a click join or leave a custom emoji reaction
-- **Base Commit:** `e31d37813ab03460a8f2001e99f0724c8457ad42`
-- **Solution PR:** https://github.com/yeomyeonggeori/internkim/pull/2916
+### [jasonhnd/paseo-clear-chat] fix(hermes-cc): say which exit code a failed shell step returned instead of a generic message
+- **Base Commit:** `507aaadf9f0a6f4b65c8d4b1307ff73b683bc958`
+- **Solution PR:** https://github.com/jasonhnd/paseo-clear-chat/pull/173
 
-### [loakraken/loakraken-web] [FIX] 시세 화면 첫 로드에 늦게 온 품목 상세가 그려진 표를 화면 밖으로 밈
-- **Base Commit:** `d6a5f4c025e1ddd1565000e9088ff7a4572bf131`
-- **Solution PR:** https://github.com/loakraken/loakraken-web/pull/1356
+### [aidn3/hypixel-guild-discord-bridge] fix(core): fix trillion value in networth condition
+- **Base Commit:** `a1031e345e9d7f5a006c5b44af55efffc6ed190a`
+- **Solution PR:** https://github.com/aidn3/hypixel-guild-discord-bridge/pull/621
 
-### [open-mercato/open-mercato] fix(telemetry): close failed pg probe clients before querying (#8526)
-- **Base Commit:** `a9b16fd6e88b9a21216482de4bec27d060a32234`
-- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/8598
+### [team-croni/Nookive] fix: read files and render PDF pages off the main thread
+- **Base Commit:** `7b1e66005ace92b502607184b08e563aecfd85be`
+- **Solution PR:** https://github.com/team-croni/Nookive/pull/101
+
+### [jupyterlab/jupyterlab] Fix activation of extensions with an underscore in their plugin ID
+- **Base Commit:** `aaf68f40960fece20b7563a162a12b9edbb1412b`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20381

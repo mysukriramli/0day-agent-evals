@@ -1,34 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-02.
+> Uncontaminated bugs merged after 2026-11-03.
 
-### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 23ba1dc
-- **Base Commit:** `23ba1dc444431e25186ce5d06d070d34d77f1b0f`
-- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/628
+### [OrchestratorInc/agent-orchestrator] fix(chat): 14px reply action icons, duration after the actions
+- **Base Commit:** `2ac80ebc4e43506a03088b9883c1c4f50176e622`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7735
 
-### [cthtrifork/harper-pad] fix(drafts): save sooner and on Ctrl+S so a quick reload keeps the text
-- **Base Commit:** `5cd51a480e23ba1576bf202a4d35d85323ffadcb`
-- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/29
+### [Netcracker/qubership-consul] fix: add maxTokenTTL to 30min
+- **Base Commit:** `cc26faee63abec5e7018d34fed38926accf56569`
+- **Solution PR:** https://github.com/Netcracker/qubership-consul/pull/328
 
-### [cthtrifork/harper-pad] fix(drawer): align draft cards and delete button with the drawer edges
-- **Base Commit:** `00d2d6979b5da156e4031e8ee8ae665dfcf8f1a1`
-- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/28
+### [speakeasy-api/gram] fix: list assistant sessions under the agent the assistant acts as
+- **Base Commit:** `fad6e5498c404c455ed87592a236175f27b4e889`
+- **Solution PR:** https://github.com/speakeasy-api/gram/pull/8537
 
-### [pgvillage-tools/stolon] fix(deps): bump golangci/golangci-lint-action from 9.2.0 to 9.3.0
-- **Base Commit:** `e0c6faf5baea3d22af15b4aaf5a975c52fed1bc0`
-- **Solution PR:** https://github.com/pgvillage-tools/stolon/pull/71
+### [aptly-dev/aptly] conf: fix two misspelled keys in the default aptly.conf
+- **Base Commit:** `519602b3e8266ee693ec417def683cb3d647c271`
+- **Solution PR:** https://github.com/aptly-dev/aptly/pull/1661
 
-### [cloudnative-pg/plugin-barman-cloud] fix(rbac): bind role to the cluster's custom serviceAccountName
-- **Base Commit:** `243fe113687a98dbb5cf7638693e780c7a1b4767`
-- **Solution PR:** https://github.com/cloudnative-pg/plugin-barman-cloud/pull/869
+### [LFDT-Panurus/panurus] fix(storage): surface rows.Err() before caching signer info verdicts
+- **Base Commit:** `1a413ba22ba387ed66bbd5387f94f54f4fc3b012`
+- **Solution PR:** https://github.com/LFDT-Panurus/panurus/pull/2585
 
-### [stjosephsplacements/AetherCode] fix(user): batch affiliations readable under a students context; flag list needs no college
-- **Base Commit:** `1b50e9d1ac290d7eca446789567d2682d03bf92c`
-- **Solution PR:** https://github.com/stjosephsplacements/AetherCode/pull/130
+### [ingvarch/urga] fix(ui): follow the clients alone on the screen of a client when the cluster refuses its allocations
+- **Base Commit:** `a3dd85c96b21d3effdabf1c44387b4e1371d4852`
+- **Solution PR:** https://github.com/ingvarch/urga/pull/188
 
-### [cthtrifork/harper-pad] fix(web): build with the site's real base path so a custom domain works
-- **Base Commit:** `af4763d29f58fa4e90c41dc592f354f0ca95d94c`
-- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/26
-
-### [DataDog/datadog-operator] [Backport v1.32] fix(kubectl): embed release version metadata and expose --version
-- **Base Commit:** `0c12881ffbb836efe2239d0a058f89218591de51`
-- **Solution PR:** https://github.com/DataDog/datadog-operator/pull/3718
+### [Netcracker/qubership-network-latency-exporter] fix(deps): update kubernetes go modules to v0.37.2
+- **Base Commit:** `506c3a9dd85316c3d90530ed66214105947406d7`
+- **Solution PR:** https://github.com/Netcracker/qubership-network-latency-exporter/pull/262
