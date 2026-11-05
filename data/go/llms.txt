@@ -1,30 +1,14 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-03.
+> Uncontaminated bugs merged after 2026-11-04.
 
-### [OrchestratorInc/agent-orchestrator] fix(chat): 14px reply action icons, duration after the actions
-- **Base Commit:** `2ac80ebc4e43506a03088b9883c1c4f50176e622`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7735
+### [last9/last9-mcp-server] Make APM deviation window alignment errors actionable
+- **Base Commit:** `cef2cff2632e0da578d0cf32e31b89ffce5c32f0`
+- **Solution PR:** https://github.com/last9/last9-mcp-server/pull/507
 
-### [Netcracker/qubership-consul] fix: add maxTokenTTL to 30min
-- **Base Commit:** `cc26faee63abec5e7018d34fed38926accf56569`
-- **Solution PR:** https://github.com/Netcracker/qubership-consul/pull/328
+### [last9/last9-mcp-server] Bound get_logs adaptive chunk plans before dispatch
+- **Base Commit:** `ba2a81c74f325c0ab5308aad754f1e28e943cbd8`
+- **Solution PR:** https://github.com/last9/last9-mcp-server/pull/510
 
-### [speakeasy-api/gram] fix: list assistant sessions under the agent the assistant acts as
-- **Base Commit:** `fad6e5498c404c455ed87592a236175f27b4e889`
-- **Solution PR:** https://github.com/speakeasy-api/gram/pull/8537
-
-### [aptly-dev/aptly] conf: fix two misspelled keys in the default aptly.conf
-- **Base Commit:** `519602b3e8266ee693ec417def683cb3d647c271`
-- **Solution PR:** https://github.com/aptly-dev/aptly/pull/1661
-
-### [LFDT-Panurus/panurus] fix(storage): surface rows.Err() before caching signer info verdicts
-- **Base Commit:** `1a413ba22ba387ed66bbd5387f94f54f4fc3b012`
-- **Solution PR:** https://github.com/LFDT-Panurus/panurus/pull/2585
-
-### [ingvarch/urga] fix(ui): follow the clients alone on the screen of a client when the cluster refuses its allocations
-- **Base Commit:** `a3dd85c96b21d3effdabf1c44387b4e1371d4852`
-- **Solution PR:** https://github.com/ingvarch/urga/pull/188
-
-### [Netcracker/qubership-network-latency-exporter] fix(deps): update kubernetes go modules to v0.37.2
-- **Base Commit:** `506c3a9dd85316c3d90530ed66214105947406d7`
-- **Solution PR:** https://github.com/Netcracker/qubership-network-latency-exporter/pull/262
+### [stokaro/ptah-ydb-plugin] Measure that an HCL document claims no node it does not name
+- **Base Commit:** `9ba788788edfaba794f08e7f55319d10743f3bdc`
+- **Solution PR:** https://github.com/stokaro/ptah-ydb-plugin/pull/204

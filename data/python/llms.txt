@@ -1,30 +1,18 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-03.
+> Uncontaminated bugs merged after 2026-11-04.
 
-### [govtech-responsibleai/metis] fix(core): type .md fixtures as text/markdown
-- **Base Commit:** `26b1b1edfa3c305cc8c09e62460afdc295dc6754`
-- **Solution PR:** https://github.com/govtech-responsibleai/metis/pull/48
+### [The-PR-Agent/pr-agent] fix(describe): retain files when unused optional summaries are malformed
+- **Base Commit:** `10f6429f22c2fafb54d54600085e299efbc8190e`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4676
 
-### [DexForce/EmbodiChain] Keep PPO singleton advantage normalization finite
-- **Base Commit:** `45d986e5f597c8c68bad092b0d0ed2be3511ab2c`
-- **Solution PR:** https://github.com/DexForce/EmbodiChain/pull/964
+### [fastapilabs/fastapi-cloud-cli] 🐛 Handle declined OAuth device authorization
+- **Base Commit:** `81e495ccbab5a7e942cc0ab0eb71bcffc7cec4a9`
+- **Solution PR:** https://github.com/fastapilabs/fastapi-cloud-cli/pull/375
 
-### [vllm-project/vllm] [Bugfix][KV Offload] Return lazily offloaded GPU blocks to the eviction end
-- **Base Commit:** `790be385c8a69f45ec9a7a85ef00836d1684060f`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/59383
+### [earthobservations/wetterdienst] fix(imgw): report CC BY-NC-ND 4.0 for all IMGW data (GH-2567)
+- **Base Commit:** `4ae305bfa89de58df549c5973b044bfbdc1ad0de`
+- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/3793
 
-### [synthesizer-project/synthesizer] Fix MPI deadlock reducing analysis function timings
-- **Base Commit:** `7d704400451c320d506d39680fe68470031c74f5`
-- **Solution PR:** https://github.com/synthesizer-project/synthesizer/pull/1265
-
-### [pandudpn/ompwire] fix(gateway): auto-create missing cwd, and show model display names
-- **Base Commit:** `5d54aa0b9b157326f36d3f5a38f61a123904ec19`
-- **Solution PR:** https://github.com/pandudpn/ompwire/pull/31
-
-### [Urban-Futures-Collective/urban-model-platform] fix(compose): pass provider, registry and mail settings to the API container
-- **Base Commit:** `c4a1528ef2c6f063a30bfb4cce3557eb79682122`
-- **Solution PR:** https://github.com/Urban-Futures-Collective/urban-model-platform/pull/29
-
-### [rimonhanna/linkedin-mcp-server] fix(messaging): find the search box by structure, not English text
-- **Base Commit:** `d191b322df743da398dbabe641880b7061c865bf`
-- **Solution PR:** https://github.com/rimonhanna/linkedin-mcp-server/pull/106
+### [Pavel404-dev/Mealio] fix(db): bound Alembic migration timeouts
+- **Base Commit:** `1a0281464204dc6bba8bcf7f61675f033467b55e`
+- **Solution PR:** https://github.com/Pavel404-dev/Mealio/pull/216
