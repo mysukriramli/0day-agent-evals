@@ -1,18 +1,22 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-04.
+> Uncontaminated bugs merged after 2026-11-05.
 
-### [The-PR-Agent/pr-agent] fix(describe): retain files when unused optional summaries are malformed
-- **Base Commit:** `10f6429f22c2fafb54d54600085e299efbc8190e`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4676
+### [kakaotechcampus-4/ktc4-kangwon-3] [AI] fix: 정보가 모자란 상품은 Tool의 부족한 정보로 판매자에게 질문함
+- **Base Commit:** `3b182a860f5068cbcf8cc7c31cd90b40fbf6f714`
+- **Solution PR:** https://github.com/kakaotechcampus-4/ktc4-kangwon-3/pull/586
 
-### [fastapilabs/fastapi-cloud-cli] 🐛 Handle declined OAuth device authorization
-- **Base Commit:** `81e495ccbab5a7e942cc0ab0eb71bcffc7cec4a9`
-- **Solution PR:** https://github.com/fastapilabs/fastapi-cloud-cli/pull/375
+### [mesa/mesa] Fix underflow in weighted sampling without replacement
+- **Base Commit:** `d420962ccb5b7fd88496bce45f068564f57eb888`
+- **Solution PR:** https://github.com/mesa/mesa/pull/3990
 
-### [earthobservations/wetterdienst] fix(imgw): report CC BY-NC-ND 4.0 for all IMGW data (GH-2567)
-- **Base Commit:** `4ae305bfa89de58df549c5973b044bfbdc1ad0de`
-- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/3793
+### [ansys/pyaedt] FIX: Remove 2 deprecation warnings in extension tests
+- **Base Commit:** `e8d8b390b31db5b22a175a5c2906d3e232066333`
+- **Solution PR:** https://github.com/ansys/pyaedt/pull/8246
 
-### [Pavel404-dev/Mealio] fix(db): bound Alembic migration timeouts
-- **Base Commit:** `1a0281464204dc6bba8bcf7f61675f033467b55e`
-- **Solution PR:** https://github.com/Pavel404-dev/Mealio/pull/216
+### [Aztaban/ft_transcendence] fix: pin kombu so Celery starts on a fresh build
+- **Base Commit:** `01ca526544352e2be750cd28f74555aecf62a9c4`
+- **Solution PR:** https://github.com/Aztaban/ft_transcendence/pull/739
+
+### [juntagrico/juntagrico] fix: referrer policy for osm tiles
+- **Base Commit:** `11e627390d0bf24dbd97014d377e26b1e1bdcfc3`
+- **Solution PR:** https://github.com/juntagrico/juntagrico/pull/960

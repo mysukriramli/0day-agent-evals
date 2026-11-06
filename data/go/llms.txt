@@ -1,14 +1,18 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-04.
+> Uncontaminated bugs merged after 2026-11-05.
 
-### [last9/last9-mcp-server] Make APM deviation window alignment errors actionable
-- **Base Commit:** `cef2cff2632e0da578d0cf32e31b89ffce5c32f0`
-- **Solution PR:** https://github.com/last9/last9-mcp-server/pull/507
+### [stokaro/ptah] Print a provider's plan under the heading an SQL plan has
+- **Base Commit:** `001a7fbb17cb2b16031671004c0b28b78c0279f9`
+- **Solution PR:** https://github.com/stokaro/ptah/pull/5500
 
-### [last9/last9-mcp-server] Bound get_logs adaptive chunk plans before dispatch
-- **Base Commit:** `ba2a81c74f325c0ab5308aad754f1e28e943cbd8`
-- **Solution PR:** https://github.com/last9/last9-mcp-server/pull/510
+### [evcc-io/evcc] Sigenergy: fix grid energy registers
+- **Base Commit:** `d1b62c227d179f0dccb4201fa3a125433509bb99`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35878
 
-### [stokaro/ptah-ydb-plugin] Measure that an HCL document claims no node it does not name
-- **Base Commit:** `9ba788788edfaba794f08e7f55319d10743f3bdc`
-- **Solution PR:** https://github.com/stokaro/ptah-ydb-plugin/pull/204
+### [cthtrifork/harper-pad] fix(ui): Sync button keeps its size and icon; the header never wraps
+- **Base Commit:** `7aff6bdfc56d47da18cb769f863a1611a13e95e0`
+- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/155
+
+### [ClipMyHorseTV/livego] STR-1850 - Resolve race condition in VirWriter close handling
+- **Base Commit:** `340dd25a6f8a1f262bce5b8f95bb6a292704604b`
+- **Solution PR:** https://github.com/ClipMyHorseTV/livego/pull/12

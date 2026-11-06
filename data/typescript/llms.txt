@@ -1,26 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-04.
+> Uncontaminated bugs merged after 2026-11-05.
 
-### [open-mercato/open-mercato] fix(record_locks): keep quote-session selectors compatible with labels (#8724)
-- **Base Commit:** `2706ec031f2904de0ea49444a61a09fef8cf630f`
-- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/8752
+### [Narduril/fotomaton_lamagatall] fix(photos-list): fix types
+- **Base Commit:** `6d89e7bfbd418267be237bec59435e006ecc3605`
+- **Solution PR:** https://github.com/Narduril/fotomaton_lamagatall/pull/21
 
-### [ConductionNL/woo-website-template-apiv2] fix(frontend): give the detail page its own attachments pagination
-- **Base Commit:** `a82b40f7953cf01980b1d45dc36de6087af428e6`
-- **Solution PR:** https://github.com/ConductionNL/woo-website-template-apiv2/pull/174
+### [vertesia/composableai] fix(common): emit the intake configuration schemas through named types
+- **Base Commit:** `edfc03057e2ab5e3428bf87a2839267141e6ed8d`
+- **Solution PR:** https://github.com/vertesia/composableai/pull/2804
 
-### [markup-carve/carve-js] Keep a refused run's follower in a description or footnote + body
-- **Base Commit:** `7e5f74424fda211804c308b7905c2b518494929a`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4453
+### [vertesia/llumiverse] fix(common): emit ModelOptionsSchema through a named type
+- **Base Commit:** `9c9c803606923f225bbe3584e7c4a650fb2b86aa`
+- **Solution PR:** https://github.com/vertesia/llumiverse/pull/861
 
-### [mediocre9/voyagerota-core] Artifact upload size check off-by-one
-- **Base Commit:** `9161c45afb506eb0a921ab88fb55c60fbc6aa645`
-- **Solution PR:** https://github.com/mediocre9/voyagerota-core/pull/109
+### [nekko-labs/nekko-agent] Fix the clippy failure in nekko-remote's phone channel guard
+- **Base Commit:** `bb72153b99bc048ac52ffad492872c339c6dd884`
+- **Solution PR:** https://github.com/nekko-labs/nekko-agent/pull/1946
 
-### [VictorHugoAguilar/tools-manager-frontend] Change drawingCollaborationUrl to use wss protocol [patch]
-- **Base Commit:** `e25a98cdfdbc97e7688083667b364de74d334fc4`
-- **Solution PR:** https://github.com/VictorHugoAguilar/tools-manager-frontend/pull/111
+### [guardian/service-catalogue] Update developer-policy to allow cloudquery to populate aws_iam_roles table
+- **Base Commit:** `e19a93bbf1ca35057f23c03a19ef85cf2e651821`
+- **Solution PR:** https://github.com/guardian/service-catalogue/pull/2112
 
-### [jupyterlab/jupyterlab] Handle escaped and mid-paragraph `$$` math in the Markdown editor
-- **Base Commit:** `29752fe1f6f0950a387afbe941dce5dcfbd60c0a`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20004
+### [aliasvault/aliasvault] Update folder sort to be alphabetical case-insensitive in all platforms
+- **Base Commit:** `1a09412c7466a5d4606625dc81d10b21b6cfa11d`
+- **Solution PR:** https://github.com/aliasvault/aliasvault/pull/2601
+
+### [three-feathers/agent-durbar] 008: number the release clip's step captions 1..n (#1214)
+- **Base Commit:** `c49c934ce8d4992b019a5b0d3724e302d52cc1d0`
+- **Solution PR:** https://github.com/three-feathers/agent-durbar/pull/1216
