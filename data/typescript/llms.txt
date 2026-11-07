@@ -1,30 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-05.
+> Uncontaminated bugs merged after 2026-11-06.
 
-### [Narduril/fotomaton_lamagatall] fix(photos-list): fix types
-- **Base Commit:** `6d89e7bfbd418267be237bec59435e006ecc3605`
-- **Solution PR:** https://github.com/Narduril/fotomaton_lamagatall/pull/21
+### [nuphos/nuphos] fix(android): raise the keyboard on every Reply
+- **Base Commit:** `e34b5db5b52f95b49cc364a1e93fda92636161ad`
+- **Solution PR:** https://github.com/nuphos/nuphos/pull/1794
 
-### [vertesia/composableai] fix(common): emit the intake configuration schemas through named types
-- **Base Commit:** `edfc03057e2ab5e3428bf87a2839267141e6ed8d`
-- **Solution PR:** https://github.com/vertesia/composableai/pull/2804
+### [Bidthedog/throng] [Bug] Document the bash prompt cursor bug fixed upstream in 5.3 patch 20
+- **Base Commit:** `ac2583f2953021401f3f0c28931ee4a6bfd9f191`
+- **Solution PR:** https://github.com/Bidthedog/throng/pull/589
 
-### [vertesia/llumiverse] fix(common): emit ModelOptionsSchema through a named type
-- **Base Commit:** `9c9c803606923f225bbe3584e7c4a650fb2b86aa`
-- **Solution PR:** https://github.com/vertesia/llumiverse/pull/861
+### [aipoch/open-science] fix(notebook): exercise interrupted Windows shell identity
+- **Base Commit:** `b04553175d777a0820d9d9ceea98b88060d34f21`
+- **Solution PR:** https://github.com/aipoch/open-science/pull/4152
 
-### [nekko-labs/nekko-agent] Fix the clippy failure in nekko-remote's phone channel guard
-- **Base Commit:** `bb72153b99bc048ac52ffad492872c339c6dd884`
-- **Solution PR:** https://github.com/nekko-labs/nekko-agent/pull/1946
+### [OrchestratorInc/agent-orchestrator] fix(opencode-v2): show a failed compaction as failed
+- **Base Commit:** `628fe11f24a3c739c278ec33e5d2e5c5621ad6c6`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7869
 
-### [guardian/service-catalogue] Update developer-policy to allow cloudquery to populate aws_iam_roles table
-- **Base Commit:** `e19a93bbf1ca35057f23c03a19ef85cf2e651821`
-- **Solution PR:** https://github.com/guardian/service-catalogue/pull/2112
+### [alimek/t3-factory] fix: take the beta draft id from the create response
+- **Base Commit:** `814032b5e7807b3987aedcb75bd571c95158c4b9`
+- **Solution PR:** https://github.com/alimek/t3-factory/pull/40
 
-### [aliasvault/aliasvault] Update folder sort to be alphabetical case-insensitive in all platforms
-- **Base Commit:** `1a09412c7466a5d4606625dc81d10b21b6cfa11d`
-- **Solution PR:** https://github.com/aliasvault/aliasvault/pull/2601
-
-### [three-feathers/agent-durbar] 008: number the release clip's step captions 1..n (#1214)
-- **Base Commit:** `c49c934ce8d4992b019a5b0d3724e302d52cc1d0`
-- **Solution PR:** https://github.com/three-feathers/agent-durbar/pull/1216
+### [stefanhoelzl/codehydra] fix: A working agent's timer no longer shifts its workspace's CPU and memory
+- **Base Commit:** `0749c5fc9d45e41a08c4482e41b01c07b1dd5228`
+- **Solution PR:** https://github.com/stefanhoelzl/codehydra/pull/794

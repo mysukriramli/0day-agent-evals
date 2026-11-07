@@ -1,18 +1,46 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-05.
+> Uncontaminated bugs merged after 2026-11-06.
 
-### [stokaro/ptah] Print a provider's plan under the heading an SQL plan has
-- **Base Commit:** `001a7fbb17cb2b16031671004c0b28b78c0279f9`
-- **Solution PR:** https://github.com/stokaro/ptah/pull/5500
+### [yldm-tech/mygo-breeze-ui] fix(storybook): bust cached wasm after deploy
+- **Base Commit:** `4e6ea142ca87ae7e418d1a5125a94361fc976ab1`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/69
 
-### [evcc-io/evcc] Sigenergy: fix grid energy registers
-- **Base Commit:** `d1b62c227d179f0dccb4201fa3a125433509bb99`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35878
+### [celenium-io/celestia-indexer] Fix: hl_transfer.nonce overflow on uint32 nonces
+- **Base Commit:** `1f8d1970f1b9c4d62ccba4fb455ba72d1b57c340`
+- **Solution PR:** https://github.com/celenium-io/celestia-indexer/pull/690
 
-### [cthtrifork/harper-pad] fix(ui): Sync button keeps its size and icon; the header never wraps
-- **Base Commit:** `7aff6bdfc56d47da18cb769f863a1611a13e95e0`
-- **Solution PR:** https://github.com/cthtrifork/harper-pad/pull/155
+### [yldm-tech/mygo-breeze-ui] fix(storybook): remove duplicate sidebar branding
+- **Base Commit:** `393e269a4ea0a5a733d60267b5f7ce99b31ff68a`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/67
 
-### [ClipMyHorseTV/livego] STR-1850 - Resolve race condition in VirWriter close handling
-- **Base Commit:** `340dd25a6f8a1f262bce5b8f95bb6a292704604b`
-- **Solution PR:** https://github.com/ClipMyHorseTV/livego/pull/12
+### [yldm-tech/mygo-breeze-ui] fix(storybook): match selected story styling
+- **Base Commit:** `cd55b1f40fa98d3f042e60e521a4b5d92cab0534`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/66
+
+### [yldm-tech/mygo-breeze-ui] fix(release): install dependencies before MCP publish
+- **Base Commit:** `cd55b1f40fa98d3f042e60e521a4b5d92cab0534`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/65
+
+### [Chemaclass/agnostic-ai] test: clone view args so an empty case never reads os.Args
+- **Base Commit:** `8606edc175236d455513b7ad4b73318f930fb5e0`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/3101
+
+### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to e34485b
+- **Base Commit:** `e34485ba838770f083aff786a4bd4960096fab64`
+- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/654
+
+### [inkwall-dev/inkwall] fix: bounds-check the integer conversions CodeQL flags in inkwallctl tune and the bundle builder
+- **Base Commit:** `a8c6253ba22dba93a453eba801d1486d0305ac0c`
+- **Solution PR:** https://github.com/inkwall-dev/inkwall/pull/506
+
+### [yldm-tech/mygo-breeze-ui] fix(release): install Bun before publishing MCP
+- **Base Commit:** `2857ebc931a17813ca9432e45e00d8d504488d4d`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/63
+
+### [yldm-tech/mygo-breeze-ui] fix(release): make tag creation retryable
+- **Base Commit:** `e88ba8dcdd3cf0e7f013fdaf8d1256bfb7027be8`
+- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/61
+
+### [osscontainertools/kaniko] bake dryrun keeps the filesystem
+- **Base Commit:** `46fd9c6b8edd16a19a0566145e3b31e64a822c4a`
+- **Solution PR:** https://github.com/osscontainertools/kaniko/pull/1364
