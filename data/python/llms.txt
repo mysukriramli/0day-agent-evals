@@ -1,46 +1,26 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-06.
+> Uncontaminated bugs merged after 2026-11-07.
 
-### [bolajiwahab/pgrubic] fix(deps): update dependency deepmerge to v4
-- **Base Commit:** `40c3d9bfa44b3691f55ce12f117cbda65648a055`
-- **Solution PR:** https://github.com/bolajiwahab/pgrubic/pull/350
+### [ansible-collections/community.general] zypper_repository: keep `description` when adding a `.repo` file
+- **Base Commit:** `d30b736a2916d79e876299bae180afdd1a5b54e6`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13168
 
-### [ultralytics/ultralytics] Drop seam fragments and fix empty MPS tiles in tiled merges
-- **Base Commit:** `c426d2fa5f849b7993bb0fedcea336beb06b445b`
-- **Solution PR:** https://github.com/ultralytics/ultralytics/pull/27072
+### [openscientist-io/openscientist] Keep the Report tab disabled for failed jobs
+- **Base Commit:** `df5b1cf364639dc5a389b4a1e7183e581336e839`
+- **Solution PR:** https://github.com/openscientist-io/openscientist/pull/554
 
-### [OpenLakeForge/openlakeforge] fix(polaris): reset a principal's credentials instead of rotating them
-- **Base Commit:** `a210c842d59e3d1bb9f6ad2eecdf4ea53db8975c`
-- **Solution PR:** https://github.com/OpenLakeForge/openlakeforge/pull/939
+### [molssi-seamm/seamm_manager] Bugfix: archive storage could replace a hand-built code environment
+- **Base Commit:** `603be9a86f69f8c9232aa2a781733fcf4a9c09f5`
+- **Solution PR:** https://github.com/molssi-seamm/seamm_manager/pull/41
 
-### [repeat98/modwerk] Fix: modules:pairs reads and writes UTF-8 on every platform
-- **Base Commit:** `530bd3c28e1c044f18ec9b231e7d79e42e76c2f2`
-- **Solution PR:** https://github.com/repeat98/modwerk/pull/1294
+### [The-PR-Agent/pr-agent] fix(review): use the prepared diff when packing yields one chunk
+- **Base Commit:** `e673a02076ce09a4726c3d0c3cc85780e59ca52b`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4535
 
-### [ohtia/ohtia] fix(app): expose the interface-language input purpose (#178)
-- **Base Commit:** `525bd7ea0102129224e61f5f73dbe3e7c13a0b7b`
-- **Solution PR:** https://github.com/ohtia/ohtia/pull/182
+### [The-PR-Agent/pr-agent] fix(github): resolve the actual PR head when commit lists are truncated
+- **Base Commit:** `402e7881d78dabeeba59c04747ae1dbed3adb686`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4750
 
-### [repeat98/modwerk] Fix: sdk:imports:check reads the vendored trees' import records
-- **Base Commit:** `530bd3c28e1c044f18ec9b231e7d79e42e76c2f2`
-- **Solution PR:** https://github.com/repeat98/modwerk/pull/1293
-
-### [danielep71/K-LCR] fix: accept Art. 12(1)(f) assets as Level 2B secured-flow collateral
-- **Base Commit:** `0e55b5d9e4315b00a8aeea07dccd4ec502426c2b`
-- **Solution PR:** https://github.com/danielep71/K-LCR/pull/155
-
-### [Oceankok/CBNU-CAPSTONE-Kyo] fix: 촬영 폴더 재사용 시 작성 중인 MP4 전송 방지
-- **Base Commit:** `b6d66a880f3b6ef3798d9cdcb3400887201967a7`
-- **Solution PR:** https://github.com/Oceankok/CBNU-CAPSTONE-Kyo/pull/214
-
-### [gammapy/gammapy] Fix to_dict() for big-endian arrays in four models
-- **Base Commit:** `86d3e7b6e918db7353dae27467e4eea04f01931c`
-- **Solution PR:** https://github.com/gammapy/gammapy/pull/6952
-
-### [ZoneMinder/pyzmNg] fix(ml): read the pre-NMS layer for yolo26 on OpenCV 4.x
-- **Base Commit:** `e8510001551e89989806b9404eb241e905ef15a5`
-- **Solution PR:** https://github.com/ZoneMinder/pyzmNg/pull/96
-
-### [DexForce/EmbodiChain] Fix docs CI by installing wget before site merge
-- **Base Commit:** `9353f48ec876514fb149d2bb6984c83cca6d0004`
-- **Solution PR:** https://github.com/DexForce/EmbodiChain/pull/1115
+### [mholzi/beatify] fix: replace a dropped song from the round-cap reserve instead of shortening the game (#3441)
+- **Base Commit:** `bda08dc3c2c27ce13d5d26e46b4d302360f86acb`
+- **Solution PR:** https://github.com/mholzi/beatify/pull/3443

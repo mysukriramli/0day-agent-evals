@@ -1,26 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-06.
+> Uncontaminated bugs merged after 2026-11-07.
 
-### [nuphos/nuphos] fix(android): raise the keyboard on every Reply
-- **Base Commit:** `e34b5db5b52f95b49cc364a1e93fda92636161ad`
-- **Solution PR:** https://github.com/nuphos/nuphos/pull/1794
+### [openbraininstitute/obi-e2e] test: open the workflows hub after a /sync bounce, and take the onboarding user through the first-run wizard
+- **Base Commit:** `b16c2d0f87c94e9bb8cd6c77cd45545322c796fb`
+- **Solution PR:** https://github.com/openbraininstitute/obi-e2e/pull/57
 
-### [Bidthedog/throng] [Bug] Document the bash prompt cursor bug fixed upstream in 5.3 patch 20
-- **Base Commit:** `ac2583f2953021401f3f0c28931ee4a6bfd9f191`
-- **Solution PR:** https://github.com/Bidthedog/throng/pull/589
+### [woojubb/robota] ci: retry GitHub release downloads in the Bun build and the gitleaks install
+- **Base Commit:** `22d65a82c3027b46ddb54c6b4883e1993dbdd51b`
+- **Solution PR:** https://github.com/woojubb/robota/pull/3866
 
-### [aipoch/open-science] fix(notebook): exercise interrupted Windows shell identity
-- **Base Commit:** `b04553175d777a0820d9d9ceea98b88060d34f21`
-- **Solution PR:** https://github.com/aipoch/open-science/pull/4152
+### [eugenevve/copyfloy] Enhance EditSchedulerFormModal with 12-hour format and options
+- **Base Commit:** `cce6475ca7fb9a96db2c167ab58c663eb53827c6`
+- **Solution PR:** https://github.com/eugenevve/copyfloy/pull/44
 
-### [OrchestratorInc/agent-orchestrator] fix(opencode-v2): show a failed compaction as failed
-- **Base Commit:** `628fe11f24a3c739c278ec33e5d2e5c5621ad6c6`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/7869
+### [onix-labs/onixlabs-studio] fix(lsp): kotlin leaves no gradle daemon behind, and stops offering convert java to kotlin
+- **Base Commit:** `9f4926b870fbe5ae8091bdf053e903f2c661069b`
+- **Solution PR:** https://github.com/onix-labs/onixlabs-studio/pull/1391
 
-### [alimek/t3-factory] fix: take the beta draft id from the create response
-- **Base Commit:** `814032b5e7807b3987aedcb75bd571c95158c4b9`
-- **Solution PR:** https://github.com/alimek/t3-factory/pull/40
+### [kanetaku1/AdAdd] fix(web): 入金待ちの領収書は入金日を初期値なしにし、入力するまでダウンロードできなくする
+- **Base Commit:** `a82d598bd4576ac18e3c99b1435c18b521e54d49`
+- **Solution PR:** https://github.com/kanetaku1/AdAdd/pull/192
 
-### [stefanhoelzl/codehydra] fix: A working agent's timer no longer shifts its workspace's CPU and memory
-- **Base Commit:** `0749c5fc9d45e41a08c4482e41b01c07b1dd5228`
-- **Solution PR:** https://github.com/stefanhoelzl/codehydra/pull/794
+### [markup-carve/carve-js] Measure a lazy hold from the paragraph, not its container
+- **Base Commit:** `94ade00a3667745173a2f3567bb2d5894c066eec`
+- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4693
+
+### [SaekiTominaga/w0s.jp-shell] 不要な除外ディレクトリ削除
+- **Base Commit:** `22ee0ee789b8c33efb2fd40b489ddc04873bc4d3`
+- **Solution PR:** https://github.com/SaekiTominaga/w0s.jp-shell/pull/494

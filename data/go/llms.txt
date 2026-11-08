@@ -1,46 +1,46 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-06.
+> Uncontaminated bugs merged after 2026-11-07.
 
-### [yldm-tech/mygo-breeze-ui] fix(storybook): bust cached wasm after deploy
-- **Base Commit:** `4e6ea142ca87ae7e418d1a5125a94361fc976ab1`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/69
+### [usadamasa/agents-daemon] 依存図のアプリのスワイプで余白が見えないようにする
+- **Base Commit:** `377604aaf25ba1c85d70b4c3d30c187fd07a5973`
+- **Solution PR:** https://github.com/usadamasa/agents-daemon/pull/501
 
-### [celenium-io/celestia-indexer] Fix: hl_transfer.nonce overflow on uint32 nonces
-- **Base Commit:** `1f8d1970f1b9c4d62ccba4fb455ba72d1b57c340`
-- **Solution PR:** https://github.com/celenium-io/celestia-indexer/pull/690
+### [yusiwen/TinyCode] fix(tool): skip the seatbelt probe when a nested sandbox refuses it
+- **Base Commit:** `7572e1c7ecd42641e4abb9a8056438f7a84ee500`
+- **Solution PR:** https://github.com/yusiwen/TinyCode/pull/344
 
-### [yldm-tech/mygo-breeze-ui] fix(storybook): remove duplicate sidebar branding
-- **Base Commit:** `393e269a4ea0a5a733d60267b5f7ce99b31ff68a`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/67
+### [heathcliff26/netrouse] fix(packit): Include external scripts for hooks
+- **Base Commit:** `ffe4ee82352348257c8a82ef3303bbf02ee18fec`
+- **Solution PR:** https://github.com/heathcliff26/netrouse/pull/204
 
-### [yldm-tech/mygo-breeze-ui] fix(storybook): match selected story styling
-- **Base Commit:** `cd55b1f40fa98d3f042e60e521a4b5d92cab0534`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/66
+### [itsvlxd/StackLog] fix: createLogger discards a caller-supplied style
+- **Base Commit:** `414ffde1580e06e5d0ab8b425a5d0631175195f2`
+- **Solution PR:** https://github.com/itsvlxd/StackLog/pull/2
 
-### [yldm-tech/mygo-breeze-ui] fix(release): install dependencies before MCP publish
-- **Base Commit:** `cd55b1f40fa98d3f042e60e521a4b5d92cab0534`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/65
+### [ugreen-nas-control/ugreen-nas-control] fix: history table unreadable when plugin and Unraid colour schemes differ
+- **Base Commit:** `0727ee3c3a13ce057f6415aaebe8ecd845c43ebd`
+- **Solution PR:** https://github.com/ugreen-nas-control/ugreen-nas-control/pull/276
 
-### [Chemaclass/agnostic-ai] test: clone view args so an empty case never reads os.Args
-- **Base Commit:** `8606edc175236d455513b7ad4b73318f930fb5e0`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/3101
+### [usadamasa/agents-daemon] fix: 依存図のポップアップの「セッション終了」の丸を灰で出す
+- **Base Commit:** `428ac2f661eb47cd4cbda07d9988e487fb223256`
+- **Solution PR:** https://github.com/usadamasa/agents-daemon/pull/496
 
-### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to e34485b
-- **Base Commit:** `e34485ba838770f083aff786a4bd4960096fab64`
-- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/654
+### [rkosegi/yaml-pipeline] 🐛 HttpOp should invalidate snapshot upon data modification
+- **Base Commit:** `0042ec8b087defc301483f145304a12dacab50ed`
+- **Solution PR:** https://github.com/rkosegi/yaml-pipeline/pull/340
 
-### [inkwall-dev/inkwall] fix: bounds-check the integer conversions CodeQL flags in inkwallctl tune and the bundle builder
-- **Base Commit:** `a8c6253ba22dba93a453eba801d1486d0305ac0c`
-- **Solution PR:** https://github.com/inkwall-dev/inkwall/pull/506
+### [nwverse/persona] fix(office): keep ROUND caches finite at extreme scales
+- **Base Commit:** `c04092a13bb99a5e95105413cc8deb9094083e3d`
+- **Solution PR:** https://github.com/nwverse/persona/pull/1345
 
-### [yldm-tech/mygo-breeze-ui] fix(release): install Bun before publishing MCP
-- **Base Commit:** `2857ebc931a17813ca9432e45e00d8d504488d4d`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/63
+### [Emin-ACIKGOZ/scbake] fix(transaction): recreate pruned lock state directory
+- **Base Commit:** `be42aac2bc06f9c01a20678c00d68737a5608a47`
+- **Solution PR:** https://github.com/Emin-ACIKGOZ/scbake/pull/183
 
-### [yldm-tech/mygo-breeze-ui] fix(release): make tag creation retryable
-- **Base Commit:** `e88ba8dcdd3cf0e7f013fdaf8d1256bfb7027be8`
-- **Solution PR:** https://github.com/yldm-tech/mygo-breeze-ui/pull/61
+### [woodpecker-ci/woodpecker] Reject Bitbucket webhooks whose repository full name has no owner
+- **Base Commit:** `c8dc0928e6844d2977bf2577234e974e32225fa4`
+- **Solution PR:** https://github.com/woodpecker-ci/woodpecker/pull/7507
 
-### [osscontainertools/kaniko] bake dryrun keeps the filesystem
-- **Base Commit:** `46fd9c6b8edd16a19a0566145e3b31e64a822c4a`
-- **Solution PR:** https://github.com/osscontainertools/kaniko/pull/1364
+### [ryanbekhen/armada] fix(install): find the newest release while every release is a pre-release
+- **Base Commit:** `de5a03045512eeb5d9ed9cc91c6306e3c4463e04`
+- **Solution PR:** https://github.com/ryanbekhen/armada/pull/106
