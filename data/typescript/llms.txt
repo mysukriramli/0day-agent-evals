@@ -1,30 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-07.
+> Uncontaminated bugs merged after 2026-11-08.
 
-### [openbraininstitute/obi-e2e] test: open the workflows hub after a /sync bounce, and take the onboarding user through the first-run wizard
-- **Base Commit:** `b16c2d0f87c94e9bb8cd6c77cd45545322c796fb`
-- **Solution PR:** https://github.com/openbraininstitute/obi-e2e/pull/57
+### [internxt/drive-mobile] [PB-6440] bugfix/Center the selection title
+- **Base Commit:** `c491873c001a8e6519da9cd505f26a50a882d1c7`
+- **Solution PR:** https://github.com/internxt/drive-mobile/pull/693
 
-### [woojubb/robota] ci: retry GitHub release downloads in the Bun build and the gitleaks install
-- **Base Commit:** `22d65a82c3027b46ddb54c6b4883e1993dbdd51b`
-- **Solution PR:** https://github.com/woojubb/robota/pull/3866
+### [internxt/drive-mobile] [PB-7000] bugfix/Stop a download cancelled before its parts start
+- **Base Commit:** `9feebcde67cfca2d63c07c633fb2e4daccc41042`
+- **Solution PR:** https://github.com/internxt/drive-mobile/pull/691
 
-### [eugenevve/copyfloy] Enhance EditSchedulerFormModal with 12-hour format and options
-- **Base Commit:** `cce6475ca7fb9a96db2c167ab58c663eb53827c6`
-- **Solution PR:** https://github.com/eugenevve/copyfloy/pull/44
+### [internxt/drive-mobile] [PB-7000] bugfix/Keep each decrypted file in its own folder
+- **Base Commit:** `555b614b495d96c76c05814962079c4accaaffbb`
+- **Solution PR:** https://github.com/internxt/drive-mobile/pull/692
 
-### [onix-labs/onixlabs-studio] fix(lsp): kotlin leaves no gradle daemon behind, and stops offering convert java to kotlin
-- **Base Commit:** `9f4926b870fbe5ae8091bdf053e903f2c661069b`
-- **Solution PR:** https://github.com/onix-labs/onixlabs-studio/pull/1391
+### [internxt/drive-mobile] [PB-7000] feature/Update the share library for current Android
+- **Base Commit:** `6fc076fad53b31c05c260964786b8bc0616bbbc4`
+- **Solution PR:** https://github.com/internxt/drive-mobile/pull/686
 
-### [kanetaku1/AdAdd] fix(web): 入金待ちの領収書は入金日を初期値なしにし、入力するまでダウンロードできなくする
-- **Base Commit:** `a82d598bd4576ac18e3c99b1435c18b521e54d49`
-- **Solution PR:** https://github.com/kanetaku1/AdAdd/pull/192
+### [junomedical/quno-calendar] fix(QU-4049): restore date-only keyboard selection
+- **Base Commit:** `4c45b109051f58e1ec89a9dec41e7118ce370e15`
+- **Solution PR:** https://github.com/junomedical/quno-calendar/pull/65
 
-### [markup-carve/carve-js] Measure a lazy hold from the paragraph, not its container
-- **Base Commit:** `94ade00a3667745173a2f3567bb2d5894c066eec`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4693
+### [ThePatriczek/playwright-recast] fix(director): pad retimed audio with a finite silence input
+- **Base Commit:** `afe67ef14c341837ef94c4ce5f6e88d2fa002f8b`
+- **Solution PR:** https://github.com/ThePatriczek/playwright-recast/pull/57
 
-### [SaekiTominaga/w0s.jp-shell] 不要な除外ディレクトリ削除
-- **Base Commit:** `22ee0ee789b8c33efb2fd40b489ddc04873bc4d3`
-- **Solution PR:** https://github.com/SaekiTominaga/w0s.jp-shell/pull/494
+### [openai/codex-security] fix(cli): escape component names in terminal output
+- **Base Commit:** `794edbe9575a3ff78b21ae13d03a6e03d4f44f25`
+- **Solution PR:** https://github.com/openai/codex-security/pull/2424

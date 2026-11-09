@@ -1,26 +1,46 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-07.
+> Uncontaminated bugs merged after 2026-11-08.
 
-### [ansible-collections/community.general] zypper_repository: keep `description` when adding a `.repo` file
-- **Base Commit:** `d30b736a2916d79e876299bae180afdd1a5b54e6`
-- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13168
+### [liran-funaro/sphinx-markdown-builder] Fix coverage of parallel builds and fill _adjust_url coverage gaps
+- **Base Commit:** `aba1c364baf779ed738385f9daa0729e7ae09e4b`
+- **Solution PR:** https://github.com/liran-funaro/sphinx-markdown-builder/pull/105
 
-### [openscientist-io/openscientist] Keep the Report tab disabled for failed jobs
-- **Base Commit:** `df5b1cf364639dc5a389b4a1e7183e581336e839`
-- **Solution PR:** https://github.com/openscientist-io/openscientist/pull/554
+### [eneo-ai/eneo] fix(tools): say when a private address is refused because private access is off
+- **Base Commit:** `510bc328b392acea04828ad2da8c6aff58322d92`
+- **Solution PR:** https://github.com/eneo-ai/eneo/pull/1407
 
-### [molssi-seamm/seamm_manager] Bugfix: archive storage could replace a hand-built code environment
-- **Base Commit:** `603be9a86f69f8c9232aa2a781733fcf4a9c09f5`
-- **Solution PR:** https://github.com/molssi-seamm/seamm_manager/pull/41
+### [openscientist-io/openscientist] Start the test tool servers outside the checkout so they read no .env
+- **Base Commit:** `345ebc562c63f41213e86703893368a22d41797a`
+- **Solution PR:** https://github.com/openscientist-io/openscientist/pull/564
 
-### [The-PR-Agent/pr-agent] fix(review): use the prepared diff when packing yields one chunk
-- **Base Commit:** `e673a02076ce09a4726c3d0c3cc85780e59ca52b`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4535
+### [rdiabre/UPROFE-Grupo-7-TSI] UNIQUE(sName) sin comillas en Idioma.
+- **Base Commit:** `c7556d5644fa590471d88288a7fa3af4c6634f49`
+- **Solution PR:** https://github.com/rdiabre/UPROFE-Grupo-7-TSI/pull/184
 
-### [The-PR-Agent/pr-agent] fix(github): resolve the actual PR head when commit lists are truncated
-- **Base Commit:** `402e7881d78dabeeba59c04747ae1dbed3adb686`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4750
+### [smokin-salmon/smoked-salmon] Name a 24-bit downconversion without 16bit
+- **Base Commit:** `6692900fe1aa46c4e9245aae615b97b24511380a`
+- **Solution PR:** https://github.com/smokin-salmon/smoked-salmon/pull/1022
 
-### [mholzi/beatify] fix: replace a dropped song from the round-cap reserve instead of shortening the game (#3441)
-- **Base Commit:** `bda08dc3c2c27ce13d5d26e46b4d302360f86acb`
-- **Solution PR:** https://github.com/mholzi/beatify/pull/3443
+### [woopstar/open_spot_forecast] fix: type device_info as DeviceInfo for Home Assistant 2026.11
+- **Base Commit:** `e2802b6c98d52071650dc991519062a034d37c2a`
+- **Solution PR:** https://github.com/woopstar/open_spot_forecast/pull/259
+
+### [rdiabre/UPROFE-Grupo-7-TSI] Fix indentation in __manifest__.py
+- **Base Commit:** `6e5284a1eeb27fe9fe8c93d6ef9a7ce5f29cc9f6`
+- **Solution PR:** https://github.com/rdiabre/UPROFE-Grupo-7-TSI/pull/191
+
+### [langflow-ai/langflow] fix(api): recover milestones a slow event stream dropped
+- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
+- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16234
+
+### [woldemarg/proj_sig] [Harness] Том MLflow без external: docker compose up створює його сам
+- **Base Commit:** `9a1305e1666c68a38bd8cb1c300b9637f1720b9a`
+- **Solution PR:** https://github.com/woldemarg/proj_sig/pull/334
+
+### [langflow-ai/langflow] fix(agents): keep parallel tool results on their own run
+- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
+- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16233
+
+### [langflow-ai/langflow] fix(frontend): create one flow on a repeated New Flow click
+- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
+- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16232
