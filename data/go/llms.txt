@@ -1,34 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-08.
+> Uncontaminated bugs merged after 2026-11-09.
 
-### [checkmarble/marble-backend] Fixes and improvements to first-time setup
-- **Base Commit:** `e13c43388c21e58adee401b300ff4b1980cb95d1`
-- **Solution PR:** https://github.com/checkmarble/marble-backend/pull/2104
+### [Silo-Server/silo-server] test(watchsync): wait for the admission lock until the test deadline
+- **Base Commit:** `30a6abd19e7418db7662f4b7bde0debc131f63d8`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/3925
 
-### [evcc-io/evcc] Loadpoint: synchronize SoC estimator access
-- **Base Commit:** `8440814f139c70c6decb0b46ad877bd1b3060795`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35908
+### [git-pkgs/proxy] Read PyPI release times without building the whole document
+- **Base Commit:** `b6e71f4d7a472e47d5b9c3ce0ab26d0f0639ecf9`
+- **Solution PR:** https://github.com/git-pkgs/proxy/pull/693
 
-### [fiwon123/eznit] fix: use a ref for the catalogue's stale-response guard
-- **Base Commit:** `6372a0b6d7cb6e0493cc4b8a59ac2d7cfe3de441`
-- **Solution PR:** https://github.com/fiwon123/eznit/pull/152
+### [ingvarch/urga] fix(ui): bound the text of a log by its size
+- **Base Commit:** `0761b7a1f40a1ad2090c3c21a616c34b49eef97c`
+- **Solution PR:** https://github.com/ingvarch/urga/pull/222
 
-### [LFDT-Panurus/panurus] Bump(deps): `github.com/klauspost/compress` to `v1.20.3`
-- **Base Commit:** `6ae146fb195e17f05e33bc40854d524043444e13`
-- **Solution PR:** https://github.com/LFDT-Panurus/panurus/pull/2690
+### [ingvarch/urga] fix(ui): clean what the cluster writes before it is drawn
+- **Base Commit:** `0761b7a1f40a1ad2090c3c21a616c34b49eef97c`
+- **Solution PR:** https://github.com/ingvarch/urga/pull/221
 
-### [stefanpejcic/openadmin] websites: find wp-config.php one level above the WordPress folder
-- **Base Commit:** `9d97de5423b6ea30bbaef41275e383efd4f24ec8`
-- **Solution PR:** https://github.com/stefanpejcic/openadmin/pull/22
+### [petauron/vastora] fix(agent): preserve named Center TLS over userspace private transport
+- **Base Commit:** `7d37a49c5ce86771ad147e43e4f70deec6b2211d`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1217
 
-### [stefanpejcic/OpenPanel] wordpress: find wp-config.php one level above the WordPress folder
-- **Base Commit:** `27d40f7eae2bf97f94a5eea6b246138eacad99be`
-- **Solution PR:** https://github.com/stefanpejcic/OpenPanel/pull/1324
+### [theagentrouter/agent-router] fix(backendauth): keep the GCP ADC token source alive across config reloads
+- **Base Commit:** `4c0c1d9fc80d57463582f40915d00d8d0d5cb2e4`
+- **Solution PR:** https://github.com/theagentrouter/agent-router/pull/2723
 
-### [alrayyes/forge-dashboard] fix(web): keep the Out of date chip's icon and words in one box
-- **Base Commit:** `004e2f3e9ba551b20c3bce56d25260fc35109cf0`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3267
-
-### [vmware/terraform-provider-vsphere] fix: `d/vsphere_network` retry when network is not found
-- **Base Commit:** `4582e9a6846c2f29403468ab73ddcecc5546af19`
-- **Solution PR:** https://github.com/vmware/terraform-provider-vsphere/pull/2803
+### [Tnsor-Labs/brokoli] fix: accept a whole number a float64 holds exactly as a float64
+- **Base Commit:** `12e46968a5826ee8c80dc185ca976d071288a3ed`
+- **Solution PR:** https://github.com/Tnsor-Labs/brokoli/pull/984

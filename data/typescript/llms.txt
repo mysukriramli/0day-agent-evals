@@ -1,30 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-08.
+> Uncontaminated bugs merged after 2026-11-09.
 
-### [internxt/drive-mobile] [PB-6440] bugfix/Center the selection title
-- **Base Commit:** `c491873c001a8e6519da9cd505f26a50a882d1c7`
-- **Solution PR:** https://github.com/internxt/drive-mobile/pull/693
+### [exrelax/star-citizen-hangar-manager] fix(notifications): Space the sidebar notifications apart again
+- **Base Commit:** `83262d88ae2ae40a6ef68eaad34444bba7a26220`
+- **Solution PR:** https://github.com/exrelax/star-citizen-hangar-manager/pull/217
 
-### [internxt/drive-mobile] [PB-7000] bugfix/Stop a download cancelled before its parts start
-- **Base Commit:** `9feebcde67cfca2d63c07c633fb2e4daccc41042`
-- **Solution PR:** https://github.com/internxt/drive-mobile/pull/691
+### [markup-carve/carve-js] Keep refused comment runs in their container (carve#5806)
+- **Base Commit:** `0fffe685c964d73790eaf6d331f37f2a543c083f`
+- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4870
 
-### [internxt/drive-mobile] [PB-7000] bugfix/Keep each decrypted file in its own folder
-- **Base Commit:** `555b614b495d96c76c05814962079c4accaaffbb`
-- **Solution PR:** https://github.com/internxt/drive-mobile/pull/692
+### [jasonsdevspace/design-kit] Wrap the theme switch's choices when the browser's text is larger, rather than scroll them out of sight
+- **Base Commit:** `fc6dd9d43da788b77e1806f528ea440b82f086ae`
+- **Solution PR:** https://github.com/jasonsdevspace/design-kit/pull/138
 
-### [internxt/drive-mobile] [PB-7000] feature/Update the share library for current Android
-- **Base Commit:** `6fc076fad53b31c05c260964786b8bc0616bbbc4`
-- **Solution PR:** https://github.com/internxt/drive-mobile/pull/686
+### [open-mercato/open-mercato] fix(sales): preserve action refusals without false conflict dialogs
+- **Base Commit:** `e3bfa740093c0bb42388f6d28110f6ee8c3b8b3a`
+- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/8986
 
-### [junomedical/quno-calendar] fix(QU-4049): restore date-only keyboard selection
-- **Base Commit:** `4c45b109051f58e1ec89a9dec41e7118ce370e15`
-- **Solution PR:** https://github.com/junomedical/quno-calendar/pull/65
+### [kaplayjs/kaplay] fix: deserialize ColorComp properly
+- **Base Commit:** `b13d55d9e07d02bd8c883158d17904492e6f021e`
+- **Solution PR:** https://github.com/kaplayjs/kaplay/pull/1196
 
-### [ThePatriczek/playwright-recast] fix(director): pad retimed audio with a finite silence input
-- **Base Commit:** `afe67ef14c341837ef94c4ce5f6e88d2fa002f8b`
-- **Solution PR:** https://github.com/ThePatriczek/playwright-recast/pull/57
+### [AMD-AGI/PrimusClaw] fix(personal-agent): connector 0.1.19 terminal reasons say what holds a message back (TS port, W6c)
+- **Base Commit:** `5c57465d89479807d84941e2ed4ae30197d7948b`
+- **Solution PR:** https://github.com/AMD-AGI/PrimusClaw/pull/677
 
-### [openai/codex-security] fix(cli): escape component names in terminal output
-- **Base Commit:** `794edbe9575a3ff78b21ae13d03a6e03d4f44f25`
-- **Solution PR:** https://github.com/openai/codex-security/pull/2424
+### [Altinn/dialogporten-frontend] fix: don't cache an empty service filter when Dialogporten fails
+- **Base Commit:** `5fb8990af9177d76fdda9201bf5a7fc7f104af9e`
+- **Solution PR:** https://github.com/Altinn/dialogporten-frontend/pull/4832

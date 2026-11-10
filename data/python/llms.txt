@@ -1,46 +1,46 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-08.
+> Uncontaminated bugs merged after 2026-11-09.
 
-### [liran-funaro/sphinx-markdown-builder] Fix coverage of parallel builds and fill _adjust_url coverage gaps
-- **Base Commit:** `aba1c364baf779ed738385f9daa0729e7ae09e4b`
-- **Solution PR:** https://github.com/liran-funaro/sphinx-markdown-builder/pull/105
+### [baidu-baige/LoongForge] [vla] fix: fix the issue where the step tensor of fused AdamW falls on the CPU after ZeRO training
+- **Base Commit:** `760d85e12a47a12b69b3da7be04305c0b02d9d9c`
+- **Solution PR:** https://github.com/baidu-baige/LoongForge/pull/337
 
-### [eneo-ai/eneo] fix(tools): say when a private address is refused because private access is off
-- **Base Commit:** `510bc328b392acea04828ad2da8c6aff58322d92`
-- **Solution PR:** https://github.com/eneo-ai/eneo/pull/1407
+### [ait-detectmate/DetectMateLibrary] Fix/TemplateMatcher
+- **Base Commit:** `a563e06a1e2f6d9d82fa1579673f3f4fc656e3f6`
+- **Solution PR:** https://github.com/ait-detectmate/DetectMateLibrary/pull/402
 
-### [openscientist-io/openscientist] Start the test tool servers outside the checkout so they read no .env
-- **Base Commit:** `345ebc562c63f41213e86703893368a22d41797a`
-- **Solution PR:** https://github.com/openscientist-io/openscientist/pull/564
+### [nicotine-plus/nicotine-plus] downloads.py: fix legacy_attempt typo in RequestedFolder
+- **Base Commit:** `d1282c95c2a14d1af6e7b05eb0d27ee758f1de31`
+- **Solution PR:** https://github.com/nicotine-plus/nicotine-plus/pull/3960
 
-### [rdiabre/UPROFE-Grupo-7-TSI] UNIQUE(sName) sin comillas en Idioma.
-- **Base Commit:** `c7556d5644fa590471d88288a7fa3af4c6634f49`
-- **Solution PR:** https://github.com/rdiabre/UPROFE-Grupo-7-TSI/pull/184
+### [tue-bmd/zea] Copying and pickling operations and pipelines
+- **Base Commit:** `76541ff2319efed62dc04fbcfba64253bb6ecd7c`
+- **Solution PR:** https://github.com/tue-bmd/zea/pull/698
 
-### [smokin-salmon/smoked-salmon] Name a 24-bit downconversion without 16bit
-- **Base Commit:** `6692900fe1aa46c4e9245aae615b97b24511380a`
-- **Solution PR:** https://github.com/smokin-salmon/smoked-salmon/pull/1022
+### [Dream-Pixels-Forge/memorius] test(#57): add sqlite_vec_store filter_metadata allowlist tests
+- **Base Commit:** `91fdddeac8cc0b9716417cee27b279c58c2fa98c`
+- **Solution PR:** https://github.com/Dream-Pixels-Forge/memorius/pull/72
 
-### [woopstar/open_spot_forecast] fix: type device_info as DeviceInfo for Home Assistant 2026.11
-- **Base Commit:** `e2802b6c98d52071650dc991519062a034d37c2a`
-- **Solution PR:** https://github.com/woopstar/open_spot_forecast/pull/259
+### [Dream-Pixels-Forge/memorius] fix(#59): handle EOFError on input() in diary/profile/recall
+- **Base Commit:** `91fdddeac8cc0b9716417cee27b279c58c2fa98c`
+- **Solution PR:** https://github.com/Dream-Pixels-Forge/memorius/pull/71
 
-### [rdiabre/UPROFE-Grupo-7-TSI] Fix indentation in __manifest__.py
-- **Base Commit:** `6e5284a1eeb27fe9fe8c93d6ef9a7ce5f29cc9f6`
-- **Solution PR:** https://github.com/rdiabre/UPROFE-Grupo-7-TSI/pull/191
+### [nlgfc2024/openimis-be-grievance_social_protection_py] test: stop deleting benefit plans in grievance teardown
+- **Base Commit:** `4563eee5c93c1f9f95efc14a40fc7e661813a1e1`
+- **Solution PR:** https://github.com/nlgfc2024/openimis-be-grievance_social_protection_py/pull/11
 
-### [langflow-ai/langflow] fix(api): recover milestones a slow event stream dropped
-- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
-- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16234
+### [Dream-Pixels-Forge/memorius] fix(#67): destructive ops safety — prune confirm + consolidate snapshot
+- **Base Commit:** `9dcb4c7e73a5b226ce604458077a1f83a61ed1e1`
+- **Solution PR:** https://github.com/Dream-Pixels-Forge/memorius/pull/81
 
-### [woldemarg/proj_sig] [Harness] Том MLflow без external: docker compose up створює його сам
-- **Base Commit:** `9a1305e1666c68a38bd8cb1c300b9637f1720b9a`
-- **Solution PR:** https://github.com/woldemarg/proj_sig/pull/334
+### [nlgfc2024/openimis-be-tasks_management_py] test: restore task signals after the task event test
+- **Base Commit:** `748b1c3fe2040c3667a8f23c7c9823903d3280bc`
+- **Solution PR:** https://github.com/nlgfc2024/openimis-be-tasks_management_py/pull/5
 
-### [langflow-ai/langflow] fix(agents): keep parallel tool results on their own run
-- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
-- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16233
+### [Dream-Pixels-Forge/memorius] fix(#69): validation gaps — REST extract backend + MCP args access
+- **Base Commit:** `9dcb4c7e73a5b226ce604458077a1f83a61ed1e1`
+- **Solution PR:** https://github.com/Dream-Pixels-Forge/memorius/pull/83
 
-### [langflow-ai/langflow] fix(frontend): create one flow on a repeated New Flow click
-- **Base Commit:** `c895b1b20739dae65572d671f21d49874a76f95d`
-- **Solution PR:** https://github.com/langflow-ai/langflow/pull/16232
+### [Dream-Pixels-Forge/memorius] fix(#70): resource exhaustion — rate limit IP cap + bounded thread pool
+- **Base Commit:** `9dcb4c7e73a5b226ce604458077a1f83a61ed1e1`
+- **Solution PR:** https://github.com/Dream-Pixels-Forge/memorius/pull/84
