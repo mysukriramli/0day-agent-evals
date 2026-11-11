@@ -1,30 +1,34 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-09.
+> Uncontaminated bugs merged after 2026-11-10.
 
-### [exrelax/star-citizen-hangar-manager] fix(notifications): Space the sidebar notifications apart again
-- **Base Commit:** `83262d88ae2ae40a6ef68eaad34444bba7a26220`
-- **Solution PR:** https://github.com/exrelax/star-citizen-hangar-manager/pull/217
+### [openJiuwen-ai/sciencediscovery] fix(workspace): preserve actionable shell diagnostics in model results
+- **Base Commit:** `f61cb5e467897b58df0ef4a65bc39b70dddb4a2c`
+- **Solution PR:** https://github.com/openJiuwen-ai/sciencediscovery/pull/1095
 
-### [markup-carve/carve-js] Keep refused comment runs in their container (carve#5806)
-- **Base Commit:** `0fffe685c964d73790eaf6d331f37f2a543c083f`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/4870
+### [mxvincent/bun-playground] fix(kubernetes): reload workloads on environment secret change
+- **Base Commit:** `9f4c12fcac0fef4c89a6da4724d25d7d97960c2f`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/262
 
-### [jasonsdevspace/design-kit] Wrap the theme switch's choices when the browser's text is larger, rather than scroll them out of sight
-- **Base Commit:** `fc6dd9d43da788b77e1806f528ea440b82f086ae`
-- **Solution PR:** https://github.com/jasonsdevspace/design-kit/pull/138
+### [mxvincent/bun-playground] fix(kubernetes): run bun() with bun and fix package entry points
+- **Base Commit:** `1a83a0ee2729475db88912aa7d4f16be41b6a821`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/263
 
-### [open-mercato/open-mercato] fix(sales): preserve action refusals without false conflict dialogs
-- **Base Commit:** `e3bfa740093c0bb42388f6d28110f6ee8c3b8b3a`
-- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/8986
+### [mxvincent/bun-playground] fix(kubernetes): read every external secret from the scaleway store
+- **Base Commit:** `209ab5ef4c30a44b31802c86a8b4e6ec1de4fd88`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/260
 
-### [kaplayjs/kaplay] fix: deserialize ColorComp properly
-- **Base Commit:** `b13d55d9e07d02bd8c883158d17904492e6f021e`
-- **Solution PR:** https://github.com/kaplayjs/kaplay/pull/1196
+### [mxvincent/bun-playground] fix(kubernetes): make ingress annotations optional and use nginx keys
+- **Base Commit:** `c23cd99707ddf5584851bcbe5af00a641be4592b`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/261
 
-### [AMD-AGI/PrimusClaw] fix(personal-agent): connector 0.1.19 terminal reasons say what holds a message back (TS port, W6c)
-- **Base Commit:** `5c57465d89479807d84941e2ed4ae30197d7948b`
-- **Solution PR:** https://github.com/AMD-AGI/PrimusClaw/pull/677
+### [mxvincent/bun-playground] fix(kubernetes): point workloads to the mounted config file
+- **Base Commit:** `65675aa2dfe8c4b2beabc3cc32f778d311454b86`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/259
 
-### [Altinn/dialogporten-frontend] fix: don't cache an empty service filter when Dialogporten fails
-- **Base Commit:** `5fb8990af9177d76fdda9201bf5a7fc7f104af9e`
-- **Solution PR:** https://github.com/Altinn/dialogporten-frontend/pull/4832
+### [mxvincent/bun-playground] fix(kubernetes): synthesize the scopes stored in maps
+- **Base Commit:** `3028e935da48f94b150219a63da54b3714b541c4`
+- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/248
+
+### [jupyterlab/jupyterlab] Keep console scroll position and focus when a console setting changes
+- **Base Commit:** `1c917ab158ef862c86630291ecd0771f0b6de8ba`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20431

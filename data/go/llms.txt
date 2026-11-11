@@ -1,30 +1,42 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-09.
+> Uncontaminated bugs merged after 2026-11-10.
 
-### [Silo-Server/silo-server] test(watchsync): wait for the admission lock until the test deadline
-- **Base Commit:** `30a6abd19e7418db7662f4b7bde0debc131f63d8`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/3925
+### [opensro-dev/opensro] fix(server): the job may set the store's async commit (#2802)
+- **Base Commit:** `8a6e98de22b328d3acf9e774ad824e24b054b6d7`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3199
 
-### [git-pkgs/proxy] Read PyPI release times without building the whole document
-- **Base Commit:** `b6e71f4d7a472e47d5b9c3ce0ab26d0f0639ecf9`
-- **Solution PR:** https://github.com/git-pkgs/proxy/pull/693
+### [alrayyes/forge-dashboard] test(e2e): wait for the board to mount before driving Clear filters
+- **Base Commit:** `0bd8d813197269cdfd014d92079c80ab85cf46eb`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3480
 
-### [ingvarch/urga] fix(ui): bound the text of a log by its size
-- **Base Commit:** `0761b7a1f40a1ad2090c3c21a616c34b49eef97c`
-- **Solution PR:** https://github.com/ingvarch/urga/pull/222
+### [golangci/golangci-lint] fix: split CompiledGoFiles and IgnoredFiles hash
+- **Base Commit:** `b6379d175cf23337327359361a1876c44ae1e6ac`
+- **Solution PR:** https://github.com/golangci/golangci-lint/pull/6919
 
-### [ingvarch/urga] fix(ui): clean what the cluster writes before it is drawn
-- **Base Commit:** `0761b7a1f40a1ad2090c3c21a616c34b49eef97c`
-- **Solution PR:** https://github.com/ingvarch/urga/pull/221
+### [opensro-dev/opensro] fix(client): a corrected run turns onto the corrected line instead of sliding sideways (#3148)
+- **Base Commit:** `82109f4c34d4eff5db46f36015c8ce2c1c1cc33e`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3198
 
-### [petauron/vastora] fix(agent): preserve named Center TLS over userspace private transport
-- **Base Commit:** `7d37a49c5ce86771ad147e43e4f70deec6b2211d`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1217
+### [scaleway-terraform-modules/terraform-scaleway-registry] fix: Use the default value of variables set to null
+- **Base Commit:** `1dcbd9f13002a87b064bdbb7a44a8d75dead93bd`
+- **Solution PR:** https://github.com/scaleway-terraform-modules/terraform-scaleway-registry/pull/110
 
-### [theagentrouter/agent-router] fix(backendauth): keep the GCP ADC token source alive across config reloads
-- **Base Commit:** `4c0c1d9fc80d57463582f40915d00d8d0d5cb2e4`
-- **Solution PR:** https://github.com/theagentrouter/agent-router/pull/2723
+### [alrayyes/forge-dashboard] fix(web): make the rebase-all dialog list keyboard scrollable
+- **Base Commit:** `35445a1c66b063bbe2629aabcd5df94fb8d108f3`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3461
 
-### [Tnsor-Labs/brokoli] fix: accept a whole number a float64 holds exactly as a float64
-- **Base Commit:** `12e46968a5826ee8c80dc185ca976d071288a3ed`
-- **Solution PR:** https://github.com/Tnsor-Labs/brokoli/pull/984
+### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 0cf8f74
+- **Base Commit:** `1b77d8df85bc09af054f401d99bf55e5ecede2a9`
+- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/681
+
+### [ugreen-nas-control/ugreen-nas-control] fix(case): start the plugin tools with a PATH so dmidecode and ethtool are found
+- **Base Commit:** `b730aa9e69c27733d81fc25cb5d0359690eb15cc`
+- **Solution PR:** https://github.com/ugreen-nas-control/ugreen-nas-control/pull/295
+
+### [ModAVD/ModAVDManager] 新建失败不再指向旧日志，README 版本提示改指 Releases，MODAVD_TEST_TMP 下测试能建目录
+- **Base Commit:** `b2f5f0ce75bd5b9be7bcfd6292f17ae6f29fbf0d`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/126
+
+### [ModAVD/ModAVDManager] platform-tools 是目录联接时也认得出自己起的 logcat 采集
+- **Base Commit:** `b2f5f0ce75bd5b9be7bcfd6292f17ae6f29fbf0d`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/125
