@@ -1,34 +1,22 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-10.
+> Uncontaminated bugs merged after 2026-11-11.
 
-### [openJiuwen-ai/sciencediscovery] fix(workspace): preserve actionable shell diagnostics in model results
-- **Base Commit:** `f61cb5e467897b58df0ef4a65bc39b70dddb4a2c`
-- **Solution PR:** https://github.com/openJiuwen-ai/sciencediscovery/pull/1095
+### [jupyterlab/jupyterlab] Backport PR #18894 on branch 4.6.x (Apply 'Show Filter Bar by Default' without reloading the page)
+- **Base Commit:** `1f397416278694c83e38893939bc7e5748e92bc9`
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20471
 
-### [mxvincent/bun-playground] fix(kubernetes): reload workloads on environment secret change
-- **Base Commit:** `9f4c12fcac0fef4c89a6da4724d25d7d97960c2f`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/262
-
-### [mxvincent/bun-playground] fix(kubernetes): run bun() with bun and fix package entry points
-- **Base Commit:** `1a83a0ee2729475db88912aa7d4f16be41b6a821`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/263
-
-### [mxvincent/bun-playground] fix(kubernetes): read every external secret from the scaleway store
-- **Base Commit:** `209ab5ef4c30a44b31802c86a8b4e6ec1de4fd88`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/260
-
-### [mxvincent/bun-playground] fix(kubernetes): make ingress annotations optional and use nginx keys
-- **Base Commit:** `c23cd99707ddf5584851bcbe5af00a641be4592b`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/261
-
-### [mxvincent/bun-playground] fix(kubernetes): point workloads to the mounted config file
-- **Base Commit:** `65675aa2dfe8c4b2beabc3cc32f778d311454b86`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/259
-
-### [mxvincent/bun-playground] fix(kubernetes): synthesize the scopes stored in maps
-- **Base Commit:** `3028e935da48f94b150219a63da54b3714b541c4`
-- **Solution PR:** https://github.com/mxvincent/bun-playground/pull/248
-
-### [jupyterlab/jupyterlab] Keep console scroll position and focus when a console setting changes
+### [jupyterlab/jupyterlab] Stop JupyterLite deleting files dropped onto their folder's breadcrumb
 - **Base Commit:** `1c917ab158ef862c86630291ecd0771f0b6de8ba`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20431
+- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20424
+
+### [jupyter-book/myst-theme] Remove some unnecessary withBaseUrl logic
+- **Base Commit:** `ea08e186708d05b1f369492018c4db1eeb247b50`
+- **Solution PR:** https://github.com/jupyter-book/myst-theme/pull/999
+
+### [tapsmith/tapsmith] Stop UI mode's test explorer flashing a parent row red after a passing run (PILOT-1178)
+- **Base Commit:** `5043a3ebc465eca8928eebe06bc23d6f5d6ef9fb`
+- **Solution PR:** https://github.com/tapsmith/tapsmith/pull/552
+
+### [ZeusLN/zeus] stores: TransactionsStore: reset payment state behind graph sync prompt
+- **Base Commit:** `ab7d9353756563924f249e1598189c44a873d90c`
+- **Solution PR:** https://github.com/ZeusLN/zeus/pull/5358

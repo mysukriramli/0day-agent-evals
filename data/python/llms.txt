@@ -1,46 +1,22 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-10.
+> Uncontaminated bugs merged after 2026-11-11.
 
-### [NVIDIA-NeMo/Megatron-Bridge] fix(recipe): shard expert optimizer state over DP-outer in DSv3 GB300 HSDP recipe
-- **Base Commit:** `5fd00d99991da564bf7dc3efde309cd85ca8d0a4`
-- **Solution PR:** https://github.com/NVIDIA-NeMo/Megatron-Bridge/pull/6764
+### [ccxt/ccxt] fix(blofin): throw ArgumentsRequired from watchTickers without symbols
+- **Base Commit:** `bd74c9b9da950c923d035e3b04ede87ba8b653d9`
+- **Solution PR:** https://github.com/ccxt/ccxt/pull/31186
 
-### [genn-team/ml_genn] Delta backward fix
-- **Base Commit:** `597545b56febf207c68acf5587a46a682b054ac8`
-- **Solution PR:** https://github.com/genn-team/ml_genn/pull/213
+### [ansys/pydpf-core] doc: Update link to DPFPreviewLicenseAgreement in Getting Started licensing
+- **Base Commit:** `492639bfcb34cf48121e1bfc931827b359aa601b`
+- **Solution PR:** https://github.com/ansys/pydpf-core/pull/3626
 
-### [RitechSolutions/genassist] fix: decrypt stored AWS keys when building Bedrock models (68365)
-- **Base Commit:** `366d45f034c4478ab8e349049de5b8df836b82b2`
-- **Solution PR:** https://github.com/RitechSolutions/genassist/pull/1329
+### [PostHog/posthog] fix(persons): show property edits on the person page after a reload
+- **Base Commit:** `074ea93358947bed6b70d196a020a1dae05e0cd0`
+- **Solution PR:** https://github.com/PostHog/posthog/pull/133463
 
-### [wlix13/HexRift] Skip files already on PyPI when publishing
-- **Base Commit:** `5378cf7e66d0f27ba4c98b475f214c662c7b7ae4`
-- **Solution PR:** https://github.com/wlix13/HexRift/pull/147
+### [markup-carve/carve-py] Read the engine corpus source as UTF-8 on every platform
+- **Base Commit:** `d626eec5bda284a4c3e63219dc17a957f71d6f94`
+- **Solution PR:** https://github.com/markup-carve/carve-py/pull/127
 
-### [CriativoDevs/salonix-backend] fix: usar FRONTEND_BASE_URL no fallback de link de reset de senha
-- **Base Commit:** `568eeeb5b79f13168b03eb5074abc81cc4f5ae5e`
-- **Solution PR:** https://github.com/CriativoDevs/salonix-backend/pull/577
-
-### [rlaope/oh-my-hermes] fix(tui): the HUD reads the TUI's own runtime home, so a background wait shows
-- **Base Commit:** `9faae900befafc56a506e79f6663a3871450c635`
-- **Solution PR:** https://github.com/rlaope/oh-my-hermes/pull/2776
-
-### [DataLab-Platform/SigimaX] fix(env): report active application version
-- **Base Commit:** `510ce513e1e96aef656e39b0a8c392a331c6c249`
-- **Solution PR:** https://github.com/DataLab-Platform/SigimaX/pull/76
-
-### [gdsfactory/gsim] fix(fdtd): correct 3D viewer surfaces and gizmo
-- **Base Commit:** `235cdfbc4343a042393eae608d552807f2264957`
-- **Solution PR:** https://github.com/gdsfactory/gsim/pull/507
-
-### [ModAVD/ModAVD] 带窗口的实例：点标题栏就激活窗口、回到最前
-- **Base Commit:** `30632e8b64f81f5bfa1f3aa51da49e8295e4f6e7`
-- **Solution PR:** https://github.com/ModAVD/ModAVD/pull/179
-
-### [NotAFlightRisk/portainer-templates-extras] fix: move tududi to postgres
-- **Base Commit:** `826d18120c605fa6fe45f0aac85c45d8fa309683`
-- **Solution PR:** https://github.com/NotAFlightRisk/portainer-templates-extras/pull/79
-
-### [NotAFlightRisk/portainer-templates-extras] fix: start linkace's scheduler after the app
-- **Base Commit:** `57d8cd1052aa9b16f1afdbe387aee96c967cf6b0`
-- **Solution PR:** https://github.com/NotAFlightRisk/portainer-templates-extras/pull/81
+### [canonical/maas] fix(power): amt power driver supports special chars in the password
+- **Base Commit:** `9cfeba9cc8db295bb2192f654b331976dfd9d8b6`
+- **Solution PR:** https://github.com/canonical/maas/pull/882

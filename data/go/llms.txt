@@ -1,42 +1,26 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-10.
+> Uncontaminated bugs merged after 2026-11-11.
 
-### [opensro-dev/opensro] fix(server): the job may set the store's async commit (#2802)
-- **Base Commit:** `8a6e98de22b328d3acf9e774ad824e24b054b6d7`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3199
+### [couchbasecloud/terraform-provider-couchbase-capella] [AV-151084] Fix resuming a paused eventing function
+- **Base Commit:** `5488ea934cb220b21235733eef746e9ae82dd206`
+- **Solution PR:** https://github.com/couchbasecloud/terraform-provider-couchbase-capella/pull/880
 
-### [alrayyes/forge-dashboard] test(e2e): wait for the board to mount before driving Clear filters
-- **Base Commit:** `0bd8d813197269cdfd014d92079c80ab85cf46eb`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3480
+### [heathcliff26/predictable-path-provisioner] fix(deps): update gomod to v0.37.2
+- **Base Commit:** `d1603026afe61e82665bd950ea41b7d37bcd9a3d`
+- **Solution PR:** https://github.com/heathcliff26/predictable-path-provisioner/pull/39
 
-### [golangci/golangci-lint] fix: split CompiledGoFiles and IgnoredFiles hash
-- **Base Commit:** `b6379d175cf23337327359361a1876c44ae1e6ac`
-- **Solution PR:** https://github.com/golangci/golangci-lint/pull/6919
+### [heathcliff26/predictable-path-provisioner] fix(helm): Remove trailing newlines for generated manifest
+- **Base Commit:** `3351db877466b5a85bf6ccc448b4f0b2e388d7a3`
+- **Solution PR:** https://github.com/heathcliff26/predictable-path-provisioner/pull/40
 
-### [opensro-dev/opensro] fix(client): a corrected run turns onto the corrected line instead of sliding sideways (#3148)
-- **Base Commit:** `82109f4c34d4eff5db46f36015c8ce2c1c1cc33e`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3198
+### [heathcliff26/promremote] fix(deps): update github.com/prometheus/client_golang/exp digest to f54d392
+- **Base Commit:** `fa3a178f432c769a4954a25fc8a86767336783f0`
+- **Solution PR:** https://github.com/heathcliff26/promremote/pull/118
 
-### [scaleway-terraform-modules/terraform-scaleway-registry] fix: Use the default value of variables set to null
-- **Base Commit:** `1dcbd9f13002a87b064bdbb7a44a8d75dead93bd`
-- **Solution PR:** https://github.com/scaleway-terraform-modules/terraform-scaleway-registry/pull/110
+### [samarthsinh2660/safeshell] fix(classify): rate perl deletes, cp /dev/null, gpg key deletion and filter-branch
+- **Base Commit:** `190d2eb9a9823009546adebf9fc427d88f3d9d39`
+- **Solution PR:** https://github.com/samarthsinh2660/safeshell/pull/21
 
-### [alrayyes/forge-dashboard] fix(web): make the rebase-all dialog list keyboard scrollable
-- **Base Commit:** `35445a1c66b063bbe2629aabcd5df94fb8d108f3`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3461
-
-### [Netcracker/qubership-logging-operator] fix(deps): update github.com/netcracker/qubership-logging-operator/api digest to 0cf8f74
-- **Base Commit:** `1b77d8df85bc09af054f401d99bf55e5ecede2a9`
-- **Solution PR:** https://github.com/Netcracker/qubership-logging-operator/pull/681
-
-### [ugreen-nas-control/ugreen-nas-control] fix(case): start the plugin tools with a PATH so dmidecode and ethtool are found
-- **Base Commit:** `b730aa9e69c27733d81fc25cb5d0359690eb15cc`
-- **Solution PR:** https://github.com/ugreen-nas-control/ugreen-nas-control/pull/295
-
-### [ModAVD/ModAVDManager] 新建失败不再指向旧日志，README 版本提示改指 Releases，MODAVD_TEST_TMP 下测试能建目录
-- **Base Commit:** `b2f5f0ce75bd5b9be7bcfd6292f17ae6f29fbf0d`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/126
-
-### [ModAVD/ModAVDManager] platform-tools 是目录联接时也认得出自己起的 logcat 采集
-- **Base Commit:** `b2f5f0ce75bd5b9be7bcfd6292f17ae6f29fbf0d`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/125
+### [hashicorp/terraform-provider-azurerm] `azurerm_virtual_machine_gallery_application_assignment` - update acceptance test image to Ubuntu 22.04 to fix test failure
+- **Base Commit:** `5a3a32f287289a2c4ac6fc45b86f90b43ab3eaa0`
+- **Solution PR:** https://github.com/hashicorp/terraform-provider-azurerm/pull/33826
