@@ -1,22 +1,50 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-11.
+> Uncontaminated bugs merged after 2026-11-12.
 
-### [ccxt/ccxt] fix(blofin): throw ArgumentsRequired from watchTickers without symbols
-- **Base Commit:** `bd74c9b9da950c923d035e3b04ede87ba8b653d9`
-- **Solution PR:** https://github.com/ccxt/ccxt/pull/31186
+### [KrystalSoftwareBangladesh/Ecommerce-Backend] fix: issue#478 - media upload
+- **Base Commit:** `ccef5f6ee2c456fd65a4008f7eea9374aa89cc8d`
+- **Solution PR:** https://github.com/KrystalSoftwareBangladesh/Ecommerce-Backend/pull/479
 
-### [ansys/pydpf-core] doc: Update link to DPFPreviewLicenseAgreement in Getting Started licensing
-- **Base Commit:** `492639bfcb34cf48121e1bfc931827b359aa601b`
-- **Solution PR:** https://github.com/ansys/pydpf-core/pull/3626
+### [metomi/rose] Fix metadata macro module loading logic broken at Python 3.15
+- **Base Commit:** `4804889114974554ae2644c4e2d014f2e491c056`
+- **Solution PR:** https://github.com/metomi/rose/pull/3145
 
-### [PostHog/posthog] fix(persons): show property edits on the person page after a reload
-- **Base Commit:** `074ea93358947bed6b70d196a020a1dae05e0cd0`
-- **Solution PR:** https://github.com/PostHog/posthog/pull/133463
+### [mrveiss/AutoBot-AI] fix(company-os): commit a budget write before its response is sent (#21332)
+- **Base Commit:** `1ccdc9655da43e0584954b880c9238dbe38d12d7`
+- **Solution PR:** https://github.com/mrveiss/AutoBot-AI/pull/21477
 
-### [markup-carve/carve-py] Read the engine corpus source as UTF-8 on every platform
-- **Base Commit:** `d626eec5bda284a4c3e63219dc17a957f71d6f94`
-- **Solution PR:** https://github.com/markup-carve/carve-py/pull/127
+### [neuml/txtai] fix(workflow): preserve falsy ServiceTask params
+- **Base Commit:** `df974490bed874519a3a20aab32c6150687eab58`
+- **Solution PR:** https://github.com/neuml/txtai/pull/1559
 
-### [canonical/maas] fix(power): amt power driver supports special chars in the password
-- **Base Commit:** `9cfeba9cc8db295bb2192f654b331976dfd9d8b6`
-- **Solution PR:** https://github.com/canonical/maas/pull/882
+### [RitechSolutions/genassist] fix: repair tests broken by relative data paths and model folder check (68425, 68426)
+- **Base Commit:** `99863d03ac82dd779426bd4e18fa6fcf776ee7bd`
+- **Solution PR:** https://github.com/RitechSolutions/genassist/pull/1346
+
+### [neuml/txtai] Keep an empty documents queue instead of replacing it
+- **Base Commit:** `df974490bed874519a3a20aab32c6150687eab58`
+- **Solution PR:** https://github.com/neuml/txtai/pull/1555
+
+### [guaix-ucm/megaradrp] Do not keep traces with non-finite coefficients as valid
+- **Base Commit:** `ed2c3acfbcf1db806143db1cb7e53bc411de4e0b`
+- **Solution PR:** https://github.com/guaix-ucm/megaradrp/pull/396
+
+### [guaix-ucm/numina] Do not take the logarithm of non-positive values when tracing a peak
+- **Base Commit:** `a8f80821c19f672d22fffa812bec3df8e033ecd7`
+- **Solution PR:** https://github.com/guaix-ucm/numina/pull/286
+
+### [The-PR-Agent/pr-agent] fix(review): honor command error propagation in per-commit reviews
+- **Base Commit:** `4a52751482add01648c14b00e5fcd04466025440`
+- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4890
+
+### [haddocking/arctic3d] Draw the localise bar plot images with matplotlib, drop kaleido
+- **Base Commit:** `9c7009bea23c29a329002f96a195f70417e79405`
+- **Solution PR:** https://github.com/haddocking/arctic3d/pull/524
+
+### [scrapy/scrapy] Stop passing media_downloaded() errors to media_failed().
+- **Base Commit:** `0d4b674ed976a9bead536d3039cb29e57bf2753e`
+- **Solution PR:** https://github.com/scrapy/scrapy/pull/8489
+
+### [jxxghp/MoviePilot] fix(music): 修复手动最终目录的自动整理策略
+- **Base Commit:** `dd15f241e3bd4a5bf6a180b64d178777ca182457`
+- **Solution PR:** https://github.com/jxxghp/MoviePilot/pull/7403

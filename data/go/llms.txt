@@ -1,26 +1,46 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-11.
+> Uncontaminated bugs merged after 2026-11-12.
 
-### [couchbasecloud/terraform-provider-couchbase-capella] [AV-151084] Fix resuming a paused eventing function
-- **Base Commit:** `5488ea934cb220b21235733eef746e9ae82dd206`
-- **Solution PR:** https://github.com/couchbasecloud/terraform-provider-couchbase-capella/pull/880
+### [Chemaclass/agnostic-ai] fix(explain): report the OpenCode agent permission that sync writes
+- **Base Commit:** `4534a1cef2aaa822e40bf5669e89da51ec345734`
+- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/3426
 
-### [heathcliff26/predictable-path-provisioner] fix(deps): update gomod to v0.37.2
-- **Base Commit:** `d1603026afe61e82665bd950ea41b7d37bcd9a3d`
-- **Solution PR:** https://github.com/heathcliff26/predictable-path-provisioner/pull/39
+### [evcc-io/evcc] Templates: show and require maxacpower for curtailers
+- **Base Commit:** `125f0434d2d7cadda2de876f87ded6440d8d2d2f`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/35637
 
-### [heathcliff26/predictable-path-provisioner] fix(helm): Remove trailing newlines for generated manifest
-- **Base Commit:** `3351db877466b5a85bf6ccc448b4f0b2e388d7a3`
-- **Solution PR:** https://github.com/heathcliff26/predictable-path-provisioner/pull/40
+### [evcc-io/evcc] Issue agent: fix unbalanced parenthesis in claude_args
+- **Base Commit:** `2c66df3dd482f29b152e8412768d85efa64372a0`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/36174
 
-### [heathcliff26/promremote] fix(deps): update github.com/prometheus/client_golang/exp digest to f54d392
-- **Base Commit:** `fa3a178f432c769a4954a25fc8a86767336783f0`
-- **Solution PR:** https://github.com/heathcliff26/promremote/pull/118
+### [osscontainertools/kaniko] mz1386: USER fails on variable modifier in group
+- **Base Commit:** `35812ffcd0a78f31094cc634260c62db48f5e102`
+- **Solution PR:** https://github.com/osscontainertools/kaniko/pull/1407
 
-### [samarthsinh2660/safeshell] fix(classify): rate perl deletes, cp /dev/null, gpg key deletion and filter-branch
-- **Base Commit:** `190d2eb9a9823009546adebf9fc427d88f3d9d39`
-- **Solution PR:** https://github.com/samarthsinh2660/safeshell/pull/21
+### [coipond/coi] fix(pi): fix pi binary not found in the install shell
+- **Base Commit:** `ba85914b4d43036dcb03fc71c9bcc239012a16e1`
+- **Solution PR:** https://github.com/coipond/coi/pull/1035
 
-### [hashicorp/terraform-provider-azurerm] `azurerm_virtual_machine_gallery_application_assignment` - update acceptance test image to Ubuntu 22.04 to fix test failure
-- **Base Commit:** `5a3a32f287289a2c4ac6fc45b86f90b43ab3eaa0`
-- **Solution PR:** https://github.com/hashicorp/terraform-provider-azurerm/pull/33826
+### [petauron/vastora] fix(agent): initialize empty environment for new dormant native worker
+- **Base Commit:** `9ce0fd86aaec56c4d7c50096edf4186b563669f2`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1261
+
+### [tinkerologie/unraid-management-agent] fix(collectors): read Intel xe GPU package temperature from labelled hwmon channels
+- **Base Commit:** `3c1fd1ac6c561eb2fc79af6b967e49ecffa239ce`
+- **Solution PR:** https://github.com/tinkerologie/unraid-management-agent/pull/349
+
+### [r-gawronski/tagwarden] test: fix flaky envtest scanner probe cache and suite startup
+- **Base Commit:** `3bc5152d9b6df9a055e7899a786559bf2f5e7599`
+- **Solution PR:** https://github.com/r-gawronski/tagwarden/pull/114
+
+### [r-gawronski/tagwarden] fix(e2e): use helm --wait=legacy to avoid kstatus watcher panic
+- **Base Commit:** `3bc5152d9b6df9a055e7899a786559bf2f5e7599`
+- **Solution PR:** https://github.com/r-gawronski/tagwarden/pull/112
+
+### [alrayyes/forge-dashboard] ci(scripts): run the pinned Vale, not whichever is on PATH
+- **Base Commit:** `0ac966e56e0434c1f4c8d97614fdf4bd6fa596b6`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3766
+
+### [hakula139/wakatime-cli] ci: align result job formatting
+- **Base Commit:** `04659960320fe42806b45638323c80e477e874b9`
+- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/7

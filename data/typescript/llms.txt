@@ -1,22 +1,38 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-11.
+> Uncontaminated bugs merged after 2026-11-12.
 
-### [jupyterlab/jupyterlab] Backport PR #18894 on branch 4.6.x (Apply 'Show Filter Bar by Default' without reloading the page)
-- **Base Commit:** `1f397416278694c83e38893939bc7e5748e92bc9`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20471
+### [Kewton/CommandMate] feat(worktree): PC のツールのペイン（File Tree など）を左右で切り替えられるようにする (#4219)
+- **Base Commit:** `eaf36dd290df337d60233f2ab255a60afaf5805b`
+- **Solution PR:** https://github.com/Kewton/CommandMate/pull/4363
 
-### [jupyterlab/jupyterlab] Stop JupyterLite deleting files dropped onto their folder's breadcrumb
-- **Base Commit:** `1c917ab158ef862c86630291ecd0771f0b6de8ba`
-- **Solution PR:** https://github.com/jupyterlab/jupyterlab/pull/20424
+### [storybookjs/storybook] Skills: Remove the ui-workflow skill of an 11.0 prerelease on upgrade
+- **Base Commit:** `1c2a27a306680c368161e9d312b10a8d38dcd618`
+- **Solution PR:** https://github.com/storybookjs/storybook/pull/37346
 
-### [jupyter-book/myst-theme] Remove some unnecessary withBaseUrl logic
-- **Base Commit:** `ea08e186708d05b1f369492018c4db1eeb247b50`
-- **Solution PR:** https://github.com/jupyter-book/myst-theme/pull/999
+### [trybun/trybun] test(web): measure the sharing actions of the ticket list until they are laid out (#329)
+- **Base Commit:** `8283d379c99d84b096f6eb940beeb86eedcfd82e`
+- **Solution PR:** https://github.com/trybun/trybun/pull/334
 
-### [tapsmith/tapsmith] Stop UI mode's test explorer flashing a parent row red after a passing run (PILOT-1178)
-- **Base Commit:** `5043a3ebc465eca8928eebe06bc23d6f5d6ef9fb`
-- **Solution PR:** https://github.com/tapsmith/tapsmith/pull/552
+### [the-greenman/srs-web] fix(ci): pin E2E job to ubuntu-24.04 (#813)
+- **Base Commit:** `54859172ded227a1c6c1bb632da02ab4d1b282f0`
+- **Solution PR:** https://github.com/the-greenman/srs-web/pull/814
 
-### [ZeusLN/zeus] stores: TransactionsStore: reset payment state behind graph sync prompt
-- **Base Commit:** `ab7d9353756563924f249e1598189c44a873d90c`
-- **Solution PR:** https://github.com/ZeusLN/zeus/pull/5358
+### [StanislavKozachenko/chatbot] [CI] Sign in once per e2e run
+- **Base Commit:** `3c475637ade52bf9f3454a4214bcb8bac45a61c0`
+- **Solution PR:** https://github.com/StanislavKozachenko/chatbot/pull/64
+
+### [tiann/hapi] fix(agy): concatenate ACP text chunks as deltas
+- **Base Commit:** `2161a9ff9652011b270dc135fe763dc4e52b7790`
+- **Solution PR:** https://github.com/tiann/hapi/pull/2332
+
+### [tiann/hapi] fix(web): generate read-state operation ids without crypto.randomUUID
+- **Base Commit:** `2161a9ff9652011b270dc135fe763dc4e52b7790`
+- **Solution PR:** https://github.com/tiann/hapi/pull/2333
+
+### [knowns-dev/knowns] fix(release): build the go references before ts tests
+- **Base Commit:** `e0462effa0207b00f5dad98b423ab1af70831cba`
+- **Solution PR:** https://github.com/knowns-dev/knowns/pull/161
+
+### [axelhamil/clean-stack] fix(infra): make the older running execution case of the deploy test deterministic
+- **Base Commit:** `3bec6dba42eab9e8ab282fba51a37111a216a417`
+- **Solution PR:** https://github.com/axelhamil/clean-stack/pull/222
