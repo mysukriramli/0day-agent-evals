@@ -1,46 +1,46 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-12.
+> Uncontaminated bugs merged after 2026-11-13.
 
-### [Chemaclass/agnostic-ai] fix(explain): report the OpenCode agent permission that sync writes
-- **Base Commit:** `4534a1cef2aaa822e40bf5669e89da51ec345734`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/3426
+### [alrayyes/backup-git-repos] fix(nix): update vendorHash for testcontainers 0.45.0
+- **Base Commit:** `e39d77b87ced7877e8e783bd3adc65a430cde536`
+- **Solution PR:** https://github.com/alrayyes/backup-git-repos/pull/313
 
-### [evcc-io/evcc] Templates: show and require maxacpower for curtailers
-- **Base Commit:** `125f0434d2d7cadda2de876f87ded6440d8d2d2f`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/35637
+### [SlashNephy/kotatsu] fix: PMT から外れて戻った ES の continuity_counter の振り出しをドロップと数えない
+- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
+- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1746
 
-### [evcc-io/evcc] Issue agent: fix unbalanced parenthesis in claude_args
-- **Base Commit:** `2c66df3dd482f29b152e8412768d85efa64372a0`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/36174
+### [SlashNephy/kotatsu] fix: タイムシフトを kyusu で再生しているときは、tenban を止める前の知らせで読み直さない
+- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
+- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1747
 
-### [osscontainertools/kaniko] mz1386: USER fails on variable modifier in group
-- **Base Commit:** `35812ffcd0a78f31094cc634260c62db48f5e102`
-- **Solution PR:** https://github.com/osscontainertools/kaniko/pull/1407
+### [fluxcd/flux2] Fix git source secret for password-only auth
+- **Base Commit:** `6f81f5c8fa69fc5aea343989a2958212d827121c`
+- **Solution PR:** https://github.com/fluxcd/flux2/pull/6180
 
-### [coipond/coi] fix(pi): fix pi binary not found in the install shell
-- **Base Commit:** `ba85914b4d43036dcb03fc71c9bcc239012a16e1`
-- **Solution PR:** https://github.com/coipond/coi/pull/1035
+### [gogatekeeper/gatekeeper] Fix matching of switch protocols, to match most general RFC case
+- **Base Commit:** `9844a1d9266d714cf1625b31680926f05b2e8750`
+- **Solution PR:** https://github.com/gogatekeeper/gatekeeper/pull/782
 
-### [petauron/vastora] fix(agent): initialize empty environment for new dormant native worker
-- **Base Commit:** `9ce0fd86aaec56c4d7c50096edf4186b563669f2`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1261
+### [itadori26/trisse-home] test(a11y): measure with reduced motion so no state is mid-fade
+- **Base Commit:** `1f64cf751fb52c1a8a2f92fcfe145319815c7c3e`
+- **Solution PR:** https://github.com/itadori26/trisse-home/pull/266
 
-### [tinkerologie/unraid-management-agent] fix(collectors): read Intel xe GPU package temperature from labelled hwmon channels
-- **Base Commit:** `3c1fd1ac6c561eb2fc79af6b967e49ecffa239ce`
-- **Solution PR:** https://github.com/tinkerologie/unraid-management-agent/pull/349
+### [inkwall-dev/inkwall] test(e2e): send the kind HAProxy body over the bundle-mode engine's 11 MiB SPOE frame
+- **Base Commit:** `92b91fe66385f049f2238129c6d78e146a893218`
+- **Solution PR:** https://github.com/inkwall-dev/inkwall/pull/611
 
-### [r-gawronski/tagwarden] test: fix flaky envtest scanner probe cache and suite startup
-- **Base Commit:** `3bc5152d9b6df9a055e7899a786559bf2f5e7599`
-- **Solution PR:** https://github.com/r-gawronski/tagwarden/pull/114
+### [hakula139/wakatime-cli] fix(metrics): release only owned profiling resources
+- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
+- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/16
 
-### [r-gawronski/tagwarden] fix(e2e): use helm --wait=legacy to avoid kstatus watcher panic
-- **Base Commit:** `3bc5152d9b6df9a055e7899a786559bf2f5e7599`
-- **Solution PR:** https://github.com/r-gawronski/tagwarden/pull/112
+### [hakula139/wakatime-cli] fix(api): reject malformed heartbeat responses
+- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
+- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/15
 
-### [alrayyes/forge-dashboard] ci(scripts): run the pinned Vale, not whichever is on PATH
-- **Base Commit:** `0ac966e56e0434c1f4c8d97614fdf4bd6fa596b6`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/3766
+### [hakula139/wakatime-cli] fix(ai): preserve transcript records around null lines
+- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
+- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/14
 
-### [hakula139/wakatime-cli] ci: align result job formatting
-- **Base Commit:** `04659960320fe42806b45638323c80e477e874b9`
-- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/7
+### [SlashNephy/kotatsu] fix: EPGStation 互換 API の録画の検索で、キーワードを正規化し、% と _ をエスケープする
+- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
+- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1745

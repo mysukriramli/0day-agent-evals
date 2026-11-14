@@ -1,38 +1,18 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-12.
+> Uncontaminated bugs merged after 2026-11-13.
 
-### [Kewton/CommandMate] feat(worktree): PC のツールのペイン（File Tree など）を左右で切り替えられるようにする (#4219)
-- **Base Commit:** `eaf36dd290df337d60233f2ab255a60afaf5805b`
-- **Solution PR:** https://github.com/Kewton/CommandMate/pull/4363
+### [xdelmo/Portfolio-minimal] fix: the pixel cursor stays under the pointer during the page change (#560)
+- **Base Commit:** `3b5e8dfa221cec9e65367386393c5f5f2c8c990a`
+- **Solution PR:** https://github.com/xdelmo/Portfolio-minimal/pull/561
 
-### [storybookjs/storybook] Skills: Remove the ui-workflow skill of an 11.0 prerelease on upgrade
-- **Base Commit:** `1c2a27a306680c368161e9d312b10a8d38dcd618`
-- **Solution PR:** https://github.com/storybookjs/storybook/pull/37346
+### [stella/stella] fix(case-law): give the ÚOHS adapter a page deadline sized to its document reads
+- **Base Commit:** `fb4e73d25419fdd678b95002b78fa9ddb4d55ad8`
+- **Solution PR:** https://github.com/stella/stella/pull/8464
 
-### [trybun/trybun] test(web): measure the sharing actions of the ticket list until they are laid out (#329)
-- **Base Commit:** `8283d379c99d84b096f6eb940beeb86eedcfd82e`
-- **Solution PR:** https://github.com/trybun/trybun/pull/334
+### [getpaseo/paseo] fix(opencode): re-probe a v1 runtime when the provider is refreshed
+- **Base Commit:** `a30b784eb2c1022ab70856b4c77e20bb8fb10183`
+- **Solution PR:** https://github.com/getpaseo/paseo/pull/9593
 
-### [the-greenman/srs-web] fix(ci): pin E2E job to ubuntu-24.04 (#813)
-- **Base Commit:** `54859172ded227a1c6c1bb632da02ab4d1b282f0`
-- **Solution PR:** https://github.com/the-greenman/srs-web/pull/814
-
-### [StanislavKozachenko/chatbot] [CI] Sign in once per e2e run
-- **Base Commit:** `3c475637ade52bf9f3454a4214bcb8bac45a61c0`
-- **Solution PR:** https://github.com/StanislavKozachenko/chatbot/pull/64
-
-### [tiann/hapi] fix(agy): concatenate ACP text chunks as deltas
-- **Base Commit:** `2161a9ff9652011b270dc135fe763dc4e52b7790`
-- **Solution PR:** https://github.com/tiann/hapi/pull/2332
-
-### [tiann/hapi] fix(web): generate read-state operation ids without crypto.randomUUID
-- **Base Commit:** `2161a9ff9652011b270dc135fe763dc4e52b7790`
-- **Solution PR:** https://github.com/tiann/hapi/pull/2333
-
-### [knowns-dev/knowns] fix(release): build the go references before ts tests
-- **Base Commit:** `e0462effa0207b00f5dad98b423ab1af70831cba`
-- **Solution PR:** https://github.com/knowns-dev/knowns/pull/161
-
-### [axelhamil/clean-stack] fix(infra): make the older running execution case of the deploy test deterministic
-- **Base Commit:** `3bec6dba42eab9e8ab282fba51a37111a216a417`
-- **Solution PR:** https://github.com/axelhamil/clean-stack/pull/222
+### [shreyash-bht/plotguard-ai] bug/57 fix chat role rendering after refresh
+- **Base Commit:** `ff385fa2c37c0555bc7095b183aba48f31811e9a`
+- **Solution PR:** https://github.com/shreyash-bht/plotguard-ai/pull/58

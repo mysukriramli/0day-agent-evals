@@ -1,50 +1,38 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-12.
+> Uncontaminated bugs merged after 2026-11-13.
 
-### [KrystalSoftwareBangladesh/Ecommerce-Backend] fix: issue#478 - media upload
-- **Base Commit:** `ccef5f6ee2c456fd65a4008f7eea9374aa89cc8d`
-- **Solution PR:** https://github.com/KrystalSoftwareBangladesh/Ecommerce-Backend/pull/479
+### [vllm-project/vllm] [Bugfix][XPU] Use int64 token index in the DeepSeek-V4 qnorm/RoPE kernel
+- **Base Commit:** `4dd68d139757b84757d126b7ca279e12d39e91e5`
+- **Solution PR:** https://github.com/vllm-project/vllm/pull/64515
 
-### [metomi/rose] Fix metadata macro module loading logic broken at Python 3.15
-- **Base Commit:** `4804889114974554ae2644c4e2d014f2e491c056`
-- **Solution PR:** https://github.com/metomi/rose/pull/3145
+### [lfreleng-actions/maven-snapshot-metadata-action] Fix: Run the action on its own Python
+- **Base Commit:** `f8172aad5719811781484e45a97532e27f775f3e`
+- **Solution PR:** https://github.com/lfreleng-actions/maven-snapshot-metadata-action/pull/37
 
-### [mrveiss/AutoBot-AI] fix(company-os): commit a budget write before its response is sent (#21332)
-- **Base Commit:** `1ccdc9655da43e0584954b880c9238dbe38d12d7`
-- **Solution PR:** https://github.com/mrveiss/AutoBot-AI/pull/21477
+### [best-vibing/cloze] fix: 한국어 어절이 붙지 않게 글자 간격 기준을 글자 크기 비율로 변경, EXTRACT_VERSION 3 (#37)
+- **Base Commit:** `f8ac6905484193c67f0623ed64fb5121871fade4`
+- **Solution PR:** https://github.com/best-vibing/cloze/pull/73
 
-### [neuml/txtai] fix(workflow): preserve falsy ServiceTask params
-- **Base Commit:** `df974490bed874519a3a20aab32c6150687eab58`
-- **Solution PR:** https://github.com/neuml/txtai/pull/1559
+### [samcorky/menagerist] fix(security): update dependency @sveltejs/adapter-static to v3.0.11 [security]
+- **Base Commit:** `b9c97a0407bb06909a1eb6e919b7d9143d711856`
+- **Solution PR:** https://github.com/samcorky/menagerist/pull/426
 
-### [RitechSolutions/genassist] fix: repair tests broken by relative data paths and model folder check (68425, 68426)
-- **Base Commit:** `99863d03ac82dd779426bd4e18fa6fcf776ee7bd`
-- **Solution PR:** https://github.com/RitechSolutions/genassist/pull/1346
+### [xorbitsai/inference] fix(router): keep an unchanged backend's capacity gate across reloads
+- **Base Commit:** `3e21084805ce26a3c5ed2ed6712abdb1bd775de0`
+- **Solution PR:** https://github.com/xorbitsai/inference/pull/6103
 
-### [neuml/txtai] Keep an empty documents queue instead of replacing it
-- **Base Commit:** `df974490bed874519a3a20aab32c6150687eab58`
-- **Solution PR:** https://github.com/neuml/txtai/pull/1555
+### [xorbitsai/inference] fix(llm): resume an interrupted split GGUF download
+- **Base Commit:** `3e21084805ce26a3c5ed2ed6712abdb1bd775de0`
+- **Solution PR:** https://github.com/xorbitsai/inference/pull/6102
 
-### [guaix-ucm/megaradrp] Do not keep traces with non-finite coefficients as valid
-- **Base Commit:** `ed2c3acfbcf1db806143db1cb7e53bc411de4e0b`
-- **Solution PR:** https://github.com/guaix-ucm/megaradrp/pull/396
+### [xorbitsai/inference] fix(api): clear the model-not-found cache after launch_model_by_version
+- **Base Commit:** `603f3edacc25da7093525f5cc3811a3b66942563`
+- **Solution PR:** https://github.com/xorbitsai/inference/pull/6063
 
-### [guaix-ucm/numina] Do not take the logarithm of non-positive values when tracing a peak
-- **Base Commit:** `a8f80821c19f672d22fffa812bec3df8e033ecd7`
-- **Solution PR:** https://github.com/guaix-ucm/numina/pull/286
+### [cgt-calc/capital-gains-calculator] Name the blank price or quantity instead of `Amount missing` for a RAW row
+- **Base Commit:** `82adb91b60bc6445ab3297a48efbe22bebce4c8f`
+- **Solution PR:** https://github.com/cgt-calc/capital-gains-calculator/pull/1445
 
-### [The-PR-Agent/pr-agent] fix(review): honor command error propagation in per-commit reviews
-- **Base Commit:** `4a52751482add01648c14b00e5fcd04466025440`
-- **Solution PR:** https://github.com/The-PR-Agent/pr-agent/pull/4890
-
-### [haddocking/arctic3d] Draw the localise bar plot images with matplotlib, drop kaleido
-- **Base Commit:** `9c7009bea23c29a329002f96a195f70417e79405`
-- **Solution PR:** https://github.com/haddocking/arctic3d/pull/524
-
-### [scrapy/scrapy] Stop passing media_downloaded() errors to media_failed().
-- **Base Commit:** `0d4b674ed976a9bead536d3039cb29e57bf2753e`
-- **Solution PR:** https://github.com/scrapy/scrapy/pull/8489
-
-### [jxxghp/MoviePilot] fix(music): 修复手动最终目录的自动整理策略
-- **Base Commit:** `dd15f241e3bd4a5bf6a180b64d178777ca182457`
-- **Solution PR:** https://github.com/jxxghp/MoviePilot/pull/7403
+### [krovomi/WorkPilot-AI] fix(dev): stop npm warning "Unknown env config manage-package-manager-versions"
+- **Base Commit:** `cc6015e3e038622d0eb1f31052be4961e232500f`
+- **Solution PR:** https://github.com/krovomi/WorkPilot-AI/pull/875
