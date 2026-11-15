@@ -1,18 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-13.
+> Uncontaminated bugs merged after 2026-11-14.
 
-### [xdelmo/Portfolio-minimal] fix: the pixel cursor stays under the pointer during the page change (#560)
-- **Base Commit:** `3b5e8dfa221cec9e65367386393c5f5f2c8c990a`
-- **Solution PR:** https://github.com/xdelmo/Portfolio-minimal/pull/561
+### [dahlia/optique] Apply completion option visibility to internal ARG
+- **Base Commit:** `c7534f2719d79ec7104d4e71b6e1e13c00675ecc`
+- **Solution PR:** https://github.com/dahlia/optique/pull/1130
 
-### [stella/stella] fix(case-law): give the ÚOHS adapter a page deadline sized to its document reads
-- **Base Commit:** `fb4e73d25419fdd678b95002b78fa9ddb4d55ad8`
-- **Solution PR:** https://github.com/stella/stella/pull/8464
+### [docteur-turboss/trading-model] :lock:(discovery-server): refuse to start in production without Redis
+- **Base Commit:** `9d45a93ec21dc2821e8a4d9f9007a40642ed9c04`
+- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1229
 
-### [getpaseo/paseo] fix(opencode): re-probe a v1 runtime when the provider is refreshed
-- **Base Commit:** `a30b784eb2c1022ab70856b4c77e20bb8fb10183`
-- **Solution PR:** https://github.com/getpaseo/paseo/pull/9593
+### [vszlx4/sqwer] Start game runs at the top and give the run the first screen
+- **Base Commit:** `e9e42e551a1467245bf15d9d3d809d504389ba09`
+- **Solution PR:** https://github.com/vszlx4/sqwer/pull/209
 
-### [shreyash-bht/plotguard-ai] bug/57 fix chat role rendering after refresh
-- **Base Commit:** `ff385fa2c37c0555bc7095b183aba48f31811e9a`
-- **Solution PR:** https://github.com/shreyash-bht/plotguard-ai/pull/58
+### [kasusoba/haze] Blur play counts and other metrics on YouTube Music without catching artist names
+- **Base Commit:** `2a78c8c3a525d5390dd2279759f355a89653e00e`
+- **Solution PR:** https://github.com/kasusoba/haze/pull/9
+
+### [MerciHanrim/loop-studio] Two phone e2e assertions that could not fail now check what they name
+- **Base Commit:** `24a4927a1d2d291d82d2e9edc98a86c3c4166558`
+- **Solution PR:** https://github.com/MerciHanrim/loop-studio/pull/567
+
+### [JundiLesmana/agoraya] fix: apbd and project input
+- **Base Commit:** `3611e535eaad6599201f2ba83566b2e4168e5cf5`
+- **Solution PR:** https://github.com/JundiLesmana/agoraya/pull/503

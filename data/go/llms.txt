@@ -1,46 +1,26 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-13.
+> Uncontaminated bugs merged after 2026-11-14.
 
-### [alrayyes/backup-git-repos] fix(nix): update vendorHash for testcontainers 0.45.0
-- **Base Commit:** `e39d77b87ced7877e8e783bd3adc65a430cde536`
-- **Solution PR:** https://github.com/alrayyes/backup-git-repos/pull/313
+### [petauron/vastora] fix(center): include retired deployment projection in scoped purge
+- **Base Commit:** `7fee5b06c442ef8279bc5fca1f5eb52002726d69`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1327
 
-### [SlashNephy/kotatsu] fix: PMT から外れて戻った ES の continuity_counter の振り出しをドロップと数えない
-- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
-- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1746
+### [ModAVD/ModAVDManager] 发版：把读时钟源的修复挑进 release/0.41，更新 v0.12.0 的校验表
+- **Base Commit:** `b71873fbfced0488c87942731200af515972d445`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/174
 
-### [SlashNephy/kotatsu] fix: タイムシフトを kyusu で再生しているときは、tenban を止める前の知らせで読み直さない
-- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
-- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1747
+### [ModAVD/ModAVDManager] 开机后读客体时钟源改用 root：shell 用户读不到
+- **Base Commit:** `0c8b67daca84ff282ad42e7af8aaf712ab930f1c`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/173
 
-### [fluxcd/flux2] Fix git source secret for password-only auth
-- **Base Commit:** `6f81f5c8fa69fc5aea343989a2958212d827121c`
-- **Solution PR:** https://github.com/fluxcd/flux2/pull/6180
+### [ModAVD/ModAVDManager] 修复两个与时间有关的测试在慢机器上偶发失败
+- **Base Commit:** `a6114be4e4e274b002cce26d9533ef43b6d15e18`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/170
 
-### [gogatekeeper/gatekeeper] Fix matching of switch protocols, to match most general RFC case
-- **Base Commit:** `9844a1d9266d714cf1625b31680926f05b2e8750`
-- **Solution PR:** https://github.com/gogatekeeper/gatekeeper/pull/782
+### [evcc-io/evcc] Config UI: fix missing devices after restart
+- **Base Commit:** `6f056c13b5fe3d12f6134dd9e701a368e52c180e`
+- **Solution PR:** https://github.com/evcc-io/evcc/pull/36270
 
-### [itadori26/trisse-home] test(a11y): measure with reduced motion so no state is mid-fade
-- **Base Commit:** `1f64cf751fb52c1a8a2f92fcfe145319815c7c3e`
-- **Solution PR:** https://github.com/itadori26/trisse-home/pull/266
-
-### [inkwall-dev/inkwall] test(e2e): send the kind HAProxy body over the bundle-mode engine's 11 MiB SPOE frame
-- **Base Commit:** `92b91fe66385f049f2238129c6d78e146a893218`
-- **Solution PR:** https://github.com/inkwall-dev/inkwall/pull/611
-
-### [hakula139/wakatime-cli] fix(metrics): release only owned profiling resources
-- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
-- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/16
-
-### [hakula139/wakatime-cli] fix(api): reject malformed heartbeat responses
-- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
-- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/15
-
-### [hakula139/wakatime-cli] fix(ai): preserve transcript records around null lines
-- **Base Commit:** `ef2d21c5d4ed50d19a5d64da489c6947bcb7b04f`
-- **Solution PR:** https://github.com/hakula139/wakatime-cli/pull/14
-
-### [SlashNephy/kotatsu] fix: EPGStation 互換 API の録画の検索で、キーワードを正規化し、% と _ をエスケープする
-- **Base Commit:** `811899ca2cd767424a2564f09e1badb12a3f356e`
-- **Solution PR:** https://github.com/SlashNephy/kotatsu/pull/1745
+### [yldm-tech/Kando] fix(deps): bump the go-minor-and-patch group across 1 directory with 6 updates
+- **Base Commit:** `73fc5608b6f035d7bdb33a1b8065ef970477c25d`
+- **Solution PR:** https://github.com/yldm-tech/Kando/pull/118

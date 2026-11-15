@@ -1,38 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-13.
+> Uncontaminated bugs merged after 2026-11-14.
 
-### [vllm-project/vllm] [Bugfix][XPU] Use int64 token index in the DeepSeek-V4 qnorm/RoPE kernel
-- **Base Commit:** `4dd68d139757b84757d126b7ca279e12d39e91e5`
-- **Solution PR:** https://github.com/vllm-project/vllm/pull/64515
+### [heymrun/heym] Keep an allowDownstream run's concurrency slot while its branches run
+- **Base Commit:** `8d4607b9c3dd25994d17d63218db00cd5a3d53f2`
+- **Solution PR:** https://github.com/heymrun/heym/pull/942
 
-### [lfreleng-actions/maven-snapshot-metadata-action] Fix: Run the action on its own Python
-- **Base Commit:** `f8172aad5719811781484e45a97532e27f775f3e`
-- **Solution PR:** https://github.com/lfreleng-actions/maven-snapshot-metadata-action/pull/37
+### [MyoHub/myosuite] TaskConfig: normalize_actions says what the envs do
+- **Base Commit:** `098cd90d52d5bfef0ac1bf50abe7d680897dcc29`
+- **Solution PR:** https://github.com/MyoHub/myosuite/pull/795
 
-### [best-vibing/cloze] fix: 한국어 어절이 붙지 않게 글자 간격 기준을 글자 크기 비율로 변경, EXTRACT_VERSION 3 (#37)
-- **Base Commit:** `f8ac6905484193c67f0623ed64fb5121871fade4`
-- **Solution PR:** https://github.com/best-vibing/cloze/pull/73
+### [MyoHub/myosuite] ModularTaskEnv: refuse scenes it does not apply
+- **Base Commit:** `301aef280a159dec3e69bc807b61b7aab28dbcc5`
+- **Solution PR:** https://github.com/MyoHub/myosuite/pull/796
 
-### [samcorky/menagerist] fix(security): update dependency @sveltejs/adapter-static to v3.0.11 [security]
-- **Base Commit:** `b9c97a0407bb06909a1eb6e919b7d9143d711856`
-- **Solution PR:** https://github.com/samcorky/menagerist/pull/426
+### [jamartif/speckfish] fix: analyze was skipped right after tasks
+- **Base Commit:** `6ab9a42cc9cb4e97b83ffd739ae940b05d43621c`
+- **Solution PR:** https://github.com/jamartif/speckfish/pull/32
 
-### [xorbitsai/inference] fix(router): keep an unchanged backend's capacity gate across reloads
-- **Base Commit:** `3e21084805ce26a3c5ed2ed6712abdb1bd775de0`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/6103
+### [DexForce/EmbodiChain] Expose Gaussian sRGB display transfer and update examples
+- **Base Commit:** `b629c7158b8180934c0990b71e12e1031ddac16e`
+- **Solution PR:** https://github.com/DexForce/EmbodiChain/pull/1209
 
-### [xorbitsai/inference] fix(llm): resume an interrupted split GGUF download
-- **Base Commit:** `3e21084805ce26a3c5ed2ed6712abdb1bd775de0`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/6102
+### [honey720/chzzk-vod-downloader-v2] fix: 툴팁 꼬리와 몸통을 한 윤곽으로 그려 꼬리 밑변 테두리 줄 제거
+- **Base Commit:** `01230cf5a929f831b4c06523e3f7d448243914ba`
+- **Solution PR:** https://github.com/honey720/chzzk-vod-downloader-v2/pull/609
 
-### [xorbitsai/inference] fix(api): clear the model-not-found cache after launch_model_by_version
-- **Base Commit:** `603f3edacc25da7093525f5cc3811a3b66942563`
-- **Solution PR:** https://github.com/xorbitsai/inference/pull/6063
-
-### [cgt-calc/capital-gains-calculator] Name the blank price or quantity instead of `Amount missing` for a RAW row
-- **Base Commit:** `82adb91b60bc6445ab3297a48efbe22bebce4c8f`
-- **Solution PR:** https://github.com/cgt-calc/capital-gains-calculator/pull/1445
-
-### [krovomi/WorkPilot-AI] fix(dev): stop npm warning "Unknown env config manage-package-manager-versions"
-- **Base Commit:** `cc6015e3e038622d0eb1f31052be4961e232500f`
-- **Solution PR:** https://github.com/krovomi/WorkPilot-AI/pull/875
+### [nyihtutzaw/group1-software-dev-project] fix(F5): allow .local emails when an admin creates a user
+- **Base Commit:** `f54a6ce116a7bdc4e9bc80a3e907c1057af9bd50`
+- **Solution PR:** https://github.com/nyihtutzaw/group1-software-dev-project/pull/54
