@@ -1,26 +1,42 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-14.
+> Uncontaminated bugs merged after 2026-11-15.
 
-### [petauron/vastora] fix(center): include retired deployment projection in scoped purge
-- **Base Commit:** `7fee5b06c442ef8279bc5fca1f5eb52002726d69`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1327
+### [cthtrifork/trivy-dashboard-wail3] fix(ci): pin the release build to ubuntu-24.04
+- **Base Commit:** `44c90fe39878e81bcafbf61239626b2f322a98b8`
+- **Solution PR:** https://github.com/cthtrifork/trivy-dashboard-wail3/pull/299
 
-### [ModAVD/ModAVDManager] 发版：把读时钟源的修复挑进 release/0.41，更新 v0.12.0 的校验表
-- **Base Commit:** `b71873fbfced0488c87942731200af515972d445`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/174
+### [cthtrifork/trivy-dashboard-wail3] fix(ci): retry Lighthouse runs that fail with NO_NAVSTART
+- **Base Commit:** `9f90de886cae9695deb6aeed64439191d3df40e9`
+- **Solution PR:** https://github.com/cthtrifork/trivy-dashboard-wail3/pull/300
 
-### [ModAVD/ModAVDManager] 开机后读客体时钟源改用 root：shell 用户读不到
-- **Base Commit:** `0c8b67daca84ff282ad42e7af8aaf712ab930f1c`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/173
+### [petauron/vastora] fix: honor signed application version equivalences
+- **Base Commit:** `1fbe3928677e409d9fc8b2412707d7d23e2731fa`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1366
 
-### [ModAVD/ModAVDManager] 修复两个与时间有关的测试在慢机器上偶发失败
-- **Base Commit:** `a6114be4e4e274b002cce26d9533ef43b6d15e18`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/170
+### [belastingdienst/opr-paas] fix(templating)!: remove template functions that expose the operator environment
+- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
+- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1144
 
-### [evcc-io/evcc] Config UI: fix missing devices after restart
-- **Base Commit:** `6f056c13b5fe3d12f6134dd9e701a368e52c180e`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/36270
+### [belastingdienst/opr-paas] fix(cvd): secrets in logs
+- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
+- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1141
 
-### [yldm-tech/Kando] fix(deps): bump the go-minor-and-patch group across 1 directory with 6 updates
-- **Base Commit:** `73fc5608b6f035d7bdb33a1b8065ef970477c25d`
-- **Solution PR:** https://github.com/yldm-tech/Kando/pull/118
+### [belastingdienst/opr-paas] fix: decryption errors
+- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
+- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1142
+
+### [nsgo-dev/nsgo] fix(ci): handle browser startup failures and provision media tests
+- **Base Commit:** `a15127fce4c1d4cd66b8271acf3f7d70c0a99865`
+- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/381
+
+### [petauron/vastora] fix(center): recheck failed TLS entries after agent reconnect
+- **Base Commit:** `5d09334e2ac37d4c4c7b260bd6e458b35d10b848`
+- **Solution PR:** https://github.com/petauron/vastora/pull/1364
+
+### [FirebirdSQL/fbx] Return an error instead of a panic for an unclosed quoted-KV.
+- **Base Commit:** `e4187062341ee90b0620658831152ea17f53b41c`
+- **Solution PR:** https://github.com/FirebirdSQL/fbx/pull/31
+
+### [stokaro/ptah] Name a rehearsal role added only after it renders
+- **Base Commit:** `302e63903422ee7efba06abe0744b6e3e0fa5ba1`
+- **Solution PR:** https://github.com/stokaro/ptah/pull/6116

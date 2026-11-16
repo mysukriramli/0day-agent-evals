@@ -1,26 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-14.
+> Uncontaminated bugs merged after 2026-11-15.
 
-### [dahlia/optique] Apply completion option visibility to internal ARG
-- **Base Commit:** `c7534f2719d79ec7104d4e71b6e1e13c00675ecc`
-- **Solution PR:** https://github.com/dahlia/optique/pull/1130
+### [pwilfried/french-track-prono] fix: draw e2e player ids from 10000 values so preprod leftovers do not collide
+- **Base Commit:** `93fd0ebd9e1740923f2566923da037f0144a4f7a`
+- **Solution PR:** https://github.com/pwilfried/french-track-prono/pull/1059
 
-### [docteur-turboss/trading-model] :lock:(discovery-server): refuse to start in production without Redis
-- **Base Commit:** `9d45a93ec21dc2821e8a4d9f9007a40642ed9c04`
-- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1229
+### [openkaiden/kaiden] fix(renderer): clarify custom mount target default
+- **Base Commit:** `697c2b7664e7231e8de1e3939c1d7ed2cd3f6fc2`
+- **Solution PR:** https://github.com/openkaiden/kaiden/pull/3270
 
-### [vszlx4/sqwer] Start game runs at the top and give the run the first screen
-- **Base Commit:** `e9e42e551a1467245bf15d9d3d809d504389ba09`
-- **Solution PR:** https://github.com/vszlx4/sqwer/pull/209
+### [docteur-turboss/trading-model] :bug:(database): widen the market data ids to BIGINT UNSIGNED
+- **Base Commit:** `6609bdaa164cc1d2bb21965b17890410a659cfa8`
+- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1400
 
-### [kasusoba/haze] Blur play counts and other metrics on YouTube Music without catching artist names
-- **Base Commit:** `2a78c8c3a525d5390dd2279759f355a89653e00e`
-- **Solution PR:** https://github.com/kasusoba/haze/pull/9
+### [guardian/dotcom-rendering] Fix the timeline border across screensizes, add storybook tests
+- **Base Commit:** `62119df46594e087f4208dba626507b8d8ca4949`
+- **Solution PR:** https://github.com/guardian/dotcom-rendering/pull/17264
 
-### [MerciHanrim/loop-studio] Two phone e2e assertions that could not fail now check what they name
-- **Base Commit:** `24a4927a1d2d291d82d2e9edc98a86c3c4166558`
-- **Solution PR:** https://github.com/MerciHanrim/loop-studio/pull/567
+### [HyakoV3/biblioteca-musical-ccb] Conversor: o coro do final vai para a última estrofe (+ registro do zip 013)
+- **Base Commit:** `6f71a2bb890f6175972aa8ea667914ac5fe25c1a`
+- **Solution PR:** https://github.com/HyakoV3/biblioteca-musical-ccb/pull/25
 
-### [JundiLesmana/agoraya] fix: apbd and project input
-- **Base Commit:** `3611e535eaad6599201f2ba83566b2e4168e5cf5`
-- **Solution PR:** https://github.com/JundiLesmana/agoraya/pull/503
+### [stella/stella] fix(tooling): use own-key records in verification guards
+- **Base Commit:** `15ed6e87db02a38aee95b693a49e9b80cf074ef7`
+- **Solution PR:** https://github.com/stella/stella/pull/8645

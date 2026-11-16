@@ -1,30 +1,38 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-14.
+> Uncontaminated bugs merged after 2026-11-15.
 
-### [heymrun/heym] Keep an allowDownstream run's concurrency slot while its branches run
-- **Base Commit:** `8d4607b9c3dd25994d17d63218db00cd5a3d53f2`
-- **Solution PR:** https://github.com/heymrun/heym/pull/942
+### [meta-pytorch/torchcodec] Fix wrong frames returned after get_frame_played_at(): use decoder state to skip sequential seeks
+- **Base Commit:** `48f472427cca1c59183a58f2348eacd43f847908`
+- **Solution PR:** https://github.com/meta-pytorch/torchcodec/pull/1865
 
-### [MyoHub/myosuite] TaskConfig: normalize_actions says what the envs do
-- **Base Commit:** `098cd90d52d5bfef0ac1bf50abe7d680897dcc29`
-- **Solution PR:** https://github.com/MyoHub/myosuite/pull/795
+### [jxxghp/MoviePilot] fix(docker): enable backend native crash diagnostics
+- **Base Commit:** `58ea2408e5ffce73c632d32c0b5d4424852d31a6`
+- **Solution PR:** https://github.com/jxxghp/MoviePilot/pull/7439
 
-### [MyoHub/myosuite] ModularTaskEnv: refuse scenes it does not apply
-- **Base Commit:** `301aef280a159dec3e69bc807b61b7aab28dbcc5`
-- **Solution PR:** https://github.com/MyoHub/myosuite/pull/796
+### [kollaborai/kollab] fix(packaging): include bundled pricing in the root wheel (#1153)
+- **Base Commit:** `bd5d5718227f24b1de123f158ca0ee5516ff6c06`
+- **Solution PR:** https://github.com/kollaborai/kollab/pull/1178
 
-### [jamartif/speckfish] fix: analyze was skipped right after tasks
-- **Base Commit:** `6ab9a42cc9cb4e97b83ffd739ae940b05d43621c`
-- **Solution PR:** https://github.com/jamartif/speckfish/pull/32
+### [earthobservations/wetterdienst] test(app): the explorer's default-range test holds across midnight UTC (Closes #4134)
+- **Base Commit:** `7989b5f7429e90a0bc037e3866a5966f322cc7f2`
+- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/4140
 
-### [DexForce/EmbodiChain] Expose Gaussian sRGB display transfer and update examples
-- **Base Commit:** `b629c7158b8180934c0990b71e12e1031ddac16e`
-- **Solution PR:** https://github.com/DexForce/EmbodiChain/pull/1209
+### [marcpage/libranet] Keep sibling Karma test chains' targets apart (#750)
+- **Base Commit:** `218b6fc349b1f5213dd21fd20f5edc1a6aa9fd50`
+- **Solution PR:** https://github.com/marcpage/libranet/pull/753
 
-### [honey720/chzzk-vod-downloader-v2] fix: 툴팁 꼬리와 몸통을 한 윤곽으로 그려 꼬리 밑변 테두리 줄 제거
-- **Base Commit:** `01230cf5a929f831b4c06523e3f7d448243914ba`
-- **Solution PR:** https://github.com/honey720/chzzk-vod-downloader-v2/pull/609
+### [earthobservations/wetterdienst] fix(tests): frames:snapshot writes after a test is renamed (Closes #4118)
+- **Base Commit:** `7989b5f7429e90a0bc037e3866a5966f322cc7f2`
+- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/4141
 
-### [nyihtutzaw/group1-software-dev-project] fix(F5): allow .local emails when an admin creates a user
-- **Base Commit:** `f54a6ce116a7bdc4e9bc80a3e907c1057af9bd50`
-- **Solution PR:** https://github.com/nyihtutzaw/group1-software-dev-project/pull/54
+### [BlocksTechnology/BlocksScreen] fix(printTab): keep the cancel screen while CANCEL_PRINT waits behind a macro
+- **Base Commit:** `302d94e934cb4afe2ad364aa0bfc1099856d9a5a`
+- **Solution PR:** https://github.com/BlocksTechnology/BlocksScreen/pull/396
+
+### [OCA/tier-validation] [19.0][FIX] base_tier_validation: no reminders for reviews still waiting
+- **Base Commit:** `ff6140605b1907818fe90d1ba9ae6e1bf5b8f332`
+- **Solution PR:** https://github.com/OCA/tier-validation/pull/71
+
+### [ccxt/ccxt] test(static): fix Go response tests for paginated fetchFundingRateHistory mocks
+- **Base Commit:** `3b309819be7a3a1360b613c1cb99f53291dff208`
+- **Solution PR:** https://github.com/ccxt/ccxt/pull/31236
