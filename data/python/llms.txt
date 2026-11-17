@@ -1,38 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-15.
+> Uncontaminated bugs merged after 2026-11-16.
 
-### [meta-pytorch/torchcodec] Fix wrong frames returned after get_frame_played_at(): use decoder state to skip sequential seeks
-- **Base Commit:** `48f472427cca1c59183a58f2348eacd43f847908`
-- **Solution PR:** https://github.com/meta-pytorch/torchcodec/pull/1865
+### [gimp-mcp/gimp-mcp] Release 0.4.0
+- **Base Commit:** `1b88676d2fd60c3e042b79362a8c7543fd05fe96`
+- **Solution PR:** https://github.com/gimp-mcp/gimp-mcp/pull/142
 
-### [jxxghp/MoviePilot] fix(docker): enable backend native crash diagnostics
-- **Base Commit:** `58ea2408e5ffce73c632d32c0b5d4424852d31a6`
-- **Solution PR:** https://github.com/jxxghp/MoviePilot/pull/7439
+### [torch-spyre/hf-adapters] fix(common): resolve get_backbone through base_model_prefix (fixes bare DistilBertModel)
+- **Base Commit:** `a2aa5a2ef5ea0892d0f0ba5a5a613d25ab608986`
+- **Solution PR:** https://github.com/torch-spyre/hf-adapters/pull/786
 
-### [kollaborai/kollab] fix(packaging): include bundled pricing in the root wheel (#1153)
-- **Base Commit:** `bd5d5718227f24b1de123f158ca0ee5516ff6c06`
-- **Solution PR:** https://github.com/kollaborai/kollab/pull/1178
+### [gwastro/pycbc] Trust a frame file's extension before its content (#5533)
+- **Base Commit:** `fc6bcf5d480f92269b1b79347d98432b13059c9a`
+- **Solution PR:** https://github.com/gwastro/pycbc/pull/5534
 
-### [earthobservations/wetterdienst] test(app): the explorer's default-range test holds across midnight UTC (Closes #4134)
-- **Base Commit:** `7989b5f7429e90a0bc037e3866a5966f322cc7f2`
-- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/4140
+### [DigiKlausur/docker-stacks] Fix Prefect, Data Contract Editor and VS Code launcher on JupyterHub
+- **Base Commit:** `c4193118410f5389a15060820483c1a47eb12173`
+- **Solution PR:** https://github.com/DigiKlausur/docker-stacks/pull/165
 
-### [marcpage/libranet] Keep sibling Karma test chains' targets apart (#750)
-- **Base Commit:** `218b6fc349b1f5213dd21fd20f5edc1a6aa9fd50`
-- **Solution PR:** https://github.com/marcpage/libranet/pull/753
+### [OpenBioSim/loch] Backport fix from PR #67
+- **Base Commit:** `a322da16524fe7433093a5a7a108fd5eb00e5f97`
+- **Solution PR:** https://github.com/OpenBioSim/loch/pull/68
 
-### [earthobservations/wetterdienst] fix(tests): frames:snapshot writes after a test is renamed (Closes #4118)
-- **Base Commit:** `7989b5f7429e90a0bc037e3866a5966f322cc7f2`
-- **Solution PR:** https://github.com/earthobservations/wetterdienst/pull/4141
+### [mmiura-2351/mc-server-dashboard-v2] Set asyncio_default_fixture_loop_scope and drop the stale CI-time figure
+- **Base Commit:** `2ec28a95bc570984bb7776b9c036c3ebf1e59aec`
+- **Solution PR:** https://github.com/mmiura-2351/mc-server-dashboard-v2/pull/3726
 
-### [BlocksTechnology/BlocksScreen] fix(printTab): keep the cancel screen while CANCEL_PRINT waits behind a macro
-- **Base Commit:** `302d94e934cb4afe2ad364aa0bfc1099856d9a5a`
-- **Solution PR:** https://github.com/BlocksTechnology/BlocksScreen/pull/396
-
-### [OCA/tier-validation] [19.0][FIX] base_tier_validation: no reminders for reviews still waiting
-- **Base Commit:** `ff6140605b1907818fe90d1ba9ae6e1bf5b8f332`
-- **Solution PR:** https://github.com/OCA/tier-validation/pull/71
-
-### [ccxt/ccxt] test(static): fix Go response tests for paginated fetchFundingRateHistory mocks
-- **Base Commit:** `3b309819be7a3a1360b613c1cb99f53291dff208`
-- **Solution PR:** https://github.com/ccxt/ccxt/pull/31236
+### [shindonggeun/trading-desk] [BE] feat: 짧은 · 중간 · 긴 스윙의 하락 저항선 · 상승 지지선을 여러 개 계산하고 선마다 필요 상승률 · 돌파/거절 시나리오를 준다
+- **Base Commit:** `61a5af9af28cd9a74d22b76e748cbaf34ce38573`
+- **Solution PR:** https://github.com/shindonggeun/trading-desk/pull/553

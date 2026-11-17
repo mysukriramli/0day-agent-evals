@@ -1,42 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-15.
+> Uncontaminated bugs merged after 2026-11-16.
 
-### [cthtrifork/trivy-dashboard-wail3] fix(ci): pin the release build to ubuntu-24.04
-- **Base Commit:** `44c90fe39878e81bcafbf61239626b2f322a98b8`
-- **Solution PR:** https://github.com/cthtrifork/trivy-dashboard-wail3/pull/299
+### [ben-ranford/lopper] test(ci): run pinning fixtures through their shell
+- **Base Commit:** `b0d135391a5db8d3dd4f9dad25907f894c9f664c`
+- **Solution PR:** https://github.com/ben-ranford/lopper/pull/1861
 
-### [cthtrifork/trivy-dashboard-wail3] fix(ci): retry Lighthouse runs that fail with NO_NAVSTART
-- **Base Commit:** `9f90de886cae9695deb6aeed64439191d3df40e9`
-- **Solution PR:** https://github.com/cthtrifork/trivy-dashboard-wail3/pull/300
+### [Silentely/Repo-Sentinel] fix(deps): update dependency @testing-library/user-event to v14.6.12
+- **Base Commit:** `f1afc6018f539ad2c1561de55fdff2238f0d2f07`
+- **Solution PR:** https://github.com/Silentely/Repo-Sentinel/pull/122
 
-### [petauron/vastora] fix: honor signed application version equivalences
-- **Base Commit:** `1fbe3928677e409d9fc8b2412707d7d23e2731fa`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1366
+### [vllm-project/semantic-router] [Bug] Refuse an input.audio System One rule on every deployment
+- **Base Commit:** `9379f16db5b793c42f3b9dd45df2304423e2225b`
+- **Solution PR:** https://github.com/vllm-project/semantic-router/pull/6565
 
-### [belastingdienst/opr-paas] fix(templating)!: remove template functions that expose the operator environment
-- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
-- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1144
+### [alrayyes/forge-dashboard] fix(dashboard): keep what a webhook set when a full refresh settles after it
+- **Base Commit:** `5471b5e66d1850feb5a897c1b62f04a5935ab136`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/4112
 
-### [belastingdienst/opr-paas] fix(cvd): secrets in logs
-- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
-- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1141
+### [ModAVD/ModAVDManager] emu: 客体时钟源一直用 TSC（tsc=nowatchdog）
+- **Base Commit:** `0c14c335d149badf3da47ac1100bce160f6c1640`
+- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/187
 
-### [belastingdienst/opr-paas] fix: decryption errors
-- **Base Commit:** `7cb01f090c431579d7c22d71ff542ff44deeeb92`
-- **Solution PR:** https://github.com/belastingdienst/opr-paas/pull/1142
+### [redBorder/redborder-monitor] Fix build after mock update
+- **Base Commit:** `b01786e8bbd60416411bc50d6a9e1df55138924b`
+- **Solution PR:** https://github.com/redBorder/redborder-monitor/pull/20
 
-### [nsgo-dev/nsgo] fix(ci): handle browser startup failures and provision media tests
-- **Base Commit:** `a15127fce4c1d4cd66b8271acf3f7d70c0a99865`
-- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/381
-
-### [petauron/vastora] fix(center): recheck failed TLS entries after agent reconnect
-- **Base Commit:** `5d09334e2ac37d4c4c7b260bd6e458b35d10b848`
-- **Solution PR:** https://github.com/petauron/vastora/pull/1364
-
-### [FirebirdSQL/fbx] Return an error instead of a panic for an unclosed quoted-KV.
-- **Base Commit:** `e4187062341ee90b0620658831152ea17f53b41c`
-- **Solution PR:** https://github.com/FirebirdSQL/fbx/pull/31
-
-### [stokaro/ptah] Name a rehearsal role added only after it renders
-- **Base Commit:** `302e63903422ee7efba06abe0744b6e3e0fa5ba1`
-- **Solution PR:** https://github.com/stokaro/ptah/pull/6116
+### [alrayyes/forge-dashboard] fix(web): keep a multi-select panel open while a row is pressed
+- **Base Commit:** `39c250a01231a912da698e60f0466c4555322941`
+- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/4095
