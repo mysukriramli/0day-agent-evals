@@ -1,30 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-16.
+> Uncontaminated bugs merged after 2026-11-17.
 
-### [ben-ranford/lopper] test(ci): run pinning fixtures through their shell
-- **Base Commit:** `b0d135391a5db8d3dd4f9dad25907f894c9f664c`
-- **Solution PR:** https://github.com/ben-ranford/lopper/pull/1861
+### [opensro-dev/opensro] fix(build): a later BSR's multi-texture modifier joins the resource closure
+- **Base Commit:** `4a65da750ce622dbabf822a8a124a1baec8c6383`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3862
 
-### [Silentely/Repo-Sentinel] fix(deps): update dependency @testing-library/user-event to v14.6.12
-- **Base Commit:** `f1afc6018f539ad2c1561de55fdff2238f0d2f07`
-- **Solution PR:** https://github.com/Silentely/Repo-Sentinel/pull/122
+### [opensro-dev/opensro] fix(build): the quick party slot's portrait disc is published (a black disc since #3699)
+- **Base Commit:** `be6ea0c0d1aba1bec08496446f4ce7979a921bdf`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3863
 
-### [vllm-project/semantic-router] [Bug] Refuse an input.audio System One rule on every deployment
-- **Base Commit:** `9379f16db5b793c42f3b9dd45df2304423e2225b`
-- **Solution PR:** https://github.com/vllm-project/semantic-router/pull/6565
+### [apache/incubator-seata-go] fix(remoting): match IPv6 coordinators by XID
+- **Base Commit:** `8238fcc32a29606e3f98860e56b13b3e93a2e1ac`
+- **Solution PR:** https://github.com/apache/incubator-seata-go/pull/1228
 
-### [alrayyes/forge-dashboard] fix(dashboard): keep what a webhook set when a full refresh settles after it
-- **Base Commit:** `5471b5e66d1850feb5a897c1b62f04a5935ab136`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/4112
+### [tinypell3ts/tiny-bank] fix(kafka): after a broker loses messages, consume a partition again from its oldest message
+- **Base Commit:** `9aee98499bfde6cba591912c291c6a4288e28a37`
+- **Solution PR:** https://github.com/tinypell3ts/tiny-bank/pull/36
 
-### [ModAVD/ModAVDManager] emu: 客体时钟源一直用 TSC（tsc=nowatchdog）
-- **Base Commit:** `0c14c335d149badf3da47ac1100bce160f6c1640`
-- **Solution PR:** https://github.com/ModAVD/ModAVDManager/pull/187
+### [nsgo-dev/nsgo] fix(macos): hide indicators for programmatic scrolls
+- **Base Commit:** `5b87ac2ba26614fdecbeac83820e543ace9062cd`
+- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/644
 
-### [redBorder/redborder-monitor] Fix build after mock update
-- **Base Commit:** `b01786e8bbd60416411bc50d6a9e1df55138924b`
-- **Solution PR:** https://github.com/redBorder/redborder-monitor/pull/20
+### [njdaniel/conch] issue #1933: 05-runs P3-06 scopes its row filter to session rows
+- **Base Commit:** `95e72c59d97bcd95bbe0dd56c7434dfb493e67ae`
+- **Solution PR:** https://github.com/njdaniel/conch/pull/1937
 
-### [alrayyes/forge-dashboard] fix(web): keep a multi-select panel open while a row is pressed
-- **Base Commit:** `39c250a01231a912da698e60f0466c4555322941`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/4095
+### [njdaniel/conch] issue #1931: the compact-stage rule no longer nests :has()
+- **Base Commit:** `95e72c59d97bcd95bbe0dd56c7434dfb493e67ae`
+- **Solution PR:** https://github.com/njdaniel/conch/pull/1936

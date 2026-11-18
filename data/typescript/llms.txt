@@ -1,46 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-16.
+> Uncontaminated bugs merged after 2026-11-17.
 
-### [snikproject/graph] Fix the invalid border-colour CSS property
-- **Base Commit:** `30b7f85d5a037ab6edd774d1f55a26c1d62d4a6a`
-- **Solution PR:** https://github.com/snikproject/graph/pull/593
+### [OrchestratorInc/agent-orchestrator] fix(mobile): match board header icons to the Workers filter colour on iOS
+- **Base Commit:** `c70c368fb9c3691bb2312b725e01aba885a68042`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/8484
 
-### [snikproject/graph] Reset the path source when loading a graph
-- **Base Commit:** `11bfd5e4db99a9ee21f3675a5ac28e81053c0006`
-- **Solution PR:** https://github.com/snikproject/graph/pull/596
+### [El-Gibbor/Hoard] Keep the storage endpoint Azure adds to the database subnet
+- **Base Commit:** `3c47e72dfd7f65440fd226b496ee1a83653f7585`
+- **Solution PR:** https://github.com/El-Gibbor/Hoard/pull/106
 
-### [snikproject/graph] Check the node before logging it in setSource
-- **Base Commit:** `11bfd5e4db99a9ee21f3675a5ac28e81053c0006`
-- **Solution PR:** https://github.com/snikproject/graph/pull/597
+### [unicef/adt-studio] fix(api): preserve dollar signs when merging sections (#1107)
+- **Base Commit:** `bf37099b08c7c5ae27fa6f7b8df8d65b2b8f603d`
+- **Solution PR:** https://github.com/unicef/adt-studio/pull/1150
 
-### [alrayyes/alrayyes.github.io] fix(pages): keep the spaces around inline links
-- **Base Commit:** `10a2ef2cf1867ea2fcab9e1ee2f6b309e26ddf5f`
-- **Solution PR:** https://github.com/alrayyes/alrayyes.github.io/pull/328
+### [OrchestratorInc/agent-orchestrator] fix(mobile): point Free and failed-payment plans to the desktop
+- **Base Commit:** `e3a90f708e90dc43fbfa561a739f37d0a9db11d8`
+- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/8476
 
-### [snikproject/graph] Give class and edge feedback issues useful titles and bodies
-- **Base Commit:** `378c470b167dfc32e25b94bf05b5c004e30f81cb`
-- **Solution PR:** https://github.com/snikproject/graph/pull/578
+### [yeomyeonggeori/internkim] fix: keep the inbox and a channel agreeing on what was read
+- **Base Commit:** `45336e10d02f43570d1c9da420cb8b0183bdac72`
+- **Solution PR:** https://github.com/yeomyeonggeori/internkim/pull/3237
 
-### [snikproject/graph] Restore the colored edges option for new views
-- **Base Commit:** `56d514668de576441f19d6c42c5aee3feee79066`
-- **Solution PR:** https://github.com/snikproject/graph/pull/524
+### [stella/stella] fix(web): show the sidebar matter meta line at full contrast
+- **Base Commit:** `0dad4da417b4a99c6141363e2c05a757a314fb72`
+- **Solution PR:** https://github.com/stella/stella/pull/8847
 
-### [snikproject/graph] Update the layout cache from the toolbar layout buttons
-- **Base Commit:** `56d514668de576441f19d6c42c5aee3feee79066`
-- **Solution PR:** https://github.com/snikproject/graph/pull/527
-
-### [snikproject/graph] Handle missing view titles correctly and translate the fallback
-- **Base Commit:** `bd83649d585fe7200a8883b034b38cbdfae61500`
-- **Solution PR:** https://github.com/snikproject/graph/pull/546
-
-### [snikproject/graph] Keep all logger arguments
-- **Base Commit:** `378c470b167dfc32e25b94bf05b5c004e30f81cb`
-- **Solution PR:** https://github.com/snikproject/graph/pull/582
-
-### [snikproject/graph] Allow selecting the same file twice in a row
-- **Base Commit:** `cfff358cd168b6b86fbeecede73bd8c4240ea5cc`
-- **Solution PR:** https://github.com/snikproject/graph/pull/571
-
-### [carbon-design-system/carbon-components-svelte] fix(copy-text): center the icon on the cap height
-- **Base Commit:** `93a4e4b576d155c472682668f7607013519e2979`
-- **Solution PR:** https://github.com/carbon-design-system/carbon-components-svelte/pull/5699
+### [frodriguezmtnz/plantinum-showcase] fix(db): sincronizar la migración de account lockout y endurecer la lectura de usuarios
+- **Base Commit:** `e013f43cac0365988c04de54f8fc3d56ef5753ea`
+- **Solution PR:** https://github.com/frodriguezmtnz/plantinum-showcase/pull/92
