@@ -1,30 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-17.
+> Uncontaminated bugs merged after 2026-11-18.
 
-### [OrchestratorInc/agent-orchestrator] fix(mobile): match board header icons to the Workers filter colour on iOS
-- **Base Commit:** `c70c368fb9c3691bb2312b725e01aba885a68042`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/8484
+### [sarbeshtiwari/sitesentinel] Live workers: no duplicate processes on restart
+- **Base Commit:** `ffd1bb1672caa0de353523407cff7d826e94c4c0`
+- **Solution PR:** https://github.com/sarbeshtiwari/sitesentinel/pull/7
 
-### [El-Gibbor/Hoard] Keep the storage endpoint Azure adds to the database subnet
-- **Base Commit:** `3c47e72dfd7f65440fd226b496ee1a83653f7585`
-- **Solution PR:** https://github.com/El-Gibbor/Hoard/pull/106
+### [sarbeshtiwari/sitesentinel] CI: allowlist Pencil design canvases in the secret scan
+- **Base Commit:** `ffd1bb1672caa0de353523407cff7d826e94c4c0`
+- **Solution PR:** https://github.com/sarbeshtiwari/sitesentinel/pull/11
 
-### [unicef/adt-studio] fix(api): preserve dollar signs when merging sections (#1107)
-- **Base Commit:** `bf37099b08c7c5ae27fa6f7b8df8d65b2b8f603d`
-- **Solution PR:** https://github.com/unicef/adt-studio/pull/1150
+### [allxsmith/bestax] fix(docs): let Tab move focus out of the live code editors
+- **Base Commit:** `16b8c2a98d0676104c933bd02271b195f6149e66`
+- **Solution PR:** https://github.com/allxsmith/bestax/pull/2186
 
-### [OrchestratorInc/agent-orchestrator] fix(mobile): point Free and failed-payment plans to the desktop
-- **Base Commit:** `e3a90f708e90dc43fbfa561a739f37d0a9db11d8`
-- **Solution PR:** https://github.com/OrchestratorInc/agent-orchestrator/pull/8476
+### [tzahaleo/sdk-typescript] Refresh Final - gh pr checkout 4
+- **Base Commit:** `36f07facc3c96ad15859ae38f57bc8aa352e928a`
+- **Solution PR:** https://github.com/tzahaleo/sdk-typescript/pull/4
 
-### [yeomyeonggeori/internkim] fix: keep the inbox and a channel agreeing on what was read
-- **Base Commit:** `45336e10d02f43570d1c9da420cb8b0183bdac72`
-- **Solution PR:** https://github.com/yeomyeonggeori/internkim/pull/3237
+### [OneOrThree/phone] [FIX] GROMO-2905 iOS 운영 빌드 Fastfile 의 Sentry 확인 스크립트 경로를 고친다
+- **Base Commit:** `9f0320ea8327eb678d8bf24e5d1fae61a50889fd`
+- **Solution PR:** https://github.com/OneOrThree/phone/pull/1680
 
-### [stella/stella] fix(web): show the sidebar matter meta line at full contrast
-- **Base Commit:** `0dad4da417b4a99c6141363e2c05a757a314fb72`
-- **Solution PR:** https://github.com/stella/stella/pull/8847
-
-### [frodriguezmtnz/plantinum-showcase] fix(db): sincronizar la migración de account lockout y endurecer la lectura de usuarios
-- **Base Commit:** `e013f43cac0365988c04de54f8fc3d56ef5753ea`
-- **Solution PR:** https://github.com/frodriguezmtnz/plantinum-showcase/pull/92
+### [leandrojtv/Bolsiq] fix(infra): reinicia o Kong quando o deploy recria market-data ou web
+- **Base Commit:** `192c1605faa7c052325517b43afcb165f83d20e1`
+- **Solution PR:** https://github.com/leandrojtv/Bolsiq/pull/82

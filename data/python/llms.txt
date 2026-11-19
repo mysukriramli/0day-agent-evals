@@ -1,38 +1,18 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-17.
+> Uncontaminated bugs merged after 2026-11-18.
 
-### [minegene-labs/usher] fix(upstream): carry the seeded Jellyfin key to the contract tests
-- **Base Commit:** `2a1383e493215666b894980c998456bc96ea9cfd`
-- **Solution PR:** https://github.com/minegene-labs/usher/pull/37
+### [commit-check/commit-check] fix: need the target branch in commit-check-ci only for the rebase rule
+- **Base Commit:** `78a1339791417cbc1d6fd858fcff41780ba41c64`
+- **Solution PR:** https://github.com/commit-check/commit-check/pull/716
 
-### [mmiura-2351/mc-server-dashboard-v2] Give the log-dir suite's stand-in canary a fast TERM path and a parent check
-- **Base Commit:** `62304d18b026dcb347a8007c840229e1cb90c3bf`
-- **Solution PR:** https://github.com/mmiura-2351/mc-server-dashboard-v2/pull/3872
+### [Kings-Platform/KingsAI] ats_list: retry before reporting a board down
+- **Base Commit:** `96336a4584f3e3f0797a2b52d1bbe9c21ff6f644`
+- **Solution PR:** https://github.com/Kings-Platform/KingsAI/pull/47
 
-### [akasper/plate] Include Hardening in what-next discovery and reliability type detection
-- **Base Commit:** `0d429b520f3de9029c5f15f5642d2d56946df7f9`
-- **Solution PR:** https://github.com/akasper/plate/pull/1486
+### [canonical/maas] fix(bootresources): store custom images without the custom/ prefix
+- **Base Commit:** `445c7a1cffcf5b6535281cbc0f7e2481e51a2299`
+- **Solution PR:** https://github.com/canonical/maas/pull/907
 
-### [ansys/pymapdl] fix: isolate MAPDL database state in state-sensitive tests
-- **Base Commit:** `9f1730d691d88952820f0693b440eaf02ad31f8d`
-- **Solution PR:** https://github.com/ansys/pymapdl/pull/4941
-
-### [rbaker1987/Weather] chore: fix pre-commit hooks failing on master
-- **Base Commit:** `4f2817af02a4750561dc10bfd7326e35785cd5d0`
-- **Solution PR:** https://github.com/rbaker1987/Weather/pull/93
-
-### [canonical/postgresql-single-kernel-library] [MISC] Fix RAFT observer check
-- **Base Commit:** `0ba744fe3c10294956c77452328194b6d495c85a`
-- **Solution PR:** https://github.com/canonical/postgresql-single-kernel-library/pull/427
-
-### [linagora/openrag] fix(chainlit): keep a source chip clickable when its name holds a directive or a strikethrough
-- **Base Commit:** `47348475b5d792099bb49d19392efa62dc3e9155`
-- **Solution PR:** https://github.com/linagora/openrag/pull/1432
-
-### [apojomovsky/ros2serial] fix(ci): write the nightly mutation reports inside their directory
-- **Base Commit:** `c8c3fb5340f439be0bce291d68358dc257a5ebf8`
-- **Solution PR:** https://github.com/apojomovsky/ros2serial/pull/658
-
-### [londonaicentre/FLIP] fix(xnat): judge a failed admin ContainerManager grant by the roles admin holds
-- **Base Commit:** `def9987db5ce5781e5d5abca1fe669af2a14038a`
-- **Solution PR:** https://github.com/londonaicentre/FLIP/pull/1955
+### [docling-project/docling] fix(office): block document links in the LibreOffice profile
+- **Base Commit:** `b2db0ca7825efaad2b5c104dbf4bacc788aa5b2b`
+- **Solution PR:** https://github.com/docling-project/docling/pull/5478

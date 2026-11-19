@@ -1,30 +1,22 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-17.
+> Uncontaminated bugs merged after 2026-11-18.
 
-### [opensro-dev/opensro] fix(build): a later BSR's multi-texture modifier joins the resource closure
-- **Base Commit:** `4a65da750ce622dbabf822a8a124a1baec8c6383`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3862
+### [compute-blade-community/compute-blade-agent] fix(release): sign the container image with cosign v3 and move it to dockers_v2
+- **Base Commit:** `fa84c897873b03a3971ef3ab80d59a6d76533f62`
+- **Solution PR:** https://github.com/compute-blade-community/compute-blade-agent/pull/230
 
-### [opensro-dev/opensro] fix(build): the quick party slot's portrait disc is published (a black disc since #3699)
-- **Base Commit:** `be6ea0c0d1aba1bec08496446f4ce7979a921bdf`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3863
+### [opensro-dev/opensro] fix(client): a collapsed particle frame no longer stops the renderer
+- **Base Commit:** `7029af0bb6d5440ac7c34c4f4a764b9fae29c33f`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3900
 
-### [apache/incubator-seata-go] fix(remoting): match IPv6 coordinators by XID
-- **Base Commit:** `8238fcc32a29606e3f98860e56b13b3e93a2e1ac`
-- **Solution PR:** https://github.com/apache/incubator-seata-go/pull/1228
+### [nsgo-dev/nsgo] fix(nsgo): open DeviceHub or Simulator by bundle ID to show simulators
+- **Base Commit:** `ab5b2efb6abaebc508472b15154088a70fe294b5`
+- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/827
 
-### [tinypell3ts/tiny-bank] fix(kafka): after a broker loses messages, consume a partition again from its oldest message
-- **Base Commit:** `9aee98499bfde6cba591912c291c6a4288e28a37`
-- **Solution PR:** https://github.com/tinypell3ts/tiny-bank/pull/36
+### [team-loco/loco] fix(controller): read the Application from the API server at each reconcile
+- **Base Commit:** `ebc22230c092f0d891a71f5fec1a6b212fd330c9`
+- **Solution PR:** https://github.com/team-loco/loco/pull/2776
 
-### [nsgo-dev/nsgo] fix(macos): hide indicators for programmatic scrolls
-- **Base Commit:** `5b87ac2ba26614fdecbeac83820e543ace9062cd`
-- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/644
-
-### [njdaniel/conch] issue #1933: 05-runs P3-06 scopes its row filter to session rows
-- **Base Commit:** `95e72c59d97bcd95bbe0dd56c7434dfb493e67ae`
-- **Solution PR:** https://github.com/njdaniel/conch/pull/1937
-
-### [njdaniel/conch] issue #1931: the compact-stage rule no longer nests :has()
-- **Base Commit:** `95e72c59d97bcd95bbe0dd56c7434dfb493e67ae`
-- **Solution PR:** https://github.com/njdaniel/conch/pull/1936
+### [Netcracker/qubership-network-latency-exporter] fix(deps): update module github.com/prometheus/common to v0.74.0
+- **Base Commit:** `dac41c3d45eea8773e927593c417f03e3205dc49`
+- **Solution PR:** https://github.com/Netcracker/qubership-network-latency-exporter/pull/276
