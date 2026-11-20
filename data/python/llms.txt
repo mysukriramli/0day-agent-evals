@@ -1,18 +1,50 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-18.
+> Uncontaminated bugs merged after 2026-11-19.
 
-### [commit-check/commit-check] fix: need the target branch in commit-check-ci only for the rebase rule
-- **Base Commit:** `78a1339791417cbc1d6fd858fcff41780ba41c64`
-- **Solution PR:** https://github.com/commit-check/commit-check/pull/716
+### [XTM-One-Platform/xtm-one] fix(platform-insights): answer the instance id and platform name in get_platform_overview (#690)
+- **Base Commit:** `6a8b98810b569a018df52c45235162bc020a3bfb`
+- **Solution PR:** https://github.com/XTM-One-Platform/xtm-one/pull/694
 
-### [Kings-Platform/KingsAI] ats_list: retry before reporting a board down
-- **Base Commit:** `96336a4584f3e3f0797a2b52d1bbe9c21ff6f644`
-- **Solution PR:** https://github.com/Kings-Platform/KingsAI/pull/47
+### [pypa/virtualenv] 🐛 fix(seed): contain metadata lookups
+- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
+- **Solution PR:** https://github.com/pypa/virtualenv/pull/3649
 
-### [canonical/maas] fix(bootresources): store custom images without the custom/ prefix
-- **Base Commit:** `445c7a1cffcf5b6535281cbc0f7e2481e51a2299`
-- **Solution PR:** https://github.com/canonical/maas/pull/907
+### [vectora-company/vectora] fix: sinais tratados desde o início do shutdown e GPU do Electron no Linux
+- **Base Commit:** `3a73070526ece5445a4aceaca1d89d8382c63160`
+- **Solution PR:** https://github.com/vectora-company/vectora/pull/807
 
-### [docling-project/docling] fix(office): block document links in the LibreOffice profile
-- **Base Commit:** `b2db0ca7825efaad2b5c104dbf4bacc788aa5b2b`
-- **Solution PR:** https://github.com/docling-project/docling/pull/5478
+### [ansys/pyaedt] FIX: Skip logger for non existing project
+- **Base Commit:** `c98d4cbb3c6b1724c54872bc65c353b54eec58cf`
+- **Solution PR:** https://github.com/ansys/pyaedt/pull/8279
+
+### [leo-editor/leo-editor] Fix crash when loading leo/test/test.leo
+- **Base Commit:** `b543e228224b38f2e2af0a0287d89429161cd00e`
+- **Solution PR:** https://github.com/leo-editor/leo-editor/pull/5061
+
+### [canonical/postgresql-operator] [DPE-11910] Update the single kernel lib to fix the charm messages
+- **Base Commit:** `f39dc04271f930efa148ff8b160190898fa5dad6`
+- **Solution PR:** https://github.com/canonical/postgresql-operator/pull/2095
+
+### [pypa/virtualenv] 🐛 fix(csh): preserve custom histchars
+- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
+- **Solution PR:** https://github.com/pypa/virtualenv/pull/3656
+
+### [TeskaLabs/asab-iris] Remove deprecated python 3.9 test stage
+- **Base Commit:** `29ca7d754baba2d2864ca1fa72216e03c601379c`
+- **Solution PR:** https://github.com/TeskaLabs/asab-iris/pull/154
+
+### [perosb/qvantum_custom_component] fix(telemetry): report the standing-loss evidence as unknown, not zero
+- **Base Commit:** `9d447418750f98c639ce2cfd74a3de493bae6c5c`
+- **Solution PR:** https://github.com/perosb/qvantum_custom_component/pull/530
+
+### [ploeffler/GhostWriter] Wieder öffnen sperrt auch das Schreiben (#387)
+- **Base Commit:** `03f89079589ad5fd28b91fa77629af5672032686`
+- **Solution PR:** https://github.com/ploeffler/GhostWriter/pull/388
+
+### [pypa/virtualenv] 🐛 fix(seed): scope pip RECORD rewrites
+- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
+- **Solution PR:** https://github.com/pypa/virtualenv/pull/3677
+
+### [mikeqfu/pyhelpers] fix(ops): use certifi-backed SSL context in GitHubFileDownloader
+- **Base Commit:** `56698a005854932069cd08b423795a99b0be685b`
+- **Solution PR:** https://github.com/mikeqfu/pyhelpers/pull/170

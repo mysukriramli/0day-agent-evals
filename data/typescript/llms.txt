@@ -1,26 +1,38 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-18.
+> Uncontaminated bugs merged after 2026-11-19.
 
-### [sarbeshtiwari/sitesentinel] Live workers: no duplicate processes on restart
-- **Base Commit:** `ffd1bb1672caa0de353523407cff7d826e94c4c0`
-- **Solution PR:** https://github.com/sarbeshtiwari/sitesentinel/pull/7
+### [alfredo1996/neoboard] fix(deps): Next.js moves to 16.4.6, past seven moderate advisories, and agent builds pass on the first run (#2511)
+- **Base Commit:** `7dc5c325e68a010fbb70afda78f645bfe19bf322`
+- **Solution PR:** https://github.com/alfredo1996/neoboard/pull/2520
 
-### [sarbeshtiwari/sitesentinel] CI: allowlist Pencil design canvases in the secret scan
-- **Base Commit:** `ffd1bb1672caa0de353523407cff7d826e94c4c0`
-- **Solution PR:** https://github.com/sarbeshtiwari/sitesentinel/pull/11
+### [memrynote/memry] fix(desktop): billing review follow-ups (gate write order, sign-out forget test, log test claim)
+- **Base Commit:** `3f39bc39fca09eb5f146d6a59595bc8e95b6a2e1`
+- **Solution PR:** https://github.com/memrynote/memry/pull/5056
 
-### [allxsmith/bestax] fix(docs): let Tab move focus out of the live code editors
-- **Base Commit:** `16b8c2a98d0676104c933bd02271b195f6149e66`
-- **Solution PR:** https://github.com/allxsmith/bestax/pull/2186
+### [docteur-turboss/trading-model] 🐛(common): jitter proportionnel par défaut pour le backoff commun
+- **Base Commit:** `bd90b0e4a00589b2c8773b0e1c9aa17d824b0d9d`
+- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1774
 
-### [tzahaleo/sdk-typescript] Refresh Final - gh pr checkout 4
-- **Base Commit:** `36f07facc3c96ad15859ae38f57bc8aa352e928a`
-- **Solution PR:** https://github.com/tzahaleo/sdk-typescript/pull/4
+### [Houzs-IT/hookka-erp-testing] fix(packing): orders packed before the carton went live keep their layout
+- **Base Commit:** `7b6da59f5d4532c2e3c846a5e8244c304c86e060`
+- **Solution PR:** https://github.com/Houzs-IT/hookka-erp-testing/pull/1522
 
-### [OneOrThree/phone] [FIX] GROMO-2905 iOS 운영 빌드 Fastfile 의 Sentry 확인 스크립트 경로를 고친다
-- **Base Commit:** `9f0320ea8327eb678d8bf24e5d1fae61a50889fd`
-- **Solution PR:** https://github.com/OneOrThree/phone/pull/1680
+### [docteur-turboss/trading-model] :bug:(http): rejeter un corps gzip/deflate corrompu ou trop gros
+- **Base Commit:** `13360cae968b76f11fac11ec1efffc346281ca16`
+- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1772
 
-### [leandrojtv/Bolsiq] fix(infra): reinicia o Kong quando o deploy recria market-data ou web
-- **Base Commit:** `192c1605faa7c052325517b43afcb165f83d20e1`
-- **Solution PR:** https://github.com/leandrojtv/Bolsiq/pull/82
+### [open-mercato/open-mercato] fix(automation): require local integration tests for automerge
+- **Base Commit:** `85e89d9c8f9be8717acdf1f7afc4ba5afb800233`
+- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/10098
+
+### [GFrancV/notvex] fix: keep soft locks off while a credential rotation runs
+- **Base Commit:** `395359f169b8349403880ce193f97d7c346e873e`
+- **Solution PR:** https://github.com/GFrancV/notvex/pull/239
+
+### [docteur-turboss/trading-model] :bug:(http): borner le timeout d'export OTLP à 2 s
+- **Base Commit:** `974e4ef36ba816bd58149fed8566a191ef6702cf`
+- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1769
+
+### [joschonarth/trainify-api] fix(weight): normalize shared weekly analytics calculations
+- **Base Commit:** `08491d15ca332ce2037417fd653cdc1f92e3599d`
+- **Solution PR:** https://github.com/joschonarth/trainify-api/pull/112
