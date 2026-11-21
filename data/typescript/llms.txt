@@ -1,38 +1,14 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-19.
+> Uncontaminated bugs merged after 2026-11-20.
 
-### [alfredo1996/neoboard] fix(deps): Next.js moves to 16.4.6, past seven moderate advisories, and agent builds pass on the first run (#2511)
-- **Base Commit:** `7dc5c325e68a010fbb70afda78f645bfe19bf322`
-- **Solution PR:** https://github.com/alfredo1996/neoboard/pull/2520
+### [driftframestudios/source-of-truth-systems] Align reload checks with retained navigation
+- **Base Commit:** `dc0cfea6e1e55eadd477de0d47dfcdb1dc8a6dda`
+- **Solution PR:** https://github.com/driftframestudios/source-of-truth-systems/pull/48
 
-### [memrynote/memry] fix(desktop): billing review follow-ups (gate write order, sign-out forget test, log test claim)
-- **Base Commit:** `3f39bc39fca09eb5f146d6a59595bc8e95b6a2e1`
-- **Solution PR:** https://github.com/memrynote/memry/pull/5056
+### [ThanhNguyxnOrg/awesome-cert-sherpa] fix: shuffle answer choices for each quiz attempt
+- **Base Commit:** `fe508a0ad3a0275ce0fa7da2b55d3ab2edde0056`
+- **Solution PR:** https://github.com/ThanhNguyxnOrg/awesome-cert-sherpa/pull/91
 
-### [docteur-turboss/trading-model] 🐛(common): jitter proportionnel par défaut pour le backoff commun
-- **Base Commit:** `bd90b0e4a00589b2c8773b0e1c9aa17d824b0d9d`
-- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1774
-
-### [Houzs-IT/hookka-erp-testing] fix(packing): orders packed before the carton went live keep their layout
-- **Base Commit:** `7b6da59f5d4532c2e3c846a5e8244c304c86e060`
-- **Solution PR:** https://github.com/Houzs-IT/hookka-erp-testing/pull/1522
-
-### [docteur-turboss/trading-model] :bug:(http): rejeter un corps gzip/deflate corrompu ou trop gros
-- **Base Commit:** `13360cae968b76f11fac11ec1efffc346281ca16`
-- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1772
-
-### [open-mercato/open-mercato] fix(automation): require local integration tests for automerge
-- **Base Commit:** `85e89d9c8f9be8717acdf1f7afc4ba5afb800233`
-- **Solution PR:** https://github.com/open-mercato/open-mercato/pull/10098
-
-### [GFrancV/notvex] fix: keep soft locks off while a credential rotation runs
-- **Base Commit:** `395359f169b8349403880ce193f97d7c346e873e`
-- **Solution PR:** https://github.com/GFrancV/notvex/pull/239
-
-### [docteur-turboss/trading-model] :bug:(http): borner le timeout d'export OTLP à 2 s
-- **Base Commit:** `974e4ef36ba816bd58149fed8566a191ef6702cf`
-- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/1769
-
-### [joschonarth/trainify-api] fix(weight): normalize shared weekly analytics calculations
-- **Base Commit:** `08491d15ca332ce2037417fd653cdc1f92e3599d`
-- **Solution PR:** https://github.com/joschonarth/trainify-api/pull/112
+### [ThanhNguyxnOrg/StepDSA] fix(cli): reject unsupported traces instead of simulating a sort
+- **Base Commit:** `17ee6c4a9238011d58e24020ffee581d04489305`
+- **Solution PR:** https://github.com/ThanhNguyxnOrg/StepDSA/pull/8

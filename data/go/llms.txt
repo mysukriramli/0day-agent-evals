@@ -1,42 +1,38 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-19.
+> Uncontaminated bugs merged after 2026-11-20.
 
-### [nsgo-dev/nsgo] fix(harmonyos): apply overflow clipping
-- **Base Commit:** `4c1bb26f32f8c0d9dcd5299b05bbe4158093fbac`
-- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/991
+### [autobrr/qui] fix(web): stop the tab highlight stretching when tabs load late
+- **Base Commit:** `f27237558ece26b8a86c728a5a1c25f1a89b6bc7`
+- **Solution PR:** https://github.com/autobrr/qui/pull/4344
 
-### [yldm-tech/Kando] fix(phonesync): answer a relayed marks ask from what the engine had at the ask
-- **Base Commit:** `299926b462f35fa82d904600b52ed6c2805a7c92`
-- **Solution PR:** https://github.com/yldm-tech/Kando/pull/381
+### [Silo-Server/silo-server] fix(web): keep Request seasons' verb and two dialog buttons on screen
+- **Base Commit:** `5d27f225c044a2beb76e41483a4e5cf1d70c2ebb`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5034
 
-### [opensro-dev/opensro] fix(store): a clean close clears the lock's pid, so a standby takes over
-- **Base Commit:** `20a27c46a0dcafd6b18a42aaefe0a7e5c1fb3e9b`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/3976
+### [Silo-Server/silo-server] fix(web): show library diagnostics numbers in the interface language's digits
+- **Base Commit:** `a7f067168c4344b099aa0b45edd36abed8178bb8`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5019
 
-### [subyard/subyard] Fix targeted acceptance retry stalling on failures of unselected checks
-- **Base Commit:** `f799618560748c1e06681888e6665391b10a852c`
-- **Solution PR:** https://github.com/subyard/subyard/pull/187
+### [Silo-Server/silo-server] fix(web): keep a search result's title readable in the Editor's Picks title search
+- **Base Commit:** `40924604ea583a1d8fe09e60ca5d4c482485467e`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5030
 
-### [alrayyes/forge-dashboard] fix(web): keep focus off body when a closed pop-up's opener row is gone and the filter bar is hidden
-- **Base Commit:** `b2285e7f2ed4360fda806c0dee6c3ad6e3ce146e`
-- **Solution PR:** https://github.com/alrayyes/forge-dashboard/pull/4476
+### [Silo-Server/silo-server] fix(web): keep accents and vowel signs in provider monograms
+- **Base Commit:** `3a8bd2228c8ea80446e96a4302a2692ea274546d`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5011
 
-### [vllm-project/semantic-router] [Bug] Require a streamed body ceiling and align the reference value
-- **Base Commit:** `9db29030981555a25765b358bc042b6d9c6c7e55`
-- **Solution PR:** https://github.com/vllm-project/semantic-router/pull/6562
+### [Silo-Server/silo-server] fix(web): keep an unbreakable folder name off the start edge of right-to-left path lists
+- **Base Commit:** `e62100f9d52f10e8c850b068cbd097bacc3f77cb`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/4988
 
-### [CapMonsterCloud/capmonster-go-captcha-solver] UOD-421: Extend README with task types, client options, errors and cost
-- **Base Commit:** `563dca194fb1ca9f9fbf81e13f841f0cc110db6a`
-- **Solution PR:** https://github.com/CapMonsterCloud/capmonster-go-captcha-solver/pull/20
+### [opensro-dev/opensro] fix(client): a window wider than the GPU's texture limit still renders (#4028)
+- **Base Commit:** `25d05d9e96cc6ba7b0ba14717b35d64edd882ce7`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4029
 
-### [evcc-io/evcc] SofarSolar G3: fix 32-bit divide by zero
-- **Base Commit:** `0dc00640310ec23ede1c2a52149c8a3d7e6e1f1f`
-- **Solution PR:** https://github.com/evcc-io/evcc/pull/36458
+### [opensro-dev/opensro] fix(build): an avatar effect is checked against the equipment records, not the caller's dress (#4013)
+- **Base Commit:** `440e7084dc54b3b2e2a749fa0bf324f06520f8b3`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4014
 
-### [updatecli/updatecli] fix(autodiscovery): keep the Docker image tag filter with a versionfilter
-- **Base Commit:** `56c729734ae5ab5a01550e1a5a6016f8ae4fa093`
-- **Solution PR:** https://github.com/updatecli/updatecli/pull/11429
-
-### [nsgo-dev/nsgo] fix(linux): release opened window editors when app stops
-- **Base Commit:** `25355a7e0c125aa2a269761797dd7135d94dce2e`
-- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/987
+### [Silo-Server/silo-server] fix(web): keep a media title's start in the admin subtitles table
+- **Base Commit:** `3a8bd2228c8ea80446e96a4302a2692ea274546d`
+- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5012

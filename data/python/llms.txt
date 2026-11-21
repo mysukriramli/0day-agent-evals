@@ -1,50 +1,34 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-19.
+> Uncontaminated bugs merged after 2026-11-20.
 
-### [XTM-One-Platform/xtm-one] fix(platform-insights): answer the instance id and platform name in get_platform_overview (#690)
-- **Base Commit:** `6a8b98810b569a018df52c45235162bc020a3bfb`
-- **Solution PR:** https://github.com/XTM-One-Platform/xtm-one/pull/694
+### [eh-homelab/ScadBuddy] fix(api): cap a body with no or an unknown Content-Type (#6861)
+- **Base Commit:** `ba848edac3f1089783d05bb4c0b97ced9c355a82`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/6862
 
-### [pypa/virtualenv] 🐛 fix(seed): contain metadata lookups
-- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
-- **Solution PR:** https://github.com/pypa/virtualenv/pull/3649
+### [kendshhh/PhishLens] fix(secretary): pass staging preflight while Auth is pending
+- **Base Commit:** `95975cd47dceeac74ea36054610956f0a1db1fa9`
+- **Solution PR:** https://github.com/kendshhh/PhishLens/pull/271
 
-### [vectora-company/vectora] fix: sinais tratados desde o início do shutdown e GPU do Electron no Linux
-- **Base Commit:** `3a73070526ece5445a4aceaca1d89d8382c63160`
-- **Solution PR:** https://github.com/vectora-company/vectora/pull/807
+### [hwinther/wsh-pve] fix(pages): retry the Pages deployment once within the job
+- **Base Commit:** `a7b151e1824b9daa3d501625b605bd0e4c6e706b`
+- **Solution PR:** https://github.com/hwinther/wsh-pve/pull/406
 
-### [ansys/pyaedt] FIX: Skip logger for non existing project
-- **Base Commit:** `c98d4cbb3c6b1724c54872bc65c353b54eec58cf`
-- **Solution PR:** https://github.com/ansys/pyaedt/pull/8279
+### [krovomi/WorkPilot-AI] fix(guardrails): the activity log and approvals stay files of the project
+- **Base Commit:** `3a928cf6c58c865925951a5cd958aa726f9c467a`
+- **Solution PR:** https://github.com/krovomi/WorkPilot-AI/pull/1125
 
-### [leo-editor/leo-editor] Fix crash when loading leo/test/test.leo
-- **Base Commit:** `b543e228224b38f2e2af0a0287d89429161cd00e`
-- **Solution PR:** https://github.com/leo-editor/leo-editor/pull/5061
+### [shindonggeun/trading-desk] [FE] feat: 시장 실시간 스트림을 받아 시세판 · 시장 수급 · 알림을 폴링 없이 바로 갱신하고 끊기면 그 패널만 폴링으로 돌아간다
+- **Base Commit:** `46f90de06f54ed550836d7497755ea3ed69c75b3`
+- **Solution PR:** https://github.com/shindonggeun/trading-desk/pull/817
 
-### [canonical/postgresql-operator] [DPE-11910] Update the single kernel lib to fix the charm messages
-- **Base Commit:** `f39dc04271f930efa148ff8b160190898fa5dad6`
-- **Solution PR:** https://github.com/canonical/postgresql-operator/pull/2095
+### [ansible-collections/community.general] [PR #13334/1a1b8db6 backport][stable-14] archive: handle `EOFError` when reading an existing bz2 destination
+- **Base Commit:** `55f75563a7fdbf57c7ddbd784e990fe08da69979`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13335
 
-### [pypa/virtualenv] 🐛 fix(csh): preserve custom histchars
-- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
-- **Solution PR:** https://github.com/pypa/virtualenv/pull/3656
+### [ansible-collections/community.general] [PR #13334/1a1b8db6 backport][stable-13] archive: handle `EOFError` when reading an existing bz2 destination
+- **Base Commit:** `356679d77e2b73efa684359a8c0a3065e5855158`
+- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13336
 
-### [TeskaLabs/asab-iris] Remove deprecated python 3.9 test stage
-- **Base Commit:** `29ca7d754baba2d2864ca1fa72216e03c601379c`
-- **Solution PR:** https://github.com/TeskaLabs/asab-iris/pull/154
-
-### [perosb/qvantum_custom_component] fix(telemetry): report the standing-loss evidence as unknown, not zero
-- **Base Commit:** `9d447418750f98c639ce2cfd74a3de493bae6c5c`
-- **Solution PR:** https://github.com/perosb/qvantum_custom_component/pull/530
-
-### [ploeffler/GhostWriter] Wieder öffnen sperrt auch das Schreiben (#387)
-- **Base Commit:** `03f89079589ad5fd28b91fa77629af5672032686`
-- **Solution PR:** https://github.com/ploeffler/GhostWriter/pull/388
-
-### [pypa/virtualenv] 🐛 fix(seed): scope pip RECORD rewrites
-- **Base Commit:** `a0b0b6fd136e9980196eb7978e7b84ff4ef65a8e`
-- **Solution PR:** https://github.com/pypa/virtualenv/pull/3677
-
-### [mikeqfu/pyhelpers] fix(ops): use certifi-backed SSL context in GitHubFileDownloader
-- **Base Commit:** `56698a005854932069cd08b423795a99b0be685b`
-- **Solution PR:** https://github.com/mikeqfu/pyhelpers/pull/170
+### [Xore-Inc/APIARY] perf(backend): bound the related shared-pivot query to the union of its pivot filters (#3856)
+- **Base Commit:** `1a9bb646ea58dfe9d223348291e9d8eee9c857b7`
+- **Solution PR:** https://github.com/Xore-Inc/APIARY/pull/3916
