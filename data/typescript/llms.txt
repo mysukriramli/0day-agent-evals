@@ -1,14 +1,42 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-20.
+> Uncontaminated bugs merged after 2026-11-21.
 
-### [driftframestudios/source-of-truth-systems] Align reload checks with retained navigation
-- **Base Commit:** `dc0cfea6e1e55eadd477de0d47dfcdb1dc8a6dda`
-- **Solution PR:** https://github.com/driftframestudios/source-of-truth-systems/pull/48
+### [markup-carve/carve-js] Fix the three causes of the failing next2 engine gates
+- **Base Commit:** `1d603704bfafa105e962770ab1c84a82db816512`
+- **Solution PR:** https://github.com/markup-carve/carve-js/pull/5359
 
-### [ThanhNguyxnOrg/awesome-cert-sherpa] fix: shuffle answer choices for each quiz attempt
-- **Base Commit:** `fe508a0ad3a0275ce0fa7da2b55d3ab2edde0056`
-- **Solution PR:** https://github.com/ThanhNguyxnOrg/awesome-cert-sherpa/pull/91
+### [MrManny/drone-path] fix(ui): resolve accessibility focus and contrast issues
+- **Base Commit:** `ddd6ae615a7c70ee334f6c5e800ff117acc71bb1`
+- **Solution PR:** https://github.com/MrManny/drone-path/pull/418
 
-### [ThanhNguyxnOrg/StepDSA] fix(cli): reject unsupported traces instead of simulating a sort
-- **Base Commit:** `17ee6c4a9238011d58e24020ffee581d04489305`
-- **Solution PR:** https://github.com/ThanhNguyxnOrg/StepDSA/pull/8
+### [Floorp-Projects/Floorp] fix(sidebar): keep hover panel visible across tab switches
+- **Base Commit:** `d9c2cde675555be63467f4be7d60c85633c59397`
+- **Solution PR:** https://github.com/Floorp-Projects/Floorp/pull/3183
+
+### [TorMap/tormap] fix(backend): accept all fingerprint formats in relay family lines
+- **Base Commit:** `6942f1b02c911b4b23199dfb41fc3c8977baf1f9`
+- **Solution PR:** https://github.com/TorMap/tormap/pull/730
+
+### [kazupon/gunshi] fix: make `@gunshi/plugin-i18n` an optional peer of the plugins that work without it
+- **Base Commit:** `a3835949e1b03caec0bee704edc40d14464f5202`
+- **Solution PR:** https://github.com/kazupon/gunshi/pull/977
+
+### [nuphos/nuphos] fix(backend): let the sweep alone reclaim archived homes
+- **Base Commit:** `d85215e9c571f875f0303361878e9e6b46144b5d`
+- **Solution PR:** https://github.com/nuphos/nuphos/pull/4644
+
+### [sankumar76/Accucut-Quotation] AQP-396: DEF-062: estimate-calculate cases open the page once (test only)
+- **Base Commit:** `50cb1150aae7ea240ea076085c5e3d8c76b8337c`
+- **Solution PR:** https://github.com/sankumar76/Accucut-Quotation/pull/616
+
+### [nuphos/nuphos] fix(backend): log an expired run resume at warn
+- **Base Commit:** `1a60b3c5703c997af0ef912a8aabda49a285c695`
+- **Solution PR:** https://github.com/nuphos/nuphos/pull/4638
+
+### [vszlx4/sqwer] Encode voice clips at 32 kbps so the words are audible
+- **Base Commit:** `48259cd56cfca0807d2d648954b63be69b0cc90a`
+- **Solution PR:** https://github.com/vszlx4/sqwer/pull/249
+
+### [OnlyOneByte/VROOM] fix(charts): cap monthly x-axes at 6 ticks so month labels fit at 375px
+- **Base Commit:** `756fe4d6322b695676d22f05ea773e668850c0a4`
+- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1026

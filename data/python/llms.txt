@@ -1,34 +1,22 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-20.
+> Uncontaminated bugs merged after 2026-11-21.
 
-### [eh-homelab/ScadBuddy] fix(api): cap a body with no or an unknown Content-Type (#6861)
-- **Base Commit:** `ba848edac3f1089783d05bb4c0b97ced9c355a82`
-- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/6862
+### [ika100/sdlc-foundry] fix(system-ship): a restart keeps a repo's open questions for the answer
+- **Base Commit:** `291967f5c1b55ee80bf954d20b555515ab457bbf`
+- **Solution PR:** https://github.com/ika100/sdlc-foundry/pull/979
 
-### [kendshhh/PhishLens] fix(secretary): pass staging preflight while Auth is pending
-- **Base Commit:** `95975cd47dceeac74ea36054610956f0a1db1fa9`
-- **Solution PR:** https://github.com/kendshhh/PhishLens/pull/271
+### [Showdown76py/BeaconMCP] fix(security): name the target in confirmation dialogs
+- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
+- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/75
 
-### [hwinther/wsh-pve] fix(pages): retry the Pages deployment once within the job
-- **Base Commit:** `a7b151e1824b9daa3d501625b605bd0e4c6e706b`
-- **Solution PR:** https://github.com/hwinther/wsh-pve/pull/406
+### [Showdown76py/BeaconMCP] fix(ssh): expire cached connections on idle, one per host
+- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
+- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/76
 
-### [krovomi/WorkPilot-AI] fix(guardrails): the activity log and approvals stay files of the project
-- **Base Commit:** `3a928cf6c58c865925951a5cd958aa726f9c467a`
-- **Solution PR:** https://github.com/krovomi/WorkPilot-AI/pull/1125
+### [Showdown76py/BeaconMCP] fix(bmc): bind the ilo ssh tunnel to loopback
+- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
+- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/73
 
-### [shindonggeun/trading-desk] [FE] feat: 시장 실시간 스트림을 받아 시세판 · 시장 수급 · 알림을 폴링 없이 바로 갱신하고 끊기면 그 패널만 폴링으로 돌아간다
-- **Base Commit:** `46f90de06f54ed550836d7497755ea3ed69c75b3`
-- **Solution PR:** https://github.com/shindonggeun/trading-desk/pull/817
-
-### [ansible-collections/community.general] [PR #13334/1a1b8db6 backport][stable-14] archive: handle `EOFError` when reading an existing bz2 destination
-- **Base Commit:** `55f75563a7fdbf57c7ddbd784e990fe08da69979`
-- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13335
-
-### [ansible-collections/community.general] [PR #13334/1a1b8db6 backport][stable-13] archive: handle `EOFError` when reading an existing bz2 destination
-- **Base Commit:** `356679d77e2b73efa684359a8c0a3065e5855158`
-- **Solution PR:** https://github.com/ansible-collections/community.general/pull/13336
-
-### [Xore-Inc/APIARY] perf(backend): bound the related shared-pivot query to the union of its pivot filters (#3856)
-- **Base Commit:** `1a9bb646ea58dfe9d223348291e9d8eee9c857b7`
-- **Solution PR:** https://github.com/Xore-Inc/APIARY/pull/3916
+### [itsjustFred/trading-platform] fix(discord): isolate per-message failures in the polled emit path
+- **Base Commit:** `6f03f056f2f573fd5226e4149c423cd5395e255e`
+- **Solution PR:** https://github.com/itsjustFred/trading-platform/pull/273

@@ -1,38 +1,18 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-20.
+> Uncontaminated bugs merged after 2026-11-21.
 
-### [autobrr/qui] fix(web): stop the tab highlight stretching when tabs load late
-- **Base Commit:** `f27237558ece26b8a86c728a5a1c25f1a89b6bc7`
-- **Solution PR:** https://github.com/autobrr/qui/pull/4344
+### [nsgo-dev/nsgo] fix(apple): release downloads of closed web views
+- **Base Commit:** `630ce62940ba0c82fb37860521337a1c12819a41`
+- **Solution PR:** https://github.com/nsgo-dev/nsgo/pull/1953
 
-### [Silo-Server/silo-server] fix(web): keep Request seasons' verb and two dialog buttons on screen
-- **Base Commit:** `5d27f225c044a2beb76e41483a4e5cf1d70c2ebb`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5034
+### [coipond/coi] fix(cli): own a missing ~/.coi the runs dir creates
+- **Base Commit:** `ff79b6b10b38202354f1ee33b55a7e5fa0c1844b`
+- **Solution PR:** https://github.com/coipond/coi/pull/1120
 
-### [Silo-Server/silo-server] fix(web): show library diagnostics numbers in the interface language's digits
-- **Base Commit:** `a7f067168c4344b099aa0b45edd36abed8178bb8`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5019
+### [coipond/coi] fix(security): hash protect- device names Incus 7.6 rejects
+- **Base Commit:** `5a967db984e2d45524be19fd81f52164aaf4f307`
+- **Solution PR:** https://github.com/coipond/coi/pull/1117
 
-### [Silo-Server/silo-server] fix(web): keep a search result's title readable in the Editor's Picks title search
-- **Base Commit:** `40924604ea583a1d8fe09e60ca5d4c482485467e`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5030
-
-### [Silo-Server/silo-server] fix(web): keep accents and vowel signs in provider monograms
-- **Base Commit:** `3a8bd2228c8ea80446e96a4302a2692ea274546d`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5011
-
-### [Silo-Server/silo-server] fix(web): keep an unbreakable folder name off the start edge of right-to-left path lists
-- **Base Commit:** `e62100f9d52f10e8c850b068cbd097bacc3f77cb`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/4988
-
-### [opensro-dev/opensro] fix(client): a window wider than the GPU's texture limit still renders (#4028)
-- **Base Commit:** `25d05d9e96cc6ba7b0ba14717b35d64edd882ce7`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4029
-
-### [opensro-dev/opensro] fix(build): an avatar effect is checked against the equipment records, not the caller's dress (#4013)
-- **Base Commit:** `440e7084dc54b3b2e2a749fa0bf324f06520f8b3`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4014
-
-### [Silo-Server/silo-server] fix(web): keep a media title's start in the admin subtitles table
-- **Base Commit:** `3a8bd2228c8ea80446e96a4302a2692ea274546d`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5012
+### [Git-Revenge/GitRevenge] fix: leaving a repository's tab while it is being read throws nothing
+- **Base Commit:** `7a2bb12d5670c31e077f4ee7fbb531a18e76c042`
+- **Solution PR:** https://github.com/Git-Revenge/GitRevenge/pull/877
