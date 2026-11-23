@@ -1,22 +1,30 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-21.
+> Uncontaminated bugs merged after 2026-11-22.
 
-### [ika100/sdlc-foundry] fix(system-ship): a restart keeps a repo's open questions for the answer
-- **Base Commit:** `291967f5c1b55ee80bf954d20b555515ab457bbf`
-- **Solution PR:** https://github.com/ika100/sdlc-foundry/pull/979
+### [sepandhaghighi/capo] Validate Suffix
+- **Base Commit:** `8ac8545789b2ea395eb692a5a6510575b1aa458e`
+- **Solution PR:** https://github.com/sepandhaghighi/capo/pull/83
 
-### [Showdown76py/BeaconMCP] fix(security): name the target in confirmation dialogs
-- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
-- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/75
+### [Enoshima-san/PIN_map] Уведомление о потере интернета для карты (#20)
+- **Base Commit:** `4f462246ecdac9d8fc45d7385cb424355ece9db0`
+- **Solution PR:** https://github.com/Enoshima-san/PIN_map/pull/25
 
-### [Showdown76py/BeaconMCP] fix(ssh): expire cached connections on idle, one per host
-- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
-- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/76
+### [marimo-team/marimo] cli: reject --port values outside 0-65535
+- **Base Commit:** `bcecbb7cf25508ae0a389bfe72d5c37af4e7ed31`
+- **Solution PR:** https://github.com/marimo-team/marimo/pull/11819
 
-### [Showdown76py/BeaconMCP] fix(bmc): bind the ilo ssh tunnel to loopback
-- **Base Commit:** `861748a4f4253d5fc3a2b3af96a4096d9ecc5ba9`
-- **Solution PR:** https://github.com/Showdown76py/BeaconMCP/pull/73
+### [lrivallain/precursor] fix(markdown): stop remounting canvases on every streamed token
+- **Base Commit:** `c08936ac3af179227fca51293061f2c087a400d1`
+- **Solution PR:** https://github.com/lrivallain/precursor/pull/518
 
-### [itsjustFred/trading-platform] fix(discord): isolate per-message failures in the polled emit path
-- **Base Commit:** `6f03f056f2f573fd5226e4149c423cd5395e255e`
-- **Solution PR:** https://github.com/itsjustFred/trading-platform/pull/273
+### [NexyPy/nexy] fix(router): never report a dynamic route as hidden by the API reference
+- **Base Commit:** `64b0a1660718bd942087fa3ab3054bf4f245c2f2`
+- **Solution PR:** https://github.com/NexyPy/nexy/pull/623
+
+### [tempus2016/z2m-device-tracker] Fix device stuck offline after re-pairing
+- **Base Commit:** `1947a35be99c2f8b370b099be3008aaf1c526c27`
+- **Solution PR:** https://github.com/tempus2016/z2m-device-tracker/pull/77
+
+### [converge-ai-labs/agent-foundation] fix(harness-ui): fade chat text across its full width on narrow screens
+- **Base Commit:** `aa7c45cf61ad8dd1a03e36dd7dec3023bc526b2f`
+- **Solution PR:** https://github.com/converge-ai-labs/agent-foundation/pull/1784

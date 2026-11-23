@@ -1,42 +1,34 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-21.
+> Uncontaminated bugs merged after 2026-11-22.
 
-### [markup-carve/carve-js] Fix the three causes of the failing next2 engine gates
-- **Base Commit:** `1d603704bfafa105e962770ab1c84a82db816512`
-- **Solution PR:** https://github.com/markup-carve/carve-js/pull/5359
+### [aipoch/open-science] fix(runtime): retry node runtime downloads
+- **Base Commit:** `8897ba4689bad3d91dfce34528cc11e09134eab2`
+- **Solution PR:** https://github.com/aipoch/open-science/pull/4644
 
-### [MrManny/drone-path] fix(ui): resolve accessibility focus and contrast issues
-- **Base Commit:** `ddd6ae615a7c70ee334f6c5e800ff117acc71bb1`
-- **Solution PR:** https://github.com/MrManny/drone-path/pull/418
+### [kgeestmann/Hoot] fix(backend): take the overview's has_more from GitHub's next page
+- **Base Commit:** `b37904b58634f2991620a8263bc2b03a1addea0f`
+- **Solution PR:** https://github.com/kgeestmann/Hoot/pull/156
 
-### [Floorp-Projects/Floorp] fix(sidebar): keep hover panel visible across tab switches
-- **Base Commit:** `d9c2cde675555be63467f4be7d60c85633c59397`
-- **Solution PR:** https://github.com/Floorp-Projects/Floorp/pull/3183
+### [StanislavKozachenko/claude-hook] fix(user-prompt-expansion): deprecate setTitle(), which Claude Code ignores
+- **Base Commit:** `5dc6cfadc3d13726259a944a4861037782ea4e6b`
+- **Solution PR:** https://github.com/StanislavKozachenko/claude-hook/pull/245
 
-### [TorMap/tormap] fix(backend): accept all fingerprint formats in relay family lines
-- **Base Commit:** `6942f1b02c911b4b23199dfb41fc3c8977baf1f9`
-- **Solution PR:** https://github.com/TorMap/tormap/pull/730
+### [OnlyOneByte/VROOM] fix(insurance): editing a policy whose vehicles were all deleted saves again
+- **Base Commit:** `81b8ba2acf31cb1deee71a9c466527e6d3e10142`
+- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1342
 
-### [kazupon/gunshi] fix: make `@gunshi/plugin-i18n` an optional peer of the plugins that work without it
-- **Base Commit:** `a3835949e1b03caec0bee704edc40d14464f5202`
-- **Solution PR:** https://github.com/kazupon/gunshi/pull/977
+### [OnlyOneByte/VROOM] fix(settings): one shared currency list for the picker and the settings API
+- **Base Commit:** `ca7ecf7482fbe523b8b5107c2db9d6de8d6fa907`
+- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1334
 
-### [nuphos/nuphos] fix(backend): let the sweep alone reclaim archived homes
-- **Base Commit:** `d85215e9c571f875f0303361878e9e6b46144b5d`
-- **Solution PR:** https://github.com/nuphos/nuphos/pull/4644
+### [AI1411/quick_viewer] fix: XLSX 数値書式の日付誤判定を修正 (#6)
+- **Base Commit:** `90312e8fd4935eddc397177872c702f75758ecf5`
+- **Solution PR:** https://github.com/AI1411/quick_viewer/pull/30
 
-### [sankumar76/Accucut-Quotation] AQP-396: DEF-062: estimate-calculate cases open the page once (test only)
-- **Base Commit:** `50cb1150aae7ea240ea076085c5e3d8c76b8337c`
-- **Solution PR:** https://github.com/sankumar76/Accucut-Quotation/pull/616
+### [endora-commerce/endora-commerce] test(overlay): artefact-environment render cases get a 180 s timeout
+- **Base Commit:** `ff7efc3e8006f9914719bcb374412c220736b013`
+- **Solution PR:** https://github.com/endora-commerce/endora-commerce/pull/1859
 
-### [nuphos/nuphos] fix(backend): log an expired run resume at warn
-- **Base Commit:** `1a60b3c5703c997af0ef912a8aabda49a285c695`
-- **Solution PR:** https://github.com/nuphos/nuphos/pull/4638
-
-### [vszlx4/sqwer] Encode voice clips at 32 kbps so the words are audible
-- **Base Commit:** `48259cd56cfca0807d2d648954b63be69b0cc90a`
-- **Solution PR:** https://github.com/vszlx4/sqwer/pull/249
-
-### [OnlyOneByte/VROOM] fix(charts): cap monthly x-axes at 6 ticks so month labels fit at 375px
-- **Base Commit:** `756fe4d6322b695676d22f05ea773e668850c0a4`
-- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1026
+### [hakulab/github-stats-extended] fix(backend): add Hakula to worker WHITELIST
+- **Base Commit:** `4759ccb05869f744dacfe470536b3234f901c5cc`
+- **Solution PR:** https://github.com/hakulab/github-stats-extended/pull/10
