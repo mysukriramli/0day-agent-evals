@@ -1,42 +1,10 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-22.
+> Uncontaminated bugs merged after 2026-11-23.
 
-### [stubbi/paperclip-operator] fix: allow bootstrap and backup Jobs to reach managed database
-- **Base Commit:** `2473e0f4de3d5627e120c54c4d1cb2fbfaaad006`
-- **Solution PR:** https://github.com/stubbi/paperclip-operator/pull/139
+### [testcontainers/testcontainers-go] fix(ci): restore Chroma and sbx test setup
+- **Base Commit:** `5afa83ec12189f66a658d79757aaef6a2e6ea904`
+- **Solution PR:** https://github.com/testcontainers/testcontainers-go/pull/4130
 
-### [opensro-dev/opensro] fix(client): the Unique Status window reads its saved book when a character attaches, not at boot
-- **Base Commit:** `aba562eb5c4059d0e48308e84c30293c70fe6802`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4201
-
-### [Chemaclass/agnostic-ai] docs: verify a published Companion update
-- **Base Commit:** `6cfc29ab91ebb46c3c0b3b626171cc7c8ca53695`
-- **Solution PR:** https://github.com/Chemaclass/agnostic-ai/pull/3959
-
-### [drzero42/nexorious] fix(sync): remove Epic session directories left behind by a crash
-- **Base Commit:** `80710bc68c47b94c0d675b457ef95b0212f970ba`
-- **Solution PR:** https://github.com/drzero42/nexorious/pull/1388
-
-### [aminueza/terraform-provider-minio] fix(metadata): remove broken bucket import
-- **Base Commit:** `ab0e54af14d26951145d3fb364b69fc4949e5b2a`
-- **Solution PR:** https://github.com/aminueza/terraform-provider-minio/pull/1395
-
-### [Silo-Server/silo-plugin-metadata-sportarr] fix(metadata): label Sportarr episodes by their local broadcast date
-- **Base Commit:** `5d29dd1d8c5e9f84af919984f4f3217275fa8bb8`
-- **Solution PR:** https://github.com/Silo-Server/silo-plugin-metadata-sportarr/pull/12
-
-### [Silo-Server/silo-server] fix(web): announce a completed season as watched on the series page
-- **Base Commit:** `c90e406db71ee468bffdfa5733cd97d1d50b4019`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5123
-
-### [Silo-Server/silo-server] fix(web): restart the hero progress rail when the hero comes back into view
-- **Base Commit:** `c90e406db71ee468bffdfa5733cd97d1d50b4019`
-- **Solution PR:** https://github.com/Silo-Server/silo-server/pull/5121
-
-### [opensro-dev/opensro] fix(client): a Magic Pop voucher shows no invented magic stats
-- **Base Commit:** `aba562eb5c4059d0e48308e84c30293c70fe6802`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4200
-
-### [konflux-ci/image-rbac-proxy] fix(STONEINTG-1929): reject registry paths outside the repository schema
-- **Base Commit:** `8a431e19ee57e47a9431d559a91fa612183a7899`
-- **Solution PR:** https://github.com/konflux-ci/image-rbac-proxy/pull/265
+### [mulesoft-anypoint/terraform-provider-anypoint] fix(apim_flexgateway): create upstreams added on update
+- **Base Commit:** `8133bd83a2ce91831752095434caf315987de0db`
+- **Solution PR:** https://github.com/mulesoft-anypoint/terraform-provider-anypoint/pull/212

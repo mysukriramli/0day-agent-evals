@@ -1,34 +1,30 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-22.
+> Uncontaminated bugs merged after 2026-11-23.
 
-### [aipoch/open-science] fix(runtime): retry node runtime downloads
-- **Base Commit:** `8897ba4689bad3d91dfce34528cc11e09134eab2`
-- **Solution PR:** https://github.com/aipoch/open-science/pull/4644
+### [jimmyandrade/harness] fix(formalizar-decisao): read who reacted and do not consult on settled decisions
+- **Base Commit:** `df2baf0d261fe287a8c1c3eba0a6244d71949121`
+- **Solution PR:** https://github.com/jimmyandrade/harness/pull/1512
 
-### [kgeestmann/Hoot] fix(backend): take the overview's has_more from GitHub's next page
-- **Base Commit:** `b37904b58634f2991620a8263bc2b03a1addea0f`
-- **Solution PR:** https://github.com/kgeestmann/Hoot/pull/156
+### [paulo-czr/AgendaJa] fix(organizacoes): Integrar layout do painel e navegacao para configu…
+- **Base Commit:** `852b0afb8dd7d2365f62450632ac04708db318bc`
+- **Solution PR:** https://github.com/paulo-czr/AgendaJa/pull/6
 
-### [StanislavKozachenko/claude-hook] fix(user-prompt-expansion): deprecate setTitle(), which Claude Code ignores
-- **Base Commit:** `5dc6cfadc3d13726259a944a4861037782ea4e6b`
-- **Solution PR:** https://github.com/StanislavKozachenko/claude-hook/pull/245
+### [doctor-school/ds-platform] fix(4197): staff sign-in never replays a TOTP code an earlier sign-in used
+- **Base Commit:** `df8f5d010696400dba3fe58c3f525f270b4f3628`
+- **Solution PR:** https://github.com/doctor-school/ds-platform/pull/4227
 
-### [OnlyOneByte/VROOM] fix(insurance): editing a policy whose vehicles were all deleted saves again
-- **Base Commit:** `81b8ba2acf31cb1deee71a9c466527e6d3e10142`
-- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1342
+### [dicoogle/dicoogle-next] Fix misaligned Dicoogle logo in login screen
+- **Base Commit:** `5ca0b5cb7bd94410e6812661c5a80bc87063247b`
+- **Solution PR:** https://github.com/dicoogle/dicoogle-next/pull/67
 
-### [OnlyOneByte/VROOM] fix(settings): one shared currency list for the picker and the settings API
-- **Base Commit:** `ca7ecf7482fbe523b8b5107c2db9d6de8d6fa907`
-- **Solution PR:** https://github.com/OnlyOneByte/VROOM/pull/1334
+### [stella/stella] fix(desktop): bring the first app window to the front when the app joins the Dock
+- **Base Commit:** `8d73df1c2ce6f678eea5ebb8f213f47d79c55a8d`
+- **Solution PR:** https://github.com/stella/stella/pull/9406
 
-### [AI1411/quick_viewer] fix: XLSX 数値書式の日付誤判定を修正 (#6)
-- **Base Commit:** `90312e8fd4935eddc397177872c702f75758ecf5`
-- **Solution PR:** https://github.com/AI1411/quick_viewer/pull/30
+### [RobinLandraud/FireScrum] fix: hide "Clôturer le sprint" while a closed sprint is displayed
+- **Base Commit:** `e4b173524ad1c758cd25164af3bf8229c11b28cc`
+- **Solution PR:** https://github.com/RobinLandraud/FireScrum/pull/19
 
-### [endora-commerce/endora-commerce] test(overlay): artefact-environment render cases get a 180 s timeout
-- **Base Commit:** `ff7efc3e8006f9914719bcb374412c220736b013`
-- **Solution PR:** https://github.com/endora-commerce/endora-commerce/pull/1859
-
-### [hakulab/github-stats-extended] fix(backend): add Hakula to worker WHITELIST
-- **Base Commit:** `4759ccb05869f744dacfe470536b3234f901c5cc`
-- **Solution PR:** https://github.com/hakulab/github-stats-extended/pull/10
+### [lklynet/aurral] fix(library): keep track lists and rematches right after the album mbid cleanup
+- **Base Commit:** `27692637d30c1bc69a57617ec230de3cb7230b26`
+- **Solution PR:** https://github.com/lklynet/aurral/pull/2147
