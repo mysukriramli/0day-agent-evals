@@ -1,38 +1,18 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-23.
+> Uncontaminated bugs merged after 2026-11-24.
 
-### [memtylabs/memty] Fix extension save selection and button hover
-- **Base Commit:** `7b9fff83a6017559feb6ee6a38a89623977bd86d`
-- **Solution PR:** https://github.com/memtylabs/memty/pull/151
+### [samcorky/menagerist] fix(frontend): show a changed cover on the item page straight away (#762)
+- **Base Commit:** `b8fa39a9f988a683f6830d953f3dd1e9df65703c`
+- **Solution PR:** https://github.com/samcorky/menagerist/pull/764
 
-### [SlimefunNewHorizons/drakescraft-texture-pack] fix: impedir activar contenido de overlay no declarado
-- **Base Commit:** `81e3f7f0fcfc5f180975e0fee1bbf07965b82a8a`
-- **Solution PR:** https://github.com/SlimefunNewHorizons/drakescraft-texture-pack/pull/10
+### [SENSURE-Wald/SR_Diffusion] fix(infer): add --output dir and make --input override config data_path
+- **Base Commit:** `11a73748e3b2a1828c7adbd08303cb4131d771b2`
+- **Solution PR:** https://github.com/SENSURE-Wald/SR_Diffusion/pull/2
 
-### [Netcracker/qubership-mistral] fix: cache jsonschema validators
-- **Base Commit:** `7948a243da533f37404fe950e9ed2622729cbfdb`
-- **Solution PR:** https://github.com/Netcracker/qubership-mistral/pull/218
+### [zerocarbonshipping/navigate-zcs] Keep speed management from slowing a leg to 0 knots
+- **Base Commit:** `72ff3fe17e71d2cb52db9ba94bd320ac6208e028`
+- **Solution PR:** https://github.com/zerocarbonshipping/navigate-zcs/pull/982
 
-### [reflex-dev/reflex] Fix Sonner toast button style prop names
-- **Base Commit:** `8ba7568083d48c7f64c5ac8aa3330a2e64d0b1f9`
-- **Solution PR:** https://github.com/reflex-dev/reflex/pull/7786
-
-### [NVIDIA-NeMo/Gym] perf(eval): resolve managed evidence paths once per file
-- **Base Commit:** `1bc262ada7a419fdcf60f6b31d85cb717c939682`
-- **Solution PR:** https://github.com/NVIDIA-NeMo/Gym/pull/6469
-
-### [roboflow/supervision] fix(classification): keep tied classes in input order in `get_top_k`
-- **Base Commit:** `1e54e8604c303454e8e12489ec0fb87ec099540b`
-- **Solution PR:** https://github.com/roboflow/supervision/pull/2989
-
-### [docling-project/docling] perf(table-structure): skip the TableFormer decode for a table that has no words
-- **Base Commit:** `4c0a96de53af1032a2f2ac0375fdd7f844672349`
-- **Solution PR:** https://github.com/docling-project/docling/pull/5538
-
-### [reflex-dev/reflex] fix(client-state): type global_set as the FunctionVar it returns
-- **Base Commit:** `df7f1571ec6a2e7f814e472199ad2dd03b973c2c`
-- **Solution PR:** https://github.com/reflex-dev/reflex/pull/7966
-
-### [astropy/astropy] Fix dask arrays being written as zeros to FITS files when using process-based schedulers
-- **Base Commit:** `7732926be0c58aa8761f318cf89f4ad212ae6fe7`
-- **Solution PR:** https://github.com/astropy/astropy/pull/20837
+### [De-Kalo/pr-agent] fix: review an allowlisted bot's PR even without a requester marker
+- **Base Commit:** `ad850719e71c7caf8df7a17abe0b49fb7d1c61ef`
+- **Solution PR:** https://github.com/De-Kalo/pr-agent/pull/18

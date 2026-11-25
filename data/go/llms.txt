@@ -1,10 +1,14 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-23.
+> Uncontaminated bugs merged after 2026-11-24.
 
-### [testcontainers/testcontainers-go] fix(ci): restore Chroma and sbx test setup
-- **Base Commit:** `5afa83ec12189f66a658d79757aaef6a2e6ea904`
-- **Solution PR:** https://github.com/testcontainers/testcontainers-go/pull/4130
+### [opensro-dev/opensro] fix(server): the 20% damage scroll stacks with the attack-up buffs (#4382)
+- **Base Commit:** `4f92b077b70842277c39796d962a1c2fce0a8d29`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4409
 
-### [mulesoft-anypoint/terraform-provider-anypoint] fix(apim_flexgateway): create upstreams added on update
-- **Base Commit:** `8133bd83a2ce91831752095434caf315987de0db`
-- **Solution PR:** https://github.com/mulesoft-anypoint/terraform-provider-anypoint/pull/212
+### [hashicorp/terraform-provider-aws] Fix CloudFront hosted_zone_id for AWS European Sovereign Cloud
+- **Base Commit:** `58ca20cd740d6c21951f777de7693f4781a39249`
+- **Solution PR:** https://github.com/hashicorp/terraform-provider-aws/pull/51288
+
+### [buildkite/agent] Let JWKS verifiers accept AWS KMS pipeline signatures
+- **Base Commit:** `fdb783b499c23f3f12d75d08c39804d462cbbf63`
+- **Solution PR:** https://github.com/buildkite/agent/pull/4688

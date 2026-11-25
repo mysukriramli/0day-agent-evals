@@ -1,30 +1,34 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-23.
+> Uncontaminated bugs merged after 2026-11-24.
 
-### [jimmyandrade/harness] fix(formalizar-decisao): read who reacted and do not consult on settled decisions
-- **Base Commit:** `df2baf0d261fe287a8c1c3eba0a6244d71949121`
-- **Solution PR:** https://github.com/jimmyandrade/harness/pull/1512
+### [storybookjs/storybook] CLI: Name the Storybooks an upgrade skips, and why
+- **Base Commit:** `ca42b44d0cec0e39714f1ee4e3b3822ad6a5f7f9`
+- **Solution PR:** https://github.com/storybookjs/storybook/pull/37440
 
-### [paulo-czr/AgendaJa] fix(organizacoes): Integrar layout do painel e navegacao para configu…
-- **Base Commit:** `852b0afb8dd7d2365f62450632ac04708db318bc`
-- **Solution PR:** https://github.com/paulo-czr/AgendaJa/pull/6
+### [Houzs-IT/hookka-erp-testing] fix(mcp): whoami takes the name from the authenticating row
+- **Base Commit:** `49576edd518bc1c4287085b0216f9fb913074ddd`
+- **Solution PR:** https://github.com/Houzs-IT/hookka-erp-testing/pull/1614
 
-### [doctor-school/ds-platform] fix(4197): staff sign-in never replays a TOTP code an earlier sign-in used
-- **Base Commit:** `df8f5d010696400dba3fe58c3f525f270b4f3628`
-- **Solution PR:** https://github.com/doctor-school/ds-platform/pull/4227
+### [alfredo1996/neoboard] fix(settings): a new API key shows in the list as soon as the dialog closes, without waiting for the refetch (#2569)
+- **Base Commit:** `37aee192b18b2553297b5a48db1ac12315d8962e`
+- **Solution PR:** https://github.com/alfredo1996/neoboard/pull/2576
 
-### [dicoogle/dicoogle-next] Fix misaligned Dicoogle logo in login screen
-- **Base Commit:** `5ca0b5cb7bd94410e6812661c5a80bc87063247b`
-- **Solution PR:** https://github.com/dicoogle/dicoogle-next/pull/67
+### [m-bonanno/scia] fix(engine): start no write of the state once the engine has stopped
+- **Base Commit:** `561711e87dbc69362e94d8ec0b933044b5f90b2c`
+- **Solution PR:** https://github.com/m-bonanno/scia/pull/360
 
-### [stella/stella] fix(desktop): bring the first app window to the front when the app joins the Dock
-- **Base Commit:** `8d73df1c2ce6f678eea5ebb8f213f47d79c55a8d`
-- **Solution PR:** https://github.com/stella/stella/pull/9406
+### [memrynote/memry] fix(desktop): hold every reindex asker behind a held one, one progress throttle per asker
+- **Base Commit:** `b498ae4ae3b4190eb842aa5300d8792069b996eb`
+- **Solution PR:** https://github.com/memrynote/memry/pull/5805
 
-### [RobinLandraud/FireScrum] fix: hide "Clôturer le sprint" while a closed sprint is displayed
-- **Base Commit:** `e4b173524ad1c758cd25164af3bf8229c11b28cc`
-- **Solution PR:** https://github.com/RobinLandraud/FireScrum/pull/19
+### [KaotoIO/kaoto] fix(kaoto-web): unfold the Explorer folders down to the open file
+- **Base Commit:** `d5b3c51f0231fe341a67e9e344e593bddb90ab4d`
+- **Solution PR:** https://github.com/KaotoIO/kaoto/pull/4970
 
-### [lklynet/aurral] fix(library): keep track lists and rematches right after the album mbid cleanup
-- **Base Commit:** `27692637d30c1bc69a57617ec230de3cb7230b26`
-- **Solution PR:** https://github.com/lklynet/aurral/pull/2147
+### [nookat-io/nookat] fix: save start on boot only after the OS accepts the change
+- **Base Commit:** `5934d6e36bd86e21314c896b62170e029fbc5e63`
+- **Solution PR:** https://github.com/nookat-io/nookat/pull/333
+
+### [mongodb-js/compass] fix(compass-components): allow custom field names that prefix existing fields COMPASS-10861
+- **Base Commit:** `d5ce72086ce76f8d2a65c761879853352cf96ff9`
+- **Solution PR:** https://github.com/mongodb-js/compass/pull/8733
