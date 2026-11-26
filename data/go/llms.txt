@@ -1,14 +1,30 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-24.
+> Uncontaminated bugs merged after 2026-11-25.
 
-### [opensro-dev/opensro] fix(server): the 20% damage scroll stacks with the attack-up buffs (#4382)
-- **Base Commit:** `4f92b077b70842277c39796d962a1c2fce0a8d29`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4409
+### [platform-mesh/platform-mesh] fix(operators): reject ManagedProvider entries with the same name
+- **Base Commit:** `9ed76e1172d82481d82794a621744f21074349d9`
+- **Solution PR:** https://github.com/platform-mesh/platform-mesh/pull/792
 
-### [hashicorp/terraform-provider-aws] Fix CloudFront hosted_zone_id for AWS European Sovereign Cloud
-- **Base Commit:** `58ca20cd740d6c21951f777de7693f4781a39249`
-- **Solution PR:** https://github.com/hashicorp/terraform-provider-aws/pull/51288
+### [opensro-dev/opensro] fix(client-tools): the execution-facts store keeps a 2 GiB byte budget (#4537)
+- **Base Commit:** `be25d77c0b6ec559f18e24555538a9df72772297`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4538
 
-### [buildkite/agent] Let JWKS verifiers accept AWS KMS pipeline signatures
-- **Base Commit:** `fdb783b499c23f3f12d75d08c39804d462cbbf63`
-- **Solution PR:** https://github.com/buildkite/agent/pull/4688
+### [swarm-deploy/swarm-deploy] fix(ui): blur content behind mobile more menu
+- **Base Commit:** `36b16d8efe6c6396dfa2f0d0cb18222bf79a534b`
+- **Solution PR:** https://github.com/swarm-deploy/swarm-deploy/pull/417
+
+### [jeremyhahn/go-trusted-platform] test(kms): the rollback setup takes the declared Secrets/Rotate known gap (main fix) (#2438)
+- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
+- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2439
+
+### [jeremyhahn/go-trusted-platform] fix(sdn): policy ACL matches carry the dl_type and nw_proto prerequisites OVS requires (main fix) (#2437)
+- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
+- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2440
+
+### [jeremyhahn/go-trusted-platform] fix(ntp): no NTP REST routes on a node without an NTP backend (main fix) (#2435)
+- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
+- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2436
+
+### [windsorcli/cli] fix(shell): unset stale env keys in fish with set -e
+- **Base Commit:** `b685e88bcb9e55fc130b7af771f0e328d87e8379`
+- **Solution PR:** https://github.com/windsorcli/cli/pull/3930

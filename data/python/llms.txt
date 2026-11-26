@@ -1,18 +1,50 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-24.
+> Uncontaminated bugs merged after 2026-11-25.
 
-### [samcorky/menagerist] fix(frontend): show a changed cover on the item page straight away (#762)
-- **Base Commit:** `b8fa39a9f988a683f6830d953f3dd1e9df65703c`
-- **Solution PR:** https://github.com/samcorky/menagerist/pull/764
+### [center-for-humans-and-machines/simple-chat] SIM-81: Fix POST /llm/json_call returning 500
+- **Base Commit:** `71580841d5ea16c24185381593c5f8f732125990`
+- **Solution PR:** https://github.com/center-for-humans-and-machines/simple-chat/pull/80
 
-### [SENSURE-Wald/SR_Diffusion] fix(infer): add --output dir and make --input override config data_path
-- **Base Commit:** `11a73748e3b2a1828c7adbd08303cb4131d771b2`
-- **Solution PR:** https://github.com/SENSURE-Wald/SR_Diffusion/pull/2
+### [Mutou-dev123/plant-iot-system] feat: Implement empty state for archived plants and update plant list…
+- **Base Commit:** `bbf2b69ea8e4727a69a36ed3898d27276b7871cc`
+- **Solution PR:** https://github.com/Mutou-dev123/plant-iot-system/pull/83
 
-### [zerocarbonshipping/navigate-zcs] Keep speed management from slowing a leg to 0 knots
-- **Base Commit:** `72ff3fe17e71d2cb52db9ba94bd320ac6208e028`
-- **Solution PR:** https://github.com/zerocarbonshipping/navigate-zcs/pull/982
+### [rusin-dev/rusin-note] feat: 将rusin-note桌面版链接设为新rusin-note-ide
+- **Base Commit:** `bf3d2d6149168dbccee3cf98dea0e8f7ba9606bc`
+- **Solution PR:** https://github.com/rusin-dev/rusin-note/pull/272
 
-### [De-Kalo/pr-agent] fix: review an allowlisted bot's PR even without a requester marker
-- **Base Commit:** `ad850719e71c7caf8df7a17abe0b49fb7d1c61ef`
-- **Solution PR:** https://github.com/De-Kalo/pr-agent/pull/18
+### [luismiguelopes/ikabot-dashboard] Wait for the new empire update before reporting it done
+- **Base Commit:** `af832e862e96d83e593e59cefc79ed723a64fe4d`
+- **Solution PR:** https://github.com/luismiguelopes/ikabot-dashboard/pull/25
+
+### [ysys143/jstack] fix(help): map the reframe skill in the help index
+- **Base Commit:** `bbc12250cc80a41049a8f4bd65a13ee5963d494c`
+- **Solution PR:** https://github.com/ysys143/jstack/pull/36
+
+### [PostHog/posthog] fix(insights): open sql date variables saved without a default
+- **Base Commit:** `90d5cde8e37c3d41cb75d162c77a845a7d9b0c30`
+- **Solution PR:** https://github.com/PostHog/posthog/pull/138415
+
+### [zerocarbonshipping/navigate-zcs] Read initial technology shares at each vessel's own age
+- **Base Commit:** `0f660d0e9b075e2670eaeabe95cc641a38b6ea4b`
+- **Solution PR:** https://github.com/zerocarbonshipping/navigate-zcs/pull/1003
+
+### [mobius-os/mobius] Open the Project returned by the Pages import
+- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
+- **Solution PR:** https://github.com/mobius-os/mobius/pull/2249
+
+### [mobius-os/mobius] Bind Finder builds to the selected source and builder
+- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
+- **Solution PR:** https://github.com/mobius-os/mobius/pull/2246
+
+### [mobius-os/mobius] Keep crash recovery usable without session storage
+- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
+- **Solution PR:** https://github.com/mobius-os/mobius/pull/2247
+
+### [mobius-os/mobius] Refuse shared-browser guests removing a shared app
+- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
+- **Solution PR:** https://github.com/mobius-os/mobius/pull/2252
+
+### [AOSSIE-Org/Gitcord-GithubDiscordBot] fix(bot): defer /assign-issue ephemerally to prevent leaking validation errors (#186)
+- **Base Commit:** `7130a4084be6da54566217cd648caf271abc5774`
+- **Solution PR:** https://github.com/AOSSIE-Org/Gitcord-GithubDiscordBot/pull/235
