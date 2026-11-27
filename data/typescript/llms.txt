@@ -1,30 +1,14 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-25.
+> Uncontaminated bugs merged after 2026-11-26.
 
-### [handsontable/examples] DEV-4231: Drive the keepalive test with fake timers
-- **Base Commit:** `5f8cbec212847d32ed821b9ce6518e4c479a531c`
-- **Solution PR:** https://github.com/handsontable/examples/pull/528
+### [slicerx-oss/slicerx] fix(deps): move url to 2.5.9 and cookie to 0.18.3, which fix RUSTSEC-2026-0592 and RUSTSEC-2026-0594
+- **Base Commit:** `a0123198b44f07c3e7f3e26390201be9b9c01853`
+- **Solution PR:** https://github.com/slicerx-oss/slicerx/pull/2402
 
-### [SigNoz/signoz] fix(query-builder): keep value suggestions open when the editor re-renders
-- **Base Commit:** `73e6fa555a41add64cdec2d6768b354c309977d9`
-- **Solution PR:** https://github.com/SigNoz/signoz/pull/13760
+### [JoeyHammoth/SolidGround] fix(deploy): write validation summary after the dataset scan
+- **Base Commit:** `c745a1f0d87b4bf9a1718d93d72a3df27959a337`
+- **Solution PR:** https://github.com/JoeyHammoth/SolidGround/pull/66
 
-### [jimmyandrade/harness] fix(publicar-resposta-de-revisao): check the screen before replying about a visual change
-- **Base Commit:** `eb856dc6280484a1a48088be4cc733f7e8514520`
-- **Solution PR:** https://github.com/jimmyandrade/harness/pull/1564
-
-### [emberjs/ember-inflector] Leave an uppercase uncountable last word alone
-- **Base Commit:** `af621eed267fc8c0bed596d4c8d0cf97b2b2dcd3`
-- **Solution PR:** https://github.com/emberjs/ember-inflector/pull/547
-
-### [shipkeepdev/shipkeep] test(api): the browser suite is not held to the API's read quota
-- **Base Commit:** `661f966a2f96c5ed3727a4e413a10bce358ccda0`
-- **Solution PR:** https://github.com/shipkeepdev/shipkeep/pull/515
-
-### [cloudnode-pro/release-upload-asset] Fix file name parameter to read the correct key
-- **Base Commit:** `8938f1c9d6b5ba51bd9ec7edf57ff48ac3cd9e07`
-- **Solution PR:** https://github.com/cloudnode-pro/release-upload-asset/pull/117
-
-### [docteur-turboss/trading-model] :bug:(financial-scraper): mettre un 403 Binance en quarantaine comme un 418 ou 451
-- **Base Commit:** `b49d18e01d5b71bede3687f045e1376fd8b1a5fd`
-- **Solution PR:** https://github.com/docteur-turboss/trading-model/pull/2968
+### [MerciHanrim/loop-studio] Lint: four exhaustive-deps warnings fixed in the charts and LoopEdge; at most 75 warnings
+- **Base Commit:** `838b23826c7fbe32a29736617df7736f3bbfd105`
+- **Solution PR:** https://github.com/MerciHanrim/loop-studio/pull/710

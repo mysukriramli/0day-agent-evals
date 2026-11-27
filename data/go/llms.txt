@@ -1,30 +1,22 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-25.
+> Uncontaminated bugs merged after 2026-11-26.
 
-### [platform-mesh/platform-mesh] fix(operators): reject ManagedProvider entries with the same name
-- **Base Commit:** `9ed76e1172d82481d82794a621744f21074349d9`
-- **Solution PR:** https://github.com/platform-mesh/platform-mesh/pull/792
+### [tbphp/gpt-load] fix(codex): preserve native image SSE event boundaries
+- **Base Commit:** `cfc6a6da810dd17b0e08f109e5999a2fc281c7ca`
+- **Solution PR:** https://github.com/tbphp/gpt-load/pull/1001
 
-### [opensro-dev/opensro] fix(client-tools): the execution-facts store keeps a 2 GiB byte budget (#4537)
-- **Base Commit:** `be25d77c0b6ec559f18e24555538a9df72772297`
-- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4538
+### [netresearch/ldap-manager] fix(dev): repair certificate ownership on every run
+- **Base Commit:** `04cc587634d5ee48741da562560bf00bb2d86d3b`
+- **Solution PR:** https://github.com/netresearch/ldap-manager/pull/747
 
-### [swarm-deploy/swarm-deploy] fix(ui): blur content behind mobile more menu
-- **Base Commit:** `36b16d8efe6c6396dfa2f0d0cb18222bf79a534b`
-- **Solution PR:** https://github.com/swarm-deploy/swarm-deploy/pull/417
+### [roadrunner-server/roadrunner] fix(logs): preserve in-flight logs during shutdown
+- **Base Commit:** `c8611fbb442cc706d3d0be4cff0d5d3c6759ac84`
+- **Solution PR:** https://github.com/roadrunner-server/roadrunner/pull/2472
 
-### [jeremyhahn/go-trusted-platform] test(kms): the rollback setup takes the declared Secrets/Rotate known gap (main fix) (#2438)
-- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
-- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2439
+### [JRpersonal/streborn] fix(display): album instead of the artist twice for an artist's folder; address hover for stations without a bitrate
+- **Base Commit:** `45bc24a31b0b5b7ddd16fd6b72f6594a19fe5402`
+- **Solution PR:** https://github.com/JRpersonal/streborn/pull/2137
 
-### [jeremyhahn/go-trusted-platform] fix(sdn): policy ACL matches carry the dl_type and nw_proto prerequisites OVS requires (main fix) (#2437)
-- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
-- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2440
-
-### [jeremyhahn/go-trusted-platform] fix(ntp): no NTP REST routes on a node without an NTP backend (main fix) (#2435)
-- **Base Commit:** `458f48b5b5366524b04d661ebb2694e8173e9ad3`
-- **Solution PR:** https://github.com/jeremyhahn/go-trusted-platform/pull/2436
-
-### [windsorcli/cli] fix(shell): unset stale env keys in fish with set -e
-- **Base Commit:** `b685e88bcb9e55fc130b7af771f0e328d87e8379`
-- **Solution PR:** https://github.com/windsorcli/cli/pull/3930
+### [aminueza/terraform-provider-minio] fix(docs): pass the provider name to tfplugindocs
+- **Base Commit:** `823913d03131664e6e283c7df636fecdd90f6b20`
+- **Solution PR:** https://github.com/aminueza/terraform-provider-minio/pull/1479

@@ -1,50 +1,34 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-25.
+> Uncontaminated bugs merged after 2026-11-26.
 
-### [center-for-humans-and-machines/simple-chat] SIM-81: Fix POST /llm/json_call returning 500
-- **Base Commit:** `71580841d5ea16c24185381593c5f8f732125990`
-- **Solution PR:** https://github.com/center-for-humans-and-machines/simple-chat/pull/80
+### [suitenumerique/menshen] ✅(backend) restore the token exchange api module after reloading it
+- **Base Commit:** `7d08fac2949d077f4bf6cdb1067423160be2df0a`
+- **Solution PR:** https://github.com/suitenumerique/menshen/pull/149
 
-### [Mutou-dev123/plant-iot-system] feat: Implement empty state for archived plants and update plant list…
-- **Base Commit:** `bbf2b69ea8e4727a69a36ed3898d27276b7871cc`
-- **Solution PR:** https://github.com/Mutou-dev123/plant-iot-system/pull/83
+### [ANSER-Logistics/ANSER_AI_Logistics] fix(#210): Content-Length không phải chữ số ASCII hoặc quá dài trả 400/413, không còn 500
+- **Base Commit:** `9264e4d5e5c85cf4bd80d0e609ae2be33c16230b`
+- **Solution PR:** https://github.com/ANSER-Logistics/ANSER_AI_Logistics/pull/253
 
-### [rusin-dev/rusin-note] feat: 将rusin-note桌面版链接设为新rusin-note-ide
-- **Base Commit:** `bf3d2d6149168dbccee3cf98dea0e8f7ba9606bc`
-- **Solution PR:** https://github.com/rusin-dev/rusin-note/pull/272
+### [openecos-projects/ecc] fix(cli): refuse nan and infinite parameter values
+- **Base Commit:** `01e086538d3a635fc016fd11f8ec6d699a53c468`
+- **Solution PR:** https://github.com/openecos-projects/ecc/pull/493
 
-### [luismiguelopes/ikabot-dashboard] Wait for the new empire update before reporting it done
-- **Base Commit:** `af832e862e96d83e593e59cefc79ed723a64fe4d`
-- **Solution PR:** https://github.com/luismiguelopes/ikabot-dashboard/pull/25
+### [openecos-projects/ecc] fix(cli): list workspace overrides in the text form of param diff
+- **Base Commit:** `01e086538d3a635fc016fd11f8ec6d699a53c468`
+- **Solution PR:** https://github.com/openecos-projects/ecc/pull/489
 
-### [ysys143/jstack] fix(help): map the reframe skill in the help index
-- **Base Commit:** `bbc12250cc80a41049a8f4bd65a13ee5963d494c`
-- **Solution PR:** https://github.com/ysys143/jstack/pull/36
+### [kubed-io/mcp-kb] tests/live: six checks fail against the spec, before and after #116
+- **Base Commit:** `c4ccc22fd6b7929ded8cb25b43c0ae4beeef0274`
+- **Solution PR:** https://github.com/kubed-io/mcp-kb/pull/120
 
-### [PostHog/posthog] fix(insights): open sql date variables saved without a default
-- **Base Commit:** `90d5cde8e37c3d41cb75d162c77a845a7d9b0c30`
-- **Solution PR:** https://github.com/PostHog/posthog/pull/138415
+### [gem/oq-engine] Fix oq mosaic run_site for a single site
+- **Base Commit:** `65ffd2535d3c29df8f3ab17191ff58855e6f8710`
+- **Solution PR:** https://github.com/gem/oq-engine/pull/12211
 
-### [zerocarbonshipping/navigate-zcs] Read initial technology shares at each vessel's own age
-- **Base Commit:** `0f660d0e9b075e2670eaeabe95cc641a38b6ea4b`
-- **Solution PR:** https://github.com/zerocarbonshipping/navigate-zcs/pull/1003
+### [eh-homelab/ScadBuddy] fix(filament): "Never weighed." reads the hint's boolean; pin the diameter default to metrics (#8196)
+- **Base Commit:** `286c96aa03a46e7365e9d95f2bfc1316b60b7e3e`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8268
 
-### [mobius-os/mobius] Open the Project returned by the Pages import
-- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
-- **Solution PR:** https://github.com/mobius-os/mobius/pull/2249
-
-### [mobius-os/mobius] Bind Finder builds to the selected source and builder
-- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
-- **Solution PR:** https://github.com/mobius-os/mobius/pull/2246
-
-### [mobius-os/mobius] Keep crash recovery usable without session storage
-- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
-- **Solution PR:** https://github.com/mobius-os/mobius/pull/2247
-
-### [mobius-os/mobius] Refuse shared-browser guests removing a shared app
-- **Base Commit:** `6d6d87c501fdd8d92f9147dea6da51b3fad10c4c`
-- **Solution PR:** https://github.com/mobius-os/mobius/pull/2252
-
-### [AOSSIE-Org/Gitcord-GithubDiscordBot] fix(bot): defer /assign-issue ephemerally to prevent leaking validation errors (#186)
-- **Base Commit:** `7130a4084be6da54566217cd648caf271abc5774`
-- **Solution PR:** https://github.com/AOSSIE-Org/Gitcord-GithubDiscordBot/pull/235
+### [YaronKoresh/korshmer] Keep the room sound around a single clip when trimming its silence
+- **Base Commit:** `c30fae31d1907d54747850fe2cf2007fc1c21038`
+- **Solution PR:** https://github.com/YaronKoresh/korshmer/pull/17
