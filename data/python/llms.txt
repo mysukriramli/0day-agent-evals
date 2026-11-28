@@ -1,34 +1,46 @@
 # Zero-Day Python Evals
-> Uncontaminated bugs merged after 2026-11-26.
+> Uncontaminated bugs merged after 2026-11-27.
 
-### [suitenumerique/menshen] ✅(backend) restore the token exchange api module after reloading it
-- **Base Commit:** `7d08fac2949d077f4bf6cdb1067423160be2df0a`
-- **Solution PR:** https://github.com/suitenumerique/menshen/pull/149
+### [Under-Research-Labs/SNAGLINE] fix(adapters): accept and forward intent in observe_openai_call and observe_anthropic_call
+- **Base Commit:** `9ceb7b56616cfd35320d33dac0b0c562c3327ca1`
+- **Solution PR:** https://github.com/Under-Research-Labs/SNAGLINE/pull/784
 
-### [ANSER-Logistics/ANSER_AI_Logistics] fix(#210): Content-Length không phải chữ số ASCII hoặc quá dài trả 400/413, không còn 500
-- **Base Commit:** `9264e4d5e5c85cf4bd80d0e609ae2be33c16230b`
-- **Solution PR:** https://github.com/ANSER-Logistics/ANSER_AI_Logistics/pull/253
+### [sktime/skpro] [BUG] Fix Pareto _pdf and _log_pdf returning nonzero values outside support
+- **Base Commit:** `8790aeebad5a597a36d3b3e8299cd111824727bc`
+- **Solution PR:** https://github.com/sktime/skpro/pull/968
 
-### [openecos-projects/ecc] fix(cli): refuse nan and infinite parameter values
-- **Base Commit:** `01e086538d3a635fc016fd11f8ec6d699a53c468`
-- **Solution PR:** https://github.com/openecos-projects/ecc/pull/493
+### [eh-homelab/ScadBuddy] fix(camera): a lost path whose source does not validate reports stopped
+- **Base Commit:** `eb415b74b5bacede8a234ceedbd519b95738820a`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8369
 
-### [openecos-projects/ecc] fix(cli): list workspace overrides in the text form of param diff
-- **Base Commit:** `01e086538d3a635fc016fd11f8ec6d699a53c468`
-- **Solution PR:** https://github.com/openecos-projects/ecc/pull/489
+### [eh-homelab/ScadBuddy] fix(inventory): an ended unit's status select asks for a status; a golden skips with its test (#8256)
+- **Base Commit:** `eb415b74b5bacede8a234ceedbd519b95738820a`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8492
 
-### [kubed-io/mcp-kb] tests/live: six checks fail against the spec, before and after #116
-- **Base Commit:** `c4ccc22fd6b7929ded8cb25b43c0ae4beeef0274`
-- **Solution PR:** https://github.com/kubed-io/mcp-kb/pull/120
+### [eh-homelab/ScadBuddy] fix(inventory): a non-retryable failure ends the operation's record failed (#8256)
+- **Base Commit:** `eb415b74b5bacede8a234ceedbd519b95738820a`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8490
 
-### [gem/oq-engine] Fix oq mosaic run_site for a single site
-- **Base Commit:** `65ffd2535d3c29df8f3ab17191ff58855e6f8710`
-- **Solution PR:** https://github.com/gem/oq-engine/pull/12211
+### [eh-homelab/ScadBuddy] fix(inventory): an item with no source is manual and an empty source is 422, as in Python (#8256)
+- **Base Commit:** `eb415b74b5bacede8a234ceedbd519b95738820a`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8488
 
-### [eh-homelab/ScadBuddy] fix(filament): "Never weighed." reads the hint's boolean; pin the diameter default to metrics (#8196)
-- **Base Commit:** `286c96aa03a46e7365e9d95f2bfc1316b60b7e3e`
-- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8268
+### [Under-Research-Labs/SNAGLINE] fix(cli): forward agent identity during security evaluation
+- **Base Commit:** `bf60c2d18e152a869cf1854436e6367a55c4053a`
+- **Solution PR:** https://github.com/Under-Research-Labs/SNAGLINE/pull/818
 
-### [YaronKoresh/korshmer] Keep the room sound around a single clip when trimming its silence
-- **Base Commit:** `c30fae31d1907d54747850fe2cf2007fc1c21038`
-- **Solution PR:** https://github.com/YaronKoresh/korshmer/pull/17
+### [eh-homelab/ScadBuddy] fix(inventory): Registry.Implement panics on a handler the catalog lacks (#8256)
+- **Base Commit:** `eb415b74b5bacede8a234ceedbd519b95738820a`
+- **Solution PR:** https://github.com/eh-homelab/ScadBuddy/pull/8487
+
+### [HKUDS/DeepTutor] fix(reading): preserve original extensions on long multilingual filenames
+- **Base Commit:** `32acc5889ab65ffeb0b9d13f3da77c939c61b871`
+- **Solution PR:** https://github.com/HKUDS/DeepTutor/pull/2780
+
+### [EinSofINTEREST/Aaestro] [FIX#729] 종결 상태 없이 끊긴 A2A 응답을 재시도 불가 A2A_003 으로 분류하기
+- **Base Commit:** `0c7a0d62db56bda09532dcd72cbbbd67f0f564d7`
+- **Solution PR:** https://github.com/EinSofINTEREST/Aaestro/pull/751
+
+### [XTM-One-Platform/xtm-one] fix(ctem): drop a kept gate answer older than the gate's current ask (#2779)
+- **Base Commit:** `3835cf68395a05901a5a8633c1621e4bc9c4c39e`
+- **Solution PR:** https://github.com/XTM-One-Platform/xtm-one/pull/2783

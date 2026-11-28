@@ -1,14 +1,26 @@
 # Zero-Day Typescript Evals
-> Uncontaminated bugs merged after 2026-11-26.
+> Uncontaminated bugs merged after 2026-11-27.
 
-### [slicerx-oss/slicerx] fix(deps): move url to 2.5.9 and cookie to 0.18.3, which fix RUSTSEC-2026-0592 and RUSTSEC-2026-0594
-- **Base Commit:** `a0123198b44f07c3e7f3e26390201be9b9c01853`
-- **Solution PR:** https://github.com/slicerx-oss/slicerx/pull/2402
+### [krovomi/WorkPilot-AI] fix(release): run the REA audit on a Node.js the pin accepts
+- **Base Commit:** `202ef1180ede743fbee4acd0cf5a178fd4518670`
+- **Solution PR:** https://github.com/krovomi/WorkPilot-AI/pull/1386
 
-### [JoeyHammoth/SolidGround] fix(deploy): write validation summary after the dataset scan
-- **Base Commit:** `c745a1f0d87b4bf9a1718d93d72a3df27959a337`
-- **Solution PR:** https://github.com/JoeyHammoth/SolidGround/pull/66
+### [three-feathers/agent-durbar] 001 T609: check-status-tooltip survives a window blur while the pointer rests on a pill
+- **Base Commit:** `f72c7062a6b8a3c70ae548b52362da3f0436bab5`
+- **Solution PR:** https://github.com/three-feathers/agent-durbar/pull/2179
 
-### [MerciHanrim/loop-studio] Lint: four exhaustive-deps warnings fixed in the charts and LoopEdge; at most 75 warnings
-- **Base Commit:** `838b23826c7fbe32a29736617df7736f3bbfd105`
-- **Solution PR:** https://github.com/MerciHanrim/loop-studio/pull/710
+### [MerciHanrim/loop-studio] Lint: LoopEdge holds the L2 badge's place for a step in state; cap 56 -> 50 (#625 item 5)
+- **Base Commit:** `06e9f73a5f8b59b6a7fb50f9e759ac183aa5ba63`
+- **Solution PR:** https://github.com/MerciHanrim/loop-studio/pull/719
+
+### [UmTioAii/ASTRO-Harness] test: wait for the aborted child to die instead of a fixed window
+- **Base Commit:** `35ddc5c301a8c9beee47df00d0628c0f060e8604`
+- **Solution PR:** https://github.com/UmTioAii/ASTRO-Harness/pull/698
+
+### [seira-bot/seira] Check the digest of the Microsoft Store CLI before the job uses a credential
+- **Base Commit:** `8d8147fc33e779e6a28c5fbe8ba8dd57f2507246`
+- **Solution PR:** https://github.com/seira-bot/seira/pull/713
+
+### [storybookjs/storybook] CLI: Fail init on a closed stdin and skip the Playwright question without a terminal
+- **Base Commit:** `f5eb21772bbdc939a0f9cab5c8a21c85fa281de6`
+- **Solution PR:** https://github.com/storybookjs/storybook/pull/37814

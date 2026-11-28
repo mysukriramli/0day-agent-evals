@@ -1,22 +1,18 @@
 # Zero-Day Go Evals
-> Uncontaminated bugs merged after 2026-11-26.
+> Uncontaminated bugs merged after 2026-11-27.
 
-### [tbphp/gpt-load] fix(codex): preserve native image SSE event boundaries
-- **Base Commit:** `cfc6a6da810dd17b0e08f109e5999a2fc281c7ca`
-- **Solution PR:** https://github.com/tbphp/gpt-load/pull/1001
+### [usadamasa/agents-daemon] 依存図で辺でつながる区切りどうしを寄せて並べる
+- **Base Commit:** `7dc1321c46d0438ab54ddad72858beb86b16802a`
+- **Solution PR:** https://github.com/usadamasa/agents-daemon/pull/766
 
-### [netresearch/ldap-manager] fix(dev): repair certificate ownership on every run
-- **Base Commit:** `04cc587634d5ee48741da562560bf00bb2d86d3b`
-- **Solution PR:** https://github.com/netresearch/ldap-manager/pull/747
+### [opensro-dev/opensro] fix(server): Gori exchanges every Magic Pop result card in one talk
+- **Base Commit:** `f068154050a45cb07114ad7a986e904916b57317`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4825
 
-### [roadrunner-server/roadrunner] fix(logs): preserve in-flight logs during shutdown
-- **Base Commit:** `c8611fbb442cc706d3d0be4cff0d5d3c6759ac84`
-- **Solution PR:** https://github.com/roadrunner-server/roadrunner/pull/2472
+### [opensro-dev/opensro] fix(server): Floor 6 stage monsters nested elsewhere keep their tactics (#4817)
+- **Base Commit:** `1c01aa9190712b3ebe4b2c4312e992c52e9a6c57`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4818
 
-### [JRpersonal/streborn] fix(display): album instead of the artist twice for an artist's folder; address hover for stations without a bitrate
-- **Base Commit:** `45bc24a31b0b5b7ddd16fd6b72f6594a19fe5402`
-- **Solution PR:** https://github.com/JRpersonal/streborn/pull/2137
-
-### [aminueza/terraform-provider-minio] fix(docs): pass the provider name to tfplugindocs
-- **Base Commit:** `823913d03131664e6e283c7df636fecdd90f6b20`
-- **Solution PR:** https://github.com/aminueza/terraform-provider-minio/pull/1479
+### [opensro-dev/opensro] fix(server): Floor 5's exits lead where the drawn portal order stands them (#4814)
+- **Base Commit:** `0b3be3ecafdd8a41891a0c5034550666564cb092`
+- **Solution PR:** https://github.com/opensro-dev/opensro/pull/4816
